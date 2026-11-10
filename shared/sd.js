@@ -27,7 +27,9 @@
     const hr = el('div'); hr.style.display = 'flex'; hr.style.flexDirection = 'column'; hr.style.alignItems = 'flex-end'; hr.style.gap = '8px';
     const back = el('a', 'sd-portfolio-link', '← All dashboards'); back.href = '../';
     const badge = el('span', 'sd-badge'); badge.append(el('i'), document.createTextNode('Prototype · sample data'));
-    hr.append(back, badge);
+    const guide = el('a', 'sd-guide-link', 'User guide'); guide.href = 'guide.html';
+    const links = el('div', 'sd-head-links'); links.append(guide, back);
+    hr.append(links, badge);
     head.append(hl, hr);
     // tabs
     const nav = el('nav', 'sd-tabs'); nav.setAttribute('role', 'tablist');

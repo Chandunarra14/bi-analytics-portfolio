@@ -13,4 +13,4 @@ client,"Leads coach the {value} lowest-target people every week, not once a quar
 client,"Staffing calls for new projects use live bench data, cutting resource-request turnaround to {value}",1 day,,,↑,,
 process,Weekly utilization report,,14,1,hours / week,,Timesheet exports and pivot tables replaced by a live view
 process,Periods available,,Month only,"Week, month, quarter, year",,,"WTD, MTD, QTD and YTD for every view"
-process,Views available,,Org only,"Person, team, org",,,Department and resource slicers
+process,Views available,,Team totals only,"Person, team",,,Department and resource slicers

@@ -149,3 +149,8 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
 
 .sd-sl .sd-seg { margin: 0; text-transform: none; letter-spacing: 0; }
 .sd-xscroll { overflow-x: auto; overflow-y: hidden; }
+
+.sd-head-links { display: flex; gap: 14px; align-items: center; }
+.sd-guide-link { font-size: 12px; font-weight: 600; color: #0b3b63; text-decoration: none; border: 1px solid #b9cde0; background: #eef4fa; border-radius: 999px; padding: 4px 11px; }
+.sd-guide-link::before { content: '?'; display: inline-block; width: 15px; height: 15px; line-height: 15px; text-align: center; border-radius: 50%; background: #0b3b63; color: #fff; font-size: 10px; margin-right: 6px; }
+.sd-guide-link:hover { background: #dfeaf5; }

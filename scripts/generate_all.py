@@ -165,7 +165,7 @@ def utilization():
         dict(kind="client", label="Staffing calls for new projects use live bench data, cutting resource-request turnaround to {value}", value="1 day", unit="↑"),
         dict(kind="process", label="Weekly utilization report", before="14", after="1", unit="hours / week", note="Timesheet exports and pivot tables replaced by a live view"),
         dict(kind="process", label="Periods available", before="Month only", after="Week, month, quarter, year", unit="", note="WTD, MTD, QTD and YTD for every view"),
-        dict(kind="process", label="Views available", before="Org only", after="Person, team, org", unit="", note="Department and resource slicers"),
+        dict(kind="process", label="Views available", before="Team totals only", after="Person, team", unit="", note="Department and resource slicers"),
     ])
 
 
