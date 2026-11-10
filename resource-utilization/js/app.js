@@ -170,12 +170,11 @@
   const teamYtdKpis = { type: 'kpis', when: isYTD, items: [['Available', 'avail', null], ['Target work', 'target', 'good'], ['Non-target work', 'nontarget', 'warn'], ['Admin', 'Admin', null], ['Bench', 'Bench', 'bad'], ['PTO', 'PTO', null]].map(([l, k, t]) => ({
     label: l, value: (D, F) => f0(T(F).pp(tv(T(F), k))) + ' hrs', tone: () => t,
     sub: (D, F) => (k === 'avail' ? 'avg per person' : `avg per person · ${pct(T(F).pa(tv(T(F), k)))} of available`) })) };
-  const O = (D, F) => cur(F, D.resources);
 
   App({
     title: 'Resource Utilization',
     eyebrow: 'Managed services · Time accounting',
-    sub: 'Where every available hour goes, for each person, team and the whole org, against an 80% target-share floor. Switch between week, month, quarter and year to date.',
+    sub: 'Where every available hour goes, for each person and team, against an 80% target-share floor. Switch between week, month, quarter and year to date.',
     files: { resources: 'data/resources.csv', planned_mix: 'data/planned_mix.csv', weekly_hours: 'data/weekly_hours.csv', impact: 'data/impact.csv' },
     prep,
     slicers: [
@@ -248,48 +247,6 @@
         ] },
       ] },
 
-      { id: 'org', label: 'Org view', slicers: ['period'], blocks: [
-        { type: 'text', html: (D, F) => { const s = O(D, F); const by = Array.from(d3.group(s.people, (p) => p.department), ([d, ps]) => ({ d, sh: (d3.sum(ps, (p) => p.target) / d3.sum(ps, (p) => p.avail)) * 100 })).sort((a, b) => b.sh - a.sh);
-          return `Org-wide target share is <b>${pct(s.share)}</b> for the <b>${period(F).curLabel}</b>. <b>${by[0].d}</b> leads at <b>${pct(by[0].sh)}</b>; <b>${by.at(-1).d}</b> is lowest at <b>${pct(by.at(-1).sh)}</b>.`; } },
-        { type: 'kpis', items: [
-          { label: 'People', value: (D) => f0(D.resources.length), sub: (D) => `${new Set(D.resources.map((r) => r.department)).size} departments` },
-          { label: 'Org target share', value: (D, F) => pct(O(D, F).share), tone: (D, F) => tone(O(D, F).share), sub: () => 'floor 80%' },
-          { label: 'Target attainment', value: (D, F) => pct(O(D, F).attain), tone: (D, F) => tone(O(D, F).attain * 0.8) },
-          { label: 'Bench share', value: (D, F) => pct1(O(D, F).pa(O(D, F).cat.Bench)), tone: () => 'bad', sub: (D, F) => f0(O(D, F).cat.Bench) + ' hrs' },
-          { label: 'Admin share', value: (D, F) => pct1(O(D, F).pa(O(D, F).cat.Admin)), sub: () => 'allowance 20%' },
-          { label: 'Mix alignment', value: (D, F) => pct(O(D, F).mix), tone: (D, F) => tone(O(D, F).mix) },
-        ] },
-        { type: 'row', blocks: [
-          { type: 'card', span: 12, title: 'Hours by department', note: 'Average hours per person for the period, split by how the time was spent. Click a bar to open that department in the Team view.', h: 340, draw: (el, D, F) => {
-            const s = O(D, F); const pd = period(F);
-            const data = Array.from(d3.group(s.people, (p) => p.department), ([d, ps]) => { const k = ps.length; return { d, t: d3.sum(ps, (p) => p.target) / k, nt: d3.sum(ps, (p) => p.nontarget) / k, ad: d3.sum(ps, (p) => p.admin) / k, be: d3.sum(ps, (p) => p.bench) / k, pto: d3.sum(ps, (p) => p.pto) / k }; }).sort((a, b) => b.t - a.t);
-            S.bars(el, { data, cat: 'd', stacked: true, rotate: true, height: 340, yFmt: f0, onPick: (x) => { F.state.dept = x.d; F.go('team'); },
-              refLines: [{ value: 40 * pd.cur.length, label: `${f0(40 * pd.cur.length)} hrs`, color: '#7fb8e0' }, { value: 32 * pd.cur.length, label: `Target: ${f0(32 * pd.cur.length)}`, color: 'var(--color-fg)' }],
-              series: [{ key: 't', label: 'Target work', color: G.t }, { key: 'nt', label: 'Non-target work', color: G.nt }, { key: 'ad', label: 'Admin', color: G.ad }, { key: 'be', label: 'Bench', color: G.be }, { key: 'pto', label: 'PTO', color: G.pto }], label: 'Hours per person by department' });
-          } },
-        ] },
-        { type: 'row', blocks: [
-          { type: 'card', span: 7, title: 'Department mix', note: 'Share of each department\'s hours by category.', h: 520, draw: (el, D, F) => {
-            const s = O(D, F);
-            const rows = Array.from(d3.group(s.people, (p) => p.department), ([d, ps]) => Object.assign({ label: d }, Object.fromEntries(CATS.map((c) => [c, d3.sum(ps, (p) => p.cat[c])])))).sort((a, b) => a.label.localeCompare(b.label));
-            S.hstack(el, { rows, rowH: 26, pct: true, fmt: S.fmtK, series: CATS.map((c) => ({ key: c, label: c, color: COL[c] })), label: 'Department mix' });
-          } },
-          { type: 'card', span: 5, title: '13-month trend', note: 'Org target share and mix alignment by month, against the 80% floor.', h: 260, draw: (el, D) => {
-            const m = Array.from(d3.group(D.weeks, (w) => w.slice(0, 7)), ([k, ws]) => ({ k, ws })).slice(-13);
-            const data = m.map((x) => { const s = summary(x.ws, D.resources); return { date: S.parseDate(x.k + '-01'), share: s.share, mix: s.mix, floor: FLOOR }; });
-            S.line(el, { data, x: (r) => r.date, yFmt: (v) => d3.format('.0f')(v) + '%', label: 'Org trend', annotate: { date: new Date(Date.UTC(2026, 1, 1)), text: 'Go-live' },
-              series: [{ key: 'mix', label: 'Mix alignment', color: '#65a30d' }, { key: 'share', label: 'Target share', color: '#0a84d6' }, { key: 'floor', label: '80% floor', color: 'var(--cds-chart-reference)' }] });
-          } },
-        ] },
-        { type: 'row', blocks: [
-          { type: 'table', span: 12, title: 'Department scorecard', note: 'Click a row to open that department in the Team view.', onRow: (r, F) => { F.state.dept = r.d; F.go('team'); },
-            cols: [{ label: 'Department', key: 'd' }, { label: 'People', key: 'n', cls: 'r' }, { label: 'Target share', key: 'sh', cls: 'r', render: (td, r) => dot(td, r.sh >= 60 ? 'var(--color-ok)' : r.sh >= 50 ? 'var(--color-warn)' : 'var(--color-bad)', pct(r.sh)) },
-              { label: 'Attainment', key: 'at', cls: 'r', fmt: pct }, { label: 'Bench %', key: 'be', cls: 'r', render: (td, r) => { td.textContent = pct1(r.be); if (r.be > 15) td.style.color = 'var(--color-bad)'; } },
-              { label: 'Admin %', key: 'ad', cls: 'r', fmt: pct1 }, { label: 'Mix alignment', key: 'mx', cls: 'r', fmt: pct }, { label: 'On or above target', key: 'on', cls: 'r' }],
-            rows: (D, F) => Array.from(d3.group(O(D, F).people, (p) => p.department), ([d, ps]) => { const av = d3.sum(ps, (p) => p.avail); const tg = d3.sum(ps, (p) => p.target);
-              return { d, n: ps.length, sh: (tg / av) * 100, at: (tg / (av * 0.8)) * 100, be: (d3.sum(ps, (p) => p.bench) / av) * 100, ad: (d3.sum(ps, (p) => p.admin) / av) * 100, mx: d3.mean(ps, (p) => p.mix), on: `${ps.filter((p) => p.attain >= 100).length} of ${ps.length}` }; }).sort((a, b) => b.sh - a.sh) },
-        ] },
-      ] },
       { id: 'impact', label: 'Impact', impact: true, blocks: [{ type: 'impact' }] },
     ],
     impactNote: 'First 13 weeks of the data (Nov 2025 – Jan 2026) vs the latest 13 weeks, all people.',
