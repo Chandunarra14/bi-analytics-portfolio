@@ -337,16 +337,16 @@
     const flagsOf = (x) => NEG_TYPES.filter(([k]) => n(x.mrr) < mM && n(x[k]) > med[k]).map(([k]) => k);
     return { mM, med, flagsOf };
   };
-  // MRR ratio = monthly MRR / tickets of that type. Higher is better; the lowest are the problem clients.
+  // MRR ratio = tickets of that type / (MRR / 4), same basis as the All clients ratio. Lower is better; the highest are the problem clients.
   const negDraw = (key, label, color) => (el) => {
     const d = rows(el, 'accounts'); if (!d) return;
-    const all = d.filter((x) => n(x[key]) > 0).map((x) => ({ ...x, ratio: Math.round((n(x.mrr) / n(x[key])) * 100) / 100 }));
-    const q25 = d3.quantile(all.map((x) => x.ratio).sort(d3.ascending), 0.25);
-    const r = all.filter(F.levelOk).sort((p, q) => p.ratio - q.ratio).slice(0, 10);
+    const all = d.map((x) => ({ ...x, ratio: Math.round((n(x[key]) / (n(x.mrr) / 4)) * 100) / 100 }));
+    const q75 = d3.quantile(all.map((x) => x.ratio).sort(d3.ascending), 0.75);
+    const r = all.filter(F.levelOk).sort((p, q) => q.ratio - p.ratio).slice(0, 10);
     if (!r.length) return empty(el);
-    S.hbars(el, { data: r, labelKey: 'account', value: 'ratio', fmt: (v) => S.fmtUsd(v), color, highlight: (x) => x.ratio <= q25, muteOthers: true,
+    S.hbars(el, { data: r, labelKey: 'account', value: 'ratio', fmt: (v) => d3.format('.2f')(v), color, highlight: (x) => x.ratio >= q75, muteOthers: true,
       right: (x) => S.fmtUsd(n(x.mrr)), rightHead: 'MRR', tipExtra: (x) => [`MRR: ${S.fmtUsd(n(x.mrr))}`, `${label}: ${S.fmtInt(n(x[key]))}`],
-      label: `Clients with the lowest MRR per ${label}`, onPick: pickAcct });
+      label: `Clients with the highest ${label} to MRR ratio`, onPick: pickAcct });
   };
   dash.draw('ac-neg-sr', negDraw('service_requests', 'Service requests', C(1)));
   dash.draw('ac-neg-inc', negDraw('incidents', 'Incidents', C(0)));
