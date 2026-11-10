@@ -1,0 +1,830 @@
+account,contract_id,type,classification,risk_prob,risk_level,reason,mrr,owner,csm,end,end_month,aging
+Aldergrove Credit Union,29690038,Recurring Service,Level 4,10,1-25,Client: Moving In-House,150,"Brooks, Owen",Sam Ortiz,2027-11-21,2027-11-01,Over 360
+Aldergrove Credit Union,29690045,Block Hours,Level 4,25,1-25,Client: Leadership Change,271,"Brooks, Owen",Sam Ortiz,2030-05-27,2030-05-01,Over 360
+Aldergrove Credit Union,29690048,Fixed Price,Level 4,75,51-75,Client: Budget Cuts,0,"Brooks, Owen",Sam Ortiz,2030-07-06,2030-07-01,Over 360
+Aldergrove Credit Union,29690088,Recurring Service,Level 4,0,No risk,Not Available,996,"Brooks, Owen",Sam Ortiz,2027-01-17,2027-01-01,61-90
+Aldergrove Credit Union,29690101,Recurring Service,Level 4,0,No risk,Not Available,676,"Brooks, Owen",Sam Ortiz,2030-02-27,2030-02-01,Over 360
+Aldergrove Credit Union,29690114,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Sam Ortiz,2028-06-29,2028-06-01,Over 360
+Aldergrove Credit Union,29690146,Recurring Service,Level 4,0,No risk,Not Available,551,"Brooks, Owen",Sam Ortiz,2029-12-07,2029-12-01,Over 360
+Aldergrove Credit Union,29690152,Recurring Service,Level 4,0,No risk,Not Available,263,"Brooks, Owen",Sam Ortiz,2027-03-28,2027-03-01,91-180
+Aldergrove Credit Union,29690189,Recurring Service,Level 4,0,No risk,Not Available,150,"Brooks, Owen",Sam Ortiz,2026-12-09,2026-12-01,0-30
+Aldergrove Credit Union,29690190,Recurring Service,Level 4,0,No risk,Not Available,45,"Brooks, Owen",Sam Ortiz,2027-04-03,2027-04-01,91-180
+Aldergrove Credit Union,29690227,Recurring Service,Level 4,0,No risk,Not Available,616,"Brooks, Owen",Sam Ortiz,2028-09-16,2028-09-01,Over 360
+Aldergrove Credit Union,29690228,Block Hours,Level 4,0,No risk,Not Available,545,"Brooks, Owen",Sam Ortiz,2027-05-30,2027-05-01,181-360
+Aldergrove Credit Union,29690229,Recurring Service,Level 4,20,1-25,Client: Recently Acquired,332,"Brooks, Owen",Sam Ortiz,2029-05-09,2029-05-01,Over 360
+Aldergrove Credit Union,29690262,Recurring Service,Level 4,0,No risk,Not Available,305,"Brooks, Owen",Sam Ortiz,2028-01-14,2028-01-01,Over 360
+Aldergrove Credit Union,29690263,Recurring Service,Level 4,0,No risk,Not Available,408,"Brooks, Owen",Sam Ortiz,2029-04-27,2029-04-01,Over 360
+Aldergrove Credit Union,29690280,Recurring Service,Level 4,0,No risk,Not Available,638,"Brooks, Owen",Sam Ortiz,2027-04-04,2027-04-01,91-180
+Aldergrove Credit Union,29690285,Recurring Service,Level 4,0,No risk,Not Available,122,"Brooks, Owen",Sam Ortiz,2028-11-29,2028-11-01,Over 360
+Aldergrove Credit Union,29690309,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Sam Ortiz,2030-02-19,2030-02-01,Over 360
+Bayline Logistics,29690319,Recurring Service,Level 4,20,1-25,Competitor: Price,239,"Brooks, Owen",Riley Carter,2027-12-12,2027-12-01,Over 360
+Bayline Logistics,29690344,Block Hours,Level 4,0,No risk,Not Available,467,"Brooks, Owen",Riley Carter,2027-01-23,2027-01-01,61-90
+Bayline Logistics,29690377,Recurring Service,Level 4,0,No risk,Not Available,108,"Brooks, Owen",Riley Carter,2030-03-10,2030-03-01,Over 360
+Bayline Logistics,29690409,Recurring Service,Level 4,75,51-75,Client: Recently Acquired,539,"Brooks, Owen",Riley Carter,2028-02-15,2028-02-01,Over 360
+Bayline Logistics,29690440,Fixed Price,Level 4,10,1-25,Competitor: Price,0,"Brooks, Owen",Riley Carter,2030-04-16,2030-04-01,Over 360
+Bayline Logistics,29690445,Recurring Service,Level 4,0,No risk,Not Available,527,"Brooks, Owen",Riley Carter,2028-03-29,2028-03-01,Over 360
+Bayline Logistics,29690449,Recurring Service,Level 4,0,No risk,Not Available,181,"Brooks, Owen",Riley Carter,2027-08-01,2027-08-01,181-360
+Birchwood Dental Group,29690483,Fixed Price,Level 1,50,26-50,Competitor: Price,0,"Brooks, Owen",Riley Carter,2027-01-15,2027-01-01,61-90
+Birchwood Dental Group,29690485,Block Hours,Level 1,20,1-25,Project: Delivery,4277,"Brooks, Owen",Riley Carter,2027-08-11,2027-08-01,181-360
+Birchwood Dental Group,29690490,Recurring Service,Level 1,0,No risk,Not Available,2692,"Brooks, Owen",Riley Carter,2030-10-16,2030-10-01,Over 360
+Birchwood Dental Group,29690499,Recurring Service,Level 1,30,26-50,Client: Moving In-House,1563,"Brooks, Owen",Riley Carter,2029-03-08,2029-03-01,Over 360
+Birchwood Dental Group,29690501,Block Hours,Level 1,0,No risk,Not Available,3891,"Brooks, Owen",Riley Carter,2030-02-10,2030-02-01,Over 360
+Birchwood Dental Group,29690502,Fixed Price,Level 1,0,No risk,Not Available,0,"Brooks, Owen",Riley Carter,2027-05-09,2027-05-01,91-180
+Birchwood Dental Group,29690510,Recurring Service,Level 1,0,No risk,Not Available,1673,"Brooks, Owen",Riley Carter,2029-04-25,2029-04-01,Over 360
+Birchwood Dental Group,29690540,Fixed Price,Level 1,0,No risk,Not Available,0,"Brooks, Owen",Riley Carter,2029-09-23,2029-09-01,Over 360
+Birchwood Dental Group,29690542,Recurring Service,Level 1,0,No risk,Not Available,3896,"Brooks, Owen",Riley Carter,2030-10-05,2030-10-01,Over 360
+Birchwood Dental Group,29690550,Block Hours,Level 1,0,No risk,Not Available,9232,"Brooks, Owen",Riley Carter,2026-11-28,2026-11-01,0-30
+Birchwood Dental Group,29690574,Recurring Service,Level 1,0,No risk,Not Available,845,"Brooks, Owen",Riley Carter,2028-10-06,2028-10-01,Over 360
+Birchwood Dental Group,29690603,Block Hours,Level 1,10,1-25,Client: Recently Acquired,6626,"Brooks, Owen",Riley Carter,2030-05-26,2030-05-01,Over 360
+Cedar Point Builders,29690618,Fixed Price,Level 3,50,26-50,Client: Recently Acquired,0,"Alvarez, Nina",Taylor Quinn,2027-08-10,2027-08-01,181-360
+Cedar Point Builders,29690627,Block Hours,Level 3,0,No risk,Not Available,103,"Alvarez, Nina",Taylor Quinn,2027-03-16,2027-03-01,91-180
+Cedar Point Builders,29690645,Recurring Service,Level 3,50,26-50,Client: Moving In-House,269,"Alvarez, Nina",Taylor Quinn,2029-03-01,2029-03-01,Over 360
+Cedar Point Builders,29690670,Fixed Price,Level 3,0,No risk,Not Available,0,"Alvarez, Nina",Taylor Quinn,2028-08-11,2028-08-01,Over 360
+Cedar Point Builders,29690710,Block Hours,Level 3,0,No risk,Not Available,174,"Alvarez, Nina",Taylor Quinn,2030-04-02,2030-04-01,Over 360
+Cedar Point Builders,29690713,Recurring Service,Level 3,25,1-25,Support: Service Delivery Issues,846,"Alvarez, Nina",Taylor Quinn,2030-06-09,2030-06-01,Over 360
+Cedar Point Builders,29690722,Block Hours,Level 3,25,1-25,Client: Recently Acquired,690,"Alvarez, Nina",Taylor Quinn,2027-08-20,2027-08-01,181-360
+Cedar Point Builders,29690726,Recurring Service,Level 3,10,1-25,Client: Moving In-House,603,"Alvarez, Nina",Taylor Quinn,2028-11-29,2028-11-01,Over 360
+Cedar Point Builders,29690731,Recurring Service,Level 3,0,No risk,Not Available,335,"Alvarez, Nina",Taylor Quinn,2026-11-27,2026-11-01,0-30
+Cedar Point Builders,29690762,Fixed Price,Level 3,20,1-25,Client: Recently Acquired,0,"Alvarez, Nina",Taylor Quinn,2028-02-11,2028-02-01,Over 360
+Cedar Point Builders,29690780,Recurring Service,Level 3,0,No risk,Not Available,2047,"Alvarez, Nina",Taylor Quinn,2027-09-27,2027-09-01,181-360
+Cedar Point Builders,29690806,Recurring Service,Level 3,0,No risk,Not Available,1044,"Alvarez, Nina",Taylor Quinn,2030-05-09,2030-05-01,Over 360
+Cedar Point Builders,29690807,Block Hours,Level 3,0,No risk,Not Available,896,"Alvarez, Nina",Taylor Quinn,2028-10-07,2028-10-01,Over 360
+Cedar Point Builders,29690837,Recurring Service,Level 3,20,1-25,Client: Moving In-House,955,"Alvarez, Nina",Taylor Quinn,2030-06-11,2030-06-01,Over 360
+Clearwater Family Clinic,29690862,Recurring Service,Departed,50,26-50,Project: Delivery,980,"Alvarez, Nina",Jordan Blake,2029-09-03,2029-09-01,Over 360
+Clearwater Family Clinic,29690868,Recurring Service,Departed,75,51-75,Client: Budget Cuts,455,"Alvarez, Nina",Jordan Blake,2027-01-02,2027-01-01,31-60
+Clearwater Family Clinic,29690882,Recurring Service,Departed,100,76-100,Project: Delivery,492,"Alvarez, Nina",Jordan Blake,2030-09-11,2030-09-01,Over 360
+Clearwater Family Clinic,29690891,Block Hours,Departed,100,76-100,Client: Moving In-House,201,"Alvarez, Nina",Jordan Blake,2030-08-24,2030-08-01,Over 360
+Clearwater Family Clinic,29690920,Block Hours,Departed,75,51-75,Client: Budget Cuts,772,"Alvarez, Nina",Jordan Blake,2029-10-18,2029-10-01,Over 360
+Clearwater Family Clinic,29690956,Recurring Service,Departed,75,51-75,Competitor: Price,1535,"Alvarez, Nina",Jordan Blake,2029-09-23,2029-09-01,Over 360
+Clearwater Family Clinic,29690992,Recurring Service,Departed,100,76-100,Client: Recently Acquired,359,"Alvarez, Nina",Jordan Blake,2028-07-20,2028-07-01,Over 360
+Clearwater Family Clinic,29691002,Fixed Price,Departed,100,76-100,Project: Delivery,0,"Alvarez, Nina",Jordan Blake,2030-01-21,2030-01-01,Over 360
+Clearwater Family Clinic,29691034,Recurring Service,Departed,50,26-50,Competitor: Price,474,"Alvarez, Nina",Jordan Blake,2028-12-16,2028-12-01,Over 360
+Copperline Manufacturing,29691069,Fixed Price,Level 1,0,No risk,Not Available,0,"Castillo, Mae",Avery Morgan,2027-05-14,2027-05-01,181-360
+Copperline Manufacturing,29691080,Recurring Service,Level 1,50,26-50,Client: Moving In-House,8891,"Castillo, Mae",Avery Morgan,2029-02-09,2029-02-01,Over 360
+Copperline Manufacturing,29691098,Recurring Service,Level 1,0,No risk,Not Available,2858,"Castillo, Mae",Avery Morgan,2029-07-07,2029-07-01,Over 360
+Copperline Manufacturing,29691132,Recurring Service,Level 1,0,No risk,Not Available,1182,"Castillo, Mae",Avery Morgan,2028-04-20,2028-04-01,Over 360
+Copperline Manufacturing,29691141,Recurring Service,Level 1,0,No risk,Not Available,4475,"Castillo, Mae",Avery Morgan,2029-08-24,2029-08-01,Over 360
+Copperline Manufacturing,29691179,Recurring Service,Level 1,20,1-25,Client: Leadership Change,10753,"Castillo, Mae",Avery Morgan,2029-10-26,2029-10-01,Over 360
+Copperline Manufacturing,29691207,Recurring Service,Level 1,0,No risk,Not Available,2229,"Castillo, Mae",Avery Morgan,2027-09-28,2027-09-01,181-360
+Copperline Manufacturing,29691242,Recurring Service,Level 1,0,No risk,Not Available,8704,"Castillo, Mae",Avery Morgan,2028-01-21,2028-01-01,Over 360
+Copperline Manufacturing,29691277,Fixed Price,Level 1,0,No risk,Not Available,0,"Castillo, Mae",Avery Morgan,2027-08-11,2027-08-01,181-360
+Copperline Manufacturing,29691292,Recurring Service,Level 1,0,No risk,Not Available,6686,"Castillo, Mae",Avery Morgan,2027-12-08,2027-12-01,Over 360
+Copperline Manufacturing,29691306,Recurring Service,Level 1,0,No risk,Not Available,806,"Castillo, Mae",Avery Morgan,2027-05-22,2027-05-01,181-360
+Copperline Manufacturing,29691334,Block Hours,Level 1,0,No risk,Not Available,3645,"Castillo, Mae",Avery Morgan,2030-05-14,2030-05-01,Over 360
+Copperline Manufacturing,29691336,Recurring Service,Level 1,30,26-50,Project: Delivery,819,"Castillo, Mae",Avery Morgan,2027-06-29,2027-06-01,181-360
+Copperline Manufacturing,29691369,Recurring Service,Level 1,0,No risk,Not Available,3017,"Castillo, Mae",Avery Morgan,2027-03-29,2027-03-01,91-180
+Crescent Legal Partners,29691406,Block Hours,Level 4,0,No risk,Not Available,201,"Alvarez, Nina",Avery Morgan,2027-09-24,2027-09-01,181-360
+Crescent Legal Partners,29691425,Recurring Service,Level 4,20,1-25,Support: Service Delivery Issues,414,"Alvarez, Nina",Avery Morgan,2027-05-22,2027-05-01,181-360
+Crescent Legal Partners,29691446,Block Hours,Level 4,0,No risk,Not Available,332,"Alvarez, Nina",Avery Morgan,2030-03-19,2030-03-01,Over 360
+Crescent Legal Partners,29691470,Recurring Service,Level 4,0,No risk,Not Available,442,"Alvarez, Nina",Avery Morgan,2029-02-17,2029-02-01,Over 360
+Crescent Legal Partners,29691500,Recurring Service,Level 4,0,No risk,Not Available,634,"Alvarez, Nina",Avery Morgan,2027-10-09,2027-10-01,181-360
+Crescent Legal Partners,29691507,Fixed Price,Level 4,25,1-25,Project: Delivery,0,"Alvarez, Nina",Avery Morgan,2027-04-27,2027-04-01,91-180
+Crescent Legal Partners,29691533,Fixed Price,Level 4,0,No risk,Not Available,0,"Alvarez, Nina",Avery Morgan,2029-09-02,2029-09-01,Over 360
+Crescent Legal Partners,29691571,Recurring Service,Level 4,30,26-50,Client: Leadership Change,642,"Alvarez, Nina",Avery Morgan,2027-09-28,2027-09-01,181-360
+Crescent Legal Partners,29691597,Recurring Service,Level 4,20,1-25,Client: Budget Cuts,1151,"Alvarez, Nina",Avery Morgan,2028-01-02,2028-01-01,Over 360
+Crescent Legal Partners,29691609,Recurring Service,Level 4,0,No risk,Not Available,655,"Alvarez, Nina",Avery Morgan,2028-11-02,2028-11-01,Over 360
+Crescent Legal Partners,29691649,Recurring Service,Level 4,10,1-25,Competitor: Price,515,"Alvarez, Nina",Avery Morgan,2027-11-12,2027-11-01,Over 360
+Crescent Legal Partners,29691684,Recurring Service,Level 4,20,1-25,Competitor: Price,702,"Alvarez, Nina",Avery Morgan,2026-12-21,2026-12-01,31-60
+Crescent Legal Partners,29691692,Fixed Price,Level 4,0,No risk,Not Available,0,"Alvarez, Nina",Avery Morgan,2028-03-04,2028-03-01,Over 360
+Crescent Legal Partners,29691709,Block Hours,Level 4,0,No risk,Not Available,317,"Alvarez, Nina",Avery Morgan,2028-12-13,2028-12-01,Over 360
+Crescent Legal Partners,29691710,Recurring Service,Level 4,0,No risk,Not Available,231,"Alvarez, Nina",Avery Morgan,2029-11-15,2029-11-01,Over 360
+Crescent Legal Partners,29691743,Block Hours,Level 4,0,No risk,Not Available,637,"Alvarez, Nina",Avery Morgan,2027-09-28,2027-09-01,181-360
+Crescent Legal Partners,29691768,Block Hours,Level 4,0,No risk,Not Available,421,"Alvarez, Nina",Avery Morgan,2029-08-13,2029-08-01,Over 360
+Crescent Legal Partners,29691795,Recurring Service,Level 4,0,No risk,Not Available,400,"Alvarez, Nina",Avery Morgan,2028-06-12,2028-06-01,Over 360
+Driftwood Hospitality,29691814,Recurring Service,Level 4,30,26-50,Client: Leadership Change,647,"Castillo, Mae",Casey Ellison,2029-01-27,2029-01-01,Over 360
+Driftwood Hospitality,29691818,Fixed Price,Level 4,75,51-75,Project: Delivery,0,"Castillo, Mae",Casey Ellison,2027-04-04,2027-04-01,91-180
+Driftwood Hospitality,29691833,Block Hours,Level 4,20,1-25,Support: Service Delivery Issues,545,"Castillo, Mae",Casey Ellison,2029-10-11,2029-10-01,Over 360
+Driftwood Hospitality,29691840,Block Hours,Level 4,0,No risk,Not Available,111,"Castillo, Mae",Casey Ellison,2029-03-08,2029-03-01,Over 360
+Driftwood Hospitality,29691870,Recurring Service,Level 4,0,No risk,Not Available,381,"Castillo, Mae",Casey Ellison,2030-08-03,2030-08-01,Over 360
+Driftwood Hospitality,29691897,Block Hours,Level 4,20,1-25,Project: Delivery,536,"Castillo, Mae",Casey Ellison,2029-10-27,2029-10-01,Over 360
+Driftwood Hospitality,29691906,Recurring Service,Level 4,0,No risk,Not Available,557,"Castillo, Mae",Casey Ellison,2028-07-29,2028-07-01,Over 360
+Driftwood Hospitality,29691939,Fixed Price,Level 4,25,1-25,Project: Delivery,0,"Castillo, Mae",Casey Ellison,2028-05-14,2028-05-01,Over 360
+Driftwood Hospitality,29691979,Fixed Price,Level 4,20,1-25,Client: Recently Acquired,0,"Castillo, Mae",Casey Ellison,2030-05-24,2030-05-01,Over 360
+Driftwood Hospitality,29691997,Recurring Service,Level 4,75,51-75,Client: Recently Acquired,207,"Castillo, Mae",Casey Ellison,2030-09-04,2030-09-01,Over 360
+Driftwood Hospitality,29692000,Recurring Service,Level 4,20,1-25,Client: Leadership Change,215,"Castillo, Mae",Casey Ellison,2027-09-30,2027-09-01,181-360
+Eastgate Realty,29692023,Recurring Service,Level 4,0,No risk,Not Available,235,"Brooks, Owen",Morgan Reyes,2027-04-06,2027-04-01,91-180
+Eastgate Realty,29692031,Block Hours,Level 4,20,1-25,Client: Recently Acquired,1127,"Brooks, Owen",Morgan Reyes,2029-05-03,2029-05-01,Over 360
+Eastgate Realty,29692059,Recurring Service,Level 4,0,No risk,Not Available,306,"Brooks, Owen",Morgan Reyes,2030-03-10,2030-03-01,Over 360
+Eastgate Realty,29692080,Recurring Service,Level 4,50,26-50,Client: Budget Cuts,475,"Brooks, Owen",Morgan Reyes,2030-07-05,2030-07-01,Over 360
+Eastgate Realty,29692104,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Morgan Reyes,2028-08-29,2028-08-01,Over 360
+Eastgate Realty,29692110,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Morgan Reyes,2030-01-03,2030-01-01,Over 360
+Eastgate Realty,29692147,Block Hours,Level 4,25,1-25,Support: Service Delivery Issues,818,"Brooks, Owen",Morgan Reyes,2027-04-09,2027-04-01,91-180
+Eastgate Realty,29692167,Recurring Service,Level 4,20,1-25,Client: Budget Cuts,1514,"Brooks, Owen",Morgan Reyes,2030-11-28,2030-11-01,Over 360
+Eastgate Realty,29692188,Recurring Service,Level 4,10,1-25,Project: Delivery,714,"Brooks, Owen",Morgan Reyes,2028-11-24,2028-11-01,Over 360
+Eastgate Realty,29692196,Recurring Service,Level 4,30,26-50,Client: Leadership Change,711,"Brooks, Owen",Morgan Reyes,2028-05-29,2028-05-01,Over 360
+Eastgate Realty,29692225,Fixed Price,Level 4,25,1-25,Project: Delivery,0,"Brooks, Owen",Morgan Reyes,2029-05-31,2029-05-01,Over 360
+Eastgate Realty,29692246,Recurring Service,Level 4,30,26-50,Client: Recently Acquired,44,"Brooks, Owen",Morgan Reyes,2027-04-26,2027-04-01,91-180
+Eastgate Realty,29692270,Recurring Service,Level 4,20,1-25,Project: Delivery,646,"Brooks, Owen",Morgan Reyes,2029-01-12,2029-01-01,Over 360
+Eastgate Realty,29692305,Recurring Service,Level 4,0,No risk,Not Available,1049,"Brooks, Owen",Morgan Reyes,2029-05-23,2029-05-01,Over 360
+Eastgate Realty,29692324,Recurring Service,Level 4,0,No risk,Not Available,188,"Brooks, Owen",Morgan Reyes,2029-03-19,2029-03-01,Over 360
+Eastgate Realty,29692329,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Morgan Reyes,2029-11-26,2029-11-01,Over 360
+Eastgate Realty,29692335,Recurring Service,Level 4,20,1-25,Client: Leadership Change,453,"Brooks, Owen",Morgan Reyes,2029-03-18,2029-03-01,Over 360
+Evergreen Ag Services,29692357,Block Hours,Level 2,50,26-50,Client: Leadership Change,1076,"Brooks, Owen",Taylor Quinn,2027-08-11,2027-08-01,181-360
+Evergreen Ag Services,29692389,Block Hours,Level 2,20,1-25,Support: Service Delivery Issues,1609,"Brooks, Owen",Taylor Quinn,2029-02-22,2029-02-01,Over 360
+Evergreen Ag Services,29692412,Recurring Service,Level 2,20,1-25,Client: Moving In-House,2007,"Brooks, Owen",Taylor Quinn,2027-06-18,2027-06-01,181-360
+Evergreen Ag Services,29692439,Block Hours,Level 2,0,No risk,Not Available,2853,"Brooks, Owen",Taylor Quinn,2030-05-28,2030-05-01,Over 360
+Evergreen Ag Services,29692464,Recurring Service,Level 2,0,No risk,Not Available,896,"Brooks, Owen",Taylor Quinn,2028-05-19,2028-05-01,Over 360
+Evergreen Ag Services,29692468,Block Hours,Level 2,10,1-25,Client: Moving In-House,995,"Brooks, Owen",Taylor Quinn,2027-11-07,2027-11-01,Over 360
+Evergreen Ag Services,29692472,Block Hours,Level 2,25,1-25,Project: Delivery,374,"Brooks, Owen",Taylor Quinn,2027-06-15,2027-06-01,181-360
+Evergreen Ag Services,29692485,Recurring Service,Level 2,10,1-25,Client: Budget Cuts,838,"Brooks, Owen",Taylor Quinn,2030-03-07,2030-03-01,Over 360
+Evergreen Ag Services,29692518,Recurring Service,Level 2,0,No risk,Not Available,629,"Brooks, Owen",Taylor Quinn,2028-08-04,2028-08-01,Over 360
+Evergreen Ag Services,29692554,Fixed Price,Level 2,0,No risk,Not Available,0,"Brooks, Owen",Taylor Quinn,2028-04-21,2028-04-01,Over 360
+Evergreen Ag Services,29692586,Block Hours,Level 2,0,No risk,Not Available,3178,"Brooks, Owen",Taylor Quinn,2027-05-13,2027-05-01,181-360
+Evergreen Ag Services,29692617,Recurring Service,Level 2,0,No risk,Not Available,1123,"Brooks, Owen",Taylor Quinn,2029-01-01,2029-01-01,Over 360
+Evergreen Ag Services,29692651,Fixed Price,Level 2,20,1-25,Client: Moving In-House,0,"Brooks, Owen",Taylor Quinn,2027-03-03,2027-03-01,91-180
+Evergreen Ag Services,29692667,Recurring Service,Level 2,0,No risk,Not Available,1223,"Brooks, Owen",Taylor Quinn,2027-09-23,2027-09-01,181-360
+Evergreen Ag Services,29692694,Recurring Service,Level 2,30,26-50,Client: Moving In-House,2072,"Brooks, Owen",Taylor Quinn,2029-09-27,2029-09-01,Over 360
+Evergreen Ag Services,29692703,Fixed Price,Level 2,0,No risk,Not Available,0,"Brooks, Owen",Taylor Quinn,2029-11-03,2029-11-01,Over 360
+Evergreen Ag Services,29692707,Recurring Service,Level 2,0,No risk,Not Available,1510,"Brooks, Owen",Taylor Quinn,2027-09-06,2027-09-01,181-360
+Evergreen Ag Services,29692716,Recurring Service,Level 2,0,No risk,Not Available,790,"Brooks, Owen",Taylor Quinn,2029-07-15,2029-07-01,Over 360
+Fairhaven School District,29692736,Recurring Service,Level 5,30,26-50,Support: Service Delivery Issues,358,"Castillo, Mae",Jordan Blake,2029-04-24,2029-04-01,Over 360
+Fairhaven School District,29692750,Recurring Service,Level 5,0,No risk,Not Available,206,"Castillo, Mae",Jordan Blake,2028-08-03,2028-08-01,Over 360
+Fairhaven School District,29692771,Recurring Service,Level 5,75,51-75,Client: Leadership Change,135,"Castillo, Mae",Jordan Blake,2030-11-08,2030-11-01,Over 360
+Fairhaven School District,29692776,Recurring Service,Level 5,20,1-25,Client: Moving In-House,369,"Castillo, Mae",Jordan Blake,2027-07-12,2027-07-01,181-360
+Fairhaven School District,29692805,Recurring Service,Level 5,0,No risk,Not Available,1024,"Castillo, Mae",Jordan Blake,2028-06-28,2028-06-01,Over 360
+Fairhaven School District,29692842,Recurring Service,Level 5,75,51-75,Client: Moving In-House,171,"Castillo, Mae",Jordan Blake,2030-11-16,2030-11-01,Over 360
+Fairhaven School District,29692856,Fixed Price,Level 5,0,No risk,Not Available,0,"Castillo, Mae",Jordan Blake,2030-05-13,2030-05-01,Over 360
+Fairhaven School District,29692881,Fixed Price,Level 5,20,1-25,Project: Delivery,0,"Castillo, Mae",Jordan Blake,2029-01-16,2029-01-01,Over 360
+Fairhaven School District,29692917,Recurring Service,Level 5,20,1-25,Project: Delivery,119,"Castillo, Mae",Jordan Blake,2028-07-31,2028-07-01,Over 360
+Fairhaven School District,29692935,Fixed Price,Level 5,0,No risk,Not Available,0,"Castillo, Mae",Jordan Blake,2030-06-08,2030-06-01,Over 360
+Fairhaven School District,29692957,Block Hours,Level 5,0,No risk,Not Available,297,"Castillo, Mae",Jordan Blake,2027-05-17,2027-05-01,181-360
+Fairhaven School District,29692966,Recurring Service,Level 5,25,1-25,Competitor: Price,87,"Castillo, Mae",Jordan Blake,2030-10-16,2030-10-01,Over 360
+Fairhaven School District,29692972,Recurring Service,Level 5,0,No risk,Not Available,116,"Castillo, Mae",Jordan Blake,2029-02-15,2029-02-01,Over 360
+Fairhaven School District,29692977,Recurring Service,Level 5,0,No risk,Not Available,496,"Castillo, Mae",Jordan Blake,2030-06-22,2030-06-01,Over 360
+Fairhaven School District,29692991,Recurring Service,Level 5,0,No risk,Not Available,372,"Castillo, Mae",Jordan Blake,2029-02-26,2029-02-01,Over 360
+Fairhaven School District,29693031,Recurring Service,Level 5,0,No risk,Not Available,405,"Castillo, Mae",Jordan Blake,2028-03-20,2028-03-01,Over 360
+Fairhaven School District,29693070,Fixed Price,Level 5,0,No risk,Not Available,0,"Castillo, Mae",Jordan Blake,2028-09-12,2028-09-01,Over 360
+Fairhaven School District,29693083,Recurring Service,Level 5,0,No risk,Not Available,113,"Castillo, Mae",Jordan Blake,2027-12-29,2027-12-01,Over 360
+Foxridge Engineering,29693100,Fixed Price,Level 4,30,26-50,Competitor: Price,0,"Alvarez, Nina",Casey Ellison,2028-02-27,2028-02-01,Over 360
+Foxridge Engineering,29693123,Fixed Price,Level 4,0,No risk,Not Available,0,"Alvarez, Nina",Casey Ellison,2027-08-22,2027-08-01,181-360
+Foxridge Engineering,29693160,Recurring Service,Level 4,0,No risk,Not Available,2202,"Alvarez, Nina",Casey Ellison,2026-12-29,2026-12-01,31-60
+Foxridge Engineering,29693173,Recurring Service,Level 4,0,No risk,Not Available,140,"Alvarez, Nina",Casey Ellison,2028-09-18,2028-09-01,Over 360
+Foxridge Engineering,29693195,Recurring Service,Level 4,0,No risk,Not Available,918,"Alvarez, Nina",Casey Ellison,2027-07-17,2027-07-01,181-360
+Foxridge Engineering,29693224,Recurring Service,Level 4,0,No risk,Not Available,159,"Alvarez, Nina",Casey Ellison,2027-03-15,2027-03-01,91-180
+Foxridge Engineering,29693260,Recurring Service,Level 4,30,26-50,Project: Delivery,61,"Alvarez, Nina",Casey Ellison,2030-03-20,2030-03-01,Over 360
+Granite Peak Insurance,29693276,Fixed Price,Level 2,0,No risk,Not Available,0,"Brooks, Owen",Avery Morgan,2027-10-10,2027-10-01,181-360
+Granite Peak Insurance,29693288,Fixed Price,Level 2,0,No risk,Not Available,0,"Brooks, Owen",Avery Morgan,2027-04-10,2027-04-01,91-180
+Granite Peak Insurance,29693318,Recurring Service,Level 2,50,26-50,Client: Leadership Change,728,"Brooks, Owen",Avery Morgan,2027-08-15,2027-08-01,181-360
+Granite Peak Insurance,29693338,Block Hours,Level 2,20,1-25,Client: Recently Acquired,2079,"Brooks, Owen",Avery Morgan,2027-12-18,2027-12-01,Over 360
+Granite Peak Insurance,29693365,Block Hours,Level 2,0,No risk,Not Available,345,"Brooks, Owen",Avery Morgan,2029-02-12,2029-02-01,Over 360
+Granite Peak Insurance,29693377,Recurring Service,Level 2,0,No risk,Not Available,1390,"Brooks, Owen",Avery Morgan,2028-09-15,2028-09-01,Over 360
+Granite Peak Insurance,29693381,Recurring Service,Level 2,0,No risk,Not Available,5605,"Brooks, Owen",Avery Morgan,2029-08-19,2029-08-01,Over 360
+Granite Peak Insurance,29693420,Recurring Service,Level 2,10,1-25,Client: Leadership Change,1249,"Brooks, Owen",Avery Morgan,2030-01-04,2030-01-01,Over 360
+Granite Peak Insurance,29693447,Recurring Service,Level 2,25,1-25,Client: Moving In-House,36,"Brooks, Owen",Avery Morgan,2030-09-18,2030-09-01,Over 360
+Granite Peak Insurance,29693474,Block Hours,Level 2,0,No risk,Not Available,3293,"Brooks, Owen",Avery Morgan,2029-03-14,2029-03-01,Over 360
+Granite Peak Insurance,29693476,Recurring Service,Level 2,10,1-25,Client: Budget Cuts,2963,"Brooks, Owen",Avery Morgan,2030-12-13,2030-12-01,Over 360
+Granite Peak Insurance,29693501,Fixed Price,Level 2,0,No risk,Not Available,0,"Brooks, Owen",Avery Morgan,2028-07-21,2028-07-01,Over 360
+Granite Peak Insurance,29693539,Recurring Service,Level 2,0,No risk,Not Available,4615,"Brooks, Owen",Avery Morgan,2028-03-08,2028-03-01,Over 360
+Harborview Medical,29693563,Fixed Price,Level 4,0,No risk,Not Available,0,"Alvarez, Nina",Drew Patel,2027-10-07,2027-10-01,181-360
+Harborview Medical,29693578,Block Hours,Level 4,0,No risk,Not Available,943,"Alvarez, Nina",Drew Patel,2027-07-29,2027-07-01,181-360
+Harborview Medical,29693586,Fixed Price,Level 4,0,No risk,Not Available,0,"Alvarez, Nina",Drew Patel,2029-05-21,2029-05-01,Over 360
+Harborview Medical,29693587,Recurring Service,Level 4,0,No risk,Not Available,221,"Alvarez, Nina",Drew Patel,2027-03-13,2027-03-01,91-180
+Highland Spirits Co,29693597,Recurring Service,Level 3,0,No risk,Not Available,1036,"Castillo, Mae",Sam Ortiz,2029-05-24,2029-05-01,Over 360
+Highland Spirits Co,29693618,Recurring Service,Level 3,20,1-25,Client: Moving In-House,555,"Castillo, Mae",Sam Ortiz,2029-06-29,2029-06-01,Over 360
+Highland Spirits Co,29693632,Recurring Service,Level 3,25,1-25,Project: Delivery,1447,"Castillo, Mae",Sam Ortiz,2029-06-29,2029-06-01,Over 360
+Highland Spirits Co,29693634,Recurring Service,Level 3,0,No risk,Not Available,1360,"Castillo, Mae",Sam Ortiz,2029-10-31,2029-10-01,Over 360
+Highland Spirits Co,29693650,Recurring Service,Level 3,25,1-25,Project: Delivery,989,"Castillo, Mae",Sam Ortiz,2029-03-14,2029-03-01,Over 360
+Highland Spirits Co,29693659,Recurring Service,Level 3,0,No risk,Not Available,677,"Castillo, Mae",Sam Ortiz,2028-07-26,2028-07-01,Over 360
+Highland Spirits Co,29693667,Recurring Service,Level 3,0,No risk,Not Available,237,"Castillo, Mae",Sam Ortiz,2028-07-02,2028-07-01,Over 360
+Highland Spirits Co,29693685,Recurring Service,Level 3,0,No risk,Not Available,1766,"Castillo, Mae",Sam Ortiz,2029-09-26,2029-09-01,Over 360
+Highland Spirits Co,29693700,Recurring Service,Level 3,0,No risk,Not Available,1426,"Castillo, Mae",Sam Ortiz,2027-08-03,2027-08-01,181-360
+Highland Spirits Co,29693706,Block Hours,Level 3,0,No risk,Not Available,2403,"Castillo, Mae",Sam Ortiz,2029-10-27,2029-10-01,Over 360
+Highland Spirits Co,29693709,Recurring Service,Level 3,0,No risk,Not Available,890,"Castillo, Mae",Sam Ortiz,2030-01-12,2030-01-01,Over 360
+Highland Spirits Co,29693715,Recurring Service,Level 3,0,No risk,Not Available,220,"Castillo, Mae",Sam Ortiz,2028-05-29,2028-05-01,Over 360
+Highland Spirits Co,29693751,Recurring Service,Level 3,0,No risk,Not Available,595,"Castillo, Mae",Sam Ortiz,2029-08-24,2029-08-01,Over 360
+Highland Spirits Co,29693755,Recurring Service,Level 3,0,No risk,Not Available,1682,"Castillo, Mae",Sam Ortiz,2027-01-09,2027-01-01,31-60
+Ironwood Machining,29693763,Fixed Price,Level 4,0,No risk,Not Available,0,"Castillo, Mae",Riley Carter,2030-08-04,2030-08-01,Over 360
+Ironwood Machining,29693792,Fixed Price,Level 4,20,1-25,Client: Moving In-House,0,"Castillo, Mae",Riley Carter,2030-11-10,2030-11-01,Over 360
+Ironwood Machining,29693808,Recurring Service,Level 4,0,No risk,Not Available,358,"Castillo, Mae",Riley Carter,2029-08-22,2029-08-01,Over 360
+Ironwood Machining,29693825,Recurring Service,Level 4,30,26-50,Project: Delivery,120,"Castillo, Mae",Riley Carter,2027-09-11,2027-09-01,181-360
+Ironwood Machining,29693864,Recurring Service,Level 4,0,No risk,Not Available,787,"Castillo, Mae",Riley Carter,2030-11-24,2030-11-01,Over 360
+Ironwood Machining,29693881,Recurring Service,Level 4,25,1-25,Client: Recently Acquired,449,"Castillo, Mae",Riley Carter,2030-05-04,2030-05-01,Over 360
+Ironwood Machining,29693891,Recurring Service,Level 4,0,No risk,Not Available,278,"Castillo, Mae",Riley Carter,2030-04-30,2030-04-01,Over 360
+Juniper Wealth Advisors,29693897,Fixed Price,Upcoming Revenue Loss,75,51-75,Client: Budget Cuts,0,"Castillo, Mae",Casey Ellison,2027-01-17,2027-01-01,61-90
+Juniper Wealth Advisors,29693936,Block Hours,Upcoming Revenue Loss,75,51-75,Client: Leadership Change,196,"Castillo, Mae",Casey Ellison,2028-01-22,2028-01-01,Over 360
+Juniper Wealth Advisors,29693939,Recurring Service,Upcoming Revenue Loss,75,51-75,Client: Recently Acquired,513,"Castillo, Mae",Casey Ellison,2026-11-20,2026-11-01,0-30
+Juniper Wealth Advisors,29693940,Recurring Service,Upcoming Revenue Loss,50,26-50,Client: Budget Cuts,420,"Castillo, Mae",Casey Ellison,2027-01-08,2027-01-01,31-60
+Juniper Wealth Advisors,29693945,Recurring Service,Upcoming Revenue Loss,100,76-100,Client: Recently Acquired,1303,"Castillo, Mae",Casey Ellison,2027-01-24,2027-01-01,61-90
+Juniper Wealth Advisors,29693961,Block Hours,Upcoming Revenue Loss,75,51-75,Project: Delivery,249,"Castillo, Mae",Casey Ellison,2028-09-25,2028-09-01,Over 360
+Juniper Wealth Advisors,29694001,Recurring Service,Upcoming Revenue Loss,50,26-50,Client: Leadership Change,189,"Castillo, Mae",Casey Ellison,2027-03-05,2027-03-01,91-180
+Juniper Wealth Advisors,29694039,Recurring Service,Upcoming Revenue Loss,75,51-75,Client: Budget Cuts,500,"Castillo, Mae",Casey Ellison,2028-12-19,2028-12-01,Over 360
+Juniper Wealth Advisors,29694053,Block Hours,Upcoming Revenue Loss,100,76-100,Client: Moving In-House,421,"Castillo, Mae",Casey Ellison,2027-01-05,2027-01-01,31-60
+Juniper Wealth Advisors,29694067,Fixed Price,Upcoming Revenue Loss,90,76-100,Client: Moving In-House,0,"Castillo, Mae",Casey Ellison,2027-01-16,2027-01-01,61-90
+Juniper Wealth Advisors,29694079,Block Hours,Upcoming Revenue Loss,50,26-50,Support: Service Delivery Issues,282,"Castillo, Mae",Casey Ellison,2026-12-20,2026-12-01,31-60
+Juniper Wealth Advisors,29694119,Recurring Service,Upcoming Revenue Loss,100,76-100,Client: Budget Cuts,602,"Castillo, Mae",Casey Ellison,2030-01-09,2030-01-01,Over 360
+Juniper Wealth Advisors,29694133,Recurring Service,Upcoming Revenue Loss,75,51-75,Client: Moving In-House,2215,"Castillo, Mae",Casey Ellison,2028-03-12,2028-03-01,Over 360
+Juniper Wealth Advisors,29694141,Recurring Service,Upcoming Revenue Loss,90,76-100,Project: Delivery,340,"Castillo, Mae",Casey Ellison,2028-04-12,2028-04-01,Over 360
+Juniper Wealth Advisors,29694175,Recurring Service,Upcoming Revenue Loss,90,76-100,Support: Service Delivery Issues,273,"Castillo, Mae",Casey Ellison,2027-01-30,2027-01-01,61-90
+Juniper Wealth Advisors,29694184,Recurring Service,Upcoming Revenue Loss,90,76-100,Competitor: Price,276,"Castillo, Mae",Casey Ellison,2027-02-13,2027-02-01,91-180
+Juniper Wealth Advisors,29694220,Recurring Service,Upcoming Revenue Loss,90,76-100,Client: Recently Acquired,342,"Castillo, Mae",Casey Ellison,2027-12-29,2027-12-01,Over 360
+Keystone Property Mgmt,29694245,Fixed Price,Level 4,30,26-50,Client: Recently Acquired,0,"Brooks, Owen",Sam Ortiz,2027-06-03,2027-06-01,181-360
+Keystone Property Mgmt,29694264,Recurring Service,Level 4,0,No risk,Not Available,278,"Brooks, Owen",Sam Ortiz,2026-12-25,2026-12-01,31-60
+Keystone Property Mgmt,29694295,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Sam Ortiz,2028-07-07,2028-07-01,Over 360
+Keystone Property Mgmt,29694300,Recurring Service,Level 4,0,No risk,Not Available,413,"Brooks, Owen",Sam Ortiz,2028-12-10,2028-12-01,Over 360
+Keystone Property Mgmt,29694316,Recurring Service,Level 4,0,No risk,Not Available,137,"Brooks, Owen",Sam Ortiz,2027-03-08,2027-03-01,91-180
+Keystone Property Mgmt,29694348,Block Hours,Level 4,20,1-25,Client: Recently Acquired,834,"Brooks, Owen",Sam Ortiz,2027-09-25,2027-09-01,181-360
+Lakeshore Furniture,29694371,Recurring Service,Departed,90,76-100,Client: Moving In-House,607,"Brooks, Owen",Taylor Quinn,2027-09-09,2027-09-01,181-360
+Lakeshore Furniture,29694402,Fixed Price,Departed,75,51-75,Client: Leadership Change,0,"Brooks, Owen",Taylor Quinn,2029-12-11,2029-12-01,Over 360
+Lakeshore Furniture,29694422,Recurring Service,Departed,100,76-100,Project: Delivery,330,"Brooks, Owen",Taylor Quinn,2029-06-22,2029-06-01,Over 360
+Lakeshore Furniture,29694443,Recurring Service,Departed,75,51-75,Project: Delivery,370,"Brooks, Owen",Taylor Quinn,2030-08-04,2030-08-01,Over 360
+Lakeshore Furniture,29694455,Block Hours,Departed,75,51-75,Support: Service Delivery Issues,428,"Brooks, Owen",Taylor Quinn,2030-01-27,2030-01-01,Over 360
+Lakeshore Furniture,29694469,Recurring Service,Departed,90,76-100,Competitor: Price,863,"Brooks, Owen",Taylor Quinn,2029-03-05,2029-03-01,Over 360
+Lakeshore Furniture,29694474,Recurring Service,Departed,90,76-100,Client: Budget Cuts,180,"Brooks, Owen",Taylor Quinn,2029-01-01,2029-01-01,Over 360
+Maple Ridge Nonprofit,29694492,Recurring Service,Level 1,0,No risk,Not Available,2943,"Castillo, Mae",Riley Carter,2030-03-28,2030-03-01,Over 360
+Maple Ridge Nonprofit,29694505,Recurring Service,Level 1,0,No risk,Not Available,930,"Castillo, Mae",Riley Carter,2026-11-06,2026-11-01,0-30
+Maple Ridge Nonprofit,29694540,Block Hours,Level 1,25,1-25,Project: Delivery,16429,"Castillo, Mae",Riley Carter,2028-10-14,2028-10-01,Over 360
+Maple Ridge Nonprofit,29694547,Recurring Service,Level 1,20,1-25,Client: Leadership Change,1210,"Castillo, Mae",Riley Carter,2027-09-21,2027-09-01,181-360
+Maple Ridge Nonprofit,29694560,Recurring Service,Level 1,0,No risk,Not Available,867,"Castillo, Mae",Riley Carter,2030-01-02,2030-01-01,Over 360
+Maple Ridge Nonprofit,29694579,Recurring Service,Level 1,10,1-25,Client: Budget Cuts,2478,"Castillo, Mae",Riley Carter,2028-03-04,2028-03-01,Over 360
+Maple Ridge Nonprofit,29694595,Recurring Service,Level 1,0,No risk,Not Available,2226,"Castillo, Mae",Riley Carter,2027-07-21,2027-07-01,181-360
+Maple Ridge Nonprofit,29694600,Recurring Service,Level 1,0,No risk,Not Available,531,"Castillo, Mae",Riley Carter,2030-08-27,2030-08-01,Over 360
+Maple Ridge Nonprofit,29694631,Recurring Service,Level 1,25,1-25,Client: Budget Cuts,1502,"Castillo, Mae",Riley Carter,2028-04-06,2028-04-01,Over 360
+Maple Ridge Nonprofit,29694648,Recurring Service,Level 1,0,No risk,Not Available,4628,"Castillo, Mae",Riley Carter,2027-12-29,2027-12-01,Over 360
+Maple Ridge Nonprofit,29694685,Recurring Service,Level 1,20,1-25,Competitor: Price,3498,"Castillo, Mae",Riley Carter,2028-05-08,2028-05-01,Over 360
+Maple Ridge Nonprofit,29694696,Recurring Service,Level 1,0,No risk,Not Available,1009,"Castillo, Mae",Riley Carter,2030-07-02,2030-07-01,Over 360
+Maple Ridge Nonprofit,29694708,Recurring Service,Level 1,25,1-25,Client: Recently Acquired,2627,"Castillo, Mae",Riley Carter,2028-05-06,2028-05-01,Over 360
+Maple Ridge Nonprofit,29694726,Block Hours,Level 1,0,No risk,Not Available,1077,"Castillo, Mae",Riley Carter,2030-08-27,2030-08-01,Over 360
+Maple Ridge Nonprofit,29694735,Recurring Service,Level 1,0,No risk,Not Available,5604,"Castillo, Mae",Riley Carter,2029-11-11,2029-11-01,Over 360
+Maple Ridge Nonprofit,29694743,Block Hours,Level 1,0,No risk,Not Available,2346,"Castillo, Mae",Riley Carter,2029-07-21,2029-07-01,Over 360
+Maple Ridge Nonprofit,29694754,Recurring Service,Level 1,30,26-50,Client: Leadership Change,1035,"Castillo, Mae",Riley Carter,2028-06-08,2028-06-01,Over 360
+Maple Ridge Nonprofit,29694769,Block Hours,Level 1,0,No risk,Not Available,4987,"Castillo, Mae",Riley Carter,2030-01-28,2030-01-01,Over 360
+Meridian Telehealth,29694779,Block Hours,Level 3,50,26-50,Project: Delivery,446,"Castillo, Mae",Taylor Quinn,2029-07-31,2029-07-01,Over 360
+Meridian Telehealth,29694807,Recurring Service,Level 3,0,No risk,Not Available,354,"Castillo, Mae",Taylor Quinn,2029-02-01,2029-02-01,Over 360
+Meridian Telehealth,29694825,Recurring Service,Level 3,0,No risk,Not Available,357,"Castillo, Mae",Taylor Quinn,2028-04-19,2028-04-01,Over 360
+Meridian Telehealth,29694861,Recurring Service,Level 3,0,No risk,Not Available,2175,"Castillo, Mae",Taylor Quinn,2028-09-23,2028-09-01,Over 360
+Meridian Telehealth,29694892,Recurring Service,Level 3,0,No risk,Not Available,1953,"Castillo, Mae",Taylor Quinn,2029-12-25,2029-12-01,Over 360
+Meridian Telehealth,29694918,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Taylor Quinn,2029-12-06,2029-12-01,Over 360
+Meridian Telehealth,29694958,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Taylor Quinn,2027-11-26,2027-11-01,Over 360
+Meridian Telehealth,29694977,Recurring Service,Level 3,25,1-25,Client: Leadership Change,2486,"Castillo, Mae",Taylor Quinn,2027-02-09,2027-02-01,91-180
+Meridian Telehealth,29694989,Recurring Service,Level 3,10,1-25,Project: Delivery,2763,"Castillo, Mae",Taylor Quinn,2028-11-09,2028-11-01,Over 360
+Meridian Telehealth,29694991,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Taylor Quinn,2029-09-23,2029-09-01,Over 360
+Meridian Telehealth,29695021,Recurring Service,Level 3,0,No risk,Not Available,331,"Castillo, Mae",Taylor Quinn,2028-03-20,2028-03-01,Over 360
+Northfield Produce,29695056,Recurring Service,Upcoming Revenue Loss,90,76-100,Project: Delivery,1730,"Brooks, Owen",Sam Ortiz,2027-01-27,2027-01-01,61-90
+Northfield Produce,29695066,Recurring Service,Upcoming Revenue Loss,100,76-100,Client: Leadership Change,226,"Brooks, Owen",Sam Ortiz,2028-05-24,2028-05-01,Over 360
+Northfield Produce,29695090,Block Hours,Upcoming Revenue Loss,75,51-75,Competitor: Price,412,"Brooks, Owen",Sam Ortiz,2026-12-12,2026-12-01,31-60
+Northfield Produce,29695102,Recurring Service,Upcoming Revenue Loss,75,51-75,Support: Service Delivery Issues,388,"Brooks, Owen",Sam Ortiz,2026-12-29,2026-12-01,31-60
+Northfield Produce,29695114,Block Hours,Upcoming Revenue Loss,50,26-50,Client: Budget Cuts,183,"Brooks, Owen",Sam Ortiz,2027-01-22,2027-01-01,61-90
+Northfield Produce,29695128,Recurring Service,Upcoming Revenue Loss,100,76-100,Support: Service Delivery Issues,1175,"Brooks, Owen",Sam Ortiz,2030-02-02,2030-02-01,Over 360
+Northfield Produce,29695156,Block Hours,Upcoming Revenue Loss,75,51-75,Client: Moving In-House,355,"Brooks, Owen",Sam Ortiz,2027-01-03,2027-01-01,31-60
+Northfield Produce,29695177,Recurring Service,Upcoming Revenue Loss,50,26-50,Client: Recently Acquired,1215,"Brooks, Owen",Sam Ortiz,2030-12-09,2030-12-01,Over 360
+Northfield Produce,29695202,Recurring Service,Upcoming Revenue Loss,90,76-100,Client: Moving In-House,195,"Brooks, Owen",Sam Ortiz,2030-11-07,2030-11-01,Over 360
+Northfield Produce,29695235,Fixed Price,Upcoming Revenue Loss,50,26-50,Support: Service Delivery Issues,0,"Brooks, Owen",Sam Ortiz,2030-09-17,2030-09-01,Over 360
+Northfield Produce,29695263,Block Hours,Upcoming Revenue Loss,75,51-75,Client: Budget Cuts,455,"Brooks, Owen",Sam Ortiz,2026-11-20,2026-11-01,0-30
+Oakmont Accounting,29695292,Recurring Service,Level 4,50,26-50,Client: Recently Acquired,501,"Castillo, Mae",Avery Morgan,2029-11-08,2029-11-01,Over 360
+Oakmont Accounting,29695322,Recurring Service,Level 4,75,51-75,Client: Budget Cuts,138,"Castillo, Mae",Avery Morgan,2027-02-20,2027-02-01,91-180
+Oakmont Accounting,29695331,Block Hours,Level 4,50,26-50,Client: Moving In-House,189,"Castillo, Mae",Avery Morgan,2027-08-23,2027-08-01,181-360
+Oakmont Accounting,29695339,Recurring Service,Level 4,0,No risk,Not Available,4543,"Castillo, Mae",Avery Morgan,2027-01-22,2027-01-01,61-90
+Oakmont Accounting,29695361,Recurring Service,Level 4,0,No risk,Not Available,379,"Castillo, Mae",Avery Morgan,2026-12-04,2026-12-01,0-30
+Oakmont Accounting,29695389,Recurring Service,Level 4,0,No risk,Not Available,247,"Castillo, Mae",Avery Morgan,2027-06-12,2027-06-01,181-360
+Oakmont Accounting,29695425,Block Hours,Level 4,0,No risk,Not Available,791,"Castillo, Mae",Avery Morgan,2029-08-18,2029-08-01,Over 360
+Oakmont Accounting,29695429,Fixed Price,Level 4,75,51-75,Support: Service Delivery Issues,0,"Castillo, Mae",Avery Morgan,2027-09-11,2027-09-01,181-360
+Oakmont Accounting,29695453,Recurring Service,Level 4,25,1-25,Support: Service Delivery Issues,76,"Castillo, Mae",Avery Morgan,2029-03-06,2029-03-01,Over 360
+Oakmont Accounting,29695465,Fixed Price,Level 4,0,No risk,Not Available,0,"Castillo, Mae",Avery Morgan,2030-09-01,2030-09-01,Over 360
+Oakmont Accounting,29695505,Block Hours,Level 4,20,1-25,Client: Recently Acquired,1536,"Castillo, Mae",Avery Morgan,2029-12-25,2029-12-01,Over 360
+Oakmont Accounting,29695533,Block Hours,Level 4,0,No risk,Not Available,133,"Castillo, Mae",Avery Morgan,2030-05-17,2030-05-01,Over 360
+Oakmont Accounting,29695551,Fixed Price,Level 4,0,No risk,Not Available,0,"Castillo, Mae",Avery Morgan,2028-01-08,2028-01-01,Over 360
+Oakmont Accounting,29695563,Recurring Service,Level 4,0,No risk,Not Available,125,"Castillo, Mae",Avery Morgan,2028-05-27,2028-05-01,Over 360
+Oakmont Accounting,29695571,Recurring Service,Level 4,0,No risk,Not Available,1723,"Castillo, Mae",Avery Morgan,2027-12-11,2027-12-01,Over 360
+Oakmont Accounting,29695572,Recurring Service,Level 4,0,No risk,Not Available,990,"Castillo, Mae",Avery Morgan,2028-08-01,2028-08-01,Over 360
+Pinecrest Senior Living,29695590,Block Hours,Upcoming Revenue Loss,75,51-75,Client: Budget Cuts,349,"Alvarez, Nina",Taylor Quinn,2026-11-27,2026-11-01,0-30
+Pinecrest Senior Living,29695613,Fixed Price,Upcoming Revenue Loss,90,76-100,Client: Recently Acquired,0,"Alvarez, Nina",Taylor Quinn,2026-12-21,2026-12-01,31-60
+Pinecrest Senior Living,29695621,Recurring Service,Upcoming Revenue Loss,90,76-100,Client: Budget Cuts,708,"Alvarez, Nina",Taylor Quinn,2027-12-16,2027-12-01,Over 360
+Pinecrest Senior Living,29695660,Recurring Service,Upcoming Revenue Loss,90,76-100,Project: Delivery,505,"Alvarez, Nina",Taylor Quinn,2027-02-07,2027-02-01,61-90
+Quarry Hill Auto Parts,29695700,Recurring Service,Contact Finance,0,No risk,Not Available,188,"Castillo, Mae",Casey Ellison,2028-04-03,2028-04-01,Over 360
+Quarry Hill Auto Parts,29695725,Block Hours,Contact Finance,30,26-50,Client: Moving In-House,388,"Castillo, Mae",Casey Ellison,2030-02-26,2030-02-01,Over 360
+Redstone Architecture,29695731,Recurring Service,Level 1,75,51-75,Client: Moving In-House,4488,"Brooks, Owen",Jordan Blake,2026-12-22,2026-12-01,31-60
+Redstone Architecture,29695741,Block Hours,Level 1,10,1-25,Support: Service Delivery Issues,3027,"Brooks, Owen",Jordan Blake,2028-02-03,2028-02-01,Over 360
+Redstone Architecture,29695743,Block Hours,Level 1,0,No risk,Not Available,2647,"Brooks, Owen",Jordan Blake,2027-06-18,2027-06-01,181-360
+Redstone Architecture,29695747,Recurring Service,Level 1,0,No risk,Not Available,3162,"Brooks, Owen",Jordan Blake,2027-08-24,2027-08-01,181-360
+Redstone Architecture,29695780,Block Hours,Level 1,30,26-50,Client: Leadership Change,10492,"Brooks, Owen",Jordan Blake,2030-12-10,2030-12-01,Over 360
+Redstone Architecture,29695811,Recurring Service,Level 1,0,No risk,Not Available,2674,"Brooks, Owen",Jordan Blake,2028-11-23,2028-11-01,Over 360
+Redstone Architecture,29695813,Recurring Service,Level 1,0,No risk,Not Available,1919,"Brooks, Owen",Jordan Blake,2027-06-20,2027-06-01,181-360
+Redstone Architecture,29695820,Recurring Service,Level 1,10,1-25,Competitor: Price,1369,"Brooks, Owen",Jordan Blake,2029-09-18,2029-09-01,Over 360
+Riverbend Hospital,29695858,Block Hours,Level 3,0,No risk,Not Available,851,"Alvarez, Nina",Morgan Reyes,2027-08-13,2027-08-01,181-360
+Riverbend Hospital,29695865,Fixed Price,Level 3,0,No risk,Not Available,0,"Alvarez, Nina",Morgan Reyes,2030-01-03,2030-01-01,Over 360
+Riverbend Hospital,29695899,Recurring Service,Level 3,30,26-50,Support: Service Delivery Issues,528,"Alvarez, Nina",Morgan Reyes,2029-02-28,2029-02-01,Over 360
+Riverbend Hospital,29695900,Recurring Service,Level 3,0,No risk,Not Available,2252,"Alvarez, Nina",Morgan Reyes,2029-10-27,2029-10-01,Over 360
+Riverbend Hospital,29695940,Recurring Service,Level 3,30,26-50,Competitor: Price,568,"Alvarez, Nina",Morgan Reyes,2030-06-13,2030-06-01,Over 360
+Riverbend Hospital,29695943,Block Hours,Level 3,0,No risk,Not Available,649,"Alvarez, Nina",Morgan Reyes,2027-06-21,2027-06-01,181-360
+Riverbend Hospital,29695970,Recurring Service,Level 3,75,51-75,Competitor: Price,1454,"Alvarez, Nina",Morgan Reyes,2027-08-14,2027-08-01,181-360
+Riverbend Hospital,29696007,Fixed Price,Level 3,50,26-50,Support: Service Delivery Issues,0,"Alvarez, Nina",Morgan Reyes,2029-01-20,2029-01-01,Over 360
+Riverbend Hospital,29696027,Recurring Service,Level 3,0,No risk,Not Available,1145,"Alvarez, Nina",Morgan Reyes,2029-04-02,2029-04-01,Over 360
+Silverleaf Landscaping,29696049,Block Hours,Upcoming Revenue Loss,100,76-100,Support: Service Delivery Issues,254,"Brooks, Owen",Drew Patel,2027-01-24,2027-01-01,61-90
+Silverleaf Landscaping,29696070,Block Hours,Upcoming Revenue Loss,75,51-75,Support: Service Delivery Issues,2092,"Brooks, Owen",Drew Patel,2026-12-14,2026-12-01,31-60
+Silverleaf Landscaping,29696104,Fixed Price,Upcoming Revenue Loss,90,76-100,Client: Leadership Change,0,"Brooks, Owen",Drew Patel,2027-01-29,2027-01-01,61-90
+Silverleaf Landscaping,29696111,Recurring Service,Upcoming Revenue Loss,75,51-75,Project: Delivery,813,"Brooks, Owen",Drew Patel,2030-03-13,2030-03-01,Over 360
+Silverleaf Landscaping,29696131,Recurring Service,Upcoming Revenue Loss,75,51-75,Client: Recently Acquired,784,"Brooks, Owen",Drew Patel,2027-02-20,2027-02-01,91-180
+Silverleaf Landscaping,29696154,Recurring Service,Upcoming Revenue Loss,100,76-100,Project: Delivery,1013,"Brooks, Owen",Drew Patel,2029-03-25,2029-03-01,Over 360
+Silverleaf Landscaping,29696178,Block Hours,Upcoming Revenue Loss,50,26-50,Support: Service Delivery Issues,146,"Brooks, Owen",Drew Patel,2029-01-25,2029-01-01,Over 360
+Silverleaf Landscaping,29696195,Recurring Service,Upcoming Revenue Loss,75,51-75,Support: Service Delivery Issues,281,"Brooks, Owen",Drew Patel,2027-02-02,2027-02-01,61-90
+Silverleaf Landscaping,29696201,Fixed Price,Upcoming Revenue Loss,75,51-75,Project: Delivery,0,"Brooks, Owen",Drew Patel,2030-06-05,2030-06-01,Over 360
+Silverleaf Landscaping,29696241,Recurring Service,Upcoming Revenue Loss,90,76-100,Client: Budget Cuts,608,"Brooks, Owen",Drew Patel,2028-09-22,2028-09-01,Over 360
+Silverleaf Landscaping,29696246,Recurring Service,Upcoming Revenue Loss,75,51-75,Client: Budget Cuts,1086,"Brooks, Owen",Drew Patel,2029-05-09,2029-05-01,Over 360
+Silverleaf Landscaping,29696254,Block Hours,Upcoming Revenue Loss,50,26-50,Client: Moving In-House,215,"Brooks, Owen",Drew Patel,2027-06-30,2027-06-01,181-360
+Silverleaf Landscaping,29696277,Fixed Price,Upcoming Revenue Loss,50,26-50,Client: Leadership Change,0,"Brooks, Owen",Drew Patel,2027-02-11,2027-02-01,91-180
+Silverleaf Landscaping,29696313,Recurring Service,Upcoming Revenue Loss,90,76-100,Project: Delivery,1135,"Brooks, Owen",Drew Patel,2026-11-30,2026-11-01,0-30
+Silverleaf Landscaping,29696323,Recurring Service,Upcoming Revenue Loss,90,76-100,Client: Budget Cuts,524,"Brooks, Owen",Drew Patel,2027-12-20,2027-12-01,Over 360
+Summit Broker Network,29696356,Block Hours,Departed,75,51-75,Support: Service Delivery Issues,180,"Brooks, Owen",Sam Ortiz,2028-10-14,2028-10-01,Over 360
+Summit Broker Network,29696367,Recurring Service,Departed,90,76-100,Client: Budget Cuts,231,"Brooks, Owen",Sam Ortiz,2030-01-24,2030-01-01,Over 360
+Summit Broker Network,29696405,Block Hours,Departed,90,76-100,Client: Leadership Change,341,"Brooks, Owen",Sam Ortiz,2029-01-24,2029-01-01,Over 360
+Summit Broker Network,29696426,Recurring Service,Departed,75,51-75,Project: Delivery,776,"Brooks, Owen",Sam Ortiz,2030-12-09,2030-12-01,Over 360
+Summit Broker Network,29696453,Fixed Price,Departed,50,26-50,Project: Delivery,0,"Brooks, Owen",Sam Ortiz,2027-03-16,2027-03-01,91-180
+Summit Broker Network,29696470,Block Hours,Departed,100,76-100,Support: Service Delivery Issues,348,"Brooks, Owen",Sam Ortiz,2029-12-24,2029-12-01,Over 360
+Summit Broker Network,29696482,Block Hours,Departed,90,76-100,Support: Service Delivery Issues,1530,"Brooks, Owen",Sam Ortiz,2028-02-21,2028-02-01,Over 360
+Summit Broker Network,29696494,Fixed Price,Departed,50,26-50,Client: Leadership Change,0,"Brooks, Owen",Sam Ortiz,2028-07-24,2028-07-01,Over 360
+Summit Broker Network,29696527,Recurring Service,Departed,75,51-75,Client: Budget Cuts,671,"Brooks, Owen",Sam Ortiz,2027-09-11,2027-09-01,181-360
+Summit Broker Network,29696556,Recurring Service,Departed,75,51-75,Client: Recently Acquired,867,"Brooks, Owen",Sam Ortiz,2027-12-18,2027-12-01,Over 360
+Summit Broker Network,29696591,Fixed Price,Departed,75,51-75,Support: Service Delivery Issues,0,"Brooks, Owen",Sam Ortiz,2027-10-05,2027-10-01,181-360
+Summit Broker Network,29696604,Fixed Price,Departed,75,51-75,Project: Delivery,0,"Brooks, Owen",Sam Ortiz,2030-09-16,2030-09-01,Over 360
+Summit Broker Network,29696625,Recurring Service,Departed,75,51-75,Support: Service Delivery Issues,1596,"Brooks, Owen",Sam Ortiz,2028-03-29,2028-03-01,Over 360
+Summit Broker Network,29696648,Recurring Service,Departed,100,76-100,Client: Recently Acquired,752,"Brooks, Owen",Sam Ortiz,2028-04-25,2028-04-01,Over 360
+Tidewater Pulmonary,29696666,Fixed Price,Level 4,0,No risk,Not Available,0,"Alvarez, Nina",Casey Ellison,2029-01-11,2029-01-01,Over 360
+Tidewater Pulmonary,29696677,Fixed Price,Level 4,25,1-25,Competitor: Price,0,"Alvarez, Nina",Casey Ellison,2027-05-06,2027-05-01,91-180
+Tidewater Pulmonary,29696712,Recurring Service,Level 4,30,26-50,Client: Moving In-House,420,"Alvarez, Nina",Casey Ellison,2030-06-04,2030-06-01,Over 360
+Tidewater Pulmonary,29696729,Recurring Service,Level 4,0,No risk,Not Available,151,"Alvarez, Nina",Casey Ellison,2029-05-20,2029-05-01,Over 360
+Tidewater Pulmonary,29696753,Recurring Service,Level 4,0,No risk,Not Available,372,"Alvarez, Nina",Casey Ellison,2028-02-23,2028-02-01,Over 360
+Tidewater Pulmonary,29696758,Fixed Price,Level 4,0,No risk,Not Available,0,"Alvarez, Nina",Casey Ellison,2030-07-12,2030-07-01,Over 360
+Tidewater Pulmonary,29696763,Recurring Service,Level 4,75,51-75,Project: Delivery,404,"Alvarez, Nina",Casey Ellison,2028-10-29,2028-10-01,Over 360
+Tidewater Pulmonary,29696773,Recurring Service,Level 4,0,No risk,Not Available,158,"Alvarez, Nina",Casey Ellison,2030-09-08,2030-09-01,Over 360
+Tidewater Pulmonary,29696807,Fixed Price,Level 4,0,No risk,Not Available,0,"Alvarez, Nina",Casey Ellison,2029-10-19,2029-10-01,Over 360
+Tidewater Pulmonary,29696819,Recurring Service,Level 4,0,No risk,Not Available,386,"Alvarez, Nina",Casey Ellison,2027-12-14,2027-12-01,Over 360
+Tidewater Pulmonary,29696826,Block Hours,Level 4,20,1-25,Support: Service Delivery Issues,198,"Alvarez, Nina",Casey Ellison,2029-12-20,2029-12-01,Over 360
+Union Pipe Credit Union,29696843,Recurring Service,Contact Finance,0,No risk,Not Available,321,"Alvarez, Nina",Jordan Blake,2029-11-17,2029-11-01,Over 360
+Union Pipe Credit Union,29696853,Block Hours,Contact Finance,20,1-25,Competitor: Price,526,"Alvarez, Nina",Jordan Blake,2030-04-13,2030-04-01,Over 360
+Union Pipe Credit Union,29696874,Recurring Service,Contact Finance,50,26-50,Support: Service Delivery Issues,167,"Alvarez, Nina",Jordan Blake,2027-06-16,2027-06-01,181-360
+Union Pipe Credit Union,29696882,Recurring Service,Contact Finance,0,No risk,Not Available,2328,"Alvarez, Nina",Jordan Blake,2030-02-04,2030-02-01,Over 360
+Union Pipe Credit Union,29696888,Recurring Service,Contact Finance,0,No risk,Not Available,286,"Alvarez, Nina",Jordan Blake,2028-10-22,2028-10-01,Over 360
+Union Pipe Credit Union,29696910,Recurring Service,Contact Finance,0,No risk,Not Available,900,"Alvarez, Nina",Jordan Blake,2029-10-17,2029-10-01,Over 360
+Union Pipe Credit Union,29696932,Fixed Price,Contact Finance,10,1-25,Client: Budget Cuts,0,"Alvarez, Nina",Jordan Blake,2030-07-01,2030-07-01,Over 360
+Union Pipe Credit Union,29696948,Block Hours,Contact Finance,0,No risk,Not Available,323,"Alvarez, Nina",Jordan Blake,2029-07-12,2029-07-01,Over 360
+Union Pipe Credit Union,29696963,Recurring Service,Contact Finance,10,1-25,Competitor: Price,142,"Alvarez, Nina",Jordan Blake,2029-10-10,2029-10-01,Over 360
+Union Pipe Credit Union,29697000,Recurring Service,Contact Finance,0,No risk,Not Available,604,"Alvarez, Nina",Jordan Blake,2027-03-19,2027-03-01,91-180
+Union Pipe Credit Union,29697020,Fixed Price,Contact Finance,0,No risk,Not Available,0,"Alvarez, Nina",Jordan Blake,2030-12-01,2030-12-01,Over 360
+Westlake Municipal,29697026,Fixed Price,Level 2,0,No risk,Not Available,0,"Alvarez, Nina",Avery Morgan,2028-01-25,2028-01-01,Over 360
+Westlake Municipal,29697029,Block Hours,Level 2,10,1-25,Support: Service Delivery Issues,1467,"Alvarez, Nina",Avery Morgan,2027-04-03,2027-04-01,91-180
+Westlake Municipal,29697054,Recurring Service,Level 2,0,No risk,Not Available,956,"Alvarez, Nina",Avery Morgan,2028-01-02,2028-01-01,Over 360
+Westlake Municipal,29697079,Recurring Service,Level 2,0,No risk,Not Available,6148,"Alvarez, Nina",Avery Morgan,2026-12-03,2026-12-01,0-30
+Willowbrook Youth Services,29697107,Recurring Service,Level 1,30,26-50,Client: Recently Acquired,1610,"Brooks, Owen",Avery Morgan,2028-08-18,2028-08-01,Over 360
+Willowbrook Youth Services,29697129,Recurring Service,Level 1,10,1-25,Client: Moving In-House,1830,"Brooks, Owen",Avery Morgan,2030-12-01,2030-12-01,Over 360
+Willowbrook Youth Services,29697159,Recurring Service,Level 1,0,No risk,Not Available,2443,"Brooks, Owen",Avery Morgan,2027-03-31,2027-03-01,91-180
+Willowbrook Youth Services,29697171,Recurring Service,Level 1,0,No risk,Not Available,3928,"Brooks, Owen",Avery Morgan,2030-02-09,2030-02-01,Over 360
+Yellowstone Distributing,29697177,Recurring Service,Level 1,0,No risk,Not Available,3684,"Castillo, Mae",Sam Ortiz,2030-03-13,2030-03-01,Over 360
+Yellowstone Distributing,29697207,Recurring Service,Level 1,0,No risk,Not Available,7472,"Castillo, Mae",Sam Ortiz,2027-11-30,2027-11-01,Over 360
+Yellowstone Distributing,29697217,Block Hours,Level 1,0,No risk,Not Available,5439,"Castillo, Mae",Sam Ortiz,2027-10-04,2027-10-01,181-360
+Yellowstone Distributing,29697220,Recurring Service,Level 1,50,26-50,Support: Service Delivery Issues,1388,"Castillo, Mae",Sam Ortiz,2028-01-29,2028-01-01,Over 360
+Yellowstone Distributing,29697248,Block Hours,Level 1,0,No risk,Not Available,3513,"Castillo, Mae",Sam Ortiz,2028-10-05,2028-10-01,Over 360
+Yellowstone Distributing,29697249,Recurring Service,Level 1,0,No risk,Not Available,2252,"Castillo, Mae",Sam Ortiz,2030-04-25,2030-04-01,Over 360
+Yellowstone Distributing,29697285,Recurring Service,Level 1,20,1-25,Client: Recently Acquired,4204,"Castillo, Mae",Sam Ortiz,2028-11-04,2028-11-01,Over 360
+Yellowstone Distributing,29697295,Fixed Price,Level 1,0,No risk,Not Available,0,"Castillo, Mae",Sam Ortiz,2029-03-07,2029-03-01,Over 360
+Yellowstone Distributing,29697323,Fixed Price,Level 1,0,No risk,Not Available,0,"Castillo, Mae",Sam Ortiz,2028-04-13,2028-04-01,Over 360
+Yellowstone Distributing,29697345,Block Hours,Level 1,75,51-75,Project: Delivery,1161,"Castillo, Mae",Sam Ortiz,2027-10-21,2027-10-01,181-360
+Amberfield Orthopedics,29697356,Recurring Service,Contact Finance,20,1-25,Project: Delivery,392,"Alvarez, Nina",Morgan Reyes,2029-07-13,2029-07-01,Over 360
+Amberfield Orthopedics,29697392,Recurring Service,Contact Finance,0,No risk,Not Available,518,"Alvarez, Nina",Morgan Reyes,2028-12-20,2028-12-01,Over 360
+Amberfield Orthopedics,29697393,Block Hours,Contact Finance,25,1-25,Competitor: Price,415,"Alvarez, Nina",Morgan Reyes,2029-06-08,2029-06-01,Over 360
+Amberfield Orthopedics,29697397,Recurring Service,Contact Finance,0,No risk,Not Available,274,"Alvarez, Nina",Morgan Reyes,2027-08-24,2027-08-01,181-360
+Amberfield Orthopedics,29697399,Recurring Service,Contact Finance,0,No risk,Not Available,576,"Alvarez, Nina",Morgan Reyes,2027-02-16,2027-02-01,91-180
+Amberfield Orthopedics,29697415,Fixed Price,Contact Finance,25,1-25,Client: Moving In-House,0,"Alvarez, Nina",Morgan Reyes,2027-01-29,2027-01-01,61-90
+Amberfield Orthopedics,29697432,Recurring Service,Contact Finance,0,No risk,Not Available,1660,"Alvarez, Nina",Morgan Reyes,2029-12-15,2029-12-01,Over 360
+Amberfield Orthopedics,29697436,Recurring Service,Contact Finance,0,No risk,Not Available,530,"Alvarez, Nina",Morgan Reyes,2030-07-30,2030-07-01,Over 360
+Amberfield Orthopedics,29697469,Fixed Price,Contact Finance,0,No risk,Not Available,0,"Alvarez, Nina",Morgan Reyes,2027-12-12,2027-12-01,Over 360
+Amberfield Orthopedics,29697483,Block Hours,Contact Finance,25,1-25,Client: Moving In-House,2243,"Alvarez, Nina",Morgan Reyes,2027-10-31,2027-10-01,181-360
+Amberfield Orthopedics,29697491,Block Hours,Contact Finance,30,26-50,Support: Service Delivery Issues,381,"Alvarez, Nina",Morgan Reyes,2029-09-18,2029-09-01,Over 360
+Amberfield Orthopedics,29697513,Block Hours,Contact Finance,30,26-50,Client: Leadership Change,1522,"Alvarez, Nina",Morgan Reyes,2027-03-17,2027-03-01,91-180
+Amberfield Orthopedics,29697524,Recurring Service,Contact Finance,0,No risk,Not Available,343,"Alvarez, Nina",Morgan Reyes,2028-04-08,2028-04-01,Over 360
+Amberfield Orthopedics,29697536,Fixed Price,Contact Finance,20,1-25,Client: Moving In-House,0,"Alvarez, Nina",Morgan Reyes,2028-04-23,2028-04-01,Over 360
+Blue Heron Marine,29697564,Block Hours,Level 1 Others New,30,26-50,Competitor: Price,16609,"Castillo, Mae",Riley Carter,2028-04-29,2028-04-01,Over 360
+Blue Heron Marine,29697596,Block Hours,Level 1 Others New,0,No risk,Not Available,807,"Castillo, Mae",Riley Carter,2027-09-30,2027-09-01,181-360
+Blue Heron Marine,29697628,Recurring Service,Level 1 Others New,0,No risk,Not Available,1133,"Castillo, Mae",Riley Carter,2027-09-14,2027-09-01,181-360
+Canyon Ridge Schools,29697640,Recurring Service,Level 4,50,26-50,Project: Delivery,697,"Brooks, Owen",Morgan Reyes,2028-09-07,2028-09-01,Over 360
+Canyon Ridge Schools,29697644,Recurring Service,Level 4,0,No risk,Not Available,642,"Brooks, Owen",Morgan Reyes,2029-10-10,2029-10-01,Over 360
+Canyon Ridge Schools,29697676,Recurring Service,Level 4,20,1-25,Client: Recently Acquired,400,"Brooks, Owen",Morgan Reyes,2028-06-17,2028-06-01,Over 360
+Canyon Ridge Schools,29697689,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Morgan Reyes,2029-04-11,2029-04-01,Over 360
+Canyon Ridge Schools,29697710,Block Hours,Level 4,50,26-50,Client: Leadership Change,240,"Brooks, Owen",Morgan Reyes,2029-10-28,2029-10-01,Over 360
+Canyon Ridge Schools,29697737,Recurring Service,Level 4,0,No risk,Not Available,309,"Brooks, Owen",Morgan Reyes,2027-04-15,2027-04-01,91-180
+Canyon Ridge Schools,29697745,Block Hours,Level 4,20,1-25,Competitor: Price,272,"Brooks, Owen",Morgan Reyes,2030-06-10,2030-06-01,Over 360
+Canyon Ridge Schools,29697778,Recurring Service,Level 4,0,No risk,Not Available,448,"Brooks, Owen",Morgan Reyes,2027-05-02,2027-05-01,91-180
+Canyon Ridge Schools,29697791,Recurring Service,Level 4,0,No risk,Not Available,538,"Brooks, Owen",Morgan Reyes,2029-12-08,2029-12-01,Over 360
+Canyon Ridge Schools,29697809,Fixed Price,Level 4,20,1-25,Project: Delivery,0,"Brooks, Owen",Morgan Reyes,2028-05-07,2028-05-01,Over 360
+Delta Freight Co,29697839,Recurring Service,Upcoming Revenue Loss,90,76-100,Client: Recently Acquired,491,"Castillo, Mae",Avery Morgan,2028-04-05,2028-04-01,Over 360
+Delta Freight Co,29697843,Fixed Price,Upcoming Revenue Loss,50,26-50,Support: Service Delivery Issues,0,"Castillo, Mae",Avery Morgan,2027-02-01,2027-02-01,61-90
+Delta Freight Co,29697872,Recurring Service,Upcoming Revenue Loss,75,51-75,Client: Leadership Change,914,"Castillo, Mae",Avery Morgan,2026-11-26,2026-11-01,0-30
+Elmwood Insurance Group,29697909,Block Hours,Level 5,20,1-25,Client: Leadership Change,146,"Alvarez, Nina",Riley Carter,2029-06-21,2029-06-01,Over 360
+Elmwood Insurance Group,29697949,Recurring Service,Level 5,20,1-25,Competitor: Price,107,"Alvarez, Nina",Riley Carter,2028-08-12,2028-08-01,Over 360
+Elmwood Insurance Group,29697957,Recurring Service,Level 5,30,26-50,Competitor: Price,128,"Alvarez, Nina",Riley Carter,2030-01-29,2030-01-01,Over 360
+Falcon Crest Dental,29697960,Recurring Service,Level 3,0,No risk,Not Available,1234,"Alvarez, Nina",Drew Patel,2029-04-17,2029-04-01,Over 360
+Falcon Crest Dental,29697974,Block Hours,Level 3,0,No risk,Not Available,657,"Alvarez, Nina",Drew Patel,2028-07-19,2028-07-01,Over 360
+Falcon Crest Dental,29698014,Recurring Service,Level 3,30,26-50,Client: Budget Cuts,654,"Alvarez, Nina",Drew Patel,2030-07-17,2030-07-01,Over 360
+Falcon Crest Dental,29698039,Fixed Price,Level 3,75,51-75,Client: Moving In-House,0,"Alvarez, Nina",Drew Patel,2029-02-04,2029-02-01,Over 360
+Falcon Crest Dental,29698044,Recurring Service,Level 3,50,26-50,Client: Leadership Change,267,"Alvarez, Nina",Drew Patel,2030-08-05,2030-08-01,Over 360
+Falcon Crest Dental,29698074,Block Hours,Level 3,10,1-25,Support: Service Delivery Issues,419,"Alvarez, Nina",Drew Patel,2029-11-13,2029-11-01,Over 360
+Falcon Crest Dental,29698112,Recurring Service,Level 3,25,1-25,Project: Delivery,848,"Alvarez, Nina",Drew Patel,2029-03-27,2029-03-01,Over 360
+Falcon Crest Dental,29698129,Recurring Service,Level 3,0,No risk,Not Available,898,"Alvarez, Nina",Drew Patel,2027-12-12,2027-12-01,Over 360
+Falcon Crest Dental,29698157,Recurring Service,Level 3,0,No risk,Not Available,733,"Alvarez, Nina",Drew Patel,2030-07-02,2030-07-01,Over 360
+Falcon Crest Dental,29698183,Recurring Service,Level 3,20,1-25,Client: Leadership Change,1131,"Alvarez, Nina",Drew Patel,2028-11-20,2028-11-01,Over 360
+Glenview Partners LLP,29698218,Recurring Service,Level 4,20,1-25,Support: Service Delivery Issues,646,"Brooks, Owen",Casey Ellison,2028-05-20,2028-05-01,Over 360
+Glenview Partners LLP,29698255,Recurring Service,Level 4,0,No risk,Not Available,394,"Brooks, Owen",Casey Ellison,2030-05-08,2030-05-01,Over 360
+Glenview Partners LLP,29698287,Block Hours,Level 4,0,No risk,Not Available,82,"Brooks, Owen",Casey Ellison,2027-08-29,2027-08-01,181-360
+Glenview Partners LLP,29698294,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Casey Ellison,2029-06-09,2029-06-01,Over 360
+Glenview Partners LLP,29698328,Fixed Price,Level 4,75,51-75,Competitor: Price,0,"Brooks, Owen",Casey Ellison,2026-12-21,2026-12-01,31-60
+Glenview Partners LLP,29698347,Recurring Service,Level 4,0,No risk,Not Available,331,"Brooks, Owen",Casey Ellison,2029-11-27,2029-11-01,Over 360
+Glenview Partners LLP,29698358,Recurring Service,Level 4,0,No risk,Not Available,755,"Brooks, Owen",Casey Ellison,2028-11-08,2028-11-01,Over 360
+Glenview Partners LLP,29698396,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Casey Ellison,2029-11-13,2029-11-01,Over 360
+Glenview Partners LLP,29698420,Block Hours,Level 4,0,No risk,Not Available,470,"Brooks, Owen",Casey Ellison,2030-04-09,2030-04-01,Over 360
+Glenview Partners LLP,29698436,Recurring Service,Level 4,0,No risk,Not Available,221,"Brooks, Owen",Casey Ellison,2026-12-29,2026-12-01,31-60
+Glenview Partners LLP,29698449,Recurring Service,Level 4,0,No risk,Not Available,512,"Brooks, Owen",Casey Ellison,2028-09-12,2028-09-01,Over 360
+Glenview Partners LLP,29698463,Fixed Price,Level 4,20,1-25,Client: Leadership Change,0,"Brooks, Owen",Casey Ellison,2028-08-24,2028-08-01,Over 360
+Glenview Partners LLP,29698485,Recurring Service,Level 4,0,No risk,Not Available,1787,"Brooks, Owen",Casey Ellison,2030-01-15,2030-01-01,Over 360
+Glenview Partners LLP,29698504,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Casey Ellison,2028-11-09,2028-11-01,Over 360
+Glenview Partners LLP,29698519,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Casey Ellison,2030-04-27,2030-04-01,Over 360
+Hawthorne Plastics,29698531,Recurring Service,Level 3,20,1-25,Client: Recently Acquired,365,"Brooks, Owen",Morgan Reyes,2028-08-18,2028-08-01,Over 360
+Hawthorne Plastics,29698546,Block Hours,Level 3,20,1-25,Support: Service Delivery Issues,577,"Brooks, Owen",Morgan Reyes,2030-09-29,2030-09-01,Over 360
+Hawthorne Plastics,29698551,Fixed Price,Level 3,50,26-50,Support: Service Delivery Issues,0,"Brooks, Owen",Morgan Reyes,2027-05-19,2027-05-01,181-360
+Hawthorne Plastics,29698572,Recurring Service,Level 3,0,No risk,Not Available,1260,"Brooks, Owen",Morgan Reyes,2029-11-01,2029-11-01,Over 360
+Hawthorne Plastics,29698597,Recurring Service,Level 3,30,26-50,Competitor: Price,1466,"Brooks, Owen",Morgan Reyes,2027-11-01,2027-11-01,181-360
+Hawthorne Plastics,29698633,Recurring Service,Level 3,20,1-25,Client: Recently Acquired,953,"Brooks, Owen",Morgan Reyes,2029-12-28,2029-12-01,Over 360
+Hawthorne Plastics,29698635,Recurring Service,Level 3,0,No risk,Not Available,1687,"Brooks, Owen",Morgan Reyes,2028-11-19,2028-11-01,Over 360
+Hawthorne Plastics,29698655,Block Hours,Level 3,0,No risk,Not Available,874,"Brooks, Owen",Morgan Reyes,2027-05-21,2027-05-01,181-360
+Hawthorne Plastics,29698686,Fixed Price,Level 3,0,No risk,Not Available,0,"Brooks, Owen",Morgan Reyes,2029-11-25,2029-11-01,Over 360
+Hawthorne Plastics,29698726,Block Hours,Level 3,0,No risk,Not Available,1247,"Brooks, Owen",Morgan Reyes,2029-01-11,2029-01-01,Over 360
+Hawthorne Plastics,29698750,Fixed Price,Level 3,0,No risk,Not Available,0,"Brooks, Owen",Morgan Reyes,2029-05-02,2029-05-01,Over 360
+Hawthorne Plastics,29698784,Fixed Price,Level 3,0,No risk,Not Available,0,"Brooks, Owen",Morgan Reyes,2028-02-06,2028-02-01,Over 360
+Hawthorne Plastics,29698803,Recurring Service,Level 3,10,1-25,Support: Service Delivery Issues,464,"Brooks, Owen",Morgan Reyes,2030-04-28,2030-04-01,Over 360
+Hawthorne Plastics,29698833,Recurring Service,Level 3,50,26-50,Competitor: Price,771,"Brooks, Owen",Morgan Reyes,2030-09-05,2030-09-01,Over 360
+Hawthorne Plastics,29698863,Recurring Service,Level 3,0,No risk,Not Available,1360,"Brooks, Owen",Morgan Reyes,2029-12-11,2029-12-01,Over 360
+Indigo Biotech,29698879,Fixed Price,Level 2,75,51-75,Competitor: Price,0,"Alvarez, Nina",Taylor Quinn,2029-03-27,2029-03-01,Over 360
+Indigo Biotech,29698912,Fixed Price,Level 2,0,No risk,Not Available,0,"Alvarez, Nina",Taylor Quinn,2028-06-19,2028-06-01,Over 360
+Indigo Biotech,29698946,Recurring Service,Level 2,10,1-25,Support: Service Delivery Issues,607,"Alvarez, Nina",Taylor Quinn,2029-05-09,2029-05-01,Over 360
+Indigo Biotech,29698982,Block Hours,Level 2,0,No risk,Not Available,1767,"Alvarez, Nina",Taylor Quinn,2030-10-28,2030-10-01,Over 360
+Indigo Biotech,29698994,Recurring Service,Level 2,10,1-25,Client: Recently Acquired,816,"Alvarez, Nina",Taylor Quinn,2029-05-08,2029-05-01,Over 360
+Jasper County Utilities,29698995,Recurring Service,Level 5,0,No risk,Not Available,219,"Castillo, Mae",Morgan Reyes,2027-11-03,2027-11-01,181-360
+Jasper County Utilities,29699031,Fixed Price,Level 5,0,No risk,Not Available,0,"Castillo, Mae",Morgan Reyes,2030-06-01,2030-06-01,Over 360
+Kingsbridge Credit Union,29699042,Recurring Service,Level 2,20,1-25,Client: Moving In-House,612,"Castillo, Mae",Taylor Quinn,2027-12-23,2027-12-01,Over 360
+Kingsbridge Credit Union,29699044,Recurring Service,Level 2,75,51-75,Client: Moving In-House,5966,"Castillo, Mae",Taylor Quinn,2028-04-19,2028-04-01,Over 360
+Kingsbridge Credit Union,29699056,Recurring Service,Level 2,50,26-50,Support: Service Delivery Issues,2169,"Castillo, Mae",Taylor Quinn,2030-01-01,2030-01-01,Over 360
+Kingsbridge Credit Union,29699076,Block Hours,Level 2,0,No risk,Not Available,6088,"Castillo, Mae",Taylor Quinn,2030-06-23,2030-06-01,Over 360
+Kingsbridge Credit Union,29699088,Block Hours,Level 2,0,No risk,Not Available,1083,"Castillo, Mae",Taylor Quinn,2028-05-29,2028-05-01,Over 360
+Kingsbridge Credit Union,29699106,Recurring Service,Level 2,0,No risk,Not Available,1731,"Castillo, Mae",Taylor Quinn,2028-03-04,2028-03-01,Over 360
+Kingsbridge Credit Union,29699131,Recurring Service,Level 2,10,1-25,Client: Leadership Change,323,"Castillo, Mae",Taylor Quinn,2028-12-28,2028-12-01,Over 360
+Kingsbridge Credit Union,29699152,Block Hours,Level 2,0,No risk,Not Available,425,"Castillo, Mae",Taylor Quinn,2027-07-12,2027-07-01,181-360
+Kingsbridge Credit Union,29699186,Recurring Service,Level 2,0,No risk,Not Available,3843,"Castillo, Mae",Taylor Quinn,2027-09-04,2027-09-01,181-360
+Lighthouse Pediatrics,29699187,Block Hours,Contact Finance,10,1-25,Client: Budget Cuts,1002,"Alvarez, Nina",Riley Carter,2027-11-28,2027-11-01,Over 360
+Lighthouse Pediatrics,29699219,Recurring Service,Contact Finance,10,1-25,Client: Leadership Change,410,"Alvarez, Nina",Riley Carter,2027-10-05,2027-10-01,181-360
+Lighthouse Pediatrics,29699243,Recurring Service,Contact Finance,0,No risk,Not Available,437,"Alvarez, Nina",Riley Carter,2030-04-17,2030-04-01,Over 360
+Lighthouse Pediatrics,29699246,Recurring Service,Contact Finance,0,No risk,Not Available,199,"Alvarez, Nina",Riley Carter,2030-11-04,2030-11-01,Over 360
+Lighthouse Pediatrics,29699249,Recurring Service,Contact Finance,30,26-50,Support: Service Delivery Issues,1796,"Alvarez, Nina",Riley Carter,2030-03-02,2030-03-01,Over 360
+Lighthouse Pediatrics,29699257,Recurring Service,Contact Finance,0,No risk,Not Available,379,"Alvarez, Nina",Riley Carter,2027-12-20,2027-12-01,Over 360
+Lighthouse Pediatrics,29699262,Fixed Price,Contact Finance,0,No risk,Not Available,0,"Alvarez, Nina",Riley Carter,2027-10-16,2027-10-01,181-360
+Lighthouse Pediatrics,29699297,Block Hours,Contact Finance,20,1-25,Support: Service Delivery Issues,446,"Alvarez, Nina",Riley Carter,2029-01-07,2029-01-01,Over 360
+Lighthouse Pediatrics,29699298,Block Hours,Contact Finance,25,1-25,Client: Moving In-House,1533,"Alvarez, Nina",Riley Carter,2029-01-16,2029-01-01,Over 360
+Lighthouse Pediatrics,29699317,Fixed Price,Contact Finance,0,No risk,Not Available,0,"Alvarez, Nina",Riley Carter,2030-07-28,2030-07-01,Over 360
+Lighthouse Pediatrics,29699326,Recurring Service,Contact Finance,0,No risk,Not Available,315,"Alvarez, Nina",Riley Carter,2030-10-22,2030-10-01,Over 360
+Lighthouse Pediatrics,29699333,Recurring Service,Contact Finance,0,No risk,Not Available,343,"Alvarez, Nina",Riley Carter,2027-05-27,2027-05-01,181-360
+Lighthouse Pediatrics,29699345,Block Hours,Contact Finance,0,No risk,Not Available,1166,"Alvarez, Nina",Riley Carter,2029-12-20,2029-12-01,Over 360
+Lighthouse Pediatrics,29699353,Block Hours,Contact Finance,10,1-25,Competitor: Price,1197,"Alvarez, Nina",Riley Carter,2030-01-29,2030-01-01,Over 360
+Lighthouse Pediatrics,29699371,Recurring Service,Contact Finance,50,26-50,Client: Recently Acquired,2107,"Alvarez, Nina",Riley Carter,2028-04-19,2028-04-01,Over 360
+Lighthouse Pediatrics,29699397,Block Hours,Contact Finance,25,1-25,Support: Service Delivery Issues,603,"Alvarez, Nina",Riley Carter,2029-04-12,2029-04-01,Over 360
+Lighthouse Pediatrics,29699435,Recurring Service,Contact Finance,10,1-25,Client: Moving In-House,443,"Alvarez, Nina",Riley Carter,2027-01-05,2027-01-01,31-60
+Lighthouse Pediatrics,29699452,Recurring Service,Contact Finance,0,No risk,Not Available,298,"Alvarez, Nina",Riley Carter,2028-04-26,2028-04-01,Over 360
+Magnolia Title Co,29699460,Recurring Service,Level 2,10,1-25,Client: Budget Cuts,2673,"Castillo, Mae",Morgan Reyes,2029-09-08,2029-09-01,Over 360
+Magnolia Title Co,29699462,Recurring Service,Level 2,25,1-25,Client: Recently Acquired,416,"Castillo, Mae",Morgan Reyes,2030-11-23,2030-11-01,Over 360
+Northstar Engineering,29699480,Recurring Service,Level 4,20,1-25,Client: Moving In-House,408,"Castillo, Mae",Sam Ortiz,2029-06-10,2029-06-01,Over 360
+Northstar Engineering,29699515,Fixed Price,Level 4,0,No risk,Not Available,0,"Castillo, Mae",Sam Ortiz,2030-07-09,2030-07-01,Over 360
+Northstar Engineering,29699528,Recurring Service,Level 4,0,No risk,Not Available,442,"Castillo, Mae",Sam Ortiz,2029-03-01,2029-03-01,Over 360
+Northstar Engineering,29699540,Fixed Price,Level 4,20,1-25,Competitor: Price,0,"Castillo, Mae",Sam Ortiz,2030-08-14,2030-08-01,Over 360
+Northstar Engineering,29699563,Recurring Service,Level 4,0,No risk,Not Available,79,"Castillo, Mae",Sam Ortiz,2028-04-11,2028-04-01,Over 360
+Northstar Engineering,29699599,Block Hours,Level 4,0,No risk,Not Available,795,"Castillo, Mae",Sam Ortiz,2030-06-11,2030-06-01,Over 360
+Northstar Engineering,29699601,Block Hours,Level 4,10,1-25,Client: Moving In-House,384,"Castillo, Mae",Sam Ortiz,2028-10-10,2028-10-01,Over 360
+Northstar Engineering,29699609,Recurring Service,Level 4,30,26-50,Competitor: Price,867,"Castillo, Mae",Sam Ortiz,2030-06-04,2030-06-01,Over 360
+Northstar Engineering,29699647,Recurring Service,Level 4,75,51-75,Project: Delivery,1709,"Castillo, Mae",Sam Ortiz,2029-05-02,2029-05-01,Over 360
+Northstar Engineering,29699666,Block Hours,Level 4,0,No risk,Not Available,349,"Castillo, Mae",Sam Ortiz,2028-04-27,2028-04-01,Over 360
+Northstar Engineering,29699697,Fixed Price,Level 4,30,26-50,Client: Recently Acquired,0,"Castillo, Mae",Sam Ortiz,2029-09-15,2029-09-01,Over 360
+Northstar Engineering,29699715,Recurring Service,Level 4,0,No risk,Not Available,397,"Castillo, Mae",Sam Ortiz,2027-05-22,2027-05-01,181-360
+Northstar Engineering,29699734,Recurring Service,Level 4,25,1-25,Client: Budget Cuts,323,"Castillo, Mae",Sam Ortiz,2030-09-08,2030-09-01,Over 360
+Northstar Engineering,29699765,Block Hours,Level 4,0,No risk,Not Available,2042,"Castillo, Mae",Sam Ortiz,2027-07-04,2027-07-01,181-360
+Northstar Engineering,29699768,Block Hours,Level 4,50,26-50,Client: Budget Cuts,1229,"Castillo, Mae",Sam Ortiz,2027-09-06,2027-09-01,181-360
+Oceanside Packaging,29699778,Block Hours,Level 4,0,No risk,Not Available,492,"Castillo, Mae",Jordan Blake,2028-01-15,2028-01-01,Over 360
+Oceanside Packaging,29699779,Recurring Service,Level 4,0,No risk,Not Available,1016,"Castillo, Mae",Jordan Blake,2027-08-10,2027-08-01,181-360
+Oceanside Packaging,29699787,Recurring Service,Level 4,0,No risk,Not Available,407,"Castillo, Mae",Jordan Blake,2027-11-15,2027-11-01,Over 360
+Oceanside Packaging,29699826,Recurring Service,Level 4,20,1-25,Client: Budget Cuts,266,"Castillo, Mae",Jordan Blake,2027-04-07,2027-04-01,91-180
+Oceanside Packaging,29699833,Fixed Price,Level 4,0,No risk,Not Available,0,"Castillo, Mae",Jordan Blake,2030-07-02,2030-07-01,Over 360
+Oceanside Packaging,29699855,Block Hours,Level 4,20,1-25,Client: Moving In-House,67,"Castillo, Mae",Jordan Blake,2027-02-05,2027-02-01,61-90
+Oceanside Packaging,29699894,Recurring Service,Level 4,30,26-50,Client: Recently Acquired,344,"Castillo, Mae",Jordan Blake,2030-06-14,2030-06-01,Over 360
+Oceanside Packaging,29699899,Block Hours,Level 4,20,1-25,Client: Moving In-House,463,"Castillo, Mae",Jordan Blake,2027-01-27,2027-01-01,61-90
+Oceanside Packaging,29699932,Recurring Service,Level 4,50,26-50,Client: Moving In-House,123,"Castillo, Mae",Jordan Blake,2028-06-07,2028-06-01,Over 360
+Prairie Wind Energy,29699948,Recurring Service,Level 2,50,26-50,Client: Recently Acquired,8290,"Alvarez, Nina",Morgan Reyes,2029-06-11,2029-06-01,Over 360
+Prairie Wind Energy,29699953,Recurring Service,Level 2,0,No risk,Not Available,1362,"Alvarez, Nina",Morgan Reyes,2029-03-16,2029-03-01,Over 360
+Prairie Wind Energy,29699985,Block Hours,Level 2,0,No risk,Not Available,998,"Alvarez, Nina",Morgan Reyes,2030-03-31,2030-03-01,Over 360
+Prairie Wind Energy,29700024,Recurring Service,Level 2,0,No risk,Not Available,241,"Alvarez, Nina",Morgan Reyes,2030-04-13,2030-04-01,Over 360
+Prairie Wind Energy,29700063,Block Hours,Level 2,0,No risk,Not Available,931,"Alvarez, Nina",Morgan Reyes,2029-02-22,2029-02-01,Over 360
+Prairie Wind Energy,29700087,Recurring Service,Level 2,0,No risk,Not Available,1830,"Alvarez, Nina",Morgan Reyes,2028-05-07,2028-05-01,Over 360
+Prairie Wind Energy,29700097,Recurring Service,Level 2,0,No risk,Not Available,865,"Alvarez, Nina",Morgan Reyes,2028-08-11,2028-08-01,Over 360
+Prairie Wind Energy,29700134,Recurring Service,Level 2,10,1-25,Client: Leadership Change,5334,"Alvarez, Nina",Morgan Reyes,2027-08-23,2027-08-01,181-360
+Prairie Wind Energy,29700168,Recurring Service,Level 2,0,No risk,Not Available,1654,"Alvarez, Nina",Morgan Reyes,2027-05-17,2027-05-01,181-360
+Prairie Wind Energy,29700173,Recurring Service,Level 2,0,No risk,Not Available,2452,"Alvarez, Nina",Morgan Reyes,2028-01-07,2028-01-01,Over 360
+Quincy Medical Billing,29700174,Recurring Service,Level 5,20,1-25,Competitor: Price,161,"Brooks, Owen",Morgan Reyes,2026-12-05,2026-12-01,0-30
+Quincy Medical Billing,29700190,Block Hours,Level 5,0,No risk,Not Available,166,"Brooks, Owen",Morgan Reyes,2029-09-27,2029-09-01,Over 360
+Quincy Medical Billing,29700217,Block Hours,Level 5,30,26-50,Competitor: Price,15,"Brooks, Owen",Morgan Reyes,2027-07-15,2027-07-01,181-360
+Quincy Medical Billing,29700226,Recurring Service,Level 5,0,No risk,Not Available,288,"Brooks, Owen",Morgan Reyes,2027-05-23,2027-05-01,181-360
+Quincy Medical Billing,29700259,Recurring Service,Level 5,0,No risk,Not Available,57,"Brooks, Owen",Morgan Reyes,2028-08-15,2028-08-01,Over 360
+Quincy Medical Billing,29700296,Recurring Service,Level 5,0,No risk,Not Available,492,"Brooks, Owen",Morgan Reyes,2028-08-06,2028-08-01,Over 360
+Quincy Medical Billing,29700304,Recurring Service,Level 5,25,1-25,Client: Leadership Change,222,"Brooks, Owen",Morgan Reyes,2030-11-04,2030-11-01,Over 360
+Quincy Medical Billing,29700343,Fixed Price,Level 5,25,1-25,Client: Moving In-House,0,"Brooks, Owen",Morgan Reyes,2029-05-04,2029-05-01,Over 360
+Rosewood Hotels,29700354,Recurring Service,Level 1,0,No risk,Not Available,1610,"Castillo, Mae",Riley Carter,2030-01-23,2030-01-01,Over 360
+Rosewood Hotels,29700372,Fixed Price,Level 1,0,No risk,Not Available,0,"Castillo, Mae",Riley Carter,2028-09-19,2028-09-01,Over 360
+Rosewood Hotels,29700399,Recurring Service,Level 1,30,26-50,Client: Recently Acquired,2931,"Castillo, Mae",Riley Carter,2027-03-27,2027-03-01,91-180
+Sterling Machine Works,29700433,Recurring Service,Level 3,0,No risk,Not Available,663,"Brooks, Owen",Riley Carter,2029-06-15,2029-06-01,Over 360
+Sterling Machine Works,29700440,Fixed Price,Level 3,0,No risk,Not Available,0,"Brooks, Owen",Riley Carter,2027-12-14,2027-12-01,Over 360
+Sterling Machine Works,29700477,Fixed Price,Level 3,0,No risk,Not Available,0,"Brooks, Owen",Riley Carter,2029-08-03,2029-08-01,Over 360
+Sterling Machine Works,29700478,Recurring Service,Level 3,0,No risk,Not Available,1544,"Brooks, Owen",Riley Carter,2030-07-19,2030-07-01,Over 360
+Sterling Machine Works,29700507,Recurring Service,Level 3,0,No risk,Not Available,6535,"Brooks, Owen",Riley Carter,2030-02-16,2030-02-01,Over 360
+Sterling Machine Works,29700521,Recurring Service,Level 3,30,26-50,Support: Service Delivery Issues,533,"Brooks, Owen",Riley Carter,2026-11-15,2026-11-01,0-30
+Sterling Machine Works,29700552,Recurring Service,Level 3,0,No risk,Not Available,107,"Brooks, Owen",Riley Carter,2028-10-17,2028-10-01,Over 360
+Sterling Machine Works,29700580,Block Hours,Level 3,50,26-50,Project: Delivery,1662,"Brooks, Owen",Riley Carter,2030-01-08,2030-01-01,Over 360
+Sterling Machine Works,29700590,Recurring Service,Level 3,0,No risk,Not Available,266,"Brooks, Owen",Riley Carter,2027-01-10,2027-01-01,61-90
+Sterling Machine Works,29700626,Recurring Service,Level 3,0,No risk,Not Available,3774,"Brooks, Owen",Riley Carter,2028-10-23,2028-10-01,Over 360
+Sterling Machine Works,29700628,Recurring Service,Level 3,0,No risk,Not Available,494,"Brooks, Owen",Riley Carter,2027-08-12,2027-08-01,181-360
+Sterling Machine Works,29700632,Fixed Price,Level 3,20,1-25,Competitor: Price,0,"Brooks, Owen",Riley Carter,2028-12-25,2028-12-01,Over 360
+Thornbury Accounting,29700633,Block Hours,Level 3,20,1-25,Client: Moving In-House,1180,"Alvarez, Nina",Riley Carter,2027-04-24,2027-04-01,91-180
+Thornbury Accounting,29700646,Recurring Service,Level 3,0,No risk,Not Available,537,"Alvarez, Nina",Riley Carter,2028-07-17,2028-07-01,Over 360
+Thornbury Accounting,29700649,Block Hours,Level 3,0,No risk,Not Available,723,"Alvarez, Nina",Riley Carter,2028-04-24,2028-04-01,Over 360
+Thornbury Accounting,29700654,Recurring Service,Level 3,0,No risk,Not Available,1183,"Alvarez, Nina",Riley Carter,2029-04-28,2029-04-01,Over 360
+Thornbury Accounting,29700659,Fixed Price,Level 3,20,1-25,Client: Recently Acquired,0,"Alvarez, Nina",Riley Carter,2027-05-03,2027-05-01,91-180
+Thornbury Accounting,29700686,Fixed Price,Level 3,0,No risk,Not Available,0,"Alvarez, Nina",Riley Carter,2028-07-02,2028-07-01,Over 360
+Thornbury Accounting,29700705,Recurring Service,Level 3,0,No risk,Not Available,1480,"Alvarez, Nina",Riley Carter,2029-03-05,2029-03-01,Over 360
+Thornbury Accounting,29700710,Block Hours,Level 3,0,No risk,Not Available,200,"Alvarez, Nina",Riley Carter,2028-02-13,2028-02-01,Over 360
+Thornbury Accounting,29700742,Recurring Service,Level 3,0,No risk,Not Available,1267,"Alvarez, Nina",Riley Carter,2028-06-24,2028-06-01,Over 360
+Thornbury Accounting,29700768,Fixed Price,Level 3,0,No risk,Not Available,0,"Alvarez, Nina",Riley Carter,2028-11-29,2028-11-01,Over 360
+Thornbury Accounting,29700770,Block Hours,Level 3,0,No risk,Not Available,1054,"Alvarez, Nina",Riley Carter,2028-12-17,2028-12-01,Over 360
+Thornbury Accounting,29700776,Recurring Service,Level 3,0,No risk,Not Available,1119,"Alvarez, Nina",Riley Carter,2029-07-16,2029-07-01,Over 360
+Upland Water Authority,29700805,Fixed Price,Level 4,0,No risk,Not Available,0,"Brooks, Owen",Avery Morgan,2026-12-24,2026-12-01,31-60
+Upland Water Authority,29700832,Recurring Service,Level 4,10,1-25,Support: Service Delivery Issues,162,"Brooks, Owen",Avery Morgan,2028-10-09,2028-10-01,Over 360
+Valley Forge Logistics,29700842,Recurring Service,Level 3,0,No risk,Not Available,657,"Castillo, Mae",Casey Ellison,2029-10-15,2029-10-01,Over 360
+Valley Forge Logistics,29700876,Recurring Service,Level 3,30,26-50,Competitor: Price,825,"Castillo, Mae",Casey Ellison,2029-07-04,2029-07-01,Over 360
+Valley Forge Logistics,29700885,Block Hours,Level 3,30,26-50,Client: Moving In-House,1552,"Castillo, Mae",Casey Ellison,2029-08-02,2029-08-01,Over 360
+Valley Forge Logistics,29700893,Recurring Service,Level 3,0,No risk,Not Available,1590,"Castillo, Mae",Casey Ellison,2030-12-15,2030-12-01,Over 360
+Valley Forge Logistics,29700918,Recurring Service,Level 3,0,No risk,Not Available,2144,"Castillo, Mae",Casey Ellison,2027-03-09,2027-03-01,91-180
+Valley Forge Logistics,29700956,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Casey Ellison,2029-04-28,2029-04-01,Over 360
+Valley Forge Logistics,29700987,Recurring Service,Level 3,30,26-50,Client: Budget Cuts,574,"Castillo, Mae",Casey Ellison,2027-07-17,2027-07-01,181-360
+Valley Forge Logistics,29701016,Recurring Service,Level 3,0,No risk,Not Available,285,"Castillo, Mae",Casey Ellison,2028-09-18,2028-09-01,Over 360
+Valley Forge Logistics,29701041,Block Hours,Level 3,0,No risk,Not Available,768,"Castillo, Mae",Casey Ellison,2028-08-03,2028-08-01,Over 360
+Valley Forge Logistics,29701043,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Casey Ellison,2028-03-19,2028-03-01,Over 360
+Valley Forge Logistics,29701056,Block Hours,Level 3,20,1-25,Client: Leadership Change,2198,"Castillo, Mae",Casey Ellison,2028-06-30,2028-06-01,Over 360
+Valley Forge Logistics,29701076,Recurring Service,Level 3,0,No risk,Not Available,828,"Castillo, Mae",Casey Ellison,2030-11-11,2030-11-01,Over 360
+Valley Forge Logistics,29701114,Block Hours,Level 3,30,26-50,Client: Moving In-House,335,"Castillo, Mae",Casey Ellison,2028-05-13,2028-05-01,Over 360
+Valley Forge Logistics,29701148,Fixed Price,Level 3,10,1-25,Project: Delivery,0,"Castillo, Mae",Casey Ellison,2030-06-06,2030-06-01,Over 360
+Whitestone Law Group,29701163,Recurring Service,Level 1,0,No risk,Not Available,8243,"Alvarez, Nina",Casey Ellison,2030-12-12,2030-12-01,Over 360
+Whitestone Law Group,29701167,Recurring Service,Level 1,20,1-25,Support: Service Delivery Issues,2208,"Alvarez, Nina",Casey Ellison,2030-02-14,2030-02-01,Over 360
+Whitestone Law Group,29701196,Recurring Service,Level 1,0,No risk,Not Available,6246,"Alvarez, Nina",Casey Ellison,2030-06-06,2030-06-01,Over 360
+Whitestone Law Group,29701201,Block Hours,Level 1,0,No risk,Not Available,14101,"Alvarez, Nina",Casey Ellison,2027-12-30,2027-12-01,Over 360
+Whitestone Law Group,29701211,Block Hours,Level 1,20,1-25,Client: Recently Acquired,1910,"Alvarez, Nina",Casey Ellison,2026-11-12,2026-11-01,0-30
+Whitestone Law Group,29701237,Recurring Service,Level 1,50,26-50,Client: Moving In-House,5082,"Alvarez, Nina",Casey Ellison,2030-09-28,2030-09-01,Over 360
+Whitestone Law Group,29701275,Recurring Service,Level 1,20,1-25,Competitor: Price,10830,"Alvarez, Nina",Casey Ellison,2027-10-29,2027-10-01,181-360
+Xenon Labs,29701298,Recurring Service,Level 3,0,No risk,Not Available,2132,"Castillo, Mae",Morgan Reyes,2029-06-18,2029-06-01,Over 360
+Xenon Labs,29701337,Block Hours,Level 3,10,1-25,Client: Leadership Change,695,"Castillo, Mae",Morgan Reyes,2027-10-19,2027-10-01,181-360
+Xenon Labs,29701377,Recurring Service,Level 3,75,51-75,Competitor: Price,2463,"Castillo, Mae",Morgan Reyes,2027-12-15,2027-12-01,Over 360
+Xenon Labs,29701380,Fixed Price,Level 3,75,51-75,Client: Budget Cuts,0,"Castillo, Mae",Morgan Reyes,2030-05-26,2030-05-01,Over 360
+Yorktown Health Partners,29701403,Recurring Service,Level 3,0,No risk,Not Available,2245,"Castillo, Mae",Avery Morgan,2030-09-19,2030-09-01,Over 360
+Yorktown Health Partners,29701410,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Avery Morgan,2029-01-21,2029-01-01,Over 360
+Yorktown Health Partners,29701418,Recurring Service,Level 3,25,1-25,Project: Delivery,928,"Castillo, Mae",Avery Morgan,2030-05-01,2030-05-01,Over 360
+Yorktown Health Partners,29701431,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Avery Morgan,2028-02-11,2028-02-01,Over 360
+Yorktown Health Partners,29701452,Recurring Service,Level 3,20,1-25,Project: Delivery,777,"Castillo, Mae",Avery Morgan,2029-08-01,2029-08-01,Over 360
+Yorktown Health Partners,29701486,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Avery Morgan,2029-11-04,2029-11-01,Over 360
+Yorktown Health Partners,29701509,Recurring Service,Level 3,50,26-50,Client: Moving In-House,224,"Castillo, Mae",Avery Morgan,2030-10-10,2030-10-01,Over 360
+Yorktown Health Partners,29701548,Recurring Service,Level 3,75,51-75,Client: Moving In-House,6156,"Castillo, Mae",Avery Morgan,2030-04-21,2030-04-01,Over 360
+Yorktown Health Partners,29701559,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Avery Morgan,2029-04-20,2029-04-01,Over 360
+Yorktown Health Partners,29701598,Block Hours,Level 3,75,51-75,Client: Budget Cuts,750,"Castillo, Mae",Avery Morgan,2027-03-28,2027-03-01,91-180
+Yorktown Health Partners,29701600,Recurring Service,Level 3,0,No risk,Not Available,376,"Castillo, Mae",Avery Morgan,2029-03-29,2029-03-01,Over 360
+Yorktown Health Partners,29701621,Fixed Price,Level 3,75,51-75,Client: Leadership Change,0,"Castillo, Mae",Avery Morgan,2030-11-11,2030-11-01,Over 360
+Zephyr Aviation,29701652,Recurring Service,Level 2,0,No risk,Not Available,1416,"Alvarez, Nina",Morgan Reyes,2030-11-22,2030-11-01,Over 360
+Zephyr Aviation,29701686,Fixed Price,Level 2,0,No risk,Not Available,0,"Alvarez, Nina",Morgan Reyes,2027-07-31,2027-07-01,181-360
+Zephyr Aviation,29701690,Block Hours,Level 2,0,No risk,Not Available,3539,"Alvarez, Nina",Morgan Reyes,2028-05-08,2028-05-01,Over 360
+Zephyr Aviation,29701693,Fixed Price,Level 2,0,No risk,Not Available,0,"Alvarez, Nina",Morgan Reyes,2029-06-19,2029-06-01,Over 360
+Alpine Veterinary,29701720,Recurring Service,Level 5,0,No risk,Not Available,1206,"Brooks, Owen",Jordan Blake,2029-09-25,2029-09-01,Over 360
+Alpine Veterinary,29701754,Recurring Service,Level 5,0,No risk,Not Available,898,"Brooks, Owen",Jordan Blake,2027-04-29,2027-04-01,91-180
+Alpine Veterinary,29701780,Recurring Service,Level 5,30,26-50,Client: Leadership Change,176,"Brooks, Owen",Jordan Blake,2030-04-11,2030-04-01,Over 360
+Alpine Veterinary,29701802,Fixed Price,Level 5,0,No risk,Not Available,0,"Brooks, Owen",Jordan Blake,2028-07-03,2028-07-01,Over 360
+Alpine Veterinary,29701820,Recurring Service,Level 5,0,No risk,Not Available,320,"Brooks, Owen",Jordan Blake,2029-03-01,2029-03-01,Over 360
+Alpine Veterinary,29701844,Fixed Price,Level 5,50,26-50,Project: Delivery,0,"Brooks, Owen",Jordan Blake,2028-07-24,2028-07-01,Over 360
+Alpine Veterinary,29701857,Fixed Price,Level 5,0,No risk,Not Available,0,"Brooks, Owen",Jordan Blake,2029-06-10,2029-06-01,Over 360
+Brightwater Brewing,29701872,Recurring Service,Level 1,20,1-25,Client: Recently Acquired,13883,"Alvarez, Nina",Avery Morgan,2028-07-02,2028-07-01,Over 360
+Brightwater Brewing,29701882,Fixed Price,Level 1,50,26-50,Support: Service Delivery Issues,0,"Alvarez, Nina",Avery Morgan,2028-01-21,2028-01-01,Over 360
+Brightwater Brewing,29701917,Block Hours,Level 1,30,26-50,Support: Service Delivery Issues,1124,"Alvarez, Nina",Avery Morgan,2027-10-20,2027-10-01,181-360
+Brightwater Brewing,29701936,Recurring Service,Level 1,0,No risk,Not Available,1656,"Alvarez, Nina",Avery Morgan,2027-07-19,2027-07-01,181-360
+Brightwater Brewing,29701965,Recurring Service,Level 1,25,1-25,Client: Recently Acquired,5287,"Alvarez, Nina",Avery Morgan,2030-01-28,2030-01-01,Over 360
+Brightwater Brewing,29701991,Recurring Service,Level 1,50,26-50,Client: Leadership Change,3555,"Alvarez, Nina",Avery Morgan,2029-07-26,2029-07-01,Over 360
+Coastal Ortho Group,29702010,Recurring Service,Level 2,20,1-25,Client: Budget Cuts,1451,"Alvarez, Nina",Taylor Quinn,2027-02-15,2027-02-01,91-180
+Coastal Ortho Group,29702044,Recurring Service,Level 2,75,51-75,Client: Recently Acquired,1116,"Alvarez, Nina",Taylor Quinn,2027-10-19,2027-10-01,181-360
+Coastal Ortho Group,29702049,Block Hours,Level 2,0,No risk,Not Available,2882,"Alvarez, Nina",Taylor Quinn,2027-07-21,2027-07-01,181-360
+Coastal Ortho Group,29702080,Recurring Service,Level 2,25,1-25,Client: Budget Cuts,336,"Alvarez, Nina",Taylor Quinn,2027-06-27,2027-06-01,181-360
+Coastal Ortho Group,29702081,Recurring Service,Level 2,0,No risk,Not Available,1658,"Alvarez, Nina",Taylor Quinn,2029-10-08,2029-10-01,Over 360
+Coastal Ortho Group,29702083,Recurring Service,Level 2,0,No risk,Not Available,4924,"Alvarez, Nina",Taylor Quinn,2027-11-23,2027-11-01,Over 360
+Coastal Ortho Group,29702115,Recurring Service,Level 2,0,No risk,Not Available,978,"Alvarez, Nina",Taylor Quinn,2029-06-01,2029-06-01,Over 360
+Coastal Ortho Group,29702146,Block Hours,Level 2,50,26-50,Client: Moving In-House,660,"Alvarez, Nina",Taylor Quinn,2027-12-04,2027-12-01,Over 360
+Coastal Ortho Group,29702164,Recurring Service,Level 2,10,1-25,Competitor: Price,1589,"Alvarez, Nina",Taylor Quinn,2029-09-05,2029-09-01,Over 360
+Coastal Ortho Group,29702204,Recurring Service,Level 2,0,No risk,Not Available,1576,"Alvarez, Nina",Taylor Quinn,2027-04-18,2027-04-01,91-180
+Coastal Ortho Group,29702231,Block Hours,Level 2,25,1-25,Client: Budget Cuts,7143,"Alvarez, Nina",Taylor Quinn,2029-09-03,2029-09-01,Over 360
+Coastal Ortho Group,29702260,Recurring Service,Level 2,10,1-25,Client: Leadership Change,3444,"Alvarez, Nina",Taylor Quinn,2027-03-13,2027-03-01,91-180
+Coastal Ortho Group,29702269,Recurring Service,Level 2,0,No risk,Not Available,1386,"Alvarez, Nina",Taylor Quinn,2027-06-09,2027-06-01,181-360
+Coastal Ortho Group,29702274,Fixed Price,Level 2,0,No risk,Not Available,0,"Alvarez, Nina",Taylor Quinn,2029-05-04,2029-05-01,Over 360
+Coastal Ortho Group,29702310,Recurring Service,Level 2,0,No risk,Not Available,1659,"Alvarez, Nina",Taylor Quinn,2028-10-16,2028-10-01,Over 360
+Coastal Ortho Group,29702338,Recurring Service,Level 2,0,No risk,Not Available,1586,"Alvarez, Nina",Taylor Quinn,2029-12-23,2029-12-01,Over 360
+Coastal Ortho Group,29702361,Block Hours,Level 2,0,No risk,Not Available,3534,"Alvarez, Nina",Taylor Quinn,2028-01-13,2028-01-01,Over 360
+Dunmore Steel,29702371,Recurring Service,Level 1,0,No risk,Not Available,2183,"Alvarez, Nina",Avery Morgan,2027-12-20,2027-12-01,Over 360
+Dunmore Steel,29702405,Recurring Service,Level 1,0,No risk,Not Available,6087,"Alvarez, Nina",Avery Morgan,2027-12-14,2027-12-01,Over 360
+Dunmore Steel,29702422,Recurring Service,Level 1,50,26-50,Competitor: Price,6781,"Alvarez, Nina",Avery Morgan,2026-12-29,2026-12-01,31-60
+Dunmore Steel,29702439,Recurring Service,Level 1,0,No risk,Not Available,2223,"Alvarez, Nina",Avery Morgan,2030-04-08,2030-04-01,Over 360
+Dunmore Steel,29702455,Recurring Service,Level 1,10,1-25,Client: Moving In-House,1430,"Alvarez, Nina",Avery Morgan,2029-06-19,2029-06-01,Over 360
+Dunmore Steel,29702473,Recurring Service,Level 1,0,No risk,Not Available,3522,"Alvarez, Nina",Avery Morgan,2030-01-14,2030-01-01,Over 360
+Dunmore Steel,29702492,Recurring Service,Level 1,0,No risk,Not Available,9014,"Alvarez, Nina",Avery Morgan,2028-02-08,2028-02-01,Over 360
+Dunmore Steel,29702494,Recurring Service,Level 1,25,1-25,Competitor: Price,2159,"Alvarez, Nina",Avery Morgan,2028-07-01,2028-07-01,Over 360
+Dunmore Steel,29702528,Fixed Price,Level 1,25,1-25,Support: Service Delivery Issues,0,"Alvarez, Nina",Avery Morgan,2030-08-24,2030-08-01,Over 360
+Dunmore Steel,29702539,Fixed Price,Level 1,25,1-25,Competitor: Price,0,"Alvarez, Nina",Avery Morgan,2028-03-02,2028-03-01,Over 360
+Dunmore Steel,29702558,Recurring Service,Level 1,0,No risk,Not Available,3466,"Alvarez, Nina",Avery Morgan,2028-06-27,2028-06-01,Over 360
+Dunmore Steel,29702560,Fixed Price,Level 1,0,No risk,Not Available,0,"Alvarez, Nina",Avery Morgan,2029-05-22,2029-05-01,Over 360
+Dunmore Steel,29702591,Recurring Service,Level 1,25,1-25,Support: Service Delivery Issues,6890,"Alvarez, Nina",Avery Morgan,2027-12-06,2027-12-01,Over 360
+Dunmore Steel,29702597,Recurring Service,Level 1,10,1-25,Competitor: Price,3100,"Alvarez, Nina",Avery Morgan,2030-05-07,2030-05-01,Over 360
+Edgewater Realty,29702616,Fixed Price,Upcoming Revenue Loss,90,76-100,Competitor: Price,0,"Castillo, Mae",Sam Ortiz,2026-12-20,2026-12-01,31-60
+Edgewater Realty,29702623,Fixed Price,Upcoming Revenue Loss,75,51-75,Competitor: Price,0,"Castillo, Mae",Sam Ortiz,2027-02-21,2027-02-01,91-180
+Edgewater Realty,29702637,Recurring Service,Upcoming Revenue Loss,90,76-100,Client: Leadership Change,180,"Castillo, Mae",Sam Ortiz,2026-12-30,2026-12-01,31-60
+Edgewater Realty,29702647,Fixed Price,Upcoming Revenue Loss,90,76-100,Competitor: Price,0,"Castillo, Mae",Sam Ortiz,2028-09-28,2028-09-01,Over 360
+Edgewater Realty,29702672,Block Hours,Upcoming Revenue Loss,100,76-100,Client: Recently Acquired,850,"Castillo, Mae",Sam Ortiz,2029-04-16,2029-04-01,Over 360
+Edgewater Realty,29702704,Fixed Price,Upcoming Revenue Loss,100,76-100,Project: Delivery,0,"Castillo, Mae",Sam Ortiz,2030-08-02,2030-08-01,Over 360
+Fieldstone Foods,29702735,Recurring Service,Level 3,0,No risk,Not Available,497,"Brooks, Owen",Avery Morgan,2026-12-30,2026-12-01,31-60
+Fieldstone Foods,29702745,Recurring Service,Level 3,0,No risk,Not Available,1238,"Brooks, Owen",Avery Morgan,2028-02-02,2028-02-01,Over 360
+Fieldstone Foods,29702764,Recurring Service,Level 3,0,No risk,Not Available,1074,"Brooks, Owen",Avery Morgan,2027-12-19,2027-12-01,Over 360
+Fieldstone Foods,29702793,Recurring Service,Level 3,0,No risk,Not Available,1043,"Brooks, Owen",Avery Morgan,2028-11-02,2028-11-01,Over 360
+Fieldstone Foods,29702817,Block Hours,Level 3,10,1-25,Client: Budget Cuts,187,"Brooks, Owen",Avery Morgan,2029-12-11,2029-12-01,Over 360
+Fieldstone Foods,29702818,Fixed Price,Level 3,0,No risk,Not Available,0,"Brooks, Owen",Avery Morgan,2028-08-28,2028-08-01,Over 360
+Fieldstone Foods,29702831,Fixed Price,Level 3,20,1-25,Project: Delivery,0,"Brooks, Owen",Avery Morgan,2029-11-30,2029-11-01,Over 360
+Fieldstone Foods,29702864,Fixed Price,Level 3,0,No risk,Not Available,0,"Brooks, Owen",Avery Morgan,2030-06-23,2030-06-01,Over 360
+Fieldstone Foods,29702880,Block Hours,Level 3,0,No risk,Not Available,482,"Brooks, Owen",Avery Morgan,2028-01-06,2028-01-01,Over 360
+Fieldstone Foods,29702909,Recurring Service,Level 3,0,No risk,Not Available,562,"Brooks, Owen",Avery Morgan,2030-04-27,2030-04-01,Over 360
+Fieldstone Foods,29702940,Recurring Service,Level 3,0,No risk,Not Available,809,"Brooks, Owen",Avery Morgan,2030-11-03,2030-11-01,Over 360
+Fieldstone Foods,29702968,Block Hours,Level 3,30,26-50,Project: Delivery,1032,"Brooks, Owen",Avery Morgan,2028-12-27,2028-12-01,Over 360
+Fieldstone Foods,29702997,Block Hours,Level 3,0,No risk,Not Available,533,"Brooks, Owen",Avery Morgan,2029-12-01,2029-12-01,Over 360
+Fieldstone Foods,29703025,Fixed Price,Level 3,0,No risk,Not Available,0,"Brooks, Owen",Avery Morgan,2027-09-12,2027-09-01,181-360
+Fieldstone Foods,29703038,Recurring Service,Level 3,0,No risk,Not Available,587,"Brooks, Owen",Avery Morgan,2028-05-22,2028-05-01,Over 360
+Fieldstone Foods,29703040,Recurring Service,Level 3,0,No risk,Not Available,180,"Brooks, Owen",Avery Morgan,2030-09-06,2030-09-01,Over 360
+Fieldstone Foods,29703044,Block Hours,Level 3,50,26-50,Client: Leadership Change,447,"Brooks, Owen",Avery Morgan,2030-12-07,2030-12-01,Over 360
+Greystone Capital,29703075,Recurring Service,Level 2 Others At Risk,50,26-50,Client: Budget Cuts,678,"Alvarez, Nina",Jordan Blake,2029-07-20,2029-07-01,Over 360
+Greystone Capital,29703090,Recurring Service,Level 2 Others At Risk,30,26-50,Support: Service Delivery Issues,1307,"Alvarez, Nina",Jordan Blake,2030-04-14,2030-04-01,Over 360
+Greystone Capital,29703106,Recurring Service,Level 2 Others At Risk,75,51-75,Support: Service Delivery Issues,563,"Alvarez, Nina",Jordan Blake,2028-02-13,2028-02-01,Over 360
+Greystone Capital,29703107,Fixed Price,Level 2 Others At Risk,50,26-50,Client: Moving In-House,0,"Alvarez, Nina",Jordan Blake,2027-01-09,2027-01-01,31-60
+Greystone Capital,29703129,Recurring Service,Level 2 Others At Risk,30,26-50,Client: Leadership Change,1361,"Alvarez, Nina",Jordan Blake,2030-06-18,2030-06-01,Over 360
+Greystone Capital,29703136,Recurring Service,Level 2 Others At Risk,50,26-50,Client: Recently Acquired,3586,"Alvarez, Nina",Jordan Blake,2029-06-08,2029-06-01,Over 360
+Greystone Capital,29703172,Fixed Price,Level 2 Others At Risk,30,26-50,Client: Budget Cuts,0,"Alvarez, Nina",Jordan Blake,2030-11-13,2030-11-01,Over 360
+Greystone Capital,29703207,Recurring Service,Level 2 Others At Risk,75,51-75,Client: Recently Acquired,7476,"Alvarez, Nina",Jordan Blake,2026-12-13,2026-12-01,31-60
+Greystone Capital,29703214,Recurring Service,Level 2 Others At Risk,75,51-75,Competitor: Price,641,"Alvarez, Nina",Jordan Blake,2028-04-06,2028-04-01,Over 360
+Hilltop Family Medicine,29703231,Recurring Service,Level 3,0,No risk,Not Available,722,"Brooks, Owen",Morgan Reyes,2030-07-15,2030-07-01,Over 360
+Hilltop Family Medicine,29703252,Block Hours,Level 3,0,No risk,Not Available,433,"Brooks, Owen",Morgan Reyes,2029-01-14,2029-01-01,Over 360
+Hilltop Family Medicine,29703267,Recurring Service,Level 3,20,1-25,Project: Delivery,749,"Brooks, Owen",Morgan Reyes,2029-02-08,2029-02-01,Over 360
+Hilltop Family Medicine,29703269,Recurring Service,Level 3,20,1-25,Competitor: Price,438,"Brooks, Owen",Morgan Reyes,2029-03-24,2029-03-01,Over 360
+Hilltop Family Medicine,29703303,Recurring Service,Level 3,0,No risk,Not Available,795,"Brooks, Owen",Morgan Reyes,2028-04-06,2028-04-01,Over 360
+Hilltop Family Medicine,29703323,Block Hours,Level 3,20,1-25,Client: Recently Acquired,2398,"Brooks, Owen",Morgan Reyes,2030-01-21,2030-01-01,Over 360
+Hilltop Family Medicine,29703331,Block Hours,Level 3,0,No risk,Not Available,474,"Brooks, Owen",Morgan Reyes,2029-12-20,2029-12-01,Over 360
+Hilltop Family Medicine,29703351,Recurring Service,Level 3,0,No risk,Not Available,2782,"Brooks, Owen",Morgan Reyes,2027-10-20,2027-10-01,181-360
+Hilltop Family Medicine,29703354,Fixed Price,Level 3,20,1-25,Support: Service Delivery Issues,0,"Brooks, Owen",Morgan Reyes,2029-05-16,2029-05-01,Over 360
+Hilltop Family Medicine,29703369,Recurring Service,Level 3,0,No risk,Not Available,3802,"Brooks, Owen",Morgan Reyes,2029-09-10,2029-09-01,Over 360
+Hilltop Family Medicine,29703371,Fixed Price,Level 3,10,1-25,Competitor: Price,0,"Brooks, Owen",Morgan Reyes,2029-10-09,2029-10-01,Over 360
+Hilltop Family Medicine,29703383,Recurring Service,Level 3,0,No risk,Not Available,799,"Brooks, Owen",Morgan Reyes,2030-05-30,2030-05-01,Over 360
+Hilltop Family Medicine,29703420,Fixed Price,Level 3,10,1-25,Client: Budget Cuts,0,"Brooks, Owen",Morgan Reyes,2029-06-07,2029-06-01,Over 360
+Hilltop Family Medicine,29703455,Recurring Service,Level 3,0,No risk,Not Available,1316,"Brooks, Owen",Morgan Reyes,2027-06-02,2027-06-01,181-360
+Hilltop Family Medicine,29703460,Recurring Service,Level 3,0,No risk,Not Available,301,"Brooks, Owen",Morgan Reyes,2030-04-01,2030-04-01,Over 360
+Hilltop Family Medicine,29703483,Block Hours,Level 3,30,26-50,Support: Service Delivery Issues,1428,"Brooks, Owen",Morgan Reyes,2027-08-15,2027-08-01,181-360
+Ivy League Tutoring,29703488,Block Hours,Level 3,0,No risk,Not Available,2034,"Castillo, Mae",Morgan Reyes,2029-12-12,2029-12-01,Over 360
+Ivy League Tutoring,29703526,Block Hours,Level 3,10,1-25,Project: Delivery,647,"Castillo, Mae",Morgan Reyes,2028-01-05,2028-01-01,Over 360
+Ivy League Tutoring,29703544,Block Hours,Level 3,0,No risk,Not Available,114,"Castillo, Mae",Morgan Reyes,2028-06-02,2028-06-01,Over 360
+Ivy League Tutoring,29703545,Recurring Service,Level 3,25,1-25,Support: Service Delivery Issues,1157,"Castillo, Mae",Morgan Reyes,2027-04-11,2027-04-01,91-180
+Ivy League Tutoring,29703563,Recurring Service,Level 3,50,26-50,Project: Delivery,945,"Castillo, Mae",Morgan Reyes,2030-06-11,2030-06-01,Over 360
+Ivy League Tutoring,29703597,Fixed Price,Level 3,25,1-25,Client: Recently Acquired,0,"Castillo, Mae",Morgan Reyes,2029-09-03,2029-09-01,Over 360
+Ivy League Tutoring,29703604,Block Hours,Level 3,20,1-25,Client: Leadership Change,418,"Castillo, Mae",Morgan Reyes,2030-07-31,2030-07-01,Over 360
+Ivy League Tutoring,29703614,Block Hours,Level 3,0,No risk,Not Available,515,"Castillo, Mae",Morgan Reyes,2030-02-17,2030-02-01,Over 360
+Ivy League Tutoring,29703652,Block Hours,Level 3,0,No risk,Not Available,703,"Castillo, Mae",Morgan Reyes,2030-01-16,2030-01-01,Over 360
+Ivy League Tutoring,29703664,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Morgan Reyes,2029-12-08,2029-12-01,Over 360
+Ivy League Tutoring,29703669,Fixed Price,Level 3,30,26-50,Project: Delivery,0,"Castillo, Mae",Morgan Reyes,2030-08-26,2030-08-01,Over 360
+Ivy League Tutoring,29703701,Recurring Service,Level 3,0,No risk,Not Available,2065,"Castillo, Mae",Morgan Reyes,2029-09-30,2029-09-01,Over 360
+Ivy League Tutoring,29703710,Fixed Price,Level 3,0,No risk,Not Available,0,"Castillo, Mae",Morgan Reyes,2028-04-11,2028-04-01,Over 360
+Ivy League Tutoring,29703748,Block Hours,Level 3,20,1-25,Client: Recently Acquired,830,"Castillo, Mae",Morgan Reyes,2027-07-05,2027-07-01,181-360
+Ivy League Tutoring,29703773,Recurring Service,Level 3,20,1-25,Client: Moving In-House,1045,"Castillo, Mae",Morgan Reyes,2027-08-18,2027-08-01,181-360
+Ivy League Tutoring,29703812,Recurring Service,Level 3,30,26-50,Project: Delivery,997,"Castillo, Mae",Morgan Reyes,2030-10-26,2030-10-01,Over 360
+Jade Garden Restaurants,29703824,Recurring Service,Level 2,0,No risk,Not Available,1952,"Castillo, Mae",Drew Patel,2028-12-19,2028-12-01,Over 360
+Jade Garden Restaurants,29703840,Recurring Service,Level 2,0,No risk,Not Available,937,"Castillo, Mae",Drew Patel,2030-07-19,2030-07-01,Over 360
+Jade Garden Restaurants,29703846,Recurring Service,Level 2,20,1-25,Client: Budget Cuts,2510,"Castillo, Mae",Drew Patel,2028-01-02,2028-01-01,Over 360
+Jade Garden Restaurants,29703853,Block Hours,Level 2,0,No risk,Not Available,3664,"Castillo, Mae",Drew Patel,2027-03-26,2027-03-01,91-180
+Jade Garden Restaurants,29703855,Recurring Service,Level 2,0,No risk,Not Available,1560,"Castillo, Mae",Drew Patel,2029-08-01,2029-08-01,Over 360
+Jade Garden Restaurants,29703860,Block Hours,Level 2,20,1-25,Client: Recently Acquired,3220,"Castillo, Mae",Drew Patel,2029-02-28,2029-02-01,Over 360
+Jade Garden Restaurants,29703897,Block Hours,Level 2,25,1-25,Project: Delivery,634,"Castillo, Mae",Drew Patel,2028-10-18,2028-10-01,Over 360
+Jade Garden Restaurants,29703918,Recurring Service,Level 2,25,1-25,Client: Leadership Change,15127,"Castillo, Mae",Drew Patel,2030-11-24,2030-11-01,Over 360
+Jade Garden Restaurants,29703950,Recurring Service,Level 2,0,No risk,Not Available,2101,"Castillo, Mae",Drew Patel,2028-02-25,2028-02-01,Over 360
+Jade Garden Restaurants,29703962,Block Hours,Level 2,0,No risk,Not Available,963,"Castillo, Mae",Drew Patel,2029-10-14,2029-10-01,Over 360
+Jade Garden Restaurants,29703973,Recurring Service,Level 2,0,No risk,Not Available,4121,"Castillo, Mae",Drew Patel,2030-08-20,2030-08-01,Over 360
+Jade Garden Restaurants,29704005,Recurring Service,Level 2,0,No risk,Not Available,367,"Castillo, Mae",Drew Patel,2029-10-11,2029-10-01,Over 360
+Jade Garden Restaurants,29704025,Recurring Service,Level 2,0,No risk,Not Available,512,"Castillo, Mae",Drew Patel,2027-12-03,2027-12-01,Over 360
+Jade Garden Restaurants,29704032,Block Hours,Level 2,20,1-25,Client: Budget Cuts,1815,"Castillo, Mae",Drew Patel,2028-04-26,2028-04-01,Over 360
+Kestrel Security,29704071,Recurring Service,Level 1 Others New,10,1-25,Client: Budget Cuts,2872,"Castillo, Mae",Riley Carter,2030-08-25,2030-08-01,Over 360
+Kestrel Security,29704106,Recurring Service,Level 1 Others New,0,No risk,Not Available,5808,"Castillo, Mae",Riley Carter,2028-03-10,2028-03-01,Over 360
+Kestrel Security,29704127,Fixed Price,Level 1 Others New,20,1-25,Project: Delivery,0,"Castillo, Mae",Riley Carter,2029-01-16,2029-01-01,Over 360
+Kestrel Security,29704157,Recurring Service,Level 1 Others New,0,No risk,Not Available,1608,"Castillo, Mae",Riley Carter,2028-07-17,2028-07-01,Over 360
+Kestrel Security,29704192,Recurring Service,Level 1 Others New,0,No risk,Not Available,3533,"Castillo, Mae",Riley Carter,2029-04-16,2029-04-01,Over 360
+Kestrel Security,29704232,Block Hours,Level 1 Others New,25,1-25,Client: Budget Cuts,2407,"Castillo, Mae",Riley Carter,2029-03-30,2029-03-01,Over 360
+Kestrel Security,29704247,Fixed Price,Level 1 Others New,25,1-25,Client: Leadership Change,0,"Castillo, Mae",Riley Carter,2028-03-15,2028-03-01,Over 360
+Kestrel Security,29704287,Recurring Service,Level 1 Others New,0,No risk,Not Available,5181,"Castillo, Mae",Riley Carter,2029-09-17,2029-09-01,Over 360
+Kestrel Security,29704312,Block Hours,Level 1 Others New,0,No risk,Not Available,1662,"Castillo, Mae",Riley Carter,2029-06-21,2029-06-01,Over 360
+Kestrel Security,29704323,Recurring Service,Level 1 Others New,30,26-50,Support: Service Delivery Issues,3989,"Castillo, Mae",Riley Carter,2030-04-18,2030-04-01,Over 360
+Lumen Optics,29704350,Recurring Service,Upcoming Revenue Loss,100,76-100,Client: Leadership Change,532,"Castillo, Mae",Casey Ellison,2029-01-11,2029-01-01,Over 360
+Lumen Optics,29704362,Block Hours,Upcoming Revenue Loss,75,51-75,Client: Budget Cuts,556,"Castillo, Mae",Casey Ellison,2027-03-06,2027-03-01,91-180
+Lumen Optics,29704373,Recurring Service,Upcoming Revenue Loss,90,76-100,Client: Budget Cuts,739,"Castillo, Mae",Casey Ellison,2027-08-25,2027-08-01,181-360
+Midtown Pharmacy,29704378,Recurring Service,Level 5,10,1-25,Support: Service Delivery Issues,642,"Castillo, Mae",Sam Ortiz,2027-11-15,2027-11-01,Over 360
+Midtown Pharmacy,29704398,Recurring Service,Level 5,75,51-75,Client: Leadership Change,31,"Castillo, Mae",Sam Ortiz,2030-12-15,2030-12-01,Over 360
+Midtown Pharmacy,29704435,Recurring Service,Level 5,0,No risk,Not Available,242,"Castillo, Mae",Sam Ortiz,2030-09-11,2030-09-01,Over 360
+Midtown Pharmacy,29704450,Recurring Service,Level 5,0,No risk,Not Available,874,"Castillo, Mae",Sam Ortiz,2029-07-16,2029-07-01,Over 360
+Midtown Pharmacy,29704451,Recurring Service,Level 5,0,No risk,Not Available,1093,"Castillo, Mae",Sam Ortiz,2028-02-05,2028-02-01,Over 360
+Midtown Pharmacy,29704480,Recurring Service,Level 5,0,No risk,Not Available,77,"Castillo, Mae",Sam Ortiz,2028-04-15,2028-04-01,Over 360
+Midtown Pharmacy,29704488,Fixed Price,Level 5,25,1-25,Competitor: Price,0,"Castillo, Mae",Sam Ortiz,2030-06-26,2030-06-01,Over 360
+Midtown Pharmacy,29704525,Block Hours,Level 5,0,No risk,Not Available,213,"Castillo, Mae",Sam Ortiz,2029-05-06,2029-05-01,Over 360
+Midtown Pharmacy,29704537,Recurring Service,Level 5,0,No risk,Not Available,1388,"Castillo, Mae",Sam Ortiz,2029-08-15,2029-08-01,Over 360
+Midtown Pharmacy,29704560,Recurring Service,Level 5,50,26-50,Client: Leadership Change,108,"Castillo, Mae",Sam Ortiz,2029-12-22,2029-12-01,Over 360
+Midtown Pharmacy,29704594,Recurring Service,Level 5,0,No risk,Not Available,46,"Castillo, Mae",Sam Ortiz,2028-01-21,2028-01-01,Over 360
+Nimbus Cloud Partners,29704630,Recurring Service,Level 2 Others At Risk,75,51-75,Client: Moving In-House,1032,"Castillo, Mae",Morgan Reyes,2027-08-19,2027-08-01,181-360
+Nimbus Cloud Partners,29704635,Recurring Service,Level 2 Others At Risk,75,51-75,Support: Service Delivery Issues,1071,"Castillo, Mae",Morgan Reyes,2028-11-09,2028-11-01,Over 360
+Nimbus Cloud Partners,29704664,Block Hours,Level 2 Others At Risk,75,51-75,Support: Service Delivery Issues,1936,"Castillo, Mae",Morgan Reyes,2029-08-04,2029-08-01,Over 360
+Nimbus Cloud Partners,29704700,Block Hours,Level 2 Others At Risk,30,26-50,Competitor: Price,1401,"Castillo, Mae",Morgan Reyes,2027-09-20,2027-09-01,181-360
+Nimbus Cloud Partners,29704737,Block Hours,Level 2 Others At Risk,75,51-75,Project: Delivery,717,"Castillo, Mae",Morgan Reyes,2027-12-04,2027-12-01,Over 360
+Nimbus Cloud Partners,29704776,Block Hours,Level 2 Others At Risk,30,26-50,Competitor: Price,364,"Castillo, Mae",Morgan Reyes,2029-09-05,2029-09-01,Over 360
+Nimbus Cloud Partners,29704801,Fixed Price,Level 2 Others At Risk,75,51-75,Client: Moving In-House,0,"Castillo, Mae",Morgan Reyes,2028-07-10,2028-07-01,Over 360
+Nimbus Cloud Partners,29704822,Recurring Service,Level 2 Others At Risk,30,26-50,Client: Recently Acquired,469,"Castillo, Mae",Morgan Reyes,2027-11-02,2027-11-01,181-360
+Nimbus Cloud Partners,29704829,Block Hours,Level 2 Others At Risk,75,51-75,Client: Budget Cuts,2874,"Castillo, Mae",Morgan Reyes,2028-10-02,2028-10-01,Over 360
+Nimbus Cloud Partners,29704853,Recurring Service,Level 2 Others At Risk,75,51-75,Support: Service Delivery Issues,1051,"Castillo, Mae",Morgan Reyes,2029-04-06,2029-04-01,Over 360
+Nimbus Cloud Partners,29704873,Block Hours,Level 2 Others At Risk,30,26-50,Project: Delivery,1482,"Castillo, Mae",Morgan Reyes,2029-07-01,2029-07-01,Over 360
+Orchard Valley Farms,29704880,Fixed Price,Level 1,0,No risk,Not Available,0,"Alvarez, Nina",Casey Ellison,2027-04-14,2027-04-01,91-180
+Orchard Valley Farms,29704886,Block Hours,Level 1,0,No risk,Not Available,10061,"Alvarez, Nina",Casey Ellison,2027-07-13,2027-07-01,181-360
+Orchard Valley Farms,29704919,Recurring Service,Level 1,0,No risk,Not Available,8603,"Alvarez, Nina",Casey Ellison,2027-10-21,2027-10-01,181-360
+Orchard Valley Farms,29704958,Recurring Service,Level 1,0,No risk,Not Available,3619,"Alvarez, Nina",Casey Ellison,2030-11-20,2030-11-01,Over 360
+Orchard Valley Farms,29704998,Recurring Service,Level 1,0,No risk,Not Available,2552,"Alvarez, Nina",Casey Ellison,2029-07-02,2029-07-01,Over 360
+Orchard Valley Farms,29705025,Recurring Service,Level 1,0,No risk,Not Available,1272,"Alvarez, Nina",Casey Ellison,2027-09-04,2027-09-01,181-360
+Orchard Valley Farms,29705048,Recurring Service,Level 1,0,No risk,Not Available,11992,"Alvarez, Nina",Casey Ellison,2029-07-13,2029-07-01,Over 360
+Orchard Valley Farms,29705053,Recurring Service,Level 1,50,26-50,Competitor: Price,2534,"Alvarez, Nina",Casey Ellison,2029-04-25,2029-04-01,Over 360
+Orchard Valley Farms,29705066,Block Hours,Level 1,0,No risk,Not Available,2813,"Alvarez, Nina",Casey Ellison,2027-03-27,2027-03-01,91-180
+Orchard Valley Farms,29705087,Recurring Service,Level 1,0,No risk,Not Available,1868,"Alvarez, Nina",Casey Ellison,2029-08-13,2029-08-01,Over 360
+Orchard Valley Farms,29705125,Recurring Service,Level 1,0,No risk,Not Available,588,"Alvarez, Nina",Casey Ellison,2030-03-10,2030-03-01,Over 360
+Orchard Valley Farms,29705154,Recurring Service,Level 1,10,1-25,Support: Service Delivery Issues,1583,"Alvarez, Nina",Casey Ellison,2030-06-15,2030-06-01,Over 360
+Pioneer Trust Bank,29705159,Block Hours,Departed,90,76-100,Client: Recently Acquired,177,"Castillo, Mae",Taylor Quinn,2029-11-28,2029-11-01,Over 360
+Pioneer Trust Bank,29705176,Recurring Service,Departed,100,76-100,Client: Leadership Change,190,"Castillo, Mae",Taylor Quinn,2027-08-03,2027-08-01,181-360
+Pioneer Trust Bank,29705196,Recurring Service,Departed,100,76-100,Competitor: Price,1897,"Castillo, Mae",Taylor Quinn,2029-09-06,2029-09-01,Over 360
+Pioneer Trust Bank,29705214,Fixed Price,Departed,75,51-75,Client: Budget Cuts,0,"Castillo, Mae",Taylor Quinn,2028-03-07,2028-03-01,Over 360
+Pioneer Trust Bank,29705246,Recurring Service,Departed,90,76-100,Support: Service Delivery Issues,340,"Castillo, Mae",Taylor Quinn,2030-06-21,2030-06-01,Over 360
+Pioneer Trust Bank,29705256,Recurring Service,Departed,75,51-75,Client: Moving In-House,424,"Castillo, Mae",Taylor Quinn,2027-03-22,2027-03-01,91-180
+Pioneer Trust Bank,29705272,Block Hours,Departed,90,76-100,Project: Delivery,164,"Castillo, Mae",Taylor Quinn,2028-02-22,2028-02-01,Over 360
+Pioneer Trust Bank,29705302,Recurring Service,Departed,75,51-75,Client: Moving In-House,543,"Castillo, Mae",Taylor Quinn,2028-10-02,2028-10-01,Over 360
+Pioneer Trust Bank,29705310,Recurring Service,Departed,75,51-75,Client: Moving In-House,309,"Castillo, Mae",Taylor Quinn,2029-03-12,2029-03-01,Over 360
+Pioneer Trust Bank,29705338,Recurring Service,Departed,50,26-50,Competitor: Price,469,"Castillo, Mae",Taylor Quinn,2029-10-13,2029-10-01,Over 360
+Pioneer Trust Bank,29705346,Recurring Service,Departed,90,76-100,Client: Moving In-House,1510,"Castillo, Mae",Taylor Quinn,2030-03-06,2030-03-01,Over 360
+Pioneer Trust Bank,29705382,Block Hours,Departed,75,51-75,Client: Recently Acquired,1205,"Castillo, Mae",Taylor Quinn,2027-11-29,2027-11-01,Over 360
+Pioneer Trust Bank,29705386,Fixed Price,Departed,100,76-100,Project: Delivery,0,"Castillo, Mae",Taylor Quinn,2028-02-01,2028-02-01,Over 360
+Pioneer Trust Bank,29705410,Block Hours,Departed,90,76-100,Project: Delivery,714,"Castillo, Mae",Taylor Quinn,2027-06-21,2027-06-01,181-360
+Pioneer Trust Bank,29705435,Recurring Service,Departed,100,76-100,Client: Moving In-House,127,"Castillo, Mae",Taylor Quinn,2030-04-12,2030-04-01,Over 360
+Riverside Auto Group,29705452,Block Hours,Level 2,0,No risk,Not Available,635,"Castillo, Mae",Casey Ellison,2030-03-01,2030-03-01,Over 360
+Riverside Auto Group,29705467,Fixed Price,Level 2,0,No risk,Not Available,0,"Castillo, Mae",Casey Ellison,2027-10-04,2027-10-01,181-360
+Riverside Auto Group,29705482,Fixed Price,Level 2,30,26-50,Client: Leadership Change,0,"Castillo, Mae",Casey Ellison,2030-05-09,2030-05-01,Over 360
+Riverside Auto Group,29705488,Recurring Service,Level 2,10,1-25,Client: Moving In-House,3302,"Castillo, Mae",Casey Ellison,2029-07-28,2029-07-01,Over 360
+Riverside Auto Group,29705507,Fixed Price,Level 2,0,No risk,Not Available,0,"Castillo, Mae",Casey Ellison,2027-09-14,2027-09-01,181-360
+Riverside Auto Group,29705519,Fixed Price,Level 2,0,No risk,Not Available,0,"Castillo, Mae",Casey Ellison,2030-05-10,2030-05-01,Over 360
+Riverside Auto Group,29705539,Recurring Service,Level 2,0,No risk,Not Available,958,"Castillo, Mae",Casey Ellison,2028-04-18,2028-04-01,Over 360
+Riverside Auto Group,29705576,Fixed Price,Level 2,0,No risk,Not Available,0,"Castillo, Mae",Casey Ellison,2027-09-05,2027-09-01,181-360
+Riverside Auto Group,29705580,Recurring Service,Level 2,0,No risk,Not Available,1003,"Castillo, Mae",Casey Ellison,2029-09-21,2029-09-01,Over 360
+Riverside Auto Group,29705583,Recurring Service,Level 2,25,1-25,Support: Service Delivery Issues,889,"Castillo, Mae",Casey Ellison,2029-10-30,2029-10-01,Over 360
+Riverside Auto Group,29705622,Recurring Service,Level 2,25,1-25,Client: Moving In-House,1368,"Castillo, Mae",Casey Ellison,2027-09-06,2027-09-01,181-360
+Riverside Auto Group,29705657,Recurring Service,Level 2,0,No risk,Not Available,806,"Castillo, Mae",Casey Ellison,2030-03-15,2030-03-01,Over 360
+Riverside Auto Group,29705670,Recurring Service,Level 2,0,No risk,Not Available,2053,"Castillo, Mae",Casey Ellison,2027-05-09,2027-05-01,91-180
+Riverside Auto Group,29705674,Recurring Service,Level 2,0,No risk,Not Available,1715,"Castillo, Mae",Casey Ellison,2027-03-23,2027-03-01,91-180
+Riverside Auto Group,29705713,Recurring Service,Level 2,0,No risk,Not Available,1432,"Castillo, Mae",Casey Ellison,2030-03-14,2030-03-01,Over 360
+Sagebrush Ranch Supply,29705728,Block Hours,Level 2 Others At Risk,50,26-50,Competitor: Price,5124,"Castillo, Mae",Riley Carter,2027-07-21,2027-07-01,181-360
+Sagebrush Ranch Supply,29705736,Recurring Service,Level 2 Others At Risk,30,26-50,Client: Moving In-House,660,"Castillo, Mae",Riley Carter,2030-10-09,2030-10-01,Over 360
+Sagebrush Ranch Supply,29705744,Fixed Price,Level 2 Others At Risk,50,26-50,Client: Recently Acquired,0,"Castillo, Mae",Riley Carter,2027-04-10,2027-04-01,91-180
+Sagebrush Ranch Supply,29705778,Fixed Price,Level 2 Others At Risk,30,26-50,Support: Service Delivery Issues,0,"Castillo, Mae",Riley Carter,2028-06-04,2028-06-01,Over 360
+Sagebrush Ranch Supply,29705807,Fixed Price,Level 2 Others At Risk,75,51-75,Client: Budget Cuts,0,"Castillo, Mae",Riley Carter,2030-07-06,2030-07-01,Over 360
+Sagebrush Ranch Supply,29705833,Recurring Service,Level 2 Others At Risk,30,26-50,Client: Leadership Change,2742,"Castillo, Mae",Riley Carter,2028-11-26,2028-11-01,Over 360
+Timberline Construction,29705860,Block Hours,Level 1,25,1-25,Client: Budget Cuts,6779,"Alvarez, Nina",Avery Morgan,2028-01-21,2028-01-01,Over 360
+Timberline Construction,29705898,Recurring Service,Level 1,0,No risk,Not Available,6761,"Alvarez, Nina",Avery Morgan,2030-11-20,2030-11-01,Over 360
+Timberline Construction,29705928,Recurring Service,Level 1,0,No risk,Not Available,1848,"Alvarez, Nina",Avery Morgan,2027-12-15,2027-12-01,Over 360
+Timberline Construction,29705951,Fixed Price,Level 1,0,No risk,Not Available,0,"Alvarez, Nina",Avery Morgan,2028-01-25,2028-01-01,Over 360
+Timberline Construction,29705967,Recurring Service,Level 1,0,No risk,Not Available,8286,"Alvarez, Nina",Avery Morgan,2026-11-26,2026-11-01,0-30
+Timberline Construction,29705976,Recurring Service,Level 1,0,No risk,Not Available,1597,"Alvarez, Nina",Avery Morgan,2027-11-04,2027-11-01,181-360
+Timberline Construction,29705981,Recurring Service,Level 1,0,No risk,Not Available,1563,"Alvarez, Nina",Avery Morgan,2030-04-11,2030-04-01,Over 360
+Timberline Construction,29705990,Recurring Service,Level 1,0,No risk,Not Available,5708,"Alvarez, Nina",Avery Morgan,2027-10-29,2027-10-01,181-360
+Timberline Construction,29706029,Recurring Service,Level 1,0,No risk,Not Available,1154,"Alvarez, Nina",Avery Morgan,2028-03-23,2028-03-01,Over 360
+Timberline Construction,29706036,Recurring Service,Level 1,0,No risk,Not Available,9095,"Alvarez, Nina",Avery Morgan,2030-02-06,2030-02-01,Over 360
+Timberline Construction,29706051,Fixed Price,Level 1,0,No risk,Not Available,0,"Alvarez, Nina",Avery Morgan,2029-11-24,2029-11-01,Over 360
+Timberline Construction,29706059,Block Hours,Level 1,10,1-25,Competitor: Price,2058,"Alvarez, Nina",Avery Morgan,2028-03-14,2028-03-01,Over 360
+Timberline Construction,29706062,Recurring Service,Level 1,0,No risk,Not Available,3501,"Alvarez, Nina",Avery Morgan,2030-09-07,2030-09-01,Over 360
+Vista Eye Center,29706083,Fixed Price,Upcoming Revenue Loss,90,76-100,Client: Budget Cuts,0,"Castillo, Mae",Avery Morgan,2027-02-13,2027-02-01,91-180
+Vista Eye Center,29706084,Block Hours,Upcoming Revenue Loss,75,51-75,Client: Leadership Change,669,"Castillo, Mae",Avery Morgan,2028-08-23,2028-08-01,Over 360
+Vista Eye Center,29706110,Recurring Service,Upcoming Revenue Loss,90,76-100,Client: Recently Acquired,932,"Castillo, Mae",Avery Morgan,2027-03-11,2027-03-01,91-180
+Vista Eye Center,29706129,Recurring Service,Upcoming Revenue Loss,100,76-100,Project: Delivery,763,"Castillo, Mae",Avery Morgan,2027-03-06,2027-03-01,91-180
+Vista Eye Center,29706146,Fixed Price,Upcoming Revenue Loss,50,26-50,Client: Moving In-House,0,"Castillo, Mae",Avery Morgan,2026-12-07,2026-12-01,0-30
+Vista Eye Center,29706169,Fixed Price,Upcoming Revenue Loss,75,51-75,Client: Recently Acquired,0,"Castillo, Mae",Avery Morgan,2029-07-21,2029-07-01,Over 360
+Vista Eye Center,29706192,Block Hours,Upcoming Revenue Loss,100,76-100,Competitor: Price,2265,"Castillo, Mae",Avery Morgan,2029-01-06,2029-01-01,Over 360
+Vista Eye Center,29706216,Recurring Service,Upcoming Revenue Loss,75,51-75,Client: Recently Acquired,137,"Castillo, Mae",Avery Morgan,2027-03-09,2027-03-01,91-180
+Vista Eye Center,29706236,Recurring Service,Upcoming Revenue Loss,90,76-100,Client: Moving In-House,844,"Castillo, Mae",Avery Morgan,2027-01-09,2027-01-01,31-60
+Vista Eye Center,29706261,Block Hours,Upcoming Revenue Loss,50,26-50,Client: Budget Cuts,912,"Castillo, Mae",Avery Morgan,2026-11-21,2026-11-01,0-30
+Vista Eye Center,29706280,Block Hours,Upcoming Revenue Loss,100,76-100,Client: Recently Acquired,1050,"Castillo, Mae",Avery Morgan,2028-08-26,2028-08-01,Over 360

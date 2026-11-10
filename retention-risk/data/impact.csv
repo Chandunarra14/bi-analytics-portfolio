@@ -1,0 +1,16 @@
+kind,label,value,before,after,unit,better,note
+hero,Manual risk review effort saved,1.5,,,work-weeks every month,,"Account risk lived in CSM notes and a shared spreadsheet that took about 15 hours a week to update and roll up. Now risk, reasons and MRR at stake are in one live view."
+stat,Hours saved per year,728,,,CSMs + account owners,,
+stat,MRR saved since go-live,$86K,,,At-risk MRR kept after intervention,,
+stat,Accounts kept since go-live,88,,,"Flagged, then retained",,
+stat,Risk reasons tracked,7,,,Was free-text notes,,
+ba,Flagged accounts saved,,20.0,61.7,%,higher,
+ba,MRR lost per month,,22627,10826,$,lower,
+ba,Accounts lost per month,,6.3,2.3,,lower,
+ba,Days from risk flag to action,,25.3,6.7,days,lower,
+client,"At-risk clients get a call within {value} of being flagged, not weeks later",7 days,,,⏱,,
+client,{value} accounts kept in the last 3 months that were flagged as likely to leave,35,,,✓,,
+client,"Service delivery issues behind risk are routed to the service desk with the account, cutting repeat complaints. MRR kept since go-live: {value}",$86K,,,↑,,
+process,Weekly risk roll-up,,15,1,hours / week,,"Risk probability, reasons and MRR per contract in one table"
+process,Expiring revenue view,,Month end,Live,,,Contracts and MRR expiring by month and classification
+process,CSM accountability,,None,Per CSM,,,Retention opportunity MRR by CSM

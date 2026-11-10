@@ -499,3 +499,74 @@ def ar():
 if __name__ == "__main__":
     utilization(); server_eol(); psr(); projects(); contracts(); ar()
     print("done")
+
+
+# ------------------------------------------------------------------ 7. Retention risk
+def retention():
+    R = random.Random(11)
+    F = "retention-risk"
+    owners = ["Alvarez, Nina", "Brooks, Owen", "Castillo, Mae"]
+    csms = ["Avery Morgan", "Jordan Blake", "Riley Carter", "Taylor Quinn", "Casey Ellison", "Morgan Reyes", "Drew Patel", "Sam Ortiz"]
+    classes = [("Level 1", 10), ("Level 2", 8), ("Level 3", 14), ("Level 4", 11), ("Level 5", 9), ("Upcoming Revenue Loss", 6),
+               ("Level 1 Others At Risk", 2), ("Level 2 Others At Risk", 2), ("Level 3 Others At Risk", 2), ("Departed", 2), ("Contact Finance", 3), ("Level 1 Others New", 2)]
+    reasons = ["Support: Service Delivery Issues", "Client: Recently Acquired", "Project: Delivery", "Client: Budget Cuts", "Competitor: Price", "Client: Leadership Change", "Client: Moving In-House"]
+    types = ["Recurring Service", "Recurring Service", "Recurring Service", "Block Hours", "Fixed Price"]
+    rows = []
+    cid = 29690000
+    for a in CLIENTS:
+        cls = R.choices([c for c, _ in classes], [w for _, w in classes])[0]
+        csm, own = R.choice(csms), R.choice(owners)
+        size = {"Level 1": 9.2, "Level 2": 8.4, "Level 3": 7.8, "Level 4": 7.1, "Level 5": 6.4}.get(cls.split(" Others")[0], 7.5)
+        risky = "Risk" in cls or cls in ("Upcoming Revenue Loss", "Departed")
+        for _ in range(R.randint(2, 18)):
+            cid += R.randint(1, 40)
+            t = R.choice(types)
+            mrr = round(R.lognormvariate(size - 1.2, 0.8)) if t != "Fixed Price" else 0
+            if risky:
+                prob = R.choice([50, 75, 75, 90, 100]) if cls in ("Upcoming Revenue Loss", "Departed") else R.choice([30, 50, 75])
+            else:
+                prob = R.choices([0, 10, 20, 25, 30, 50, 75], [60, 8, 10, 8, 6, 5, 3])[0]
+            reason = R.choice(reasons) if prob else "Not Available"
+            end = TODAY + dt.timedelta(days=R.randint(-5, 1500))
+            if cls == "Upcoming Revenue Loss" and R.random() < 0.6:
+                end = TODAY + dt.timedelta(days=R.randint(5, 120))
+            dl = (end - TODAY).days
+            aging = "0-30" if dl <= 30 else "31-60" if dl <= 60 else "61-90" if dl <= 90 else "91-180" if dl <= 180 else "181-360" if dl <= 360 else "Over 360"
+            risk = "" if prob == 0 else "1-25" if prob <= 25 else "26-50" if prob <= 50 else "51-75" if prob <= 75 else "76-100"
+            rows.append({"account": a, "contract_id": cid, "type": t, "classification": cls, "risk_prob": prob, "risk_level": risk or "No risk", "reason": reason,
+                         "mrr": mrr, "owner": own, "csm": csm, "end": end.isoformat(), "end_month": dt.date(end.year, end.month, 1).isoformat(), "aging": aging})
+    write(F, "contracts.csv", rows)
+    hist = []
+    for i, mo in enumerate(MONTHS):
+        r = ramp(i, 3, 5)
+        at_risk = round(R.uniform(140, 175) * 1000)
+        saved_pct = 0.22 + 0.38 * r + R.uniform(-0.04, 0.04)
+        lost = round(at_risk * (0.42 - 0.24 * r + R.uniform(-0.03, 0.03)) * 0.35)
+        hist.append({"month": mo.isoformat(), "at_risk_mrr": at_risk, "saved_mrr": round(at_risk * saved_pct * 0.12), "lost_mrr": lost,
+                     "accounts_saved": int(3 + 9 * r + R.uniform(-1, 2)), "accounts_lost": int(max(1, 7 - 4 * r + R.uniform(-1, 1))),
+                     "days_flag_to_action": round(24 - 17 * r + R.uniform(-2, 2), 1)})
+    write(F, "monthly_retention.csv", hist)
+    b, a = hist[:3], hist[-3:]
+    m = lambda xs, k: mean(x[k] for x in xs)
+    saved_after = sum(x["saved_mrr"] for x in hist[3:])
+    impact(F, [
+        dict(kind="hero", label="Manual risk review effort saved", value="1.5", unit="work-weeks every month", note="Account risk lived in CSM notes and a shared spreadsheet that took about 15 hours a week to update and roll up. Now risk, reasons and MRR at stake are in one live view."),
+        dict(kind="stat", label="Hours saved per year", value=f"{(15-1)*52:,}", unit="CSMs + account owners"),
+        dict(kind="stat", label="MRR saved since go-live", value=f"${saved_after/1000:,.0f}K", unit="At-risk MRR kept after intervention"),
+        dict(kind="stat", label="Accounts kept since go-live", value=str(sum(x["accounts_saved"] for x in hist[3:])), unit="Flagged, then retained"),
+        dict(kind="stat", label="Risk reasons tracked", value=str(len(reasons)), unit="Was free-text notes"),
+        dict(kind="ba", label="Flagged accounts saved", before=round(m(b, "saved_mrr") / m(b, "at_risk_mrr") / 0.12 * 100, 1), after=round(m(a, "saved_mrr") / m(a, "at_risk_mrr") / 0.12 * 100, 1), unit="%", better="higher"),
+        dict(kind="ba", label="MRR lost per month", before=round(m(b, "lost_mrr")), after=round(m(a, "lost_mrr")), unit="$", better="lower"),
+        dict(kind="ba", label="Accounts lost per month", before=round(m(b, "accounts_lost"), 1), after=round(m(a, "accounts_lost"), 1), unit="", better="lower"),
+        dict(kind="ba", label="Days from risk flag to action", before=round(m(b, "days_flag_to_action"), 1), after=round(m(a, "days_flag_to_action"), 1), unit="days", better="lower"),
+        dict(kind="client", label="At-risk clients get a call within {value} of being flagged, not weeks later", value=f"{m(a,'days_flag_to_action'):.0f} days", unit="⏱"),
+        dict(kind="client", label="{value} accounts kept in the last 3 months that were flagged as likely to leave", value=str(sum(x['accounts_saved'] for x in a)), unit="✓"),
+        dict(kind="client", label="Service delivery issues behind risk are routed to the service desk with the account, cutting repeat complaints. MRR kept since go-live: {value}", value=f"${saved_after/1000:,.0f}K", unit="↑"),
+        dict(kind="process", label="Weekly risk roll-up", before="15", after="1", unit="hours / week", note="Risk probability, reasons and MRR per contract in one table"),
+        dict(kind="process", label="Expiring revenue view", before="Month end", after="Live", unit="", note="Contracts and MRR expiring by month and classification"),
+        dict(kind="process", label="CSM accountability", before="None", after="Per CSM", unit="", note="Retention opportunity MRR by CSM"),
+    ])
+
+
+if __name__ == "__main__":
+    retention()

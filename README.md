@@ -14,6 +14,7 @@ Every dashboard has slicers, click-to-filter visuals (cross-filtering like Power
 | [PSR Pipeline](psr-pipeline/) | Professional services requests, scoping, win/loss, Autotask vs Salesforce | [Open](https://chandunarra14.github.io/bi-analytics-portfolio/psr-pipeline/) |
 | [Contracts & Renewals](contracts-renewals/) | Active contracts, expirations, churn vs renewal, top accounts | [Open](https://chandunarra14.github.io/bi-analytics-portfolio/contracts-renewals/) |
 | [Accounts Receivable](accounts-receivable/) | Aging, collections performance, customer aging detail | [Open](https://chandunarra14.github.io/bi-analytics-portfolio/accounts-receivable/) |
+| [Retention Risk](retention-risk/) | Churn probability, at-risk MRR by CSM and reason, expiring contracts | [Open](https://chandunarra14.github.io/bi-analytics-portfolio/retention-risk/) |
 | [Server End-of-Life Pipeline](server-eol/) | EOL servers by client matched to refresh campaign and pipeline | [Open](https://chandunarra14.github.io/bi-analytics-portfolio/server-eol/) |
 
 ## How it's built
