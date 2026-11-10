@@ -345,7 +345,7 @@
     const r = all.filter(F.levelOk).sort((p, q) => q.ratio - p.ratio).slice(0, 10);
     if (!r.length) return empty(el);
     S.hbars(el, { data: r, labelKey: 'account', value: 'ratio', fmt: (v) => d3.format('.2f')(v), color, highlight: (x) => x.ratio >= q75, muteOthers: true,
-      right: (x) => S.fmtUsd(n(x.mrr)), rightHead: 'MRR', tipExtra: (x) => [`MRR: ${S.fmtUsd(n(x.mrr))}`, `${label}: ${S.fmtInt(n(x[key]))}`],
+      valueLabel: 'Ratio: ',
       label: `Clients with the highest ${label} to MRR ratio`, onPick: pickAcct });
   };
   dash.draw('ac-neg-sr', negDraw('service_requests', 'Service requests', C(1)));
