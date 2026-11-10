@@ -237,28 +237,33 @@
   SD.hbars = function (el, cfg) {
     const data = cfg.data;
     const rowH = 26;
-    const H = data.length * rowH + 8;
+    const top = cfg.rightHead ? 16 : 0;
+    const H = data.length * rowH + 8 + top;
     const { svg, W } = svgFor(el, H, cfg.label);
     const fmt = cfg.fmt || SD.fmtK;
+    const rightW = cfg.right ? measure(svg, data.map(cfg.right).concat([cfg.rightHead || ''])) + 14 : 0;
+    if (cfg.rightHead) svg.append('text').attr('class', 'sd-axis-t').attr('x', W).attr('y', 11).attr('text-anchor', 'end').style('font-weight', 600).text(cfg.rightHead);
     const labW = Math.min(W * 0.42, measure(svg, data.map((d) => d[cfg.labelKey])) + 10);
     const valW = measure(svg, data.map((d) => fmt(SD.n(d[cfg.value])))) + 10;
-    const x = d3.scaleLinear().domain([0, d3.max(data, (d) => SD.n(d[cfg.value]))]).range([0, W - labW - valW - 4]);
+    const x = d3.scaleLinear().domain([0, d3.max(data, (d) => SD.n(d[cfg.value]))]).range([0, Math.max(10, W - labW - valW - 4 - rightW)]);
     const tip = SD.tip(el);
     const first = !el.dataset.drawn && !reduce();
     data.forEach((d, i) => {
-      const yy = i * rowH + 4;
+      const yy = i * rowH + 4 + top;
       const lab = svg.append('text').attr('class', 'sd-axis-t').attr('x', labW - 8).attr('y', yy + rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'end').text(d[cfg.labelKey]);
       let s = d[cfg.labelKey];
       while (lab.node().getComputedTextLength() > labW - 10 && s.length > 4) { s = s.slice(0, -2); lab.text(s + '…'); }
       const v = SD.n(d[cfg.value]);
       const r = svg.append('rect').attr('x', labW).attr('y', yy + 4).attr('height', rowH - 10).attr('rx', 3)
         .style('fill', cfg.highlight && cfg.highlight(d) ? 'var(--cds-chart-status-critical)' : cfg.color)
-        .on('pointermove', (ev) => tip.show(ev, [d[cfg.labelKey], `${cfg.valueLabel || ''}${fmt(v)}`]))
+        .style('opacity', cfg.muteOthers && !(cfg.highlight && cfg.highlight(d)) ? 0.45 : null)
+        .on('pointermove', (ev) => tip.show(ev, [d[cfg.labelKey], `${cfg.valueLabel || ''}${fmt(v)}`, ...(cfg.tipExtra ? cfg.tipExtra(d) : [])]))
         .on('pointerleave', () => tip.hide())
         .on('click', () => { if (cfg.onPick) { tip.hide(); cfg.onPick(d); } })
         .style('cursor', cfg.onPick ? 'pointer' : null);
       if (first) r.attr('width', 0).transition().duration(700).delay(i * 25).attr('width', x(v)); else r.attr('width', x(v));
       svg.append('text').attr('class', 'sd-val').attr('x', labW + x(v) + 6).attr('y', yy + rowH / 2).attr('dy', '0.35em').text(fmt(v));
+      if (cfg.right) svg.append('text').attr('class', 'sd-axis-t').attr('x', W).attr('y', yy + rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'end').text(cfg.right(d));
     });
     el.dataset.drawn = '1';
   };

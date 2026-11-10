@@ -133,6 +133,7 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
 .sd-reset { font: inherit; font-size: 13px; border: 1px solid var(--color-border-line); background: none; color: var(--color-fg-muted); border-radius: 8px; padding: 7px 14px; cursor: pointer; margin-left: auto; }
 .sd-reset:hover { color: var(--color-fg); border-color: var(--color-fg-muted); }
 .sd-pick { cursor: pointer; }
+.sd-tag { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; margin-right: 4px; }
 .sd-donut-v, .sd-donut-l { pointer-events: none; }
 .sd-legend .sd-pick:hover, .sd-heat .rl.sd-pick:hover { color: var(--color-fg); text-decoration: underline; }
 .sd-ringcard.sd-pick { border-radius: 10px; padding: 4px; }
@@ -280,11 +281,14 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
       <div class='sd-card sd-c12' id='ac-alerts'><h3>Top 10 clients by alerts</h3><p class='sd-note'>Last 12 months.</p><div style='position: relative' data-draw='ac-alerts' data-source='accounts'></div></div>
     </div>
     <div class='sd-grid'>
-      <div class='sd-card sd-c4' id='ac-ratio-sr'><h3>MRR ratio by service requests</h3><p class='sd-note'>Top 10. Service requests per $ of quarterly MRR.</p><div style='position: relative' data-draw='ac-ratio-sr' data-source='accounts'></div></div>
-      <div class='sd-card sd-c4' id='ac-ratio-inc'><h3>MRR ratio by incidents</h3><p class='sd-note'>Top 10. Incidents per $ of quarterly MRR.</p><div style='position: relative' data-draw='ac-ratio-inc' data-source='accounts'></div></div>
-      <div class='sd-card sd-c4' id='ac-ratio-alert'><h3>MRR ratio by alerts</h3><p class='sd-note'>Top 10. Alerts per $ of quarterly MRR.</p><div style='position: relative' data-draw='ac-ratio-alert' data-source='accounts'></div></div>
+      <div class='sd-card sd-c4' id='ac-neg-sr'><h3>Low-MRR clients with the most service requests</h3><p class='sd-note'>Clients below median MRR, top 10 by requests.</p><div style='position: relative' data-draw='ac-neg-sr' data-source='accounts'></div></div>
+      <div class='sd-card sd-c4' id='ac-neg-inc'><h3>Low-MRR clients with the most incidents</h3><p class='sd-note'>Clients below median MRR, top 10 by incidents.</p><div style='position: relative' data-draw='ac-neg-inc' data-source='accounts'></div></div>
+      <div class='sd-card sd-c4' id='ac-neg-alert'><h3>Low-MRR clients with the most alerts</h3><p class='sd-note'>Clients below median MRR, top 10 by alerts.</p><div style='position: relative' data-draw='ac-neg-alert' data-source='accounts'></div></div>
     </div>
-    <p class='sd-note' style='margin-top: -6px'>Ratio = tickets of that type ÷ (MRR ÷ 4). Red bars are over 1.0, meaning the client may be under-priced for the support they use.</p>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c12' id='ac-watch'><h3>Watch list: negative clients</h3><p class='sd-note'>Below median MRR and above the median ticket count on at least one type. Worst first: most flags, then lowest MRR. Red bars and numbers mark the flagged types.</p>
+        <div class='sd-tw'><table class='sd-table' data-source='accounts' data-row-key='account'><thead><tr><th data-field='account'>Client</th><th data-field='service_level'>Level</th><th class='r' data-field='mrr'>MRR</th><th class='r' data-field='service_requests'>Service requests</th><th class='r' data-field='incidents'>Incidents</th><th class='r' data-field='alerts'>Alerts</th><th>Flagged on</th></tr></thead><tbody data-draw='ac-watch'></tbody></table></div>
+      </div>
     <div class='sd-grid'>
       <div class='sd-card sd-c12' id='ac-table'><h3>All clients</h3>
         <div class='sd-toolbar'><p class='sd-note' style='margin:0'>Click a column to sort. Ratio status: green under 0.5, amber 0.5 to 1.0, red over 1.0.</p><input class='sd-search' id='ac-search' type='search' placeholder='Search clients…' aria-label='Search clients'></div>

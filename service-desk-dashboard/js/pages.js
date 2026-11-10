@@ -335,18 +335,51 @@
     if (!r.length) return empty(el);
     S.hbars(el, { data: r, labelKey: 'account', value: 'alerts', fmt: S.fmtInt, color: C(2), label: 'Top 10 clients by alerts', onPick: pickAcct });
   });
-  const ratioDraw = (key, label, color) => (el) => {
-    const d = rows(el, 'accounts'); if (!d) return;
-    const r = d.filter(F.levelOk)
-      .map((x) => ({ account: x.account, service_level: x.service_level, ratio: Math.round((n(x[key]) / (n(x.mrr) / 4)) * 100) / 100 }))
-      .sort((p, q) => q.ratio - p.ratio).slice(0, 10);
-    if (!r.length) return empty(el);
-    S.hbars(el, { data: r, labelKey: 'account', value: 'ratio', fmt: (v) => d3.format('.2f')(v), color, highlight: (x) => x.ratio > 1,
-      label: `Top 10 clients by ${label} per MRR`, onPick: pickAcct });
+  // Negative clients: below median MRR and above the median ticket count for a type (medians across all clients).
+  const NEG_TYPES = [['service_requests', 'Requests', C(1)], ['incidents', 'Incidents', C(0)], ['alerts', 'Alerts', C(2)]];
+  const negInfo = (all) => {
+    const mM = d3.median(all, (x) => n(x.mrr));
+    const med = Object.fromEntries(NEG_TYPES.map(([k]) => [k, d3.median(all, (x) => n(x[k]))]));
+    const flagsOf = (x) => NEG_TYPES.filter(([k]) => n(x.mrr) < mM && n(x[k]) > med[k]).map(([k]) => k);
+    return { mM, med, flagsOf };
   };
-  dash.draw('ac-ratio-sr', ratioDraw('service_requests', 'service requests', C(1)));
-  dash.draw('ac-ratio-inc', ratioDraw('incidents', 'incidents', C(0)));
-  dash.draw('ac-ratio-alert', ratioDraw('alerts', 'alerts', C(2)));
+  const negDraw = (key, label, color) => (el) => {
+    const d = rows(el, 'accounts'); if (!d) return;
+    const { mM, med } = negInfo(d);
+    const r = d.filter((x) => F.levelOk(x) && n(x.mrr) < mM).sort((p, q) => n(q[key]) - n(p[key])).slice(0, 10);
+    if (!r.length) return empty(el);
+    S.hbars(el, { data: r, labelKey: 'account', value: key, fmt: S.fmtInt, color, highlight: (x) => n(x[key]) > med[key], muteOthers: true,
+      right: (x) => S.fmtUsd(n(x.mrr)), rightHead: 'MRR', tipExtra: (x) => [`MRR: ${S.fmtUsd(n(x.mrr))}`],
+      label: `Low-MRR clients with the most ${label}`, onPick: pickAcct });
+  };
+  dash.draw('ac-neg-sr', negDraw('service_requests', 'service requests', C(1)));
+  dash.draw('ac-neg-inc', negDraw('incidents', 'incidents', C(0)));
+  dash.draw('ac-neg-alert', negDraw('alerts', 'alerts', C(2)));
+  dash.draw('ac-watch', (tb) => {
+    const r = dash.data('accounts');
+    if (r.status !== 'ok') { tb.replaceChildren(); return; }
+    const { flagsOf } = negInfo(r.data);
+    const list = r.data.filter((x) => F.levelOk(x) && flagsOf(x).length)
+      .sort((p, q) => flagsOf(q).length - flagsOf(p).length || n(p.mrr) - n(q.mrr));
+    if (!list.length) { tb.replaceChildren(); const tr = document.createElement('tr'); const td = document.createElement('td'); td.colSpan = 7; td.textContent = 'No negative clients for this selection'; tr.append(td); tb.append(tr); return; }
+    const flagCell = (k) => ({ key: k, cls: 'r', render: (td, x) => {
+      td.textContent = S.fmtInt(n(x[k]));
+      if (flagsOf(x).includes(k)) { td.style.color = 'var(--color-bad)'; td.style.fontWeight = '600'; }
+    } });
+    S.tbody(tb, list, [
+      { key: 'account', render: (td, x) => { td.textContent = x.account; td.style.fontWeight = '600'; td.style.cursor = 'pointer'; td.addEventListener('click', () => pickAcct(x)); } },
+      { key: 'service_level' },
+      { key: 'mrr', cls: 'r', fmt: (v) => S.fmtUsd(n(v)) },
+      flagCell('service_requests'), flagCell('incidents'), flagCell('alerts'),
+      { key: 'flags', render: (td, x) => {
+        NEG_TYPES.filter(([k]) => flagsOf(x).includes(k)).forEach(([, lab, col]) => {
+          const s = document.createElement('span'); s.className = 'sd-tag'; s.textContent = lab;
+          s.style.background = `color-mix(in srgb, ${col} 18%, transparent)`; s.style.color = 'var(--color-fg)';
+          td.append(s);
+        });
+      } },
+    ]);
+  });
   dash.draw('ac-table', (tb) => {
     const r = dash.data('accounts');
     if (r.status !== 'ok') { tb.replaceChildren(); return; }
