@@ -286,6 +286,7 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
       <div class='sd-card sd-c12' id='ac-watch'><h3>Watch list: negative clients</h3><p class='sd-note'>Below median MRR and above the median ticket count on at least one type. Worst first: most flags, then lowest MRR. Red numbers mark the flagged types.</p>
         <div class='sd-tw'><table class='sd-table' data-source='accounts' data-row-key='account'><thead><tr><th data-field='account'>Client</th><th data-field='service_level'>Level</th><th class='r' data-field='mrr'>MRR</th><th class='r' data-field='service_requests'>Service requests</th><th class='r' data-field='incidents'>Incidents</th><th class='r' data-field='alerts'>Alerts</th><th>Flagged on</th></tr></thead><tbody data-draw='ac-watch'></tbody></table></div>
       </div>
+    </div>
     <div class='sd-grid'>
       <div class='sd-card sd-c12' id='ac-table'><h3>All clients</h3>
         <div class='sd-toolbar'><p class='sd-note' style='margin:0'>Click a column to sort. Ratio status: green under 0.5, amber 0.5 to 1.0, red over 1.0.</p><input class='sd-search' id='ac-search' type='search' placeholder='Search clients…' aria-label='Search clients'></div>
@@ -341,12 +342,12 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
 
 </div>
 <script src="js/vendor/d3.min.js"></script>
-<script src="js/shim.js"></script>
-<script src="js/lib.js"></script>
-<script src="js/filters.js"></script>
-<script src="js/calcs.js"></script>
-<script src="js/nav.js"></script>
-<script src="js/pages.js"></script>
-<script src="js/impact.js"></script>
+<script src="js/shim.js?v=202611101322"></script>
+<script src="js/lib.js?v=202611101322"></script>
+<script src="js/filters.js?v=202611101322"></script>
+<script src="js/calcs.js?v=202611101322"></script>
+<script src="js/nav.js?v=202611101322"></script>
+<script src="js/pages.js?v=202611101322"></script>
+<script src="js/impact.js?v=202611101322"></script>
 </body>
 </html>
