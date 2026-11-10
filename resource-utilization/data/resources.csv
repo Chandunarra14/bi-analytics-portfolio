@@ -1,61 +1,112 @@
-resource,department,role,weekly_target_hrs
-Aaron Coleman,Security Operations,Analyst,24
-Aaron Grant,Service Desk,Engineer - US,24
-Aaron Pruitt,Project Management,Project Manager,24
-Bella Grant,Development,Developer,24
-Bella Ortega,Business Continuity,Engineer - US,24
-Carlos Ewing,Service Desk,Engineer - US,24
-Carlos Fletcher,Professional Services,Consultant,24
-Carlos Grant,Project Management,Project Manager,24
-Diana Abbott,Security Operations,Analyst,24
-Diana Keller,Service Desk,Engineer - US,24
-Diana Pruitt,Service Desk,Engineer - US,24
-Diana Zimmer,Professional Services,Consultant,24
-Ethan Hughes,Tier 3 Engineering,Engineer - US,24
-Ethan Nash,Development,Developer,24
-Ethan Vaughn,Tier 3 Engineering,Engineer - US,24
-Ethan Zimmer,Tier 3 Engineering,Engineer - US,24
-Fiona Irwin,Service Desk,Engineer - US,24
-Fiona Ramsey,Development,Developer,24
-Fiona Underwood,Project Management,Project Manager,24
-Hana Ewing,Service Desk,Engineer - US,24
-Hana Mercer,Project Management,Project Manager,24
-Ivan Lopez,Tier 3 Engineering,Engineer - US,24
-Ivan Pruitt,Tier 3 Engineering,Engineer - US,24
-Ivan Young,Service Desk,Engineer - US,24
-Jade Abbott,Business Continuity,Engineer - US,24
-Kyle Ewing,Platform Engineering,Engineer - US,24
-Kyle Zimmer,Professional Services,Consultant,24
-Lena Underwood,Development,Developer,24
-Liam Nash,Field Operations,Technician,24
-Liam Tran,Security Operations,Analyst,24
-Liam Young,vCIO,Advisor,24
-Marco Mercer,Platform Engineering,Engineer - US,24
-Marco Pruitt,Tier 3 Engineering,Engineer - US,24
-Maya Grant,Service Desk,Engineer - US,24
-Maya Sutton,Service Desk,Engineer - US,24
-Nina Lopez,Professional Services,Consultant,24
-Noah Ewing,Security Operations,Analyst,24
-Noah Wallace,Professional Services,Consultant,24
-Owen Fletcher,Platform Engineering,Engineer - US,24
-Owen Mercer,Platform Engineering,Engineer - US,24
-Owen Pruitt,vCIO,Advisor,24
-Priya Dalton,Service Desk,Engineer - US,24
-Priya Jensen,Field Operations,Technician,24
-Quinn Lopez,Tier 3 Engineering,Engineer - US,24
-Rosa Dalton,Service Desk,Engineer - US,24
-Rosa Irwin,Security Operations,Analyst,24
-Rosa Lopez,Field Operations,Technician,24
-Sean Ewing,Security Operations,Analyst,24
-Tara Banks,Service Desk,Engineer - US,24
-Tara Lopez,Business Continuity,Engineer - US,24
-Tara Mercer,Tier 3 Engineering,Engineer - US,24
-Tara Tran,Development,Developer,24
-Tara Vaughn,Professional Services,Consultant,24
-Umar Mercer,Professional Services,Consultant,24
-Vera Hughes,Service Desk,Engineer - US,24
-Vera Mercer,Platform Engineering,Engineer - US,24
-Vera Zimmer,Development,Developer,24
-Wes Ramsey,Tier 3 Engineering,Engineer - US,24
-Yusuf Jensen,Service Desk,Engineer - US,24
-Zoe Sutton,Field Operations,Technician,24
+resource,department,role
+Aaron Coleman,Support Team Leadership,Advisor
+Aaron Ewing,Tier 3 Engineering,Engineer - US
+Aaron Lopez,Project Management,Project Manager
+Aaron Mercer,Service Desk,Engineer - US
+Aaron Pruitt,Security Operations,Analyst
+Ava Ewing,Service Desk,Engineer - US
+Ava Fletcher,Field Operations,Technician
+Ava Hughes,Tier 3 Engineering,Engineer - US
+Ava Jensen,Tier 3 Engineering,Engineer - US
+Ava Tran,Service Desk,Engineer - US
+Bella Irwin,Product Management,Project Manager
+Bella Keller,Product Management,Project Manager
+Bella Nash,Development,Developer
+Bella Pruitt,Support Team Leadership,Advisor
+Carlos Grant,GovSec Support,Analyst
+Carlos Ortega,Service Desk,Engineer - US
+Carlos Sutton,Service Desk,Engineer - US
+Diana Abbott,Platform Engineering,Engineer - US
+Diana Fletcher,Service Desk,Engineer - US
+Diana Mercer,Tier 3 Engineering,Engineer - US
+Diana Sutton,Security Operations,Analyst
+Ethan Ewing,Service Desk,Engineer - US
+Ethan Hughes,Tier 3 Engineering,Engineer - US
+Ethan Vaughn,Service Desk,Engineer - US
+Ethan Zimmer,Project Management,Project Manager
+Fiona Coleman,Service Desk,Engineer - US
+Fiona Nash,Field Operations,Technician
+Fiona Ramsey,Support Team Leadership,Advisor
+Fiona Sutton,Service Desk,Engineer - US
+Fiona Vaughn,Tier 3 Engineering,Engineer - US
+Fiona Wallace,Service Enablement,Engineer - US
+Fiona Young,Tier 3 Engineering,Engineer - US
+Gavin Keller,Tier 3 Engineering,Engineer - US
+Gavin Lopez,Development,Developer
+Gavin Wallace,Product Management,Project Manager
+Hana Dalton,Professional Services,Consultant
+Hana Fletcher,Service Desk,Engineer - US
+Hana Hughes,Development,Developer
+Hana Nash,Service Desk,Engineer - US
+Hana Tran,Development,Developer
+Ivan Ewing,Tier 3 Engineering,Engineer - US
+Ivan Tran,Service Desk,Engineer - US
+Jade Ewing,Field Operations,Technician
+Kyle Mercer,Service Operations,Engineer - US
+Kyle Pruitt,Professional Services,Consultant
+Kyle Sutton,Field Operations,Technician
+Kyle Vaughn,GovSec Support,Analyst
+Lena Fletcher,Field Operations,Technician
+Lena Keller,Service Desk,Engineer - US
+Lena Ortega,Tier 3 Engineering,Engineer - US
+Lena Underwood,Service Desk,Engineer - US
+Liam Jensen,Service Enablement,Engineer - US
+Liam Mercer,Security Operations,Analyst
+Marco Coleman,Security Operations,Analyst
+Marco Irwin,Service Operations,Engineer - US
+Marco Wallace,Solution Design Engineers,Consultant
+Maya Hughes,Service Enablement,Engineer - US
+Maya Keller,Service Desk,Engineer - US
+Nina Coleman,vCIO,Advisor
+Nina Irwin,Tier 3 Engineering,Engineer - US
+Nina Jensen,Data Center,Technician
+Nina Zimmer,Development,Developer
+Noah Lopez,Development,Developer
+Noah Pruitt,Service Desk,Engineer - US
+Noah Sutton,Service Desk,Engineer - US
+Noah Wallace,Professional Services,Consultant
+Owen Fletcher,Professional Services,Consultant
+Priya Abbott,Project Management,Project Manager
+Priya Banks,Service Desk,Engineer - US
+Priya Ewing,Professional Services,Consultant
+Priya Grant,Service Desk,Engineer - US
+Priya Ramsey,Business Continuity,Engineer - US
+Priya Sutton,Tier 3 Engineering,Engineer - US
+Priya Tran,Platform Engineering,Engineer - US
+Quinn Hughes,vCIO,Advisor
+Quinn Mercer,Service Enablement,Engineer - US
+Quinn Zimmer,Business Continuity,Engineer - US
+Rosa Pruitt,Service Desk,Engineer - US
+Rosa Tran,GovSec Support,Analyst
+Rosa Zimmer,Service Desk,Engineer - US
+Sean Underwood,Business Continuity,Engineer - US
+Tara Dalton,Business Continuity,Engineer - US
+Tara Nash,Service Desk,Engineer - US
+Tara Ortega,Service Desk,Engineer - US
+Tara Zimmer,Development,Developer
+Umar Ewing,Development,Developer
+Umar Jensen,Security Operations,Analyst
+Umar Lopez,Tier 3 Engineering,Engineer - US
+Vera Banks,Development,Developer
+Vera Ewing,Project Management,Project Manager
+Vera Jensen,Professional Services,Consultant
+Vera Mercer,GovSec Support,Analyst
+Vera Ramsey,Service Desk,Engineer - US
+Wes Abbott,Support Team Leadership,Advisor
+Wes Banks,Security Operations,Analyst
+Wes Dalton,Service Enablement,Engineer - US
+Wes Nash,Field Operations,Technician
+Wes Pruitt,Tier 3 Engineering,Engineer - US
+Xena Coleman,Development,Developer
+Xena Pruitt,Support Team Leadership,Advisor
+Xena Tran,Service Desk,Engineer - US
+Yusuf Ewing,Platform Engineering,Engineer - US
+Yusuf Nash,Data Center,Technician
+Yusuf Tran,Service Enablement,Engineer - US
+Yusuf Zimmer,Internal IT,Technician
+Zoe Abbott,Internal IT,Technician
+Zoe Ewing,Professional Services,Consultant
+Zoe Nash,Project Management,Project Manager
+Zoe Pruitt,Security Operations,Analyst
+Zoe Ramsey,Tier 3 Engineering,Engineer - US
+Zoe Wallace,Platform Engineering,Engineer - US

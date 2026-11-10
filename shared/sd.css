@@ -135,7 +135,7 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
 .sd-hint { flex-basis: 100%; font-size: 12px; color: var(--color-fg-muted); margin: 0; }
 .sd-slicer-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0 0 var(--cds-gap-md); }
 
-.sd-seg { font-size: 11px; font-family: var(--font-anthropic-sans); font-variant-numeric: tabular-nums; }
+.sd-segv { font-size: 11px; font-family: var(--font-anthropic-sans); font-variant-numeric: tabular-nums; }
 .sd-sl select { max-width: 220px; }
 .sd-kpis { display: grid; gap: var(--sd-gap); grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); margin-bottom: var(--sd-gap); }
 .sd-kpi .sd-kpi-v.good { color: var(--color-ok); } .sd-kpi .sd-kpi-v.bad { color: var(--color-bad); } .sd-kpi .sd-kpi-v.warn { color: var(--color-warn); }
@@ -146,3 +146,6 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
 .sd-badge-s { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; }
 .sd-portfolio-link { font-size: 12px; color: var(--color-fg-muted); text-decoration: none; }
 .sd-portfolio-link:hover { color: var(--color-fg); text-decoration: underline; }
+
+.sd-sl .sd-seg { margin: 0; text-transform: none; letter-spacing: 0; }
+.sd-xscroll { overflow-x: auto; overflow-y: hidden; }

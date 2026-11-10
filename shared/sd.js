@@ -42,6 +42,14 @@
     const bar = el('div', 'sd-slicers');
     const selects = {};
     (cfg.slicers || []).forEach((s) => {
+      if (s.seg) {
+        const lab = el('div', 'sd-sl', s.label);
+        const g = el('div', 'sd-seg'); g.setAttribute('role', 'group');
+        s.options.forEach((o) => { const b = el('button', '', o.label); b.type = 'button'; b.dataset.v = o.value;
+          b.addEventListener('click', () => { F.state[s.key] = o.value; sync(); render(); }); g.append(b); });
+        lab.append(g); bar.append(lab); selects[s.key] = { sel: g, lab, s };
+        return;
+      }
       const lab = el('label', 'sd-sl', s.label);
       const sel = el('select'); sel.setAttribute('aria-label', s.label);
       sel.addEventListener('change', () => { F.state[s.key] = sel.value; render(); });
@@ -55,9 +63,12 @@
     const body = el('div');
     root.append(head, nav, bar, note, body);
 
-    function sync() { Object.values(selects).forEach(({ sel, s }) => { sel.value = F.state[s.key] || ''; }); }
+    function sync() { Object.values(selects).forEach(({ sel, s }) => {
+      if (s.seg) sel.querySelectorAll('button').forEach((b) => b.classList.toggle('is-on', b.dataset.v === F.state[s.key]));
+      else sel.value = F.state[s.key] || ''; }); }
     function fillOptions() {
       Object.values(selects).forEach(({ sel, s }) => {
+        if (s.seg) return;
         sel.replaceChildren(new Option(s.all || 'All', ''));
         const opts = typeof s.options === 'function' ? s.options(D) : s.options;
         opts.forEach((o) => { const v = typeof o === 'object' ? o.value : o; const t = typeof o === 'object' ? o.label : o; sel.append(new Option(t, v)); });
@@ -90,7 +101,7 @@
     }
     function card(b) {
       const c = el('div', 'sd-card sd-c' + (b.span || 12));
-      if (b.title) c.append(el('h3', '', b.title));
+      if (b.title) c.append(el('h3', '', typeof b.title === 'function' ? b.title(D, F) : b.title));
       if (b.note) c.append(el('p', 'sd-note', typeof b.note === 'function' ? b.note(D, F) : b.note));
       const area = el('div', 'sd-chart'); area.style.minHeight = (b.h || 240) + 'px'; area.style.position = 'relative';
       c.append(area);
@@ -99,7 +110,7 @@
     }
     function table(b) {
       const c = el('div', 'sd-card sd-c' + (b.span || 12));
-      if (b.title) c.append(el('h3', '', b.title));
+      if (b.title) c.append(el('h3', '', typeof b.title === 'function' ? b.title(D, F) : b.title));
       if (b.note) c.append(el('p', 'sd-note', typeof b.note === 'function' ? b.note(D, F) : b.note));
       const wrap = el('div', 'sd-tw' + (b.maxH ? ' sd-scroll' : ''));
       if (b.maxH) wrap.style.maxHeight = b.maxH + 'px';
@@ -107,6 +118,7 @@
       const thead = el('thead'); const tr = el('tr');
       b.cols.forEach((col) => tr.append(el('th', col.cls || '', col.label)));
       thead.append(tr); t.append(thead);
+      if (b.cols.some((col) => col.label === undefined)) tr.remove();
       const tb = el('tbody');
       let rows = b.rows(D, F);
       if (b.limit) rows = rows.slice(0, b.limit);
@@ -131,6 +143,7 @@
     }
     function text(b) { const p = el('p', 'sd-takeaway'); p.innerHTML = b.html(D, F); return p; }
     function row(b) { const g = el('div', 'sd-grid'); b.blocks.forEach((x) => g.append(block(x))); return g; }
+    function heading(b) { return el('h2', 'sd-section-h', typeof b.text === 'function' ? b.text(D, F) : b.text); }
     function impact() {
       const I = D.impact; const by = (k) => I.filter((r) => r.kind === k);
       const frag = document.createDocumentFragment();
@@ -188,12 +201,14 @@
       return frag;
     }
     function block(b) {
+      if (b.when && !b.when(D, F)) return document.createComment('');
       if (b.type === 'kpis') return kpis(b);
       if (b.type === 'card') return card(b);
       if (b.type === 'table') return table(b);
       if (b.type === 'text') return text(b);
       if (b.type === 'row') return row(b);
       if (b.type === 'impact') return impact();
+      if (b.type === 'heading') return heading(b);
       return el('div');
     }
     function render() {
@@ -216,7 +231,7 @@
       .then((pairs) => {
         D = Object.fromEntries(pairs);
         if (cfg.prep) cfg.prep(D);
-        fillOptions();
+        fillOptions(); sync();
         const h = (location.hash || '').replace('#', '');
         open(cfg.pages.some((p) => p.id === h) ? h : active, false);
       })

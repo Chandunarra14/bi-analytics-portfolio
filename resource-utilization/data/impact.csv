@@ -1,16 +1,16 @@
 kind,label,value,before,after,unit,better,note
 hero,Manual reporting effort saved,1.4,,,work-weeks every month,,Team leads used to build utilization sheets by hand: about 14 hours a week across leads. Now it takes about 1 hour to review the live dashboard.
 stat,Hours saved per year,676,,,Reporting time back to managers,,
-stat,Billable hours recovered / wk,199,,,More time on target work,,
-stat,Value of recovered hours / yr,$984K,,,At $95/hr blended bill rate,,
+stat,Target hours recovered / wk,495,,,More time on planned work,,
+stat,Value of recovered hours / yr,$2.45M,,,At $95/hr blended bill rate,,
 stat,Coaching cycle,Weekly,,,Was quarterly,,
-ba,Target share of available hours,,45.9,54.5,%,higher,
-ba,Bench hours per person-week,,7.4,4.8,hrs,lower,
-ba,Admin share of available hours,,15.8,12.8,%,lower,
+ba,Target share of available hours,,46.0,57.4,%,higher,
+ba,Bench hours per person-week,,7.5,4.2,hrs,lower,
+ba,Admin share of available hours,,16.1,12.1,%,lower,
 ba,Days to spot an under-target engineer,,30,7,days,lower,
-client,{value} more hours a week going to client work instead of sitting on the bench,199,,,⏱,,
+client,{value} more hours a week going to planned client work instead of sitting on the bench,495,,,⏱,,
 client,"Leads coach the {value} lowest-target people every week, not once a quarter",10,,,✓,,
 client,"Staffing calls for new projects use live bench data, cutting resource-request turnaround to {value}",1 day,,,↑,,
 process,Weekly utilization report,,14,1,hours / week,,Timesheet exports and pivot tables replaced by a live view
-process,Data refresh,,Weekly,Daily,,,Scheduled refresh from the PSA time entries
+process,Periods available,,Month only,"Week, month, quarter, year",,,"WTD, MTD, QTD and YTD for every view"
 process,Views available,,Org only,"Person, team, org",,,Department and resource slicers

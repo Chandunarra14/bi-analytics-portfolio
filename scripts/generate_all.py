@@ -3,7 +3,10 @@
 All people, clients, tickets and amounts are made up. Patterns mirror a real MSP
 (seasonality, aging, win rates) and improve after each dashboard's go-live so the
 Impact pages have before/after numbers computed from the data itself.
-Run: python scripts/generate_all.py
+Run: python scripts/generate_all.py              (every dashboard)
+     python scripts/generate_all.py utilization  (just one)
+Dashboards share one random stream, so regenerate one at a time when you only
+want to change one; the committed CSVs are the source of truth.
 """
 import csv, os, random, datetime as dt
 from statistics import mean
@@ -77,12 +80,18 @@ def ramp(i, start=3, length=6):
 
 
 # ------------------------------------------------------------------ 1. Utilization
+UTIL_CATS = ["Managed Services", "Revenue Project", "COMPed", "SG&A", "Internal Projects", "Sustained Engineering", "Admin", "Bench", "PTO"]
+
+
 def utilization():
+    R = random.Random(21)
     F = "resource-utilization"
-    depts = {"Service Desk": ("Engineer - US", 14), "Tier 3 Engineering": ("Engineer - US", 9), "Platform Engineering": ("Engineer - US", 5),
-             "Security Operations": ("Analyst", 6), "Professional Services": ("Consultant", 7), "Project Management": ("Project Manager", 4),
-             "Development": ("Developer", 6), "Field Operations": ("Technician", 4), "Business Continuity": ("Engineer - US", 3), "vCIO": ("Advisor", 2)}
-    cats = ["Managed Services", "Revenue Project", "COMPed", "SG&A", "Internal Projects", "Sustained Engineering", "Admin", "Bench", "PTO"]
+    depts = {"Service Desk": ("Engineer - US", 26), "Tier 3 Engineering": ("Engineer - US", 15), "Development": ("Developer", 10),
+             "Professional Services": ("Consultant", 7), "Security Operations": ("Analyst", 7), "Field Operations": ("Technician", 6),
+             "Service Enablement": ("Engineer - US", 6), "Project Management": ("Project Manager", 5), "Support Team Leadership": ("Advisor", 5),
+             "Business Continuity": ("Engineer - US", 4), "GovSec Support": ("Analyst", 4), "Platform Engineering": ("Engineer - US", 4),
+             "Product Management": ("Project Manager", 3), "Data Center": ("Technician", 2), "Internal IT": ("Technician", 2),
+             "Service Operations": ("Engineer - US", 2), "vCIO": ("Advisor", 2), "Solution Design Engineers": ("Consultant", 1)}
     plans = {"Engineer - US": {"Managed Services": 55, "Revenue Project": 10, "Sustained Engineering": 10, "Internal Projects": 5},
              "Analyst": {"Managed Services": 60, "Sustained Engineering": 15, "Internal Projects": 5},
              "Consultant": {"Revenue Project": 65, "Managed Services": 10, "Internal Projects": 5},
@@ -90,74 +99,72 @@ def utilization():
              "Developer": {"Sustained Engineering": 50, "Internal Projects": 25, "Revenue Project": 5},
              "Technician": {"Managed Services": 70, "Revenue Project": 10},
              "Advisor": {"Managed Services": 30, "SG&A": 30, "Revenue Project": 20}}
-    names = person_names(sum(n for _, n in depts.values()))
-    random.shuffle(names)
+    names = set()
+    while len(names) < sum(n for _, n in depts.values()):
+        names.add(f"{R.choice(FIRST)} {R.choice(LAST)}")
+    names = sorted(names); R.shuffle(names)
     people = []
     for d, (role, n) in depts.items():
         for _ in range(n):
-            people.append({"resource": names.pop(), "department": d, "role": role, "weekly_target_hrs": 24})
-    write(F, "resources.csv", sorted(people, key=lambda p: p["resource"]))
-    pm = [{"role": r, "category": c, "planned_pct": v} for r, p in plans.items() for c, v in p.items()]
-    write(F, "planned_mix.csv", pm)
-    # 26 weeks, Monday starts, last full week starting 2026-11-02
-    weeks = [dt.date(2026, 11, 2) - dt.timedelta(weeks=k) for k in range(25, -1, -1)]
+            people.append({"resource": names.pop(), "department": d, "role": role})
+    people.sort(key=lambda p: p["resource"])
+    write(F, "resources.csv", people)
+    write(F, "planned_mix.csv", [{"role": r, "category": c, "planned_pct": v} for r, p in plans.items() for c, v in p.items()])
+    weeks = [dt.date(2026, 11, 2) - dt.timedelta(weeks=k) for k in range(52, -1, -1)]  # Nov 3 2025 .. Nov 2 2026
+    skill = {p["resource"]: R.uniform(-0.14, 0.1) for p in people}
     rows = []
-    for p in people:
-        plan = plans[p["role"]]
-        skill = random.uniform(-0.12, 0.08)
-        for wi, wk in enumerate(weeks):
-            r = min(1, max(0, (wi - 8) / 12))  # go-live mid-2026, ramps over ~3 months
-            pto = 40 if random.random() < 0.035 else (8 if random.random() < 0.08 else 0)
+    for wi, wk in enumerate(weeks):
+        r = min(1, max(0, (wi - 13) / 18))  # go-live Feb 2026
+        holiday = wk.month == 12 and wk.day >= 20 or (wk.month == 11 and 23 <= wk.day <= 29)
+        for p in people:
+            plan = plans[p["role"]]
+            pto = 40 if R.random() < (0.12 if holiday else 0.03) else (8 if R.random() < 0.08 else 0)
             avail = 40 - pto
-            target_share = max(0.15, min(0.95, 0.47 + 0.11 * r + skill + random.uniform(-0.1, 0.1)))
-            admin = avail * (random.uniform(0.12, 0.20) - 0.04 * r)
-            bench = max(0, avail * (0.20 - 0.09 * r + random.uniform(-0.06, 0.06)))
-            target = min(avail - admin - bench, avail * target_share)
-            target = max(0, target)
-            nontarget = max(0, avail - admin - bench - target) * random.uniform(0.5, 1.0)
-            hrs = {c: 0.0 for c in cats}
+            share = max(0.1, min(0.95, 0.47 + 0.11 * r + skill[p["resource"]] + R.uniform(-0.1, 0.1)))
+            admin = avail * (R.uniform(0.12, 0.2) - 0.04 * r)
+            bench = max(0, avail * (0.2 - 0.09 * r + R.uniform(-0.07, 0.07)))
+            target = max(0, min(avail - admin - bench, avail * share))
+            nontarget = max(0, avail - admin - bench - target) * R.uniform(0.5, 1.0)
+            if pto < 40 and R.random() < 0.12:
+                target += R.uniform(2, 10)  # overtime
+            hrs = {c: 0.0 for c in UTIL_CATS}
             tot = sum(plan.values())
             for c, v in plan.items():
-                hrs[c] += target * v / tot * random.uniform(0.75, 1.25)
+                hrs[c] += target * v / tot * R.uniform(0.75, 1.25)
             nt = [c for c in ["COMPed", "SG&A", "Internal Projects", "Revenue Project", "Managed Services"] if c not in plan]
             if nt and nontarget > 0:
-                hrs[random.choice(nt)] += nontarget
-            hrs["Admin"] = admin
-            hrs["Bench"] = bench
-            hrs["PTO"] = pto
-            for c, h in hrs.items():
-                if h >= 0.25:
-                    rows.append({"week": wk.isoformat(), "resource": p["resource"], "category": c, "hours": round(h, 1)})
-    write(F, "weekly_hours.csv", rows)
-    # impact numbers from data: first 13 weeks vs last 13 weeks
-    planned_role = {p["resource"]: plans[p["role"]] for p in people}
+                hrs[R.choice(nt)] += nontarget
+            hrs["Admin"], hrs["Bench"], hrs["PTO"] = admin, bench, pto
+            row = {"week": wk.isoformat(), "resource": p["resource"]}
+            row.update({c: round(hrs[c], 1) for c in UTIL_CATS})
+            rows.append(row)
+    write(F, "weekly_hours.csv", rows, ["week", "resource"] + UTIL_CATS)
+    role = {p["resource"]: plans[p["role"]] for p in people}
 
     def window(wks):
         ws = {w.isoformat() for w in wks}
-        sel = [r for r in rows if r["week"] in ws]
-        avail = sum(40 for _ in people) * len(wks) - sum(r["hours"] for r in sel if r["category"] == "PTO")
-        tgt = sum(r["hours"] for r in sel if r["category"] in planned_role[r["resource"]])
-        bench = sum(r["hours"] for r in sel if r["category"] == "Bench")
-        admin = sum(r["hours"] for r in sel if r["category"] == "Admin")
-        return tgt / avail * 100, bench / (len(people) * len(wks)), admin / avail * 100, tgt
+        sel = [x for x in rows if x["week"] in ws]
+        avail = sum(40 - x["PTO"] for x in sel)
+        tgt = sum(sum(x[c] for c in role[x["resource"]]) for x in sel)
+        return tgt / avail * 100, sum(x["Bench"] for x in sel) / len(sel), sum(x["Admin"] for x in sel) / avail * 100, tgt
     b = window(weeks[:13]); a = window(weeks[-13:])
     rate = 95
-    rec_hours_wk = (a[3] - b[3]) / 13
+    rec = (a[3] - b[3]) / 13
     impact(F, [
         dict(kind="hero", label="Manual reporting effort saved", value="1.4", unit="work-weeks every month", note="Team leads used to build utilization sheets by hand: about 14 hours a week across leads. Now it takes about 1 hour to review the live dashboard."),
         dict(kind="stat", label="Hours saved per year", value=f"{(14-1)*52:,}", unit="Reporting time back to managers"),
-        dict(kind="stat", label="Billable hours recovered / wk", value=f"{rec_hours_wk:,.0f}", unit="More time on target work"),
-        dict(kind="stat", label="Value of recovered hours / yr", value=f"${rec_hours_wk*52*rate/1000:,.0f}K", unit=f"At ${rate}/hr blended bill rate"),
+        dict(kind="stat", label="Target hours recovered / wk", value=f"{rec:,.0f}", unit="More time on planned work"),
+        dict(kind="stat", label="Value of recovered hours / yr", value=f"${rec*52*rate/1e6:,.2f}M", unit=f"At ${rate}/hr blended bill rate"),
         dict(kind="stat", label="Coaching cycle", value="Weekly", unit="Was quarterly"),
         dict(kind="ba", label="Target share of available hours", before=round(b[0], 1), after=round(a[0], 1), unit="%", better="higher"),
         dict(kind="ba", label="Bench hours per person-week", before=round(b[1], 1), after=round(a[1], 1), unit="hrs", better="lower"),
         dict(kind="ba", label="Admin share of available hours", before=round(b[2], 1), after=round(a[2], 1), unit="%", better="lower"),
         dict(kind="ba", label="Days to spot an under-target engineer", before=30, after=7, unit="days", better="lower"),
-        dict(kind="client", label="{value} more hours a week going to client work instead of sitting on the bench", value=f"{rec_hours_wk:,.0f}", unit="⏱"),
+        dict(kind="client", label="{value} more hours a week going to planned client work instead of sitting on the bench", value=f"{rec:,.0f}", unit="⏱"),
         dict(kind="client", label="Leads coach the {value} lowest-target people every week, not once a quarter", value="10", unit="✓"),
         dict(kind="client", label="Staffing calls for new projects use live bench data, cutting resource-request turnaround to {value}", value="1 day", unit="↑"),
         dict(kind="process", label="Weekly utilization report", before="14", after="1", unit="hours / week", note="Timesheet exports and pivot tables replaced by a live view"),
-        dict(kind="process", label="Data refresh", before="Weekly", after="Daily", unit="", note="Scheduled refresh from the PSA time entries"),
+        dict(kind="process", label="Periods available", before="Month only", after="Week, month, quarter, year", unit="", note="WTD, MTD, QTD and YTD for every view"),
         dict(kind="process", label="Views available", before="Org only", after="Person, team, org", unit="", note="Department and resource slicers"),
     ])
 
@@ -496,9 +503,7 @@ def ar():
     ])
 
 
-if __name__ == "__main__":
-    utilization(); server_eol(); psr(); projects(); contracts(); ar()
-    print("done")
+
 
 
 # ------------------------------------------------------------------ 7. Retention risk
@@ -569,4 +574,8 @@ def retention():
 
 
 if __name__ == "__main__":
-    retention()
+    import sys
+    ALL = {"utilization": utilization, "server_eol": server_eol, "psr": psr, "projects": projects, "contracts": contracts, "ar": ar, "retention": retention}
+    for name in (sys.argv[1:] or ALL):
+        ALL[name]()
+    print("done")

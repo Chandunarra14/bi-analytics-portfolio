@@ -189,7 +189,7 @@
     const ml = measure(svg, y.ticks(4).map(yFmt)) + 12;
     const catFmt = cfg.catFmt || ((c) => c);
     const cats = data.map((d) => d[cfg.cat]);
-    const m = { t: 10, r: 8, b: 30, l: ml };
+    const m = { t: 10, r: 8, b: cfg.rotate ? 92 : 30, l: ml };
     y.range([H - m.b, m.t]);
     const x0 = d3.scaleBand().domain(cats).range([m.l, W - m.r]).paddingInner(0.28).paddingOuter(0.12);
     const x1 = d3.scaleBand().domain(keys).range([0, x0.bandwidth()]).padding(0.08);
@@ -200,7 +200,8 @@
     const xa = svg.append('g').attr('class', 'sd-axis').attr('transform', `translate(0,${H - m.b})`)
       .call(d3.axisBottom(x0).tickFormat(catFmt).tickSize(0).tickPadding(10)).call((g) => g.select('.domain').remove());
     // thin long labels
-    const maxLab = x0.step();
+    const maxLab = cfg.rotate ? 104 : x0.step();
+    if (cfg.rotate) xa.selectAll('text').attr('transform', 'rotate(-55)').style('text-anchor', 'end').attr('dx', '-0.5em').attr('dy', '0.1em');
     xa.selectAll('text').each(function () {
       const t = d3.select(this); let s = t.text();
       while (this.getComputedTextLength() > maxLab - 4 && s.length > 3) { s = s.slice(0, -2); t.text(s + '…'); }
@@ -231,6 +232,10 @@
       if (cfg.values && cfg.stacked && x0.bandwidth() > 26) {
         g.append('text').attr('class', 'sd-val').attr('x', x0(d[cfg.cat]) + x0.bandwidth() / 2).attr('y', y(acc) - 5).attr('text-anchor', 'middle').text(yFmt(acc));
       }
+    });
+    (cfg.refLines || []).forEach((r) => {
+      svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(r.value)).attr('y2', y(r.value)).style('stroke', r.color || 'var(--color-fg)').attr('stroke-dasharray', '5 4').attr('stroke-width', 1.5);
+      svg.append('text').attr('class', 'sd-anno').attr('x', W - m.r - 4).attr('y', y(r.value) - 5).attr('text-anchor', 'end').text(r.label);
     });
     if (cfg.series.length > 1 || cfg.onLegend) SD.legend(el, cfg.series, cfg.onLegend);
     el.dataset.drawn = '1';
@@ -374,7 +379,7 @@
           .on('pointermove', (ev) => tip.show(ev, [r.label, [s.color, `${s.label}: ${fmt(raw)}${cfg.pct ? ` (${d3.format('.0f')(v)}%)` : ''}`]]))
           .on('pointerleave', () => tip.hide())
           .on('click', () => { if (cfg.onPick) { tip.hide(); cfg.onPick(r, s); } });
-        if (w > 26) svg.append('text').attr('class', 'sd-seg').attr('x', x0 + w / 2).attr('y', y + h / 2).attr('dy', '0.35em').attr('text-anchor', 'middle')
+        if (w > 26) svg.append('text').attr('class', 'sd-segv').attr('x', x0 + w / 2).attr('y', y + h / 2).attr('dy', '0.35em').attr('text-anchor', 'middle')
           .style('fill', s.outline ? 'var(--color-fg)' : '#fff').text(cfg.pct ? d3.format('.0f')(v) + '%' : fmt(raw)).style('pointer-events', 'none');
       });
       if (!cfg.pct) svg.append('text').attr('class', 'sd-val').attr('x', x(acc) + 6).attr('y', y + h / 2).attr('dy', '0.35em').text(fmt(acc));
