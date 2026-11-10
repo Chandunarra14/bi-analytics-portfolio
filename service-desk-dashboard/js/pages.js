@@ -74,14 +74,16 @@
     const m = sortM(d).filter(F.inRange); if (!m.length) return empty(el);
     S.bars(el, { data: m, cat: 'month', stacked: true, values: true, label: 'Tickets by classification per month',
       catFmt: (x) => d3.utcFormat('%b')(S.parseDate(x)),
-      series: F.classes(CLS).map((c) => ({ key: CLS_KEY[c], label: c, color: CLS_COLOR[c] })) });
+      series: F.classes(CLS).map((c) => ({ key: CLS_KEY[c], label: c, cls: c, color: CLS_COLOR[c] })),
+      onPick: (d, s) => F.toggle('cls', s.cls), onLegend: (s) => F.toggle('cls', s.cls) });
   });
   dash.draw('ov-chmix', (el) => {
     const d = rows(el, 'channel_share'); if (!d) return;
     const m = d.filter(F.inRange); if (!m.length) return empty(el);
     S.bars(el, { data: m, cat: 'month', stacked: true, yMax: 100, label: 'Channel share by month', yFmt: (v) => d3.format('.0f')(v) + '%',
       catFmt: (x) => d3.utcFormat('%b')(S.parseDate(x)),
-      series: F.channels(CHANNELS).map((c) => ({ key: c, label: c, color: CH_COLOR[c] })) });
+      series: F.channels(CHANNELS).map((c) => ({ key: c, label: c, color: CH_COLOR[c] })),
+      onPick: (d, s) => F.toggle('channel', s.key), onLegend: (s) => F.toggle('channel', s.key) });
   });
   dash.draw('ov-daily', (el) => {
     const d = rows(el, 'daily_current_month'); if (!d) return;
@@ -101,8 +103,9 @@
     dates.forEach((dt) => cell('h', d3.utcFormat('%a %d')(S.parseDate(dt))));
     cell('h', 'Total');
     const tip = S.tip(el);
+    const pickCh = (ch) => (ch === 'Monitoring Alert' ? F.toggle('cls', 'Alerts') : F.toggle('channel', ch));
     chans.forEach((ch) => {
-      cell('rl', ch);
+      const rl = cell('rl', ch); rl.classList.add('sd-pick'); rl.addEventListener('click', () => pickCh(ch));
       let tot = 0;
       dates.forEach((dt) => {
         const r = d.find((x) => x.date === dt && x.channel === ch);
@@ -114,6 +117,8 @@
         if (pct > 55) c.style.color = '#fff';
         c.addEventListener('pointermove', (ev) => tip.show(ev, [`${ch} · ${S.fmtDay(S.parseDate(dt))}`, `${S.fmtInt(v)} tickets`]));
         c.addEventListener('pointerleave', () => tip.hide());
+        c.style.cursor = 'pointer';
+        c.addEventListener('click', () => { tip.hide(); pickCh(ch); });
       });
       const t = cell('c', S.fmtInt(tot)); t.style.fontWeight = '600';
     });
@@ -130,7 +135,9 @@
     if (!r.length) return empty(el);
     S.bars(el, { data: r, cat: 'category', values: true, label: `Actual vs forecast by ${dim}`,
       catFmt: (c) => c.replace(/^SEV ([0-9]) - .*/, 'SEV $1').replace('Monitoring Alert', 'Monitoring').replace('Service Requests', 'Requests'),
-      series: [{ key: 'actual_mtd', label: 'Month to date', color: C(0) }, { key: 'forecast_month', label: 'Forecast', color: C(1) }] });
+      series: [{ key: 'actual_mtd', label: 'Month to date', color: C(0) }, { key: 'forecast_month', label: 'Forecast', color: C(1) }],
+      onPick: dim === 'Channel' ? (d) => (CHANNELS.includes(d.category) ? F.toggle('channel', d.category) : F.toggle('cls', 'Alerts'))
+        : dim === 'Classification' ? (d) => F.toggle('cls', d.category) : null });
   };
   dash.draw('fc-sev', fcDraw('Severity'));
   dash.draw('fc-chan', fcDraw('Channel'));
@@ -142,7 +149,7 @@
   dash.draw('fc-15', (el) => {
     const d = rows(el, 'last_15_days'); if (!d) return;
     S.line(el, { data: d, x: (r) => S.parseDate(r.date), xFmt: S.fmtDay, tipFmt: d3.utcFormat('%a %b %d'), yZero: true, label: 'Daily tickets, last 15 days',
-      series: F.classes(CLS).map((c) => ({ key: CLS_KEY[c], label: c, color: CLS_COLOR[c] })) });
+      series: F.classes(CLS).map((c) => ({ key: CLS_KEY[c], label: c, cls: c, color: CLS_COLOR[c] })), onLegend: (s) => F.toggle('cls', s.cls) });
   });
 
   // ---------- Open tickets (Department + Classification slicers) ----------
@@ -170,17 +177,19 @@
     const d = rows(el, 'open_by_department'); if (!d) return;
     const r = d.filter(F.deptOk); if (!r.length) return empty(el);
     S.bars(el, { data: pivot(r, 'department'), cat: 'department', stacked: true, values: true, label: 'Open tickets by department', series: clsSeries(),
+      onPick: (d) => F.toggle('dept', d.department), onLegend: (s) => F.toggle('cls', s.key),
       catFmt: (c) => c.replace(' Engineering', ' Eng').replace('Business Continuity', 'Bus. Cont.') });
   });
   dash.draw('op-pri', (el) => {
     const d = rows(el, 'open_by_priority'); if (!d) return;
-    S.bars(el, { data: pivot(d, 'priority'), cat: 'priority', stacked: true, values: true, label: 'Open tickets by priority', series: clsSeries() });
+    S.bars(el, { data: pivot(d, 'priority'), cat: 'priority', stacked: true, values: true, label: 'Open tickets by priority', series: clsSeries(),
+      onPick: (d, s) => F.toggle('cls', s.key), onLegend: (s) => F.toggle('cls', s.key) });
   });
   dash.draw('op-mix', (el) => {
     const r = openRows(); if (!r) return;
     const by = CLS.map((c) => ({ classification: c, open_tickets: d3.sum(r.filter((x) => x.classification === c), (x) => n(x.open_tickets)) })).filter((x) => x.open_tickets > 0);
     if (!by.length) return empty(el);
-    S.donut(el, { data: by, labelKey: 'classification', value: 'open_tickets', colors: by.map((x) => CLS_COLOR[x.classification]), centerLabel: 'open', label: 'Open ticket mix' });
+    S.donut(el, { data: by, labelKey: 'classification', value: 'open_tickets', colors: by.map((x) => CLS_COLOR[x.classification]), centerLabel: 'open', label: 'Open ticket mix', onPick: (d) => F.toggle('cls', d.classification) });
   });
   dash.draw('op-oldest', (tb) => {
     const r = dash.data('oldest_open');
@@ -207,7 +216,8 @@
     el.replaceChildren();
     d.filter((r) => !F.state.channel || r.channel === F.state.channel).forEach((r) => {
       const card = document.createElement('div');
-      card.className = 'sd-ringcard';
+      card.className = 'sd-ringcard sd-pick';
+      card.addEventListener('click', () => F.toggle('channel', r.channel));
       const ring = document.createElement('div');
       S.ring(ring, n(r.csat_score), TARGET, `${r.channel} CSAT ${r.csat_score}`);
       const txt = document.createElement('div'); txt.className = 'sd-ringtxt';
@@ -221,13 +231,13 @@
     const d = rows(el, 'channel_wide'); if (!d) return;
     const m = d.filter(F.inRange); if (!m.length) return empty(el);
     S.line(el, { data: m, x: md, label: 'CSAT score trend by channel', yFmt: (v) => d3.format('.0f')(v), legend: true,
-      series: F.channels(CHANNELS).map((c) => ({ key: 'csat_' + c, label: c, color: CH_COLOR[c] })) });
+      series: F.channels(CHANNELS).map((c) => ({ key: 'csat_' + c, label: c, ch: c, color: CH_COLOR[c] })), onLegend: (s) => F.toggle('channel', s.ch) });
   });
   dash.draw('cs-resp', (el) => {
     const d = rows(el, 'channel_summary'); if (!d) return;
     const r = d.filter((x) => !F.state.channel || x.channel === F.state.channel)
       .map((x) => ({ channel: x.channel, rate: Math.round((n(x.csat_responses) / n(x.tickets)) * 1000) / 10 })).sort((a, b) => b.rate - a.rate);
-    S.hbars(el, { data: r, labelKey: 'channel', value: 'rate', fmt: (v) => d3.format('.1f')(v) + '%', color: C(0), label: 'Survey response rate by channel' });
+    S.hbars(el, { data: r, labelKey: 'channel', value: 'rate', fmt: (v) => d3.format('.1f')(v) + '%', color: C(0), label: 'Survey response rate by channel', onPick: (d) => F.toggle('channel', d.channel) });
   });
   dash.draw('cs-acct', (tb) => {
     const r = dash.data('accounts');
@@ -250,7 +260,7 @@
   dash.draw('fcr-chan', (el) => {
     const d = rows(el, 'channel_summary'); if (!d) return;
     const r = d.filter((x) => !F.state.channel || x.channel === F.state.channel).sort((a, b) => n(b.fcr_pct) - n(a.fcr_pct));
-    S.hbars(el, { data: r, labelKey: 'channel', value: 'fcr_pct', fmt: (v) => d3.format('.1f')(v) + '%', color: C(0), label: 'FCR by channel' });
+    S.hbars(el, { data: r, labelKey: 'channel', value: 'fcr_pct', fmt: (v) => d3.format('.1f')(v) + '%', color: C(0), label: 'FCR by channel', onPick: (d) => F.toggle('channel', d.channel) });
   });
   dash.draw('fcr-trend', (el) => {
     const d = rows(el, 'monthly_summary'); if (!d) return;
@@ -262,7 +272,7 @@
     const d = rows(el, 'channel_wide'); if (!d) return;
     const m = d.filter(F.inRange); if (!m.length) return empty(el);
     S.line(el, { data: m, x: md, label: 'FCR by channel by month', yFmt: (v) => d3.format('.0f')(v) + '%', annotate: GOLIVE, legend: true,
-      series: F.channels(CHANNELS).map((c) => ({ key: 'fcr_' + c, label: c, color: CH_COLOR[c] })) });
+      series: F.channels(CHANNELS).map((c) => ({ key: 'fcr_' + c, label: c, ch: c, color: CH_COLOR[c] })), onLegend: (s) => F.toggle('channel', s.ch) });
   });
   dash.draw('fcr-issue', (tb) => {
     const r = dash.data('issue_types');
@@ -297,7 +307,7 @@
   dash.draw('mt-chan', (el) => {
     const d = rows(el, 'channel_summary'); if (!d) return;
     const r = d.filter((x) => !F.state.channel || x.channel === F.state.channel).sort((a, b) => n(a.avg_resolution_hrs) - n(b.avg_resolution_hrs));
-    S.hbars(el, { data: r, labelKey: 'channel', value: 'avg_resolution_hrs', fmt: (v) => d3.format('.1f')(v) + ' h', color: C(1), label: 'Average resolution hours by channel' });
+    S.hbars(el, { data: r, labelKey: 'channel', value: 'avg_resolution_hrs', fmt: (v) => d3.format('.1f')(v) + ' h', color: C(1), label: 'Average resolution hours by channel', onPick: (d) => F.toggle('channel', d.channel) });
   });
   dash.draw('mt-trend', (el) => {
     const d = rows(el, 'monthly_summary'); if (!d) return;
@@ -309,22 +319,28 @@
     const d = rows(el, 'accounts'); if (!d) return;
     const r = d.filter(F.levelOk).sort((a, b) => n(b.mttr_hrs) - n(a.mttr_hrs)).slice(0, 10);
     if (!r.length) return empty(el);
-    S.hbars(el, { data: r, labelKey: 'account', value: 'mttr_hrs', fmt: (v) => S.fmtInt(v) + ' h', color: C(0), highlight: (x) => n(x.mttr_hrs) > 100, label: 'Top 10 clients by MTTR' });
+    S.hbars(el, { data: r, labelKey: 'account', value: 'mttr_hrs', fmt: (v) => S.fmtInt(v) + ' h', color: C(0), highlight: (x) => n(x.mttr_hrs) > 100, label: 'Top 10 clients by MTTR', onPick: (d) => F.toggle('level', d.service_level) });
   });
 
-  // ---------- Accounts (Account level slicer + search) ----------
+  // ---------- Accounts (Account level slicer + search; click a bar to focus that client) ----------
+  const pickAcct = (d) => {
+    const q = d.account.toLowerCase();
+    SDState.acctQuery = SDState.acctQuery === q ? '' : q;
+    const box = document.getElementById('ac-search'); if (box) box.value = SDState.acctQuery ? d.account : '';
+    dash.redraw();
+  };
   dash.draw('ac-alerts', (el) => {
     const d = rows(el, 'accounts'); if (!d) return;
     const r = d.filter(F.levelOk).sort((a, b) => n(b.alerts) - n(a.alerts)).slice(0, 10);
     if (!r.length) return empty(el);
-    S.hbars(el, { data: r, labelKey: 'account', value: 'alerts', fmt: S.fmtInt, color: C(2), label: 'Top 10 clients by alerts' });
+    S.hbars(el, { data: r, labelKey: 'account', value: 'alerts', fmt: S.fmtInt, color: C(2), label: 'Top 10 clients by alerts', onPick: pickAcct });
   });
   dash.draw('ac-ratio', (el) => {
     const d = rows(el, 'accounts'); if (!d) return;
     const r = d.filter(F.levelOk).sort((a, b) => n(b.tickets_per_mrr_ratio) - n(a.tickets_per_mrr_ratio)).slice(0, 10);
     if (!r.length) return empty(el);
     S.hbars(el, { data: r, labelKey: 'account', value: 'tickets_per_mrr_ratio', fmt: (v) => d3.format('.2f')(v), color: C(0),
-      highlight: (x) => n(x.tickets_per_mrr_ratio) > 1, label: 'Top 10 clients by ticket load vs MRR' });
+      highlight: (x) => n(x.tickets_per_mrr_ratio) > 1, label: 'Top 10 clients by ticket load vs MRR', onPick: pickAcct });
   });
   dash.draw('ac-table', (tb) => {
     const r = dash.data('accounts');

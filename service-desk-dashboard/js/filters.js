@@ -10,6 +10,13 @@
     classes: (all) => (F.cls ? all.filter((c) => c === F.cls) : all),
     deptOk: (r) => !F.dept || r.department === F.dept,
     levelOk: (r) => !F.level || r.service_level === F.level,
+    // Click-to-filter: pick a value, pick it again to clear. Keeps the slicer dropdowns in sync.
+    toggle(key, value) {
+      F[key] = F[key] === value ? '' : value;
+      const sel = { channel: 'f-channel', cls: 'f-cls', dept: 'f-dept', level: 'f-level' }[key];
+      if (sel && $(sel)) $(sel).value = F[key];
+      if (window.dash && dash.redraw) dash.redraw();
+    },
     showFor(page) {
       let any = false;
       document.querySelectorAll('#sd-slicers [data-pages]').forEach((el) => {

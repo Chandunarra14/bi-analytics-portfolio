@@ -95,11 +95,12 @@
     g.remove();
     return w;
   }
-  SD.legend = function (el, items) {
+  SD.legend = function (el, items, onPick) {
     const L = document.createElement('div');
     L.className = 'sd-legend';
     items.forEach((it) => {
       const s = document.createElement('span');
+      if (onPick) { s.className = 'sd-pick'; s.title = 'Click to filter'; s.addEventListener('click', () => onPick(it)); }
       const sw = document.createElement('i');
       sw.style.background = it.color;
       s.append(sw, document.createTextNode(it.label));
@@ -156,7 +157,7 @@
           .text((d) => yFmt(SD.n(d[s.key])));
       }
     });
-    if (cfg.series.length > 1 || cfg.legend) SD.legend(el, cfg.series);
+    if (cfg.series.length > 1 || cfg.legend) SD.legend(el, cfg.series, cfg.onLegend);
     el.dataset.drawn = '1';
     // hover
     const tip = SD.tip(el);
@@ -215,7 +216,9 @@
         const r = g.append('rect').attr('x', bx).attr('width', bw).attr('rx', 3)
           .style('fill', s.color)
           .on('pointermove', (ev) => tip.show(ev, [catFmt(d[cfg.cat]), ...cfg.series.map((ss) => [ss.color, `${ss.label}: ${yFmt(SD.n(d[ss.key]))}`])]))
-          .on('pointerleave', () => tip.hide());
+          .on('pointerleave', () => tip.hide())
+          .on('click', () => { if (cfg.onPick) { tip.hide(); cfg.onPick(d, s); } })
+          .style('cursor', cfg.onPick ? 'pointer' : null);
         if (first) r.attr('y', y(0)).attr('height', 0).transition().duration(700).ease(d3.easeCubicOut).attr('y', y1).attr('height', Math.max(0, y0 - y1));
         else r.attr('y', y1).attr('height', Math.max(0, y0 - y1));
         if (cfg.values && !cfg.stacked && bw > 22) {
@@ -226,7 +229,7 @@
         g.append('text').attr('class', 'sd-val').attr('x', x0(d[cfg.cat]) + x0.bandwidth() / 2).attr('y', y(acc) - 5).attr('text-anchor', 'middle').text(yFmt(acc));
       }
     });
-    if (cfg.series.length > 1) SD.legend(el, cfg.series);
+    if (cfg.series.length > 1 || cfg.onLegend) SD.legend(el, cfg.series, cfg.onLegend);
     el.dataset.drawn = '1';
   };
 
@@ -251,7 +254,9 @@
       const r = svg.append('rect').attr('x', labW).attr('y', yy + 4).attr('height', rowH - 10).attr('rx', 3)
         .style('fill', cfg.highlight && cfg.highlight(d) ? 'var(--cds-chart-status-critical)' : cfg.color)
         .on('pointermove', (ev) => tip.show(ev, [d[cfg.labelKey], `${cfg.valueLabel || ''}${fmt(v)}`]))
-        .on('pointerleave', () => tip.hide());
+        .on('pointerleave', () => tip.hide())
+        .on('click', () => { if (cfg.onPick) { tip.hide(); cfg.onPick(d); } })
+        .style('cursor', cfg.onPick ? 'pointer' : null);
       if (first) r.attr('width', 0).transition().duration(700).delay(i * 25).attr('width', x(v)); else r.attr('width', x(v));
       svg.append('text').attr('class', 'sd-val').attr('x', labW + x(v) + 6).attr('y', yy + rowH / 2).attr('dy', '0.35em').text(fmt(v));
     });
@@ -276,7 +281,9 @@
     const tip = SD.tip(el);
     g.selectAll('path').data(arcs).join('path').attr('d', arc).style('fill', (d, i) => cfg.colors[i])
       .on('pointermove', (ev, d) => tip.show(ev, [d.data[cfg.labelKey], `${SD.fmtInt(d.value)} (${d3.format('.0%')(d.value / total)})`]))
-      .on('pointerleave', () => tip.hide());
+      .on('pointerleave', () => tip.hide())
+      .on('click', (ev, d) => { if (cfg.onPick) { tip.hide(); cfg.onPick(d.data); } })
+      .style('cursor', cfg.onPick ? 'pointer' : null);
     g.append('text').attr('class', 'sd-donut-v').attr('text-anchor', 'middle').attr('dy', '0.1em').text(SD.fmtInt(total));
     g.append('text').attr('class', 'sd-donut-l').attr('text-anchor', 'middle').attr('dy', '1.6em').text(cfg.centerLabel || 'total');
     const L = document.createElement('ul');
