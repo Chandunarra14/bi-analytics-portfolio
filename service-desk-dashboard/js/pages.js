@@ -329,12 +329,6 @@
     const box = document.getElementById('ac-search'); if (box) box.value = SDState.acctQuery ? d.account : '';
     dash.redraw();
   };
-  dash.draw('ac-alerts', (el) => {
-    const d = rows(el, 'accounts'); if (!d) return;
-    const r = d.filter(F.levelOk).sort((a, b) => n(b.alerts) - n(a.alerts)).slice(0, 10);
-    if (!r.length) return empty(el);
-    S.hbars(el, { data: r, labelKey: 'account', value: 'alerts', fmt: S.fmtInt, color: C(2), label: 'Top 10 clients by alerts', onPick: pickAcct });
-  });
   // Negative clients: below median MRR and above the median ticket count for a type (medians across all clients).
   const NEG_TYPES = [['service_requests', 'Requests', C(1)], ['incidents', 'Incidents', C(0)], ['alerts', 'Alerts', C(2)]];
   const negInfo = (all) => {
@@ -343,18 +337,20 @@
     const flagsOf = (x) => NEG_TYPES.filter(([k]) => n(x.mrr) < mM && n(x[k]) > med[k]).map(([k]) => k);
     return { mM, med, flagsOf };
   };
+  // MRR ratio = monthly MRR / tickets of that type. Higher is better; the lowest are the problem clients.
   const negDraw = (key, label, color) => (el) => {
     const d = rows(el, 'accounts'); if (!d) return;
-    const { mM, med } = negInfo(d);
-    const r = d.filter((x) => F.levelOk(x) && n(x.mrr) < mM).sort((p, q) => n(q[key]) - n(p[key])).slice(0, 10);
+    const all = d.filter((x) => n(x[key]) > 0).map((x) => ({ ...x, ratio: Math.round((n(x.mrr) / n(x[key])) * 100) / 100 }));
+    const q25 = d3.quantile(all.map((x) => x.ratio).sort(d3.ascending), 0.25);
+    const r = all.filter(F.levelOk).sort((p, q) => p.ratio - q.ratio).slice(0, 10);
     if (!r.length) return empty(el);
-    S.hbars(el, { data: r, labelKey: 'account', value: key, fmt: S.fmtInt, color, highlight: (x) => n(x[key]) > med[key], muteOthers: true,
-      right: (x) => S.fmtUsd(n(x.mrr)), rightHead: 'MRR', tipExtra: (x) => [`MRR: ${S.fmtUsd(n(x.mrr))}`],
-      label: `Low-MRR clients with the most ${label}`, onPick: pickAcct });
+    S.hbars(el, { data: r, labelKey: 'account', value: 'ratio', fmt: (v) => S.fmtUsd(v), color, highlight: (x) => x.ratio <= q25, muteOthers: true,
+      right: (x) => S.fmtUsd(n(x.mrr)), rightHead: 'MRR', tipExtra: (x) => [`MRR: ${S.fmtUsd(n(x.mrr))}`, `${label}: ${S.fmtInt(n(x[key]))}`],
+      label: `Clients with the lowest MRR per ${label}`, onPick: pickAcct });
   };
-  dash.draw('ac-neg-sr', negDraw('service_requests', 'service requests', C(1)));
-  dash.draw('ac-neg-inc', negDraw('incidents', 'incidents', C(0)));
-  dash.draw('ac-neg-alert', negDraw('alerts', 'alerts', C(2)));
+  dash.draw('ac-neg-sr', negDraw('service_requests', 'Service requests', C(1)));
+  dash.draw('ac-neg-inc', negDraw('incidents', 'Incidents', C(0)));
+  dash.draw('ac-neg-alert', negDraw('alerts', 'Alerts', C(2)));
   dash.draw('ac-watch', (tb) => {
     const r = dash.data('accounts');
     if (r.status !== 'ok') { tb.replaceChildren(); return; }
