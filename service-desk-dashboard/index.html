@@ -126,6 +126,13 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
 [data-dash-source-state=refreshing] { opacity: .5; }
 @media (prefers-reduced-motion: no-preference) { .sd-sec { animation: sdIn var(--cds-dur-slow) var(--cds-ease-out); } }
 @keyframes sdIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+.sd-slicers { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: flex-end; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: 12px 16px; margin-bottom: var(--cds-gap-lg); }
+.sd-sl { display: flex; flex-direction: column; gap: 4px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); text-transform: uppercase; letter-spacing: .05em; }
+.sd-sl[hidden], .sd-slicers[hidden] { display: none; }
+.sd-sl select { font: inherit; font-size: 13px; text-transform: none; letter-spacing: 0; color: var(--color-fg); background: var(--color-bg); border: 1px solid var(--color-border-line); border-radius: 8px; padding: 7px 10px; min-width: 150px; cursor: pointer; }
+.sd-reset { font: inherit; font-size: 13px; border: 1px solid var(--color-border-line); background: none; color: var(--color-fg-muted); border-radius: 8px; padding: 7px 14px; cursor: pointer; margin-left: auto; }
+.sd-reset:hover { color: var(--color-fg); border-color: var(--color-fg-muted); }
+.sd-slicer-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0 0 var(--cds-gap-md); }
 </style>
 </head>
 <body>
@@ -152,11 +159,22 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
     <button class='sd-tab sd-tab-impact' role='tab' aria-selected='false' data-tab='impact'>★ Impact</button>
   </nav>
 
+  <div class='sd-slicers' id='sd-slicers'>
+    <label class='sd-sl' data-pages='overview csat fcr mttr'>From<select id='f-from' aria-label='From month'></select></label>
+    <label class='sd-sl' data-pages='overview csat fcr mttr'>To<select id='f-to' aria-label='To month'></select></label>
+    <label class='sd-sl' data-pages='overview forecast csat fcr mttr'>Channel<select id='f-channel'><option value=''>All channels</option><option>Email</option><option>Chat</option><option>Phone</option><option>Client Portal</option></select></label>
+    <label class='sd-sl' data-pages='overview forecast open'>Classification<select id='f-cls'><option value=''>All classifications</option><option>Alerts</option><option>Incidents</option><option>Service Requests</option></select></label>
+    <label class='sd-sl' data-pages='open'>Department<select id='f-dept'><option value=''>All departments</option><option>Service Desk</option><option>Platform Engineering</option><option>Security Ops</option><option>Tier 3 Engineering</option><option>Business Continuity</option><option>Field Support</option></select></label>
+    <label class='sd-sl' data-pages='csat mttr accounts'>Account level<select id='f-level'><option value=''>All levels</option><option>Level-1</option><option>Level-2</option><option>Level-3</option><option>Level-4</option><option>Level-5</option></select></label>
+    <button class='sd-reset' id='f-reset' type='button'>Reset filters</button>
+  </div>
+  <p class='sd-slicer-note' id='sd-slicer-note' hidden>The Impact page compares fixed before and after windows, so filters don't apply here.</p>
+
   <!-- OVERVIEW -->
   <section class='sd-sec' id='overview' data-page>
     <p class='sd-takeaway' id='ov-takeaway'>In <b data-draw='ov-month' data-source='overview_kpis' data-field='latest_month' data-row='0'>—</b>, the desk resolved <b data-draw='ov-res' data-source='overview_kpis' data-field='resolution_pct' data-row='0'>—</b> of tickets, and first contact resolution reached <b data-draw='ov-fcr' data-source='overview_kpis' data-field='fcr_pct' data-row='0'>—</b><span data-draw='ov-fcr-dir'></span>. Incident MTTR is <b data-draw='ov-mttr' data-source='overview_kpis' data-field='mttr_hrs' data-row='0'>—</b> hours.</p>
     <div class='sd-grid'>
-      <div class='sd-card sd-kpi sd-c3' id='kpi-tickets'><span class='sd-kpi-l'>Tickets created · 12 mo</span><span class='sd-kpi-v' data-draw='k-tickets' data-source='overview_kpis' data-field='tickets_12m' data-row='0'>—</span><span class='sd-kpi-d'><span data-draw='k-completed' data-source='overview_kpis' data-field='completed_12m' data-row='0'>—</span> completed</span></div>
+      <div class='sd-card sd-kpi sd-c3' id='kpi-tickets'><span class='sd-kpi-l' data-draw='k-tickets-l'>Tickets created</span><span class='sd-kpi-v' data-draw='k-tickets' data-source='overview_kpis' data-field='tickets_12m' data-row='0'>—</span><span class='sd-kpi-d'><span data-draw='k-completed' data-source='overview_kpis' data-field='completed_12m' data-row='0'>—</span> completed</span></div>
       <div class='sd-card sd-kpi sd-c3' id='kpi-res'><span class='sd-kpi-l'>Resolution rate · latest month</span><span class='sd-kpi-v' data-draw='k-res' data-source='overview_kpis' data-field='resolution_pct' data-row='0'>—</span><span class='sd-kpi-d'><span class='sd-chip' data-draw='k-res-d' data-source='overview_kpis' data-field='resolution_change' data-row='0'>—</span> pts vs prior month</span></div>
       <div class='sd-card sd-kpi sd-c3' id='kpi-fcr'><span class='sd-kpi-l'>First contact resolution · latest</span><span class='sd-kpi-v' data-draw='k-fcr' data-source='overview_kpis' data-field='fcr_pct' data-row='0'>—</span><span class='sd-kpi-d'><span class='sd-chip' data-draw='k-fcr-d' data-source='overview_kpis' data-field='fcr_change' data-row='0'>—</span> pts vs prior month</span></div>
       <div class='sd-card sd-kpi sd-c3' id='kpi-csat'><span class='sd-kpi-l'>CSAT score · latest</span><span class='sd-kpi-v' data-draw='k-csat' data-source='overview_kpis' data-field='csat_score' data-row='0'>—</span><span class='sd-kpi-d'><span class='sd-chip' data-draw='k-csat-d' data-source='overview_kpis' data-field='csat_change' data-row='0'>—</span> pts vs prior month</span></div>
@@ -202,8 +220,7 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
     </div>
     <div class='sd-grid'>
       <div class='sd-card sd-c12' id='op-oldest'><h3>Oldest open tickets</h3><p class='sd-note'>Top 10 by age for each classification. Anything over a year is flagged.</p>
-        <div class='sd-seg' id='op-seg' role='group' aria-label='Classification'><button class='is-on' data-cls='Incidents'>Incidents</button><button data-cls='Alerts'>Alerts</button><button data-cls='Service Requests'>Service requests</button></div>
-        <div class='sd-tw'><table class='sd-table' data-source='oldest_open' data-row-key='ticket'><thead><tr><th data-field='ticket'>Ticket</th><th data-field='department'>Department</th><th data-field='created_on'>Created</th><th class='r' data-field='age_days'>Age (days)</th></tr></thead><tbody data-draw='op-oldest'></tbody></table></div>
+        <div class='sd-tw'><table class='sd-table' data-source='oldest_open' data-row-key='ticket'><thead><tr><th data-field='ticket'>Ticket</th><th data-field='classification'>Type</th><th data-field='department'>Department</th><th data-field='created_on'>Created</th><th class='r' data-field='age_days'>Age (days)</th></tr></thead><tbody data-draw='op-oldest'></tbody></table></div>
       </div>
     </div>
   </section>
@@ -313,6 +330,7 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
 <script src="js/vendor/d3.min.js"></script>
 <script src="js/shim.js"></script>
 <script src="js/lib.js"></script>
+<script src="js/filters.js"></script>
 <script src="js/calcs.js"></script>
 <script src="js/nav.js"></script>
 <script src="js/pages.js"></script>

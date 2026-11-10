@@ -53,6 +53,7 @@
     },
     onData(fn) { listeners.push(fn); fn(); },
     refresh() {},
+    redraw() { schedule(); },
     params: () => ({}),
     setParams() {},
     resetParams() {},

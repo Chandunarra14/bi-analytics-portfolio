@@ -12,19 +12,12 @@ window.SDState = { oldestCls: 'Incidents', acctSort: { key: 'tickets_per_mrr_rat
       t.classList.toggle('is-on', on);
       t.setAttribute('aria-selected', on ? 'true' : 'false');
     });
+    if (window.SDF) SDF.showFor(id);
     if (link) dash.setLink(id);
   }
   tabs.forEach((t) => t.addEventListener('click', () => open(t.dataset.tab, true)));
   const h = (location.hash || '').replace('#', '');
   if (h) open(h, false);
-
-  document.querySelectorAll('#op-seg button').forEach((b) => {
-    b.addEventListener('click', () => {
-      document.querySelectorAll('#op-seg button').forEach((x) => x.classList.toggle('is-on', x === b));
-      SDState.oldestCls = b.dataset.cls;
-      dash.draw('op-oldest');
-    });
-  });
 
   document.querySelectorAll('#ac-tbl th[data-sort]').forEach((th) => {
     th.style.cursor = 'pointer';
