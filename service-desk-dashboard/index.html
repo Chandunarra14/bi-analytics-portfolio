@@ -277,9 +277,14 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
   <!-- ACCOUNTS -->
   <section class='sd-sec' id='accounts' data-page hidden>
     <div class='sd-grid'>
-      <div class='sd-card sd-c6' id='ac-alerts'><h3>Top 10 clients by alerts</h3><p class='sd-note'>Last 12 months.</p><div data-draw='ac-alerts' data-source='accounts'></div></div>
-      <div class='sd-card sd-c6' id='ac-ratio'><h3>Top 10 clients by ticket load vs MRR</h3><p class='sd-note'>Tickets per $ of quarterly MRR. Above 1.0 (red) means the client may be under-priced for the support they use.</p><div data-draw='ac-ratio' data-source='accounts'></div></div>
+      <div class='sd-card sd-c12' id='ac-alerts'><h3>Top 10 clients by alerts</h3><p class='sd-note'>Last 12 months.</p><div style='position: relative' data-draw='ac-alerts' data-source='accounts'></div></div>
     </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c4' id='ac-ratio-sr'><h3>MRR ratio by service requests</h3><p class='sd-note'>Top 10. Service requests per $ of quarterly MRR.</p><div style='position: relative' data-draw='ac-ratio-sr' data-source='accounts'></div></div>
+      <div class='sd-card sd-c4' id='ac-ratio-inc'><h3>MRR ratio by incidents</h3><p class='sd-note'>Top 10. Incidents per $ of quarterly MRR.</p><div style='position: relative' data-draw='ac-ratio-inc' data-source='accounts'></div></div>
+      <div class='sd-card sd-c4' id='ac-ratio-alert'><h3>MRR ratio by alerts</h3><p class='sd-note'>Top 10. Alerts per $ of quarterly MRR.</p><div style='position: relative' data-draw='ac-ratio-alert' data-source='accounts'></div></div>
+    </div>
+    <p class='sd-note' style='margin-top: -6px'>Ratio = tickets of that type ÷ (MRR ÷ 4). Red bars are over 1.0, meaning the client may be under-priced for the support they use.</p>
     <div class='sd-grid'>
       <div class='sd-card sd-c12' id='ac-table'><h3>All clients</h3>
         <div class='sd-toolbar'><p class='sd-note' style='margin:0'>Click a column to sort. Ratio status: green under 0.5, amber 0.5 to 1.0, red over 1.0.</p><input class='sd-search' id='ac-search' type='search' placeholder='Search clients…' aria-label='Search clients'></div>

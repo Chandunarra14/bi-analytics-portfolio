@@ -335,13 +335,18 @@
     if (!r.length) return empty(el);
     S.hbars(el, { data: r, labelKey: 'account', value: 'alerts', fmt: S.fmtInt, color: C(2), label: 'Top 10 clients by alerts', onPick: pickAcct });
   });
-  dash.draw('ac-ratio', (el) => {
+  const ratioDraw = (key, label, color) => (el) => {
     const d = rows(el, 'accounts'); if (!d) return;
-    const r = d.filter(F.levelOk).sort((a, b) => n(b.tickets_per_mrr_ratio) - n(a.tickets_per_mrr_ratio)).slice(0, 10);
+    const r = d.filter(F.levelOk)
+      .map((x) => ({ account: x.account, service_level: x.service_level, ratio: Math.round((n(x[key]) / (n(x.mrr) / 4)) * 100) / 100 }))
+      .sort((p, q) => q.ratio - p.ratio).slice(0, 10);
     if (!r.length) return empty(el);
-    S.hbars(el, { data: r, labelKey: 'account', value: 'tickets_per_mrr_ratio', fmt: (v) => d3.format('.2f')(v), color: C(0),
-      highlight: (x) => n(x.tickets_per_mrr_ratio) > 1, label: 'Top 10 clients by ticket load vs MRR', onPick: pickAcct });
-  });
+    S.hbars(el, { data: r, labelKey: 'account', value: 'ratio', fmt: (v) => d3.format('.2f')(v), color, highlight: (x) => x.ratio > 1,
+      label: `Top 10 clients by ${label} per MRR`, onPick: pickAcct });
+  };
+  dash.draw('ac-ratio-sr', ratioDraw('service_requests', 'service requests', C(1)));
+  dash.draw('ac-ratio-inc', ratioDraw('incidents', 'incidents', C(0)));
+  dash.draw('ac-ratio-alert', ratioDraw('alerts', 'alerts', C(2)));
   dash.draw('ac-table', (tb) => {
     const r = dash.data('accounts');
     if (r.status !== 'ok') { tb.replaceChildren(); return; }
