@@ -62,7 +62,7 @@
 
   // Load every CSV, then draw.
   window.addEventListener('DOMContentLoaded', () => {
-    Promise.all(FILES.map((f) => d3.csv(`data/${f}.csv`).then(
+    Promise.all(FILES.map((f) => d3.csv(`data/${f}.csv?v=${Date.now()}`).then(
       (rows) => { store[f] = { status: 'ok', data: rows }; },
       () => { store[f] = { status: 'error', data: [] }; },
     ))).then(schedule);
