@@ -1,0 +1,16 @@
+kind,label,value,before,after,unit,better,note
+hero,Manual tracking effort saved,1.5,,,work-weeks every month,,"Renewal lists were pulled from the PSA and tracked in spreadsheets by each CSM: about 15 hours a week combined. Now expirations, churn and MRR are live."
+stat,Hours saved per year,728,,,CSMs + account managers,,
+stat,Renewal lead time,90+ days,,,Was ~30 days,,
+stat,MRR protected / yr,$51K,,,Less churned MRR vs before,,
+stat,Overdue renewals,11,,,Was 40+,,
+ba,Recurring contract churn rate,,46.2,11.5,%,lower,
+ba,Churned MRR per month,,5422,1144,$,lower,
+ba,Days of notice before expiry,,30,90,days,higher,
+ba,Renewals missed (auto-expired),,12,2,per quarter,lower,
+client,"Clients hear about renewals {value} before expiry, with time to review pricing and scope",90+ days,,,⏱,,
+client,Churn on recurring contracts dropped to {value},12%,,,✓,,
+client,About {value} a year in recurring revenue kept that used to churn,$51K,,,↑,,
+process,Renewal tracking,,15,1,hours / week,,Expiry buckets and monthly churn vs renewal
+process,Top accounts review,,Quarterly,Live,,,"Top 10 by recurring, fixed and block revenue"
+process,MRR by contract by month,,Manual pivot,Automatic,,,Contract-level MRR history

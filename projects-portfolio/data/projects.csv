@@ -1,0 +1,1151 @@
+project,account,classification,lead,imp_type,status,is_open,ryg,created,closed,end_month,age_days,nrr,mrr,contracted_hrs,worked_hrs,pct_complete,budget_status,margin_pct
+P20250602.0000,Coastal Ortho Group,Level 4,Diane Foster,Billable Service Request,Complete,No,,2025-06-02,2025-07-20,2025-07-01,48,16275,0,93,112.5,100,Over Budget,-21
+P20251125.0001,Hilltop Family Medicine,Level 5,John Atwood,Fix-Bid,Complete,No,,2025-11-25,2026-01-29,2026-01-01,65,3150,0,18,10.5,100,Above Rate,42
+P20260619.0002,Ivy League Tutoring,Level 3,Diane Foster,Onboarding,Complete,No,,2026-06-19,2026-08-25,2026-08-01,67,13050,1500,87,73.9,100,Above Rate,15
+P20260220.0003,Keystone Property Mgmt,Level 5,Brendan Hale,Onboarding,Complete,No,,2026-02-20,2026-06-18,2026-06-01,118,1995,350,21,20.8,100,Under Value,1
+P20260620.0004,Glenview Partners LLP,Level 3,Diane Foster,Fix-Bid,Complete,No,,2026-06-20,2026-10-31,2026-10-01,133,5700,0,60,34.2,100,Above Rate,43
+P20260821.0005,Oceanside Packaging,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2026-08-21,2026-08-26,2026-08-01,5,12425,0,71,73.0,100,Above Rate,-3
+P20250609.0006,Redstone Architecture,Level 2,Chris Ortega,Billable Service Request,Complete,No,,2025-06-09,2025-06-21,2025-06-01,12,10650,0,71,35.6,100,Above Rate,50
+P20260611.0007,Ivy League Tutoring,Level 3,John Atwood,Billable Service Request,Complete,No,,2026-06-11,2026-07-30,2026-07-01,49,6000,0,40,31.3,100,Above Rate,22
+P20251114.0008,Indigo Biotech,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2025-11-14,2026-03-01,2026-03-01,107,1840,0,16,12.2,100,Above Rate,24
+P20250914.0009,Hilltop Family Medicine,Level 5,John Atwood,OffBoarding,Complete,No,,2025-09-14,2025-12-15,2025-12-01,92,0,0,55,50.3,100,Zero Budget,9
+P20251122.0010,Zephyr Aviation,Level 4,John Atwood,Billable Service Request,Complete,No,,2025-11-22,2025-11-27,2025-11-01,5,16275,0,93,103.4,100,Over Budget,-11
+P20250604.0011,Elmwood Insurance Group,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2025-06-04,2025-06-09,2025-06-01,5,10150,0,58,67.7,100,Over Budget,-17
+P20250622.0012,Redstone Architecture,Level 2,Brendan Hale,Billable Service Request,Complete,No,,2025-06-22,2025-06-27,2025-06-01,5,1330,0,14,15.9,100,Over Budget,-14
+P20260123.0013,Elmwood Insurance Group,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2026-01-23,2026-04-18,2026-04-01,85,10350,0,69,59.9,100,Above Rate,13
+P20260512.0014,Dunmore Steel,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2026-05-12,2026-06-16,2026-06-01,35,2625,0,15,10.2,100,Above Rate,32
+P20260312.0015,Whitestone Law Group,Level 1,Grace Mendel,OffBoarding,Complete,No,,2026-03-12,2026-05-19,2026-05-01,68,1500,0,27,14.5,100,Under Value,46
+P20251108.0016,Midtown Pharmacy,Level 4,Brendan Hale,Fix-Bid,Complete,No,,2025-11-08,2026-02-27,2026-02-01,111,1750,0,10,7.2,100,Above Rate,28
+P20251130.0017,Aldergrove Credit Union,Level 3,Chris Ortega,Onboarding,Complete,No,,2025-11-30,2026-02-08,2026-02-01,70,450,1500,3,4.0,100,Over Budget,-33
+P20251209.0018,Oceanside Packaging,Level 4,Grace Mendel,Onboarding,Complete,No,,2025-12-09,2026-03-16,2026-03-01,97,475,0,5,7.6,100,Over Budget,-52
+P20251026.0019,Whitestone Law Group,Level 1,Brendan Hale,Onboarding,Complete,No,,2025-10-26,2026-03-08,2026-03-01,133,3705,350,39,24.9,100,Above Rate,36
+P20251218.0020,Yorktown Health Partners,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-12-18,2025-12-23,2025-12-01,5,1225,0,7,5.7,100,Above Rate,19
+P20260707.0021,Clearwater Family Clinic,Level 3,Jesse Pruitt,Billable Service Request,Complete,No,,2026-07-07,2026-07-12,2026-07-01,5,30800,0,176,109.6,100,Above Rate,38
+P20260317.0022,Zephyr Aviation,Level 4,John Atwood,Billable Service Request,Complete,No,,2026-03-17,2026-04-12,2026-04-01,26,52325,0,299,305.5,100,Above Rate,-2
+P20260123.0023,Foxridge Engineering,Level 1,Diane Foster,Billable Service Request,Complete,No,,2026-01-23,2026-03-15,2026-03-01,51,575,0,5,5.8,100,Over Budget,-16
+P20251017.0024,Westlake Municipal,Level 3,Alan Reeves,Onboarding,Complete,No,,2025-10-17,2026-03-26,2026-03-01,160,50400,350,336,395.0,100,Over Budget,-18
+P20261108.0025,Driftwood Hospitality,Level 3,Brendan Hale,Onboarding,Material Ordered,Yes,Green,2026-11-08,,2026-11-01,2,3150,350,18,3.1,18,Above Rate,83
+P20261014.0026,Kestrel Security,Level 1,Robin Taylor,OffBoarding,Material Ordered,Yes,Green,2026-10-14,,2027-01-01,27,0,0,22,6.2,32,Zero Budget,72
+P20261021.0027,Quarry Hill Auto Parts,Level 2,Brendan Hale,Onboarding,On Hold,Yes,Blue,2026-10-21,,2027-01-01,20,4025,0,23,1.2,24,Above Rate,95
+P20250621.0028,Thornbury Accounting,Level 4,Diane Foster,Onboarding,Complete,No,,2025-06-21,2025-10-10,2025-10-01,111,700,120,4,3.7,100,Above Rate,7
+P20260513.0029,Granite Peak Insurance,Level 3,Diane Foster,OffBoarding,Complete,No,,2026-05-13,2026-08-08,2026-08-01,87,1500,0,8,8.9,100,Over Budget,-11
+P20250717.0030,Granite Peak Insurance,Level 3,John Atwood,Onboarding,Complete,No,,2025-07-17,2025-12-08,2025-12-01,144,570,1500,6,6.4,100,Under Value,-7
+P20260521.0031,Silverleaf Landscaping,Level 4,Jesse Pruitt,Billable Service Request,In Progress,Yes,Yellow,2026-05-21,,2027-04-01,173,380,0,4,1.4,51,Above Rate,65
+P20260520.0032,Riverside Auto Group,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2026-05-20,2026-09-07,2026-09-01,110,2800,0,16,9.0,100,Above Rate,44
+P20251013.0033,Cedar Point Builders,Level 1,Alan Reeves,Billable Service Request,Complete,No,,2025-10-13,2025-11-16,2025-11-01,34,8400,0,48,47.5,100,Above Rate,1
+P20250922.0034,Sterling Machine Works,Level 3,Chris Ortega,Onboarding,Complete,No,,2025-09-22,2026-03-04,2026-03-01,163,8050,0,46,60.2,100,Over Budget,-31
+P20261007.0035,Falcon Crest Dental,Level 4,Alan Reeves,OffBoarding,Complete,No,,2026-10-07,2026-11-09,2026-11-01,33,1500,0,59,52.7,100,Under Value,11
+P20260612.0036,Northstar Engineering,Level 5,Grace Mendel,Onboarding,Complete,No,,2026-06-12,2026-09-22,2026-09-01,102,4050,0,27,13.6,100,Above Rate,50
+P20250701.0037,Crescent Legal Partners,Level 1,John Atwood,Fix-Bid,Complete,No,,2025-07-01,2025-10-22,2025-10-01,113,3220,0,28,27.1,100,Under Value,3
+P20251029.0038,Cedar Point Builders,Level 1,John Atwood,Billable Service Request,Complete,No,,2025-10-29,2025-11-03,2025-11-01,5,22225,0,127,119.6,100,Above Rate,6
+P20251220.0039,Greystone Capital,Level 5,Alan Reeves,Fix-Bid,Complete,No,,2025-12-20,2026-03-29,2026-03-01,99,1045,0,11,11.2,100,Under Value,-2
+P20260528.0040,Elmwood Insurance Group,Level 3,Grace Mendel,OffBoarding,Complete,No,,2026-05-28,2026-07-22,2026-07-01,55,1500,0,48,45.6,100,Under Value,5
+P20251007.0041,Maple Ridge Nonprofit,Level 3,Robin Taylor,Onboarding,Complete,No,,2025-10-07,2026-06-29,2026-06-01,265,1225,800,7,5.7,100,Above Rate,19
+P20251011.0042,Pioneer Trust Bank,Level 3,John Atwood,Fix-Bid,Complete,No,,2025-10-11,2025-11-11,2025-11-01,31,950,0,10,12.0,100,Over Budget,-20
+P20261110.0043,Riverside Auto Group,Level 3,Robin Taylor,Onboarding,In Progress,Yes,Green,2026-11-10,,2027-01-01,0,4560,0,48,0,0,Above Rate,100
+P20260131.0044,Amberfield Orthopedics,Level 1,Robin Taylor,Billable Service Request,Complete,No,,2026-01-31,2026-05-10,2026-05-01,99,4200,0,24,30.5,100,Over Budget,-27
+P20261104.0045,Eastgate Realty,Level 1,Grace Mendel,Billable Service Request,In Progress,Yes,Green,2026-11-04,,2026-11-01,6,10580,0,92,49.7,67,Above Rate,46
+P20260220.0046,Harborview Medical,Level 5,Robin Taylor,Fix-Bid,New,Yes,Red,2026-02-20,,2027-01-01,263,5700,0,38,20.7,81,Above Rate,46
+P20251205.0047,Yellowstone Distributing,Level 1,John Atwood,Onboarding,Complete,No,,2025-12-05,2026-02-19,2026-02-01,76,15675,0,165,202.0,100,Over Budget,-22
+P20250609.0048,Blue Heron Marine,Level 2,Grace Mendel,Fix-Bid,Complete,No,,2025-06-09,2025-08-11,2025-08-01,63,4500,0,30,40.7,100,Over Budget,-36
+P20261109.0049,Kingsbridge Credit Union,Level 2,Grace Mendel,Onboarding,New,Yes,Green,2026-11-09,,2027-03-01,1,950,0,10,0,1,Above Rate,100
+P20251003.0050,Sterling Machine Works,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-10-03,2026-01-28,2026-01-01,117,10500,120,60,88.7,100,Over Budget,-48
+P20260729.0051,Whitestone Law Group,Level 1,Brendan Hale,Onboarding,Complete,No,,2026-07-29,2026-10-31,2026-10-01,94,14525,120,83,30.9,100,Above Rate,63
+P20250830.0052,Yellowstone Distributing,Level 1,Jesse Pruitt,Onboarding,Complete,No,,2025-08-30,2025-12-06,2025-12-01,98,184800,0,1056,1272.5,100,Over Budget,-21
+P20260318.0053,Summit Broker Network,Level 2,Brendan Hale,Billable Service Request,Complete,No,,2026-03-18,2026-05-02,2026-05-01,45,3150,0,18,21.2,100,Over Budget,-18
+P20260215.0054,Lighthouse Pediatrics,Level 4,Diane Foster,Billable Service Request,Complete,No,,2026-02-15,2026-03-21,2026-03-01,34,6300,0,42,23.1,100,Above Rate,45
+P20250812.0055,Magnolia Title Co,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2025-08-12,2026-01-10,2026-01-01,151,1750,0,10,10.9,100,Above Rate,-9
+P20251218.0056,Indigo Biotech,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-12-18,2026-04-24,2026-04-01,127,4200,0,24,16.2,100,Above Rate,33
+P20251112.0057,Jasper County Utilities,Level 4,Grace Mendel,Onboarding,Complete,No,,2025-11-12,2026-04-26,2026-04-01,165,11375,0,65,83.9,100,Over Budget,-29
+P20250624.0058,Yorktown Health Partners,Level 4,John Atwood,Billable Service Request,Complete,No,,2025-06-24,2025-10-05,2025-10-01,103,3500,0,20,15.7,100,Above Rate,22
+P20260905.0059,Blue Heron Marine,Level 2,John Atwood,Onboarding,In Progress,Yes,Green,2026-09-05,,2026-11-01,66,1050,0,6,3.6,81,Above Rate,40
+P20260829.0060,Meridian Telehealth,Level 5,John Atwood,Billable Service Request,Complete,No,,2026-08-29,2026-10-31,2026-10-01,63,1800,0,12,6.2,100,Above Rate,48
+P20260113.0061,Quarry Hill Auto Parts,Level 2,Diane Foster,Billable Service Request,Complete,No,,2026-01-13,2026-01-24,2026-01-01,11,3705,0,39,32.6,100,Under Value,16
+P20260401.0062,Upland Water Authority,Level 2,Robin Taylor,Billable Service Request,Complete,No,,2026-04-01,2026-04-06,2026-04-01,5,2275,0,13,6.9,100,Above Rate,47
+P20260318.0063,Alpine Veterinary,Level 5,Grace Mendel,Onboarding,Complete,No,,2026-03-18,2026-07-08,2026-07-01,112,8400,1500,48,56.2,100,Over Budget,-17
+P20261025.0064,Driftwood Hospitality,Level 3,Grace Mendel,Onboarding,Material Ordered,Yes,Green,2026-10-25,,2027-01-01,16,1710,0,18,3.2,24,Above Rate,82
+P20260818.0065,Lumen Optics,Level 4,Chris Ortega,OffBoarding,In Progress,Yes,Green,2026-08-18,,2026-11-01,84,1500,0,17,17.1,86,Under Value,-1
+P20250927.0066,Riverside Auto Group,Level 3,Robin Taylor,Onboarding,Complete,No,,2025-09-27,2025-11-29,2025-11-01,63,11025,0,63,79.0,100,Over Budget,-25
+P20260303.0067,Lighthouse Pediatrics,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2026-03-03,2026-04-19,2026-04-01,47,4550,0,26,21.9,100,Above Rate,16
+P20260505.0068,Maple Ridge Nonprofit,Level 3,Alan Reeves,Billable Service Request,Complete,No,,2026-05-05,2026-06-10,2026-06-01,36,1575,0,9,7.4,100,Above Rate,18
+P20251207.0069,Elmwood Insurance Group,Level 3,Jesse Pruitt,Onboarding,Complete,No,,2025-12-07,2026-03-04,2026-03-01,87,14525,0,83,100.3,100,Over Budget,-21
+P20260219.0070,Sagebrush Ranch Supply,Level 4,John Atwood,Billable Service Request,In Progress,Yes,Red,2026-02-19,,2026-11-01,264,3300,0,22,21.9,97,Above Rate,0
+P20251106.0071,Granite Peak Insurance,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-11-06,2026-01-16,2026-01-01,71,59150,0,338,306.0,100,Above Rate,9
+P20250903.0072,Birchwood Dental Group,Level 4,Robin Taylor,Onboarding,Complete,No,,2025-09-03,2025-12-09,2025-12-01,97,3325,0,19,17.7,100,Above Rate,7
+P20261010.0073,Meridian Telehealth,Level 5,Grace Mendel,Fix-Bid,In Progress,Yes,Green,2026-10-10,,2027-01-01,31,1955,0,17,3.2,33,Above Rate,81
+P20250712.0074,Hawthorne Plastics,Level 3,John Atwood,Onboarding,Complete,No,,2025-07-12,2025-10-22,2025-10-01,102,2280,0,24,24.0,100,Under Value,0
+P20260810.0075,Vista Eye Center,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2026-08-10,2026-09-23,2026-09-01,44,1925,0,11,4.5,100,Above Rate,59
+P20251112.0076,Magnolia Title Co,Level 3,Alan Reeves,Onboarding,Complete,No,,2025-11-12,2026-03-15,2026-03-01,123,10325,1500,59,48.6,100,Above Rate,18
+P20251213.0077,Midtown Pharmacy,Level 4,Alan Reeves,Onboarding,Complete,No,,2025-12-13,2026-03-19,2026-03-01,96,3420,0,36,41.1,100,Over Budget,-14
+P20260627.0078,Harborview Medical,Level 5,Chris Ortega,Billable Service Request,Complete,No,,2026-06-27,2026-09-13,2026-09-01,78,14350,0,82,93.2,100,Over Budget,-14
+P20260225.0079,Elmwood Insurance Group,Level 3,John Atwood,Billable Service Request,Complete,No,,2026-02-25,2026-03-04,2026-03-01,7,11025,0,63,43.2,100,Above Rate,31
+P20260412.0080,Oceanside Packaging,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2026-04-12,2026-06-11,2026-06-01,60,5605,0,59,70.9,100,Over Budget,-20
+P20261006.0081,Jasper County Utilities,Level 4,Alan Reeves,Onboarding,New,Yes,Green,2026-10-06,,2026-11-01,35,22400,0,128,77.8,71,Above Rate,39
+P20250813.0082,Kingsbridge Credit Union,Level 2,Diane Foster,Billable Service Request,Complete,No,,2025-08-13,2025-09-05,2025-09-01,23,26950,0,154,159.2,100,Above Rate,-3
+P20251118.0083,Nimbus Cloud Partners,Level 5,Robin Taylor,Fix-Bid,Complete,No,,2025-11-18,2026-02-02,2026-02-01,76,6670,0,58,40.4,100,Above Rate,30
+P20260130.0084,Pioneer Trust Bank,Level 3,John Atwood,Billable Service Request,Complete,No,,2026-01-30,2026-05-07,2026-05-01,97,3500,0,20,22.6,100,Over Budget,-13
+P20260920.0085,Vista Eye Center,Level 3,Brendan Hale,Billable Service Request,Complete,No,,2026-09-20,2026-10-22,2026-10-01,32,16625,0,95,21.9,100,Above Rate,77
+P20251122.0086,Coastal Ortho Group,Level 4,Jesse Pruitt,Onboarding,Complete,No,,2025-11-22,2026-04-21,2026-04-01,150,12250,120,70,67.1,100,Above Rate,4
+P20260325.0087,Redstone Architecture,Level 2,Diane Foster,Fix-Bid,Complete,No,,2026-03-25,2026-07-27,2026-07-01,124,1575,0,9,6.6,100,Above Rate,27
+P20260324.0088,Delta Freight Co,Level 3,John Atwood,Billable Service Request,Complete,No,,2026-03-24,2026-04-16,2026-04-01,23,380,0,4,2.3,100,Above Rate,43
+P20260105.0089,Yellowstone Distributing,Level 1,Brendan Hale,Fix-Bid,Complete,No,,2026-01-05,2026-06-16,2026-06-01,162,10325,0,59,52.2,100,Above Rate,12
+P20251215.0090,Evergreen Ag Services,Level 3,Diane Foster,Billable Service Request,Complete,No,,2025-12-15,2026-02-07,2026-02-01,54,875,0,5,4.4,100,Above Rate,12
+P20250602.0091,Westlake Municipal,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2025-06-02,2025-06-07,2025-06-01,5,4800,0,32,24.5,100,Above Rate,23
+P20260727.0092,Kestrel Security,Level 1,Chris Ortega,Onboarding,Complete,No,,2026-07-27,2026-10-13,2026-10-01,78,12600,0,84,45.2,100,Above Rate,46
+P20260703.0093,Highland Spirits Co,Level 2,Alan Reeves,Onboarding,Complete,No,,2026-07-03,2026-10-02,2026-10-01,91,19950,800,133,134.7,100,Above Rate,-1
+P20260404.0094,Jasper County Utilities,Level 4,Brendan Hale,Onboarding,Complete,No,,2026-04-04,2026-07-12,2026-07-01,99,4800,1500,32,27.7,100,Above Rate,13
+P20260916.0095,Hawthorne Plastics,Level 3,Grace Mendel,Billable Service Request,Complete,No,,2026-09-16,2026-09-21,2026-09-01,5,300,0,2,2.1,100,Above Rate,-5
+P20260319.0096,Foxridge Engineering,Level 1,Robin Taylor,Onboarding,Complete,No,,2026-03-19,2026-06-06,2026-06-01,79,2800,0,16,14.1,100,Above Rate,12
+P20260717.0097,Orchard Valley Farms,Level 5,Robin Taylor,Fix-Bid,Complete,No,,2026-07-17,2026-09-11,2026-09-01,56,7000,0,40,33.1,100,Above Rate,17
+P20260505.0098,Kingsbridge Credit Union,Level 2,Alan Reeves,Billable Service Request,Complete,No,,2026-05-05,2026-05-20,2026-05-01,15,2660,0,28,22.4,100,Under Value,20
+P20260402.0099,Quarry Hill Auto Parts,Level 2,Jesse Pruitt,Fix-Bid,Complete,No,,2026-04-02,2026-05-29,2026-05-01,57,2550,0,17,21.6,100,Over Budget,-27
+P20250606.0100,Union Pipe Credit Union,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-06-06,2025-09-10,2025-09-01,96,12600,0,72,97.1,100,Over Budget,-35
+P20250908.0101,Westlake Municipal,Level 3,John Atwood,Onboarding,Complete,No,,2025-09-08,2025-12-05,2025-12-01,88,7590,0,66,81.2,100,Over Budget,-23
+P20260925.0102,Union Pipe Credit Union,Level 4,Diane Foster,Fix-Bid,In Progress,Yes,Green,2026-09-25,,2026-11-01,46,3850,0,22,16.8,94,Above Rate,24
+P20250806.0103,Willowbrook Youth Services,Level 4,Alan Reeves,Onboarding,Complete,No,,2025-08-06,2025-10-17,2025-10-01,72,7705,0,67,66.3,100,Under Value,1
+P20250811.0104,Fieldstone Foods,Level 3,Brendan Hale,Billable Service Request,Complete,No,,2025-08-11,2025-08-16,2025-08-01,5,2800,0,16,9.3,100,Above Rate,42
+P20251224.0105,Westlake Municipal,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2025-12-24,2026-02-24,2026-02-01,62,3500,0,20,27.3,100,Over Budget,-36
+P20260911.0106,Foxridge Engineering,Level 1,Robin Taylor,Billable Service Request,Complete,No,,2026-09-11,2026-09-16,2026-09-01,5,11550,0,66,71.0,100,Above Rate,-8
+P20261019.0107,Meridian Telehealth,Level 5,Robin Taylor,Fix-Bid,In Progress,Yes,Green,2026-10-19,,2027-01-01,22,5605,0,59,10.9,22,Above Rate,82
+P20260217.0108,Harborview Medical,Level 5,John Atwood,Onboarding,Complete,No,,2026-02-17,2026-04-19,2026-04-01,61,8855,0,77,106.7,100,Over Budget,-39
+P20250609.0109,Sagebrush Ranch Supply,Level 4,Grace Mendel,Fix-Bid,Complete,No,,2025-06-09,2025-08-04,2025-08-01,56,6650,0,38,45.0,100,Over Budget,-18
+P20260112.0110,Xenon Labs,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2026-01-12,2026-04-01,2026-04-01,79,2100,0,12,15.2,100,Over Budget,-27
+P20260321.0111,Brightwater Brewing,Level 3,Robin Taylor,Billable Service Request,Complete,No,,2026-03-21,2026-03-26,2026-03-01,5,4200,0,24,16.1,100,Above Rate,33
+P20260220.0112,Sterling Machine Works,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2026-02-20,2026-03-14,2026-03-01,22,1955,0,17,20.6,100,Over Budget,-21
+P20250928.0113,Hawthorne Plastics,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2025-09-28,2025-11-15,2025-11-01,48,3705,0,39,33.1,100,Under Value,15
+P20251007.0114,Magnolia Title Co,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-10-07,2026-04-20,2026-04-01,195,4200,0,24,29.8,100,Over Budget,-24
+P20250930.0115,Sterling Machine Works,Level 3,Diane Foster,Billable Service Request,Complete,No,,2025-09-30,2025-10-06,2025-10-01,6,6300,0,36,12.0,100,Above Rate,67
+P20260329.0116,Amberfield Orthopedics,Level 1,John Atwood,Fix-Bid,Complete,No,,2026-03-29,2026-07-07,2026-07-01,100,5250,0,30,32.1,100,Above Rate,-7
+P20260420.0117,Willowbrook Youth Services,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2026-04-20,2026-06-22,2026-06-01,63,4200,0,24,13.0,100,Above Rate,46
+P20250707.0118,Birchwood Dental Group,Level 4,Brendan Hale,Onboarding,Complete,No,,2025-07-07,2025-11-17,2025-11-01,133,15575,0,89,72.4,100,Above Rate,19
+P20260616.0119,Evergreen Ag Services,Level 3,Grace Mendel,Billable Service Request,Complete,No,,2026-06-16,2026-07-14,2026-07-01,28,22325,0,235,195.7,100,Under Value,17
+P20260527.0120,Ivy League Tutoring,Level 3,Alan Reeves,Billable Service Request,Complete,No,,2026-05-27,2026-06-01,2026-06-01,5,9975,0,57,58.5,100,Above Rate,-3
+P20260524.0121,Dunmore Steel,Level 4,Diane Foster,Billable Service Request,Complete,No,,2026-05-24,2026-06-13,2026-06-01,20,13300,0,76,64.0,100,Above Rate,16
+P20260202.0122,Ivy League Tutoring,Level 3,Brendan Hale,OffBoarding,Complete,No,,2026-02-02,2026-02-07,2026-02-01,5,1500,0,26,24.0,100,Under Value,8
+P20260410.0123,Keystone Property Mgmt,Level 5,Brendan Hale,Onboarding,Complete,No,,2026-04-10,2026-06-20,2026-06-01,71,10950,350,73,79.4,100,Under Value,-9
+P20250828.0124,Blue Heron Marine,Level 2,Grace Mendel,Fix-Bid,Complete,No,,2025-08-28,2026-03-11,2026-03-01,195,13500,0,90,85.5,100,Above Rate,5
+P20260613.0125,Granite Peak Insurance,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2026-06-13,2026-09-07,2026-09-01,86,11550,0,66,54.4,100,Above Rate,18
+P20251025.0126,Greystone Capital,Level 5,Robin Taylor,Fix-Bid,Complete,No,,2025-10-25,2026-01-17,2026-01-01,84,23975,0,137,124.8,100,Above Rate,9
+P20260622.0127,Driftwood Hospitality,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2026-06-22,2026-08-25,2026-08-01,64,53025,0,303,260.1,100,Above Rate,14
+P20250825.0128,Copperline Manufacturing,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-08-25,2025-11-17,2025-11-01,84,350,0,2,1.9,100,Above Rate,5
+P20260824.0129,Fairhaven School District,Level 1,Diane Foster,Onboarding,New,Yes,Green,2026-08-24,,2026-12-01,78,380,0,4,1.8,68,Above Rate,55
+P20261021.0130,Rosewood Hotels,Level 2,Jesse Pruitt,Fix-Bid,Material Ordered,Yes,Green,2026-10-21,,2027-07-01,20,12750,0,85,5.5,7,Above Rate,94
+P20260520.0131,Hawthorne Plastics,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2026-05-20,2026-07-02,2026-07-01,43,1750,0,10,7.0,100,Above Rate,30
+P20260525.0132,Cedar Point Builders,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2026-05-25,2026-07-25,2026-07-01,61,13300,0,76,60.4,100,Above Rate,21
+P20260312.0133,Magnolia Title Co,Level 3,John Atwood,Onboarding,Complete,No,,2026-03-12,2026-04-18,2026-04-01,37,2375,0,25,25.7,100,Under Value,-3
+P20251104.0134,Indigo Biotech,Level 4,Grace Mendel,Fix-Bid,Complete,No,,2025-11-04,2026-03-19,2026-03-01,135,32250,0,215,277.6,100,Over Budget,-29
+P20261017.0135,Jade Garden Restaurants,Level 4,Alan Reeves,Onboarding,Complete,No,,2026-10-17,2026-11-02,2026-11-01,16,22400,0,128,97.3,100,Above Rate,24
+P20260131.0136,Nimbus Cloud Partners,Level 5,Chris Ortega,Billable Service Request,Complete,No,,2026-01-31,2026-04-17,2026-04-01,76,2625,0,15,9.1,100,Above Rate,39
+P20251221.0137,Highland Spirits Co,Level 2,Brendan Hale,Billable Service Request,Complete,No,,2025-12-21,2025-12-26,2025-12-01,5,1045,0,11,13.4,100,Over Budget,-22
+P20260928.0138,Jade Garden Restaurants,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2026-09-28,2026-10-03,2026-10-01,5,20355,0,177,215.1,100,Over Budget,-22
+P20251010.0139,Hawthorne Plastics,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2025-10-10,2025-12-21,2025-12-01,72,21505,0,187,176.4,100,Under Value,6
+P20260815.0140,Whitestone Law Group,Level 1,Alan Reeves,Billable Service Request,Complete,No,,2026-08-15,2026-08-21,2026-08-01,6,1750,0,10,8.0,100,Above Rate,20
+P20260226.0141,Riverbend Hospital,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2026-02-26,2026-04-05,2026-04-01,38,4375,0,25,21.7,100,Above Rate,13
+P20250620.0142,Northfield Produce,Level 1,Jesse Pruitt,Fix-Bid,Complete,No,,2025-06-20,2025-11-21,2025-11-01,154,1650,0,11,9.1,100,Above Rate,17
+P20261018.0143,Jade Garden Restaurants,Level 4,Chris Ortega,Onboarding,Complete,No,,2026-10-18,2026-10-23,2026-10-01,5,10675,350,61,81.8,100,Over Budget,-34
+P20250623.0144,Canyon Ridge Schools,Level 4,Grace Mendel,Billable Service Request,Complete,No,,2025-06-23,2025-06-28,2025-06-01,5,3850,0,22,26.0,100,Over Budget,-18
+P20260408.0145,Blue Heron Marine,Level 2,Chris Ortega,Fix-Bid,Complete,No,,2026-04-08,2026-06-01,2026-06-01,54,6365,0,67,56.5,100,Under Value,16
+P20251214.0146,Kestrel Security,Level 1,Chris Ortega,Onboarding,Complete,No,,2025-12-14,2026-04-17,2026-04-01,124,7950,350,53,47.6,100,Above Rate,10
+P20260318.0147,Riverside Auto Group,Level 3,John Atwood,Fix-Bid,New,Yes,Red,2026-03-18,,2027-03-01,237,3610,0,38,21.0,63,Above Rate,45
+P20261017.0148,Summit Broker Network,Level 2,Grace Mendel,Onboarding,In Progress,Yes,Green,2026-10-17,,2026-12-01,24,1840,0,16,8.6,53,Above Rate,46
+P20260901.0149,Ironwood Machining,Level 2,Alan Reeves,Fix-Bid,Material Ordered,Yes,Green,2026-09-01,,2026-12-01,70,5600,0,32,23.8,71,Above Rate,26
+P20260522.0150,Whitestone Law Group,Level 1,Robin Taylor,Onboarding,Complete,No,,2026-05-22,2026-09-25,2026-09-01,126,1050,0,7,7.4,100,Above Rate,-6
+P20261022.0151,Blue Heron Marine,Level 2,Chris Ortega,Onboarding,Material Ordered,Yes,Green,2026-10-22,,2027-01-01,19,2850,0,19,5.2,23,Above Rate,73
+P20250927.0152,Whitestone Law Group,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2025-09-27,2026-04-17,2026-04-01,202,4255,0,37,43.2,100,Over Budget,-17
+P20260608.0153,Upland Water Authority,Level 2,Grace Mendel,Fix-Bid,Complete,No,,2026-06-08,2026-08-07,2026-08-01,60,2760,0,24,18.8,100,Above Rate,22
+P20261008.0154,Magnolia Title Co,Level 3,Alan Reeves,Onboarding,New,Yes,Green,2026-10-08,,2027-06-01,33,2450,1500,14,1.0,13,Above Rate,93
+P20260727.0155,Aldergrove Credit Union,Level 3,Robin Taylor,Onboarding,Complete,No,,2026-07-27,2026-11-03,2026-11-01,99,13300,0,76,75.3,100,Above Rate,1
+P20260904.0156,Zephyr Aviation,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2026-09-04,2026-09-09,2026-09-01,5,1200,0,8,2.4,100,Above Rate,70
+P20251230.0157,Delta Freight Co,Level 3,Jesse Pruitt,OffBoarding,Complete,No,,2025-12-30,2026-04-19,2026-04-01,110,0,0,14,12.7,100,Zero Budget,9
+P20260721.0158,Quincy Medical Billing,Level 5,Chris Ortega,Onboarding,Complete,No,,2026-07-21,2026-09-20,2026-09-01,61,8575,120,49,23.9,100,Above Rate,51
+P20250902.0159,Redstone Architecture,Level 2,John Atwood,Onboarding,Complete,No,,2025-09-02,2026-08-14,2026-08-01,346,16675,0,145,92.6,100,Above Rate,36
+P20261021.0160,Pioneer Trust Bank,Level 3,Robin Taylor,Fix-Bid,Material Ordered,Yes,Green,2026-10-21,,2026-12-01,20,1575,0,9,1.7,33,Above Rate,81
+P20250918.0161,Granite Peak Insurance,Level 3,Grace Mendel,Billable Service Request,Complete,No,,2025-09-18,2025-10-13,2025-10-01,25,700,0,4,6.2,100,Over Budget,-55
+P20261004.0162,Nimbus Cloud Partners,Level 5,John Atwood,Onboarding,In Progress,Yes,Green,2026-10-04,,2027-01-01,37,7000,0,40,8.8,38,Above Rate,78
+P20251002.0163,Valley Forge Logistics,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2025-10-02,2026-05-31,2026-05-01,241,5550,0,37,32.1,100,Above Rate,13
+P20260305.0164,Yellowstone Distributing,Level 1,Diane Foster,Fix-Bid,Complete,No,,2026-03-05,2026-05-30,2026-05-01,86,1840,0,16,16.0,100,Under Value,0
+P20250606.0165,Glenview Partners LLP,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2025-06-06,2025-08-03,2025-08-01,58,4200,0,24,21.3,100,Above Rate,11
+P20260302.0166,Orchard Valley Farms,Level 5,Robin Taylor,Fix-Bid,Complete,No,,2026-03-02,2026-04-17,2026-04-01,46,4715,0,41,22.0,100,Above Rate,46
+P20250809.0167,Thornbury Accounting,Level 4,Grace Mendel,OffBoarding,Complete,No,,2025-08-09,2025-09-12,2025-09-01,34,0,0,59,57.8,100,Zero Budget,2
+P20260827.0168,Copperline Manufacturing,Level 3,Brendan Hale,Onboarding,In Progress,Yes,Green,2026-08-27,,2027-01-01,75,2755,350,29,19.9,50,Under Value,31
+P20251124.0169,Sterling Machine Works,Level 3,Grace Mendel,Billable Service Request,Complete,No,,2025-11-24,2025-12-23,2025-12-01,29,1045,0,11,11.1,100,Under Value,-1
+P20260707.0170,Fairhaven School District,Level 1,Grace Mendel,Fix-Bid,Complete,No,,2026-07-07,2026-09-17,2026-09-01,72,1925,0,11,9.7,100,Above Rate,12
+P20251224.0171,Edgewater Realty,Level 4,Diane Foster,Billable Service Request,Complete,No,,2025-12-24,2025-12-29,2025-12-01,5,4845,0,51,33.5,100,Above Rate,34
+P20260718.0172,Prairie Wind Energy,Level 3,Alan Reeves,Onboarding,In Progress,Yes,Green,2026-07-18,,2027-04-01,115,52325,350,299,131.7,41,Above Rate,56
+P20251105.0173,Pinecrest Senior Living,Level 3,John Atwood,Fix-Bid,Complete,No,,2025-11-05,2026-01-30,2026-01-01,86,1050,0,6,8.0,100,Over Budget,-33
+P20260915.0174,Birchwood Dental Group,Level 4,Diane Foster,Billable Service Request,Complete,No,,2026-09-15,2026-09-20,2026-09-01,5,1995,0,21,15.4,100,Under Value,27
+P20260210.0175,Sagebrush Ranch Supply,Level 4,John Atwood,Billable Service Request,Complete,No,,2026-02-10,2026-03-08,2026-03-01,26,5425,0,31,27.0,100,Above Rate,13
+P20251007.0176,Midtown Pharmacy,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-10-07,2026-02-28,2026-02-01,144,2450,0,14,14.6,100,Above Rate,-4
+P20260815.0177,Sagebrush Ranch Supply,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2026-08-15,2026-09-06,2026-09-01,22,4600,0,40,32.9,100,Under Value,18
+P20251106.0178,Northstar Engineering,Level 5,Chris Ortega,Billable Service Request,Complete,No,,2025-11-06,2025-12-25,2025-12-01,49,8835,0,93,91.4,100,Under Value,2
+P20260423.0179,Northstar Engineering,Level 5,Alan Reeves,Onboarding,In Progress,Yes,Red,2026-04-23,,2027-05-01,201,5250,0,35,9.0,51,Above Rate,74
+P20260521.0180,Elmwood Insurance Group,Level 3,Diane Foster,Billable Service Request,Complete,No,,2026-05-21,2026-05-26,2026-05-01,5,950,0,10,3.7,100,Above Rate,63
+P20250719.0181,Thornbury Accounting,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-07-19,2025-09-28,2025-09-01,71,3515,0,37,35.7,100,Under Value,4
+P20251122.0182,Oakmont Accounting,Level 5,Alan Reeves,Billable Service Request,Complete,No,,2025-11-22,2025-12-13,2025-12-01,21,1750,0,10,10.4,100,Above Rate,-4
+P20250919.0183,Ivy League Tutoring,Level 3,Chris Ortega,Onboarding,Complete,No,,2025-09-19,2026-01-05,2026-01-01,108,2975,350,17,16.0,100,Above Rate,6
+P20251118.0184,Valley Forge Logistics,Level 3,Diane Foster,Fix-Bid,Complete,No,,2025-11-18,2026-02-08,2026-02-01,82,6095,0,53,49.2,100,Under Value,7
+P20261019.0185,Redstone Architecture,Level 2,Jesse Pruitt,Fix-Bid,New,Yes,Green,2026-10-19,,2026-12-01,22,700,0,4,0.6,33,Above Rate,85
+P20260721.0186,Orchard Valley Farms,Level 5,Grace Mendel,Fix-Bid,Complete,No,,2026-07-21,2026-09-27,2026-09-01,68,11305,0,119,101.9,100,Under Value,14
+P20251011.0187,Rosewood Hotels,Level 2,Jesse Pruitt,Fix-Bid,Complete,No,,2025-10-11,2026-01-25,2026-01-01,106,1995,0,21,12.5,100,Above Rate,40
+P20260829.0188,Timberline Construction,Level 1,Grace Mendel,Fix-Bid,Complete,No,,2026-08-29,2026-10-01,2026-10-01,33,1610,0,14,15.7,100,Over Budget,-12
+P20250915.0189,Bayline Logistics,Level 2,Robin Taylor,Billable Service Request,Complete,No,,2025-09-15,2025-11-30,2025-11-01,76,760,0,8,3.1,100,Above Rate,61
+P20250618.0190,Bayline Logistics,Level 2,Diane Foster,Onboarding,Complete,No,,2025-06-18,2025-08-25,2025-08-01,68,3325,0,19,17.7,100,Above Rate,7
+P20260126.0191,Willowbrook Youth Services,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2026-01-26,2026-03-21,2026-03-01,54,3220,0,28,23.8,100,Under Value,15
+P20260704.0192,Riverbend Hospital,Level 3,Jesse Pruitt,Onboarding,Complete,No,,2026-07-04,2026-10-21,2026-10-01,109,5250,0,35,28.5,100,Above Rate,19
+P20250619.0193,Midtown Pharmacy,Level 4,John Atwood,Billable Service Request,Complete,No,,2025-06-19,2025-07-10,2025-07-01,21,9275,0,53,48.9,100,Above Rate,8
+P20260520.0194,Quarry Hill Auto Parts,Level 2,Diane Foster,Onboarding,Complete,No,,2026-05-20,2026-08-01,2026-08-01,73,9100,800,52,25.7,100,Above Rate,51
+P20251009.0195,Evergreen Ag Services,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-10-09,2026-01-17,2026-01-01,100,2275,800,13,13.0,100,Above Rate,0
+P20260428.0196,Cedar Point Builders,Level 1,Grace Mendel,Onboarding,Complete,No,,2026-04-28,2026-09-09,2026-09-01,134,4200,350,24,28.6,100,Over Budget,-19
+P20260713.0197,Sterling Machine Works,Level 3,Alan Reeves,Fix-Bid,Complete,No,,2026-07-13,2026-09-27,2026-09-01,76,10675,0,61,86.1,100,Over Budget,-41
+P20260329.0198,Alpine Veterinary,Level 5,Chris Ortega,Onboarding,Complete,No,,2026-03-29,2026-06-07,2026-06-01,70,24850,0,142,111.5,100,Above Rate,21
+P20250718.0199,Silverleaf Landscaping,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2025-07-18,2025-10-29,2025-10-01,103,3300,0,22,29.6,100,Over Budget,-35
+P20250912.0200,Brightwater Brewing,Level 3,Chris Ortega,Onboarding,Complete,No,,2025-09-12,2026-01-20,2026-01-01,130,11550,350,66,49.2,100,Above Rate,25
+P20251026.0201,Quarry Hill Auto Parts,Level 2,Diane Foster,Onboarding,Complete,No,,2025-10-26,2026-07-01,2026-07-01,248,9800,350,56,47.5,100,Above Rate,15
+P20261018.0202,Vista Eye Center,Level 3,Robin Taylor,Onboarding,In Progress,Yes,Green,2026-10-18,,2026-11-01,23,18900,0,108,79.8,64,Above Rate,26
+P20260825.0203,Coastal Ortho Group,Level 4,Chris Ortega,Fix-Bid,Material Ordered,Yes,Green,2026-08-25,,2026-11-01,77,5700,0,60,45.3,86,Under Value,24
+P20261102.0204,Union Pipe Credit Union,Level 4,Robin Taylor,Fix-Bid,In Progress,Yes,Green,2026-11-02,,2026-12-01,8,21045,0,183,25.3,19,Above Rate,86
+P20251207.0205,Magnolia Title Co,Level 3,Robin Taylor,OffBoarding,Complete,No,,2025-12-07,2026-03-26,2026-03-01,109,1500,0,19,18.1,100,Under Value,5
+P20260728.0206,Lakeshore Furniture,Level 4,Chris Ortega,Fix-Bid,Complete,No,,2026-07-28,2026-09-27,2026-09-01,61,5775,0,33,23.0,100,Above Rate,30
+P20250805.0207,Upland Water Authority,Level 2,Chris Ortega,Billable Service Request,Complete,No,,2025-08-05,2025-10-07,2025-10-01,63,690,0,6,6.5,100,Under Value,-8
+P20250704.0208,Jasper County Utilities,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2025-07-04,2025-10-25,2025-10-01,113,2275,0,13,13.4,100,Above Rate,-3
+P20260110.0209,Jasper County Utilities,Level 4,Chris Ortega,Onboarding,Complete,No,,2026-01-10,2026-04-20,2026-04-01,100,7000,0,40,20.4,100,Above Rate,49
+P20251003.0210,Clearwater Family Clinic,Level 3,Diane Foster,Billable Service Request,Complete,No,,2025-10-03,2025-11-01,2025-11-01,29,5775,0,33,31.1,100,Above Rate,6
+P20250611.0211,Tidewater Pulmonary,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-06-11,2025-08-23,2025-08-01,73,1225,0,7,6.1,100,Above Rate,13
+P20250702.0212,Granite Peak Insurance,Level 3,Brendan Hale,Onboarding,Complete,No,,2025-07-02,2025-09-13,2025-09-01,73,1925,1500,11,11.8,100,Above Rate,-7
+P20261020.0213,Clearwater Family Clinic,Level 3,Grace Mendel,Billable Service Request,In Progress,Yes,Green,2026-10-20,,2027-01-01,21,7700,0,44,9.5,28,Above Rate,78
+P20260116.0214,Edgewater Realty,Level 4,John Atwood,Fix-Bid,Complete,No,,2026-01-16,2026-02-12,2026-02-01,27,4800,0,32,36.2,100,Over Budget,-13
+P20251004.0215,Edgewater Realty,Level 4,Robin Taylor,Onboarding,Complete,No,,2025-10-04,2025-11-24,2025-11-01,51,3135,350,33,24.3,100,Under Value,26
+P20251126.0216,Upland Water Authority,Level 2,Alan Reeves,OffBoarding,Complete,No,,2025-11-26,2026-02-22,2026-02-01,88,1500,0,10,8.6,100,Above Rate,14
+P20260818.0217,Highland Spirits Co,Level 2,Jesse Pruitt,Fix-Bid,Complete,No,,2026-08-18,2026-09-28,2026-09-01,41,12250,0,70,79.0,100,Over Budget,-13
+P20260512.0218,Meridian Telehealth,Level 5,Jesse Pruitt,Billable Service Request,Complete,No,,2026-05-12,2026-07-18,2026-07-01,67,8575,0,49,17.1,100,Above Rate,65
+P20251006.0219,Hawthorne Plastics,Level 3,Jesse Pruitt,Onboarding,Complete,No,,2025-10-06,2026-02-01,2026-02-01,118,2990,0,26,30.3,100,Over Budget,-17
+P20251121.0220,Edgewater Realty,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-11-21,2025-11-26,2025-11-01,5,1575,0,9,8.0,100,Above Rate,11
+P20251020.0221,Pioneer Trust Bank,Level 3,Diane Foster,Fix-Bid,Complete,No,,2025-10-20,2026-03-10,2026-03-01,141,21175,0,121,119.6,100,Above Rate,1
+P20260108.0222,Willowbrook Youth Services,Level 4,Robin Taylor,Onboarding,Complete,No,,2026-01-08,2026-06-03,2026-06-01,146,3850,800,22,23.2,100,Above Rate,-5
+P20250707.0223,Clearwater Family Clinic,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2025-07-07,2025-12-21,2025-12-01,167,5775,0,33,35.9,100,Above Rate,-9
+P20250922.0224,Ivy League Tutoring,Level 3,Diane Foster,Billable Service Request,Complete,No,,2025-09-22,2025-11-30,2025-11-01,69,13300,0,76,32.8,100,Above Rate,57
+P20250812.0225,Riverside Auto Group,Level 3,Brendan Hale,Onboarding,Complete,No,,2025-08-12,2026-09-20,2026-09-01,404,40425,350,231,309.0,100,Over Budget,-34
+P20251008.0226,Lighthouse Pediatrics,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-10-08,2026-01-08,2026-01-01,92,5250,0,30,36.7,100,Over Budget,-22
+P20251014.0227,Elmwood Insurance Group,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2025-10-14,2025-12-24,2025-12-01,71,7015,0,61,67.0,100,Under Value,-10
+P20260711.0228,Ironwood Machining,Level 2,Jesse Pruitt,Billable Service Request,Complete,No,,2026-07-11,2026-07-16,2026-07-01,5,1500,0,10,9.0,100,Above Rate,10
+P20251115.0229,Keystone Property Mgmt,Level 5,John Atwood,Onboarding,Complete,No,,2025-11-15,2026-04-17,2026-04-01,153,3325,0,19,13.7,100,Above Rate,28
+P20260820.0230,Aldergrove Credit Union,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2026-08-20,2026-11-09,2026-11-01,81,855,0,9,5.6,100,Above Rate,38
+P20261105.0231,Birchwood Dental Group,Level 4,Jesse Pruitt,Fix-Bid,Material Ordered,Yes,Green,2026-11-05,,2026-11-01,5,6825,0,39,4.5,38,Above Rate,88
+P20250720.0232,Maple Ridge Nonprofit,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2025-07-20,2025-08-22,2025-08-01,33,2100,0,12,15.3,100,Over Budget,-28
+P20260426.0233,Quarry Hill Auto Parts,Level 2,Jesse Pruitt,Billable Service Request,Material Ordered,Yes,Red,2026-04-26,,2027-01-01,198,12075,0,69,36.6,74,Above Rate,47
+P20250711.0234,Falcon Crest Dental,Level 4,Grace Mendel,Fix-Bid,Complete,No,,2025-07-11,2025-09-27,2025-09-01,78,9595,0,101,117.2,100,Over Budget,-16
+P20260325.0235,Maple Ridge Nonprofit,Level 3,Alan Reeves,Fix-Bid,Complete,No,,2026-03-25,2026-05-22,2026-05-01,58,6825,0,39,50.6,100,Over Budget,-30
+P20251015.0236,Greystone Capital,Level 5,Grace Mendel,Onboarding,Complete,No,,2025-10-15,2026-05-19,2026-05-01,216,3800,0,40,54.5,100,Over Budget,-36
+P20261012.0237,Fairhaven School District,Level 1,Jesse Pruitt,Onboarding,New,Yes,Green,2026-10-12,,2027-01-01,29,8400,0,48,19.7,33,Above Rate,59
+P20250626.0238,Brightwater Brewing,Level 3,Chris Ortega,Onboarding,Complete,No,,2025-06-26,2025-12-01,2025-12-01,158,8050,0,46,48.9,100,Above Rate,-6
+P20250729.0239,Brightwater Brewing,Level 3,Diane Foster,Fix-Bid,Complete,No,,2025-07-29,2025-11-23,2025-11-01,117,4255,0,37,36.4,100,Under Value,2
+P20260518.0240,Ivy League Tutoring,Level 3,Grace Mendel,Billable Service Request,Complete,No,,2026-05-18,2026-05-27,2026-05-01,9,920,0,8,7.9,100,Under Value,1
+P20251120.0241,Midtown Pharmacy,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-11-20,2026-01-05,2026-01-01,46,15050,0,86,81.2,100,Above Rate,6
+P20251011.0242,Pinecrest Senior Living,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-10-11,2025-12-26,2025-12-01,76,3135,0,33,36.3,100,Under Value,-10
+P20260120.0243,Northstar Engineering,Level 5,Jesse Pruitt,Billable Service Request,Complete,No,,2026-01-20,2026-03-05,2026-03-01,44,2875,0,25,28.4,100,Over Budget,-14
+P20260330.0244,Pioneer Trust Bank,Level 3,Diane Foster,Billable Service Request,In Progress,Yes,Red,2026-03-30,,2026-12-01,225,6750,0,45,30.1,91,Above Rate,33
+P20260502.0245,Alpine Veterinary,Level 5,Brendan Hale,Fix-Bid,Complete,No,,2026-05-02,2026-06-01,2026-06-01,30,2450,0,14,11.4,100,Above Rate,19
+P20260422.0246,Riverside Auto Group,Level 3,Diane Foster,Fix-Bid,Complete,No,,2026-04-22,2026-07-07,2026-07-01,76,6475,0,37,53.0,100,Over Budget,-43
+P20251101.0247,Xenon Labs,Level 4,Brendan Hale,Fix-Bid,Complete,No,,2025-11-01,2026-02-06,2026-02-01,97,12750,0,85,60.9,100,Above Rate,28
+P20260422.0248,Whitestone Law Group,Level 1,Robin Taylor,Fix-Bid,Complete,No,,2026-04-22,2026-06-01,2026-06-01,40,35875,0,205,139.1,100,Above Rate,32
+P20260805.0249,Indigo Biotech,Level 4,Grace Mendel,Onboarding,Material Ordered,Yes,Green,2026-08-05,,2027-02-01,97,11725,0,67,24.3,50,Above Rate,64
+P20260914.0250,Ivy League Tutoring,Level 3,Alan Reeves,Fix-Bid,Complete,No,,2026-09-14,2026-10-17,2026-10-01,33,665,0,7,9.1,100,Over Budget,-30
+P20260401.0251,Falcon Crest Dental,Level 4,Robin Taylor,Onboarding,Complete,No,,2026-04-01,2026-06-18,2026-06-01,78,1050,0,6,6.0,100,Above Rate,0
+P20251017.0252,Alpine Veterinary,Level 5,Diane Foster,Fix-Bid,Complete,No,,2025-10-17,2026-01-15,2026-01-01,90,14000,0,80,94.1,100,Over Budget,-18
+P20260809.0253,Alpine Veterinary,Level 5,Alan Reeves,Onboarding,In Progress,Yes,Green,2026-08-09,,2026-12-01,93,8395,800,73,59.9,79,Above Rate,18
+P20260405.0254,Clearwater Family Clinic,Level 3,Diane Foster,Onboarding,Complete,No,,2026-04-05,2026-07-05,2026-07-01,91,7525,800,43,47.9,100,Over Budget,-11
+P20260212.0255,Ironwood Machining,Level 2,Chris Ortega,Billable Service Request,Complete,No,,2026-02-12,2026-03-28,2026-03-01,44,7245,0,63,74.1,100,Over Budget,-18
+P20260622.0256,Cedar Point Builders,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2026-06-22,2026-08-13,2026-08-01,52,4550,0,26,29.8,100,Over Budget,-15
+P20260909.0257,Quincy Medical Billing,Level 5,John Atwood,Fix-Bid,In Progress,Yes,Green,2026-09-09,,2026-11-01,62,22575,0,129,99.0,84,Above Rate,23
+P20260720.0258,Delta Freight Co,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2026-07-20,2026-10-02,2026-10-01,74,7245,0,63,57.5,100,Under Value,9
+P20260417.0259,Riverbend Hospital,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2026-04-17,2026-05-11,2026-05-01,24,950,0,10,11.3,100,Over Budget,-13
+P20250806.0260,Lighthouse Pediatrics,Level 4,Chris Ortega,Fix-Bid,Complete,No,,2025-08-06,2025-10-21,2025-10-01,76,3000,0,20,20.7,100,Above Rate,-3
+P20250619.0261,Crescent Legal Partners,Level 1,Chris Ortega,Onboarding,Complete,No,,2025-06-19,2025-12-03,2025-12-01,167,4200,0,24,22.4,100,Above Rate,7
+P20260718.0262,Foxridge Engineering,Level 1,Brendan Hale,Billable Service Request,Complete,No,,2026-07-18,2026-08-19,2026-08-01,32,4725,0,27,29.4,100,Above Rate,-9
+P20250715.0263,Jasper County Utilities,Level 4,Chris Ortega,Onboarding,Complete,No,,2025-07-15,2025-10-19,2025-10-01,96,2450,800,14,13.2,100,Above Rate,6
+P20251005.0264,Harborview Medical,Level 5,Chris Ortega,OffBoarding,Complete,No,,2025-10-05,2025-12-19,2025-12-01,75,1500,0,70,49.4,100,Under Value,29
+P20250829.0265,Thornbury Accounting,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-08-29,2025-12-16,2025-12-01,109,5250,0,30,20.5,100,Above Rate,32
+P20250722.0266,Valley Forge Logistics,Level 3,Chris Ortega,Onboarding,Complete,No,,2025-07-22,2025-11-04,2025-11-01,105,6555,0,69,76.7,100,Over Budget,-11
+P20251128.0267,Clearwater Family Clinic,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2025-11-28,2026-01-27,2026-01-01,60,34155,0,297,312.6,100,Under Value,-5
+P20260803.0268,Pioneer Trust Bank,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2026-08-03,2026-09-08,2026-09-01,36,1265,0,11,13.3,100,Over Budget,-21
+P20250927.0269,Copperline Manufacturing,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2025-09-27,2026-07-02,2026-07-01,278,2975,0,17,19.2,100,Over Budget,-13
+P20260319.0270,Aldergrove Credit Union,Level 3,Alan Reeves,Onboarding,Complete,No,,2026-03-19,2026-06-20,2026-06-01,93,2850,800,19,15.6,100,Above Rate,18
+P20260706.0271,Bayline Logistics,Level 2,Robin Taylor,Onboarding,Complete,No,,2026-07-06,2026-10-30,2026-10-01,116,2275,1500,13,10.0,100,Above Rate,23
+P20250814.0272,Orchard Valley Farms,Level 5,Alan Reeves,Billable Service Request,Complete,No,,2025-08-14,2025-08-19,2025-08-01,5,16625,0,95,83.5,100,Above Rate,12
+P20260627.0273,Timberline Construction,Level 1,Diane Foster,Fix-Bid,Complete,No,,2026-06-27,2026-10-19,2026-10-01,114,7350,0,42,19.6,100,Above Rate,53
+P20260410.0274,Westlake Municipal,Level 3,Brendan Hale,Fix-Bid,On Hold,Yes,Blue,2026-04-10,,2026-11-01,214,34125,0,195,167.6,96,Above Rate,14
+P20260619.0275,Ironwood Machining,Level 2,John Atwood,Fix-Bid,Complete,No,,2026-06-19,2026-10-10,2026-10-01,113,6475,0,37,50.4,100,Over Budget,-36
+P20251125.0276,Greystone Capital,Level 5,Alan Reeves,Onboarding,Complete,No,,2025-11-25,2026-04-02,2026-04-01,128,8100,1500,54,69.0,100,Over Budget,-28
+P20260920.0277,Delta Freight Co,Level 3,Jesse Pruitt,Onboarding,In Progress,Yes,Green,2026-09-20,,2026-12-01,51,1805,800,19,7.0,55,Above Rate,63
+P20261016.0278,Kingsbridge Credit Union,Level 2,John Atwood,Fix-Bid,In Progress,Yes,Green,2026-10-16,,2027-01-01,25,1840,0,16,3.4,32,Above Rate,79
+P20251019.0279,Valley Forge Logistics,Level 3,Diane Foster,Fix-Bid,Complete,No,,2025-10-19,2025-12-04,2025-12-01,46,3850,0,22,23.9,100,Above Rate,-9
+P20250616.0280,Driftwood Hospitality,Level 3,Jesse Pruitt,Onboarding,Complete,No,,2025-06-16,2025-10-16,2025-10-01,122,805,0,7,7.5,100,Under Value,-7
+P20251229.0281,Lakeshore Furniture,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2025-12-29,2026-01-03,2026-01-01,5,1800,0,12,10.8,100,Above Rate,10
+P20260224.0282,Quarry Hill Auto Parts,Level 2,Robin Taylor,Fix-Bid,Complete,No,,2026-02-24,2026-05-20,2026-05-01,85,4200,0,24,31.4,100,Over Budget,-31
+P20260415.0283,Quincy Medical Billing,Level 5,Brendan Hale,Onboarding,New,Yes,Red,2026-04-15,,2027-04-01,209,2625,800,15,7.5,56,Above Rate,50
+P20260312.0284,Lumen Optics,Level 4,Alan Reeves,Onboarding,Complete,No,,2026-03-12,2026-06-01,2026-06-01,81,2100,0,14,14.7,100,Above Rate,-5
+P20250917.0285,Edgewater Realty,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-09-17,2026-01-30,2026-01-01,135,5060,0,44,49.1,100,Over Budget,-12
+P20251120.0286,Keystone Property Mgmt,Level 5,Chris Ortega,Billable Service Request,Complete,No,,2025-11-20,2025-11-27,2025-11-01,7,2400,0,16,13.9,100,Above Rate,13
+P20250812.0287,Jasper County Utilities,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2025-08-12,2026-02-09,2026-02-01,181,900,0,6,5.6,100,Above Rate,7
+P20260727.0288,Zephyr Aviation,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2026-07-27,2026-08-19,2026-08-01,23,4945,0,43,37.6,100,Under Value,13
+P20250824.0289,Yorktown Health Partners,Level 4,Grace Mendel,Fix-Bid,Complete,No,,2025-08-24,2025-10-31,2025-10-01,68,8050,0,46,51.5,100,Over Budget,-12
+P20260605.0290,Dunmore Steel,Level 4,John Atwood,Fix-Bid,Complete,No,,2026-06-05,2026-08-21,2026-08-01,77,1265,0,11,8.9,100,Above Rate,19
+P20260827.0291,Alpine Veterinary,Level 5,Alan Reeves,Billable Service Request,Complete,No,,2026-08-27,2026-09-03,2026-09-01,7,1650,0,11,13.1,100,Over Budget,-19
+P20261006.0292,Riverbend Hospital,Level 3,John Atwood,Fix-Bid,New,Yes,Green,2026-10-06,,2026-12-01,35,5075,0,29,14.6,56,Above Rate,50
+P20250615.0293,Union Pipe Credit Union,Level 4,Grace Mendel,Billable Service Request,Complete,No,,2025-06-15,2025-06-20,2025-06-01,5,5425,0,31,35.0,100,Over Budget,-13
+P20260724.0294,Brightwater Brewing,Level 3,Diane Foster,Onboarding,In Progress,Yes,Green,2026-07-24,,2026-11-01,109,3850,120,22,16.5,92,Above Rate,25
+P20250712.0295,Westlake Municipal,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2025-07-12,2025-09-20,2025-09-01,70,1225,0,7,7.1,100,Above Rate,-1
+P20250722.0296,Eastgate Realty,Level 1,Alan Reeves,Onboarding,Complete,No,,2025-07-22,2025-11-11,2025-11-01,112,1650,350,11,9.4,100,Above Rate,15
+P20250619.0297,Bayline Logistics,Level 2,Alan Reeves,Fix-Bid,Complete,No,,2025-06-19,2025-08-19,2025-08-01,61,5075,0,29,30.9,100,Above Rate,-7
+P20251208.0298,Indigo Biotech,Level 4,John Atwood,Onboarding,Complete,No,,2025-12-08,2026-04-27,2026-04-01,140,5950,800,34,32.5,100,Above Rate,4
+P20250604.0299,Kestrel Security,Level 1,Chris Ortega,Billable Service Request,Complete,No,,2025-06-04,2025-06-20,2025-06-01,16,3150,0,21,18.5,100,Above Rate,12
+P20251028.0300,Blue Heron Marine,Level 2,Grace Mendel,Onboarding,Complete,No,,2025-10-28,2026-01-20,2026-01-01,84,700,350,4,5.2,100,Over Budget,-30
+P20251103.0301,Blue Heron Marine,Level 2,Brendan Hale,Billable Service Request,Complete,No,,2025-11-03,2026-01-06,2026-01-01,64,2450,0,14,13.6,100,Above Rate,3
+P20251215.0302,Redstone Architecture,Level 2,Alan Reeves,Billable Service Request,Complete,No,,2025-12-15,2025-12-20,2025-12-01,5,10050,0,67,48.0,100,Above Rate,28
+P20250725.0303,Pioneer Trust Bank,Level 3,Alan Reeves,OffBoarding,Complete,No,,2025-07-25,2025-10-03,2025-10-01,70,1500,0,2,2.3,100,Over Budget,-15
+P20250918.0304,Westlake Municipal,Level 3,Brendan Hale,Onboarding,Complete,No,,2025-09-18,2026-01-31,2026-01-01,135,6750,0,45,48.2,100,Above Rate,-7
+P20261022.0305,Granite Peak Insurance,Level 3,Alan Reeves,Billable Service Request,Complete,No,,2026-10-22,2026-11-06,2026-11-01,15,2450,0,14,10.5,100,Above Rate,25
+P20251208.0306,Whitestone Law Group,Level 1,Chris Ortega,Billable Service Request,Complete,No,,2025-12-08,2025-12-13,2025-12-01,5,18900,0,108,83.3,100,Above Rate,23
+P20250608.0307,Delta Freight Co,Level 3,Robin Taylor,Onboarding,Complete,No,,2025-06-08,2025-11-24,2025-11-01,169,1955,800,17,19.9,100,Over Budget,-17
+P20260406.0308,Cedar Point Builders,Level 1,Jesse Pruitt,Fix-Bid,Complete,No,,2026-04-06,2026-07-19,2026-07-01,104,750,0,5,6.7,100,Over Budget,-34
+P20251223.0309,Pinecrest Senior Living,Level 3,Grace Mendel,Billable Service Request,Complete,No,,2025-12-23,2025-12-28,2025-12-01,5,5250,0,30,10.5,100,Above Rate,65
+P20250730.0310,Prairie Wind Energy,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-07-30,2025-12-20,2025-12-01,143,6300,0,36,39.8,100,Over Budget,-11
+P20260721.0311,Jasper County Utilities,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2026-07-21,2026-08-02,2026-08-01,12,6670,0,58,49.8,100,Under Value,14
+P20261104.0312,Hilltop Family Medicine,Level 5,Robin Taylor,Fix-Bid,Material Ordered,Yes,Green,2026-11-04,,2027-01-01,6,3150,0,18,1.1,8,Above Rate,94
+P20250801.0313,Keystone Property Mgmt,Level 5,Alan Reeves,Onboarding,Complete,No,,2025-08-01,2026-03-02,2026-03-01,213,525,1500,3,3.2,100,Above Rate,-7
+P20251002.0314,Driftwood Hospitality,Level 3,Brendan Hale,Onboarding,Complete,No,,2025-10-02,2026-01-19,2026-01-01,109,18055,0,157,112.9,100,Above Rate,28
+P20251015.0315,Westlake Municipal,Level 3,Diane Foster,Fix-Bid,Complete,No,,2025-10-15,2025-11-09,2025-11-01,25,3900,0,26,21.5,100,Above Rate,17
+P20261031.0316,Lakeshore Furniture,Level 4,Alan Reeves,Onboarding,New,Yes,Green,2026-10-31,,2027-02-01,10,2800,0,16,1.2,9,Above Rate,92
+P20260807.0317,Quarry Hill Auto Parts,Level 2,Diane Foster,Fix-Bid,Complete,No,,2026-08-07,2026-10-06,2026-10-01,60,460,0,4,1.6,100,Above Rate,60
+P20260512.0318,Quarry Hill Auto Parts,Level 2,Alan Reeves,Fix-Bid,Complete,No,,2026-05-12,2026-08-11,2026-08-01,91,10925,0,115,100.9,100,Under Value,12
+P20260804.0319,Glenview Partners LLP,Level 3,Diane Foster,Billable Service Request,Complete,No,,2026-08-04,2026-10-20,2026-10-01,77,2625,0,15,14.7,100,Above Rate,2
+P20260626.0320,Ivy League Tutoring,Level 3,Chris Ortega,Onboarding,Complete,No,,2026-06-26,2026-09-13,2026-09-01,79,5060,120,44,16.7,100,Above Rate,62
+P20251114.0321,Copperline Manufacturing,Level 3,Brendan Hale,Onboarding,Complete,No,,2025-11-14,2026-02-11,2026-02-01,89,4725,350,27,13.0,100,Above Rate,52
+P20250824.0322,Summit Broker Network,Level 2,Alan Reeves,Fix-Bid,Complete,No,,2025-08-24,2025-11-18,2025-11-01,86,12950,0,74,98.5,100,Over Budget,-33
+P20260711.0323,Eastgate Realty,Level 1,Robin Taylor,OffBoarding,Complete,No,,2026-07-11,2026-09-17,2026-09-01,68,0,0,16,19.3,100,Zero Budget,-21
+P20260627.0324,Pinecrest Senior Living,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2026-06-27,2026-08-18,2026-08-01,52,2185,0,19,9.1,100,Above Rate,52
+P20250719.0325,Westlake Municipal,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2025-07-19,2025-12-05,2025-12-01,139,7015,0,61,44.5,100,Above Rate,27
+P20250724.0326,Riverside Auto Group,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2025-07-24,2025-12-07,2025-12-01,136,15400,0,88,111.7,100,Over Budget,-27
+P20250818.0327,Meridian Telehealth,Level 5,Chris Ortega,Billable Service Request,Complete,No,,2025-08-18,2025-09-22,2025-09-01,35,6750,0,45,39.7,100,Above Rate,12
+P20250613.0328,Thornbury Accounting,Level 4,Jesse Pruitt,Onboarding,Complete,No,,2025-06-13,2025-10-08,2025-10-01,117,16625,0,95,69.4,100,Above Rate,27
+P20260427.0329,Quincy Medical Billing,Level 5,Robin Taylor,Billable Service Request,Complete,No,,2026-04-27,2026-05-02,2026-05-01,5,32025,0,183,183.1,100,Above Rate,0
+P20251207.0330,Eastgate Realty,Level 1,Chris Ortega,Fix-Bid,Complete,No,,2025-12-07,2026-02-12,2026-02-01,67,2645,0,23,25.8,100,Over Budget,-12
+P20260721.0331,Clearwater Family Clinic,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2026-07-21,2026-09-19,2026-09-01,60,10500,0,70,68.4,100,Above Rate,2
+P20251126.0332,Canyon Ridge Schools,Level 4,Brendan Hale,Onboarding,Complete,No,,2025-11-26,2026-03-23,2026-03-01,117,4550,0,26,30.3,100,Over Budget,-17
+P20251016.0333,Delta Freight Co,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2025-10-16,2026-02-26,2026-02-01,133,1035,0,9,6.0,100,Above Rate,33
+P20250914.0334,Dunmore Steel,Level 4,Robin Taylor,Onboarding,Complete,No,,2025-09-14,2026-07-24,2026-07-01,313,4370,0,38,50.5,100,Over Budget,-33
+P20260913.0335,Ironwood Machining,Level 2,Diane Foster,Billable Service Request,In Progress,Yes,Green,2026-09-13,,2027-04-01,58,2275,0,13,3.1,27,Above Rate,76
+P20260925.0336,Blue Heron Marine,Level 2,Robin Taylor,Onboarding,In Progress,Yes,Green,2026-09-25,,2027-02-01,46,1050,0,7,2.5,30,Above Rate,64
+P20251208.0337,Dunmore Steel,Level 4,Grace Mendel,Onboarding,Complete,No,,2025-12-08,2026-01-18,2026-01-01,41,4485,0,39,35.2,100,Under Value,10
+P20250806.0338,Granite Peak Insurance,Level 3,Robin Taylor,Onboarding,Complete,No,,2025-08-06,2025-10-09,2025-10-01,64,30475,0,265,291.4,100,Under Value,-10
+P20260822.0339,Midtown Pharmacy,Level 4,Grace Mendel,Onboarding,In Progress,Yes,Green,2026-08-22,,2026-11-01,80,25650,0,270,225.2,89,Under Value,17
+P20250820.0340,Alpine Veterinary,Level 5,Grace Mendel,Onboarding,Complete,No,,2025-08-20,2026-01-10,2026-01-01,143,21000,0,120,112.2,100,Above Rate,6
+P20260930.0341,Brightwater Brewing,Level 3,Grace Mendel,Onboarding,Material Ordered,Yes,Green,2026-09-30,,2027-01-01,41,2550,1500,17,7.8,37,Above Rate,54
+P20260216.0342,Quarry Hill Auto Parts,Level 2,Alan Reeves,Onboarding,Complete,No,,2026-02-16,2026-05-27,2026-05-01,100,23460,0,204,151.4,100,Above Rate,26
+P20261108.0343,Brightwater Brewing,Level 3,Chris Ortega,Billable Service Request,In Progress,Yes,Green,2026-11-08,,2027-01-01,2,5425,0,31,0.7,3,Above Rate,98
+P20250908.0344,Coastal Ortho Group,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-09-08,2025-09-28,2025-09-01,20,1225,0,7,2.3,100,Above Rate,67
+P20261018.0345,Kingsbridge Credit Union,Level 2,Robin Taylor,Fix-Bid,Material Ordered,Yes,Green,2026-10-18,,2026-12-01,23,11725,0,67,24.7,49,Above Rate,63
+P20250628.0346,Vista Eye Center,Level 3,John Atwood,Billable Service Request,Complete,No,,2025-06-28,2025-09-12,2025-09-01,76,4050,0,27,40.3,100,Over Budget,-49
+P20260211.0347,Elmwood Insurance Group,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2026-02-11,2026-03-23,2026-03-01,40,2375,0,25,26.0,100,Under Value,-4
+P20251012.0348,Redstone Architecture,Level 2,Chris Ortega,Billable Service Request,Complete,No,,2025-10-12,2025-10-17,2025-10-01,5,475,0,5,5.0,100,Under Value,0
+P20260105.0349,Evergreen Ag Services,Level 3,Diane Foster,Onboarding,Complete,No,,2026-01-05,2026-05-21,2026-05-01,136,2400,0,16,13.4,100,Above Rate,16
+P20260112.0350,Rosewood Hotels,Level 2,John Atwood,Billable Service Request,Complete,No,,2026-01-12,2026-01-17,2026-01-01,5,5795,0,61,61.5,100,Under Value,-1
+P20251008.0351,Sterling Machine Works,Level 3,John Atwood,Fix-Bid,Complete,No,,2025-10-08,2026-02-21,2026-02-01,136,22925,0,131,178.7,100,Over Budget,-36
+P20260617.0352,Prairie Wind Energy,Level 3,Brendan Hale,Billable Service Request,Complete,No,,2026-06-17,2026-07-21,2026-07-01,34,10500,0,60,46.7,100,Above Rate,22
+P20260219.0353,Yellowstone Distributing,Level 1,Diane Foster,Fix-Bid,Complete,No,,2026-02-19,2026-06-30,2026-06-01,131,4350,0,29,38.6,100,Over Budget,-33
+P20250911.0354,Indigo Biotech,Level 4,Grace Mendel,Billable Service Request,Complete,No,,2025-09-11,2025-12-16,2025-12-01,96,1750,0,10,11.6,100,Over Budget,-16
+P20250801.0355,Midtown Pharmacy,Level 4,John Atwood,OffBoarding,Complete,No,,2025-08-01,2025-10-17,2025-10-01,77,1500,0,16,11.1,100,Under Value,31
+P20250721.0356,Fairhaven School District,Level 1,Diane Foster,OffBoarding,Complete,No,,2025-07-21,2026-09-08,2026-09-01,414,1500,0,60,65.5,100,Under Value,-9
+P20260416.0357,Willowbrook Youth Services,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2026-04-16,2026-08-29,2026-08-01,135,4550,0,26,25.3,100,Above Rate,3
+P20260317.0358,Oceanside Packaging,Level 4,Diane Foster,Billable Service Request,Complete,No,,2026-03-17,2026-06-08,2026-06-01,83,4200,0,28,32.9,100,Over Budget,-18
+P20251028.0359,Pinecrest Senior Living,Level 3,Diane Foster,Fix-Bid,Complete,No,,2025-10-28,2026-03-06,2026-03-01,129,1575,0,9,9.1,100,Above Rate,-1
+P20260313.0360,Brightwater Brewing,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2026-03-13,2026-05-11,2026-05-01,59,7800,0,52,44.3,100,Above Rate,15
+P20250630.0361,Riverbend Hospital,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2025-06-30,2025-11-16,2025-11-01,139,14525,0,83,93.5,100,Over Budget,-13
+P20260913.0362,Upland Water Authority,Level 2,Alan Reeves,Fix-Bid,Material Ordered,Yes,Green,2026-09-13,,2026-12-01,58,13225,0,115,35.2,56,Above Rate,69
+P20250918.0363,Northstar Engineering,Level 5,Robin Taylor,Onboarding,Complete,No,,2025-09-18,2026-01-27,2026-01-01,131,1610,1500,14,10.6,100,Above Rate,24
+P20261004.0364,Silverleaf Landscaping,Level 4,Brendan Hale,Onboarding,In Progress,Yes,Green,2026-10-04,,2026-11-01,37,7525,0,43,41.2,92,Above Rate,4
+P20260410.0365,Tidewater Pulmonary,Level 4,Diane Foster,Billable Service Request,Complete,No,,2026-04-10,2026-05-02,2026-05-01,22,11900,0,68,64.0,100,Above Rate,6
+P20260820.0366,Hawthorne Plastics,Level 3,Brendan Hale,Fix-Bid,In Progress,Yes,Green,2026-08-20,,2026-12-01,82,2875,0,25,17.7,65,Above Rate,29
+P20251219.0367,Pinecrest Senior Living,Level 3,Chris Ortega,Onboarding,Complete,No,,2025-12-19,2026-05-06,2026-05-01,138,11550,0,66,65.2,100,Above Rate,1
+P20260518.0368,Ivy League Tutoring,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2026-05-18,2026-07-11,2026-07-01,54,3895,0,41,26.1,100,Above Rate,36
+P20260808.0369,Pinecrest Senior Living,Level 3,John Atwood,Fix-Bid,Material Ordered,Yes,Green,2026-08-08,,2026-11-01,94,6365,0,67,36.2,83,Above Rate,46
+P20260903.0370,Whitestone Law Group,Level 1,Chris Ortega,Fix-Bid,Complete,No,,2026-09-03,2026-11-08,2026-11-01,66,13300,0,76,77.0,100,Above Rate,-1
+P20260703.0371,Zephyr Aviation,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2026-07-03,2026-09-04,2026-09-01,63,17500,0,100,104.3,100,Above Rate,-4
+P20260506.0372,Crescent Legal Partners,Level 1,Brendan Hale,Onboarding,Complete,No,,2026-05-06,2026-10-01,2026-10-01,148,5100,0,34,18.8,100,Above Rate,45
+P20261016.0373,Valley Forge Logistics,Level 3,Diane Foster,Onboarding,In Progress,Yes,Green,2026-10-16,,2027-01-01,25,1140,120,12,4.2,26,Above Rate,65
+P20260505.0374,Silverleaf Landscaping,Level 4,Jesse Pruitt,Onboarding,Complete,No,,2026-05-05,2026-08-23,2026-08-01,110,2700,0,18,17.3,100,Above Rate,4
+P20261028.0375,Evergreen Ag Services,Level 3,John Atwood,Onboarding,In Progress,Yes,Green,2026-10-28,,2026-12-01,13,5700,1500,38,12.2,30,Above Rate,68
+P20251017.0376,Lighthouse Pediatrics,Level 4,John Atwood,Onboarding,Complete,No,,2025-10-17,2025-12-29,2025-12-01,73,9975,0,57,83.8,100,Over Budget,-47
+P20260406.0377,Union Pipe Credit Union,Level 4,Robin Taylor,OffBoarding,Complete,No,,2026-04-06,2026-05-10,2026-05-01,34,0,0,11,12.7,100,Zero Budget,-15
+P20250704.0378,Ironwood Machining,Level 2,Jesse Pruitt,OffBoarding,Complete,No,,2025-07-04,2025-08-14,2025-08-01,41,1500,0,105,87.5,100,Under Value,17
+P20261104.0379,Kestrel Security,Level 1,John Atwood,Billable Service Request,Complete,No,,2026-11-04,2026-11-09,2026-11-01,5,2415,0,21,8.2,100,Above Rate,61
+P20260104.0380,Oceanside Packaging,Level 4,Robin Taylor,Onboarding,Complete,No,,2026-01-04,2026-04-12,2026-04-01,98,14835,0,129,124.0,100,Under Value,4
+P20250605.0381,Pinecrest Senior Living,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2025-06-05,2025-07-06,2025-07-01,31,14700,0,84,117.2,100,Over Budget,-40
+P20251021.0382,Brightwater Brewing,Level 3,Alan Reeves,Onboarding,Complete,No,,2025-10-21,2026-02-19,2026-02-01,121,13225,0,115,88.2,100,Above Rate,23
+P20250718.0383,Timberline Construction,Level 1,John Atwood,Fix-Bid,Complete,No,,2025-07-18,2025-10-27,2025-10-01,101,42450,0,283,302.9,100,Above Rate,-7
+P20260106.0384,Jasper County Utilities,Level 4,Jesse Pruitt,Billable Service Request,Complete,No,,2026-01-06,2026-09-28,2026-09-01,265,875,0,5,4.9,100,Above Rate,2
+P20260304.0385,Sagebrush Ranch Supply,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2026-03-04,2026-04-08,2026-04-01,35,7875,0,45,33.3,100,Above Rate,26
+P20260131.0386,Delta Freight Co,Level 3,Diane Foster,Billable Service Request,Complete,No,,2026-01-31,2026-04-11,2026-04-01,70,3750,0,25,24.4,100,Above Rate,2
+P20260302.0387,Falcon Crest Dental,Level 4,Brendan Hale,Onboarding,Complete,No,,2026-03-02,2026-07-05,2026-07-01,125,12075,0,69,95.7,100,Over Budget,-39
+P20260209.0388,Alpine Veterinary,Level 5,John Atwood,Onboarding,Complete,No,,2026-02-09,2026-05-20,2026-05-01,100,3450,0,30,23.1,100,Above Rate,23
+P20260613.0389,Dunmore Steel,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2026-06-13,2026-09-22,2026-09-01,101,19425,0,111,83.0,100,Above Rate,25
+P20261103.0390,Canyon Ridge Schools,Level 4,Jesse Pruitt,OffBoarding,New,Yes,Green,2026-11-03,,2027-01-01,7,0,0,20,1.8,10,Zero Budget,91
+P20260619.0391,Aldergrove Credit Union,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2026-06-19,2026-06-29,2026-06-01,10,33425,0,191,184.9,100,Above Rate,3
+P20260522.0392,Riverside Auto Group,Level 3,Alan Reeves,Fix-Bid,Complete,No,,2026-05-22,2026-05-27,2026-05-01,5,1805,0,19,19.9,100,Under Value,-5
+P20260222.0393,Pinecrest Senior Living,Level 3,Diane Foster,Billable Service Request,In Progress,Yes,Red,2026-02-22,,2027-03-01,261,42175,0,241,187.0,70,Above Rate,22
+P20250911.0394,Fairhaven School District,Level 1,Chris Ortega,OffBoarding,Complete,No,,2025-09-11,2025-11-18,2025-11-01,68,1500,0,103,93.2,100,Under Value,10
+P20250806.0395,Cedar Point Builders,Level 1,John Atwood,Fix-Bid,Complete,No,,2025-08-06,2025-11-26,2025-11-01,112,1725,0,15,8.2,100,Above Rate,45
+P20250621.0396,Riverbend Hospital,Level 3,Jesse Pruitt,Billable Service Request,Complete,No,,2025-06-21,2025-07-22,2025-07-01,31,1925,0,11,10.2,100,Above Rate,7
+P20260926.0397,Delta Freight Co,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2026-09-26,2026-10-01,2026-10-01,5,3910,0,34,19.6,100,Above Rate,42
+P20250903.0398,Juniper Wealth Advisors,Level 4,John Atwood,Billable Service Request,Complete,No,,2025-09-03,2026-04-21,2026-04-01,230,7245,0,63,52.0,100,Under Value,17
+P20250624.0399,Upland Water Authority,Level 2,Alan Reeves,Fix-Bid,Complete,No,,2025-06-24,2025-10-21,2025-10-01,119,2800,0,16,16.5,100,Above Rate,-3
+P20260129.0400,Maple Ridge Nonprofit,Level 3,Alan Reeves,Fix-Bid,Complete,No,,2026-01-29,2026-05-08,2026-05-01,99,9775,0,85,78.3,100,Under Value,8
+P20260118.0401,Oakmont Accounting,Level 5,Alan Reeves,Fix-Bid,Complete,No,,2026-01-18,2026-04-02,2026-04-01,74,3000,0,20,20.8,100,Above Rate,-4
+P20260131.0402,Nimbus Cloud Partners,Level 5,Grace Mendel,Onboarding,Complete,No,,2026-01-31,2026-05-25,2026-05-01,114,1925,0,11,7.7,100,Above Rate,30
+P20260827.0403,Union Pipe Credit Union,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2026-08-27,2026-09-01,2026-09-01,5,15870,0,138,129.6,100,Under Value,6
+P20260318.0404,Valley Forge Logistics,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2026-03-18,2026-11-09,2026-11-01,236,5550,0,37,29.8,100,Above Rate,19
+P20260626.0405,Summit Broker Network,Level 2,Chris Ortega,Fix-Bid,In Progress,Yes,Yellow,2026-06-26,,2027-02-01,137,1955,0,17,10.7,56,Above Rate,37
+P20260214.0406,Amberfield Orthopedics,Level 1,Jesse Pruitt,Fix-Bid,Complete,No,,2026-02-14,2026-06-03,2026-06-01,109,1045,0,11,9.7,100,Under Value,12
+P20260313.0407,Fairhaven School District,Level 1,Grace Mendel,Onboarding,Complete,No,,2026-03-13,2026-06-03,2026-06-01,82,23450,1500,134,90.2,100,Above Rate,33
+P20261109.0408,Brightwater Brewing,Level 3,Alan Reeves,Fix-Bid,New,Yes,Green,2026-11-09,,2027-02-01,1,1925,0,11,0.1,1,Above Rate,99
+P20250923.0409,Union Pipe Credit Union,Level 4,Grace Mendel,Onboarding,Complete,No,,2025-09-23,2025-11-24,2025-11-01,62,3105,0,27,32.7,100,Over Budget,-21
+P20250925.0410,Alpine Veterinary,Level 5,Brendan Hale,Billable Service Request,Complete,No,,2025-09-25,2025-10-12,2025-10-01,17,9405,0,99,80.2,100,Under Value,19
+P20260123.0411,Ivy League Tutoring,Level 3,Alan Reeves,Onboarding,Complete,No,,2026-01-23,2026-05-17,2026-05-01,114,4200,0,28,40.9,100,Over Budget,-46
+P20250817.0412,Kestrel Security,Level 1,Grace Mendel,Onboarding,Complete,No,,2025-08-17,2026-01-08,2026-01-01,144,7505,120,79,48.3,100,Above Rate,39
+P20250902.0413,Riverbend Hospital,Level 3,Alan Reeves,Billable Service Request,Complete,No,,2025-09-02,2025-09-07,2025-09-01,5,3325,0,19,16.6,100,Above Rate,13
+P20250706.0414,Ivy League Tutoring,Level 3,John Atwood,Billable Service Request,Complete,No,,2025-07-06,2025-08-21,2025-08-01,46,3300,0,22,27.1,100,Over Budget,-23
+P20261006.0415,Silverleaf Landscaping,Level 4,Robin Taylor,Fix-Bid,Material Ordered,Yes,Green,2026-10-06,,2027-02-01,35,23975,0,137,30.8,27,Above Rate,78
+P20260805.0416,Whitestone Law Group,Level 1,Chris Ortega,Fix-Bid,Complete,No,,2026-08-05,2026-11-05,2026-11-01,92,26950,0,154,143.1,100,Above Rate,7
+P20250628.0417,Clearwater Family Clinic,Level 3,Alan Reeves,Billable Service Request,Complete,No,,2025-06-28,2025-07-10,2025-07-01,12,8575,0,49,63.3,100,Over Budget,-29
+P20261021.0418,Orchard Valley Farms,Level 5,Brendan Hale,Fix-Bid,New,Yes,Green,2026-10-21,,2027-11-01,20,950,0,10,0.6,5,Above Rate,94
+P20250825.0419,Union Pipe Credit Union,Level 4,Chris Ortega,Billable Service Request,Complete,No,,2025-08-25,2025-10-29,2025-10-01,65,11385,0,99,70.3,100,Above Rate,29
+P20260711.0420,Cedar Point Builders,Level 1,John Atwood,Billable Service Request,Complete,No,,2026-07-11,2026-08-19,2026-08-01,39,3675,0,21,20.0,100,Above Rate,5
+P20260624.0421,Meridian Telehealth,Level 5,John Atwood,Onboarding,Complete,No,,2026-06-24,2026-08-03,2026-08-01,40,11155,1500,97,127.1,100,Over Budget,-31
+P20260910.0422,Zephyr Aviation,Level 4,Diane Foster,Billable Service Request,Complete,No,,2026-09-10,2026-09-15,2026-09-01,5,12880,0,112,111.0,100,Under Value,1
+P20260416.0423,Harborview Medical,Level 5,Diane Foster,OffBoarding,Complete,No,,2026-04-16,2026-05-20,2026-05-01,34,0,0,105,78.3,100,Zero Budget,25
+P20261023.0424,Falcon Crest Dental,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2026-10-23,2026-11-03,2026-11-01,11,25900,0,148,78.9,100,Above Rate,47
+P20260703.0425,Westlake Municipal,Level 3,John Atwood,Onboarding,Complete,No,,2026-07-03,2026-11-01,2026-11-01,121,3850,0,22,19.6,100,Above Rate,11
+P20260301.0426,Edgewater Realty,Level 4,John Atwood,Fix-Bid,Complete,No,,2026-03-01,2026-05-19,2026-05-01,79,11900,0,68,44.1,100,Above Rate,35
+P20260502.0427,Amberfield Orthopedics,Level 1,John Atwood,Fix-Bid,New,Yes,Red,2026-05-02,,2026-11-01,192,3230,0,34,29.7,96,Under Value,13
+P20250714.0428,Rosewood Hotels,Level 2,Alan Reeves,Billable Service Request,Complete,No,,2025-07-14,2025-08-15,2025-08-01,32,1500,0,10,10.8,100,Under Value,-8
+P20260814.0429,Riverside Auto Group,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2026-08-14,2026-10-09,2026-10-01,56,300,0,2,1.1,100,Above Rate,45
+P20251215.0430,Keystone Property Mgmt,Level 5,Jesse Pruitt,Onboarding,Complete,No,,2025-12-15,2026-04-01,2026-04-01,107,6460,0,68,29.0,100,Above Rate,57
+P20260409.0431,Westlake Municipal,Level 3,John Atwood,Billable Service Request,Complete,No,,2026-04-09,2026-04-14,2026-04-01,5,665,0,7,7.2,100,Under Value,-3
+P20250815.0432,Bayline Logistics,Level 2,Grace Mendel,Fix-Bid,Complete,No,,2025-08-15,2025-12-04,2025-12-01,111,4725,0,27,28.7,100,Above Rate,-6
+P20251108.0433,Lighthouse Pediatrics,Level 4,Robin Taylor,Onboarding,Complete,No,,2025-11-08,2026-03-17,2026-03-01,129,22225,0,127,143.6,100,Over Budget,-13
+P20251026.0434,Cedar Point Builders,Level 1,Robin Taylor,Onboarding,Complete,No,,2025-10-26,2026-02-16,2026-02-01,113,27475,800,157,172.8,100,Over Budget,-10
+P20260909.0435,Foxridge Engineering,Level 1,Alan Reeves,Fix-Bid,On Hold,Yes,Blue,2026-09-09,,2027-02-01,62,805,0,7,3.3,41,Above Rate,53
+P20250821.0436,Timberline Construction,Level 1,Diane Foster,Onboarding,Complete,No,,2025-08-21,2026-01-08,2026-01-01,140,1495,350,13,13.2,100,Under Value,-2
+P20260213.0437,Amberfield Orthopedics,Level 1,Grace Mendel,Billable Service Request,Complete,No,,2026-02-13,2026-04-01,2026-04-01,47,1140,0,12,10.0,100,Under Value,17
+P20251017.0438,Highland Spirits Co,Level 2,Robin Taylor,Onboarding,Complete,No,,2025-10-17,2025-11-26,2025-11-01,40,1235,0,13,14.4,100,Over Budget,-11
+P20250930.0439,Amberfield Orthopedics,Level 1,Chris Ortega,Billable Service Request,Complete,No,,2025-09-30,2025-10-30,2025-10-01,30,14145,0,123,138.9,100,Over Budget,-13
+P20261010.0440,Summit Broker Network,Level 2,Diane Foster,Onboarding,In Progress,Yes,Green,2026-10-10,,2027-01-01,31,13825,0,79,16.1,32,Above Rate,80
+P20260121.0441,Nimbus Cloud Partners,Level 5,Grace Mendel,Onboarding,Complete,No,,2026-01-21,2026-09-16,2026-09-01,238,20125,120,115,123.9,100,Above Rate,-8
+P20251225.0442,Clearwater Family Clinic,Level 3,Robin Taylor,Onboarding,Complete,No,,2025-12-25,2026-04-23,2026-04-01,119,9450,120,54,35.2,100,Above Rate,35
+P20260926.0443,Elmwood Insurance Group,Level 3,Grace Mendel,Billable Service Request,Material Ordered,Yes,Green,2026-09-26,,2027-06-01,45,2070,0,18,2.8,16,Above Rate,84
+P20260514.0444,Pioneer Trust Bank,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2026-05-14,2026-05-24,2026-05-01,10,12425,0,71,71.2,100,Above Rate,0
+P20251117.0445,Tidewater Pulmonary,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2025-11-17,2026-01-27,2026-01-01,71,6300,0,42,51.2,100,Over Budget,-22
+P20250722.0446,Midtown Pharmacy,Level 4,Brendan Hale,Fix-Bid,Complete,No,,2025-07-22,2025-10-21,2025-10-01,91,5400,0,36,36.5,100,Above Rate,-1
+P20250929.0447,Elmwood Insurance Group,Level 3,John Atwood,Onboarding,Complete,No,,2025-09-29,2026-01-29,2026-01-01,122,42875,1500,245,356.6,100,Over Budget,-46
+P20250807.0448,Lakeshore Furniture,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2025-08-07,2026-01-16,2026-01-01,162,11725,0,67,68.5,100,Above Rate,-2
+P20260129.0449,Lakeshore Furniture,Level 4,Grace Mendel,Billable Service Request,Complete,No,,2026-01-29,2026-05-20,2026-05-01,111,1380,0,12,1.0,100,Above Rate,92
+P20260415.0450,Edgewater Realty,Level 4,Robin Taylor,Onboarding,Complete,No,,2026-04-15,2026-07-21,2026-07-01,97,1750,0,10,9.5,100,Above Rate,5
+P20261101.0451,Clearwater Family Clinic,Level 3,Robin Taylor,Onboarding,Material Ordered,Yes,Green,2026-11-01,,2027-03-01,9,12775,0,73,3.8,6,Above Rate,95
+P20260415.0452,Nimbus Cloud Partners,Level 5,Brendan Hale,Billable Service Request,Complete,No,,2026-04-15,2026-05-23,2026-05-01,38,3850,0,22,26.7,100,Over Budget,-21
+P20251110.0453,Orchard Valley Farms,Level 5,Alan Reeves,Fix-Bid,Complete,No,,2025-11-10,2026-01-08,2026-01-01,59,11375,0,65,45.2,100,Above Rate,30
+P20250709.0454,Whitestone Law Group,Level 1,Grace Mendel,Billable Service Request,Complete,No,,2025-07-09,2025-08-25,2025-08-01,47,2450,0,14,21.9,100,Over Budget,-56
+P20260401.0455,Yorktown Health Partners,Level 4,John Atwood,Fix-Bid,Complete,No,,2026-04-01,2026-08-25,2026-08-01,146,9750,0,65,44.2,100,Above Rate,32
+P20251228.0456,Dunmore Steel,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-12-28,2026-04-23,2026-04-01,116,4550,0,26,28.4,100,Above Rate,-9
+P20260309.0457,Foxridge Engineering,Level 1,Grace Mendel,Billable Service Request,Complete,No,,2026-03-09,2026-04-30,2026-04-01,52,3230,0,34,38.6,100,Over Budget,-14
+P20260801.0458,Northfield Produce,Level 1,Diane Foster,Billable Service Request,Complete,No,,2026-08-01,2026-10-01,2026-10-01,61,2070,0,18,16.6,100,Under Value,8
+P20260630.0459,Riverbend Hospital,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2026-06-30,2026-07-30,2026-07-01,30,7175,0,41,14.9,100,Above Rate,64
+P20260724.0460,Clearwater Family Clinic,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2026-07-24,2026-10-27,2026-10-01,95,665,0,7,8.0,100,Over Budget,-14
+P20260212.0461,Sterling Machine Works,Level 3,Chris Ortega,Onboarding,Complete,No,,2026-02-12,2026-05-31,2026-05-01,108,4750,0,50,49.2,100,Under Value,2
+P20260428.0462,Edgewater Realty,Level 4,John Atwood,Fix-Bid,Complete,No,,2026-04-28,2026-06-24,2026-06-01,57,17325,0,99,80.9,100,Above Rate,18
+P20250616.0463,Sagebrush Ranch Supply,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-06-16,2025-10-09,2025-10-01,115,10800,0,72,79.0,100,Under Value,-10
+P20250703.0464,Nimbus Cloud Partners,Level 5,Grace Mendel,Fix-Bid,Complete,No,,2025-07-03,2025-10-23,2025-10-01,112,3150,0,21,26.7,100,Over Budget,-27
+P20251111.0465,Fieldstone Foods,Level 3,Alan Reeves,OffBoarding,Complete,No,,2025-11-11,2026-02-07,2026-02-01,88,1500,0,16,14.8,100,Under Value,7
+P20260706.0466,Sagebrush Ranch Supply,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2026-07-06,2026-07-22,2026-07-01,16,2625,0,15,16.2,100,Above Rate,-8
+P20260216.0467,Silverleaf Landscaping,Level 4,Diane Foster,Billable Service Request,Complete,No,,2026-02-16,2026-03-31,2026-03-01,43,12300,0,82,110.6,100,Over Budget,-35
+P20250613.0468,Jade Garden Restaurants,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-06-13,2025-07-08,2025-07-01,25,15580,0,164,172.1,100,Under Value,-5
+P20260529.0469,Driftwood Hospitality,Level 3,Brendan Hale,Billable Service Request,In Progress,Yes,Yellow,2026-05-29,,2027-05-01,165,5600,0,32,12.3,49,Above Rate,62
+P20251125.0470,Jade Garden Restaurants,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2025-11-25,2025-12-30,2025-12-01,35,2975,0,17,13.6,100,Above Rate,20
+P20260519.0471,Summit Broker Network,Level 2,Jesse Pruitt,Billable Service Request,Complete,No,,2026-05-19,2026-08-02,2026-08-01,75,3750,0,25,18.0,100,Above Rate,28
+P20250811.0472,Keystone Property Mgmt,Level 5,John Atwood,Billable Service Request,Complete,No,,2025-08-11,2025-08-31,2025-08-01,20,2975,0,17,18.3,100,Above Rate,-8
+P20250814.0473,Prairie Wind Energy,Level 3,Diane Foster,Billable Service Request,Complete,No,,2025-08-14,2025-08-26,2025-08-01,12,11375,0,65,83.6,100,Over Budget,-29
+P20260422.0474,Foxridge Engineering,Level 1,Alan Reeves,Onboarding,Complete,No,,2026-04-22,2026-08-14,2026-08-01,114,3150,0,18,14.0,100,Above Rate,22
+P20260513.0475,Willowbrook Youth Services,Level 4,Grace Mendel,Fix-Bid,Complete,No,,2026-05-13,2026-09-07,2026-09-01,117,4725,0,27,20.2,100,Above Rate,25
+P20260626.0476,Yellowstone Distributing,Level 1,Grace Mendel,Onboarding,Complete,No,,2026-06-26,2026-09-06,2026-09-01,72,8750,0,50,44.5,100,Above Rate,11
+P20250729.0477,Willowbrook Youth Services,Level 4,John Atwood,Onboarding,Complete,No,,2025-07-29,2025-10-20,2025-10-01,83,2530,0,22,22.8,100,Under Value,-4
+P20250904.0478,Foxridge Engineering,Level 1,Chris Ortega,Onboarding,Complete,No,,2025-09-04,2026-06-11,2026-06-01,280,690,0,6,3.6,100,Above Rate,40
+P20251021.0479,Northstar Engineering,Level 5,Robin Taylor,Onboarding,Complete,No,,2025-10-21,2026-01-06,2026-01-01,77,1350,120,9,4.4,100,Above Rate,51
+P20250828.0480,Brightwater Brewing,Level 3,Diane Foster,Fix-Bid,Complete,No,,2025-08-28,2025-10-17,2025-10-01,50,1225,0,7,6.7,100,Above Rate,4
+P20251207.0481,Amberfield Orthopedics,Level 1,John Atwood,Fix-Bid,Complete,No,,2025-12-07,2026-04-29,2026-04-01,143,3990,0,42,24.5,100,Above Rate,42
+P20260523.0482,Greystone Capital,Level 5,Diane Foster,Onboarding,New,Yes,Yellow,2026-05-23,,2027-07-01,171,3325,800,19,8.0,41,Above Rate,58
+P20260211.0483,Summit Broker Network,Level 2,Grace Mendel,Onboarding,Complete,No,,2026-02-11,2026-07-11,2026-07-01,150,6670,1500,58,42.7,100,Above Rate,26
+P20260325.0484,Highland Spirits Co,Level 2,Grace Mendel,Onboarding,Complete,No,,2026-03-25,2026-05-06,2026-05-01,42,4655,120,49,36.1,100,Under Value,26
+P20260116.0485,Riverbend Hospital,Level 3,Chris Ortega,Onboarding,Complete,No,,2026-01-16,2026-03-05,2026-03-01,48,6475,0,37,44.3,100,Over Budget,-20
+P20260203.0486,Hawthorne Plastics,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2026-02-03,2026-06-24,2026-06-01,141,2275,0,13,12.8,100,Above Rate,2
+P20260307.0487,Fieldstone Foods,Level 3,Jesse Pruitt,Billable Service Request,Complete,No,,2026-03-07,2026-06-01,2026-06-01,86,1615,0,17,16.5,100,Under Value,3
+P20250717.0488,Midtown Pharmacy,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2025-07-17,2025-11-15,2025-11-01,121,2990,0,26,19.9,100,Above Rate,23
+P20251117.0489,Jasper County Utilities,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-11-17,2026-02-01,2026-02-01,76,7125,0,75,96.3,100,Over Budget,-28
+P20260304.0490,Lakeshore Furniture,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2026-03-04,2026-07-24,2026-07-01,142,21150,0,141,107.7,100,Above Rate,24
+P20261006.0491,Hilltop Family Medicine,Level 5,John Atwood,Fix-Bid,Material Ordered,Yes,Green,2026-10-06,,2026-11-01,35,1725,0,15,13.3,88,Under Value,11
+P20261102.0492,Aldergrove Credit Union,Level 3,Robin Taylor,Fix-Bid,New,Yes,Green,2026-11-02,,2027-03-01,8,12880,0,112,6.3,6,Above Rate,94
+P20260928.0493,Quarry Hill Auto Parts,Level 2,Alan Reeves,Fix-Bid,Complete,No,,2026-09-28,2026-10-19,2026-10-01,21,6300,0,36,19.8,100,Above Rate,45
+P20260503.0494,Magnolia Title Co,Level 3,Grace Mendel,Billable Service Request,In Progress,Yes,Red,2026-05-03,,2027-04-01,191,350,0,2,1.0,54,Above Rate,50
+P20260523.0495,Xenon Labs,Level 4,Alan Reeves,Billable Service Request,Material Ordered,Yes,Yellow,2026-05-23,,2027-01-01,171,4180,0,44,27.6,68,Above Rate,37
+P20250708.0496,Jade Garden Restaurants,Level 4,John Atwood,Fix-Bid,Complete,No,,2025-07-08,2025-10-19,2025-10-01,103,2100,0,14,18.3,100,Over Budget,-31
+P20260917.0497,Fairhaven School District,Level 1,Robin Taylor,Fix-Bid,In Progress,Yes,Green,2026-09-17,,2026-12-01,54,300,0,2,1.1,55,Above Rate,45
+P20250921.0498,Kestrel Security,Level 1,Chris Ortega,Onboarding,Complete,No,,2025-09-21,2025-11-25,2025-11-01,65,7000,350,40,23.5,100,Above Rate,41
+P20250708.0499,Yorktown Health Partners,Level 4,Diane Foster,Onboarding,Complete,No,,2025-07-08,2025-11-15,2025-11-01,130,21175,0,121,106.6,100,Above Rate,12
+P20260714.0500,Summit Broker Network,Level 2,Jesse Pruitt,Fix-Bid,New,Yes,Green,2026-07-14,,2027-03-01,119,64050,0,427,104.5,48,Above Rate,76
+P20250603.0501,Valley Forge Logistics,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2025-06-03,2025-07-24,2025-07-01,51,1995,0,21,28.9,100,Over Budget,-38
+P20261001.0502,Cedar Point Builders,Level 1,Diane Foster,Fix-Bid,Complete,No,,2026-10-01,2026-10-19,2026-10-01,18,4375,0,25,26.8,100,Above Rate,-7
+P20261030.0503,Pinecrest Senior Living,Level 3,Alan Reeves,Fix-Bid,Material Ordered,Yes,Green,2026-10-30,,2027-03-01,11,34825,0,199,11.0,8,Above Rate,94
+P20250902.0504,Hawthorne Plastics,Level 3,Alan Reeves,OffBoarding,Complete,No,,2025-09-02,2026-01-11,2026-01-01,131,1500,0,10,10.6,100,Above Rate,-6
+P20251102.0505,Driftwood Hospitality,Level 3,Diane Foster,Onboarding,Complete,No,,2025-11-02,2026-01-14,2026-01-01,73,700,0,4,5.3,100,Over Budget,-32
+P20251203.0506,Upland Water Authority,Level 2,Grace Mendel,Fix-Bid,Complete,No,,2025-12-03,2026-04-21,2026-04-01,139,45150,0,258,202.4,100,Above Rate,22
+P20261002.0507,Aldergrove Credit Union,Level 3,Alan Reeves,Onboarding,New,Yes,Green,2026-10-02,,2027-01-01,39,950,0,10,1.6,43,Above Rate,84
+P20260212.0508,Highland Spirits Co,Level 2,Diane Foster,Billable Service Request,Complete,No,,2026-02-12,2026-02-17,2026-02-01,5,2185,0,19,18.1,100,Under Value,5
+P20260927.0509,Westlake Municipal,Level 3,Robin Taylor,Onboarding,Complete,No,,2026-09-27,2026-10-25,2026-10-01,28,2275,0,13,6.8,100,Above Rate,48
+P20260710.0510,Whitestone Law Group,Level 1,Robin Taylor,Billable Service Request,Complete,No,,2026-07-10,2026-08-10,2026-08-01,31,2275,0,13,6.0,100,Above Rate,54
+P20260830.0511,Kingsbridge Credit Union,Level 2,John Atwood,Fix-Bid,Complete,No,,2026-08-30,2026-10-31,2026-10-01,62,1330,0,14,8.9,100,Above Rate,36
+P20250607.0512,Redstone Architecture,Level 2,Chris Ortega,OffBoarding,Complete,No,,2025-06-07,2025-08-06,2025-08-01,60,0,0,67,64.0,100,Zero Budget,4
+P20250920.0513,Keystone Property Mgmt,Level 5,Brendan Hale,Fix-Bid,Complete,No,,2025-09-20,2026-02-03,2026-02-01,136,8050,0,46,38.2,100,Above Rate,17
+P20250901.0514,Rosewood Hotels,Level 2,Brendan Hale,Fix-Bid,Complete,No,,2025-09-01,2025-11-09,2025-11-01,69,4255,0,37,38.6,100,Under Value,-4
+P20260410.0515,Tidewater Pulmonary,Level 4,Grace Mendel,Fix-Bid,Complete,No,,2026-04-10,2026-05-16,2026-05-01,36,6125,0,35,27.5,100,Above Rate,21
+P20260122.0516,Edgewater Realty,Level 4,John Atwood,Onboarding,Complete,No,,2026-01-22,2026-08-24,2026-08-01,214,1225,0,7,5.1,100,Above Rate,27
+P20261021.0517,Zephyr Aviation,Level 4,Brendan Hale,Fix-Bid,Material Ordered,Yes,Green,2026-10-21,,2026-12-01,20,2700,0,18,6.0,41,Above Rate,67
+P20261016.0518,Northstar Engineering,Level 5,Grace Mendel,Onboarding,Material Ordered,Yes,Green,2026-10-16,,2026-12-01,25,2550,0,17,4.8,35,Above Rate,72
+P20250728.0519,Indigo Biotech,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2025-07-28,2025-08-08,2025-08-01,11,15925,0,91,80.4,100,Above Rate,12
+P20260510.0520,Fieldstone Foods,Level 3,Alan Reeves,Onboarding,On Hold,Yes,Blue,2026-05-10,,2027-02-01,184,2375,800,25,11.6,68,Above Rate,54
+P20260417.0521,Valley Forge Logistics,Level 3,Grace Mendel,OffBoarding,Complete,No,,2026-04-17,2026-06-28,2026-06-01,72,0,0,38,39.4,100,Zero Budget,-4
+P20250727.0522,Indigo Biotech,Level 4,Chris Ortega,Onboarding,Complete,No,,2025-07-27,2026-01-15,2026-01-01,172,2990,0,26,31.4,100,Over Budget,-21
+P20251106.0523,Lighthouse Pediatrics,Level 4,John Atwood,Billable Service Request,Complete,No,,2025-11-06,2025-11-11,2025-11-01,5,12250,0,70,76.0,100,Above Rate,-9
+P20260817.0524,Eastgate Realty,Level 1,Diane Foster,Onboarding,Material Ordered,Yes,Green,2026-08-17,,2026-12-01,85,4140,0,36,25.7,73,Above Rate,29
+P20261109.0525,Greystone Capital,Level 5,John Atwood,Fix-Bid,In Progress,Yes,Green,2026-11-09,,2026-12-01,1,2400,0,16,0.3,3,Above Rate,98
+P20261109.0526,Rosewood Hotels,Level 2,Alan Reeves,Fix-Bid,Material Ordered,Yes,Green,2026-11-09,,2026-12-01,1,3325,0,35,0.9,2,Above Rate,97
+P20260417.0527,Redstone Architecture,Level 2,Grace Mendel,Fix-Bid,Complete,No,,2026-04-17,2026-08-04,2026-08-01,109,24850,0,142,134.8,100,Above Rate,5
+P20251009.0528,Quarry Hill Auto Parts,Level 2,Alan Reeves,Onboarding,Complete,No,,2025-10-09,2026-01-22,2026-01-01,105,18900,350,108,116.1,100,Above Rate,-7
+P20251010.0529,Yorktown Health Partners,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2025-10-10,2026-01-04,2026-01-01,86,9315,0,81,55.0,100,Above Rate,32
+P20250921.0530,Fieldstone Foods,Level 3,John Atwood,Fix-Bid,Complete,No,,2025-09-21,2025-11-04,2025-11-01,44,9690,0,102,54.9,100,Above Rate,46
+P20251022.0531,Sterling Machine Works,Level 3,Jesse Pruitt,OffBoarding,Complete,No,,2025-10-22,2025-12-03,2025-12-01,42,0,0,34,31.0,100,Zero Budget,9
+P20251126.0532,Ivy League Tutoring,Level 3,Grace Mendel,OffBoarding,Complete,No,,2025-11-26,2026-03-19,2026-03-01,113,1500,0,99,111.5,100,Over Budget,-13
+P20260320.0533,Greystone Capital,Level 5,John Atwood,Onboarding,Complete,No,,2026-03-20,2026-05-30,2026-05-01,71,6080,0,64,51.3,100,Under Value,20
+P20250709.0534,Dunmore Steel,Level 4,John Atwood,Fix-Bid,Complete,No,,2025-07-09,2025-10-16,2025-10-01,99,8740,0,76,46.6,100,Above Rate,39
+P20260508.0535,Juniper Wealth Advisors,Level 4,Chris Ortega,OffBoarding,Complete,No,,2026-05-08,2026-06-26,2026-06-01,49,0,0,10,10.6,100,Zero Budget,-6
+P20250920.0536,Coastal Ortho Group,Level 4,Diane Foster,Onboarding,Complete,No,,2025-09-20,2025-11-11,2025-11-01,52,4725,120,27,20.7,100,Above Rate,23
+P20251130.0537,Riverside Auto Group,Level 3,Jesse Pruitt,OffBoarding,Complete,No,,2025-11-30,2026-03-23,2026-03-01,113,0,0,51,79.3,100,Zero Budget,-55
+P20260911.0538,Juniper Wealth Advisors,Level 4,Jesse Pruitt,Onboarding,Complete,No,,2026-09-11,2026-10-02,2026-10-01,21,29575,0,169,123.4,100,Above Rate,27
+P20250818.0539,Willowbrook Youth Services,Level 4,Diane Foster,Onboarding,Complete,No,,2025-08-18,2025-10-04,2025-10-01,47,8575,800,49,42.4,100,Above Rate,13
+P20250909.0540,Pinecrest Senior Living,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2025-09-09,2025-11-18,2025-11-01,70,9600,0,64,26.2,100,Above Rate,59
+P20260821.0541,Oceanside Packaging,Level 4,Grace Mendel,Onboarding,In Progress,Yes,Green,2026-08-21,,2027-01-01,81,1035,800,9,4.9,53,Above Rate,46
+P20260805.0542,Rosewood Hotels,Level 2,Alan Reeves,Billable Service Request,Complete,No,,2026-08-05,2026-08-10,2026-08-01,5,7000,0,40,17.6,100,Above Rate,56
+P20261109.0543,Fairhaven School District,Level 1,Brendan Hale,Fix-Bid,New,Yes,Green,2026-11-09,,2026-11-01,1,11900,0,68,4.1,11,Above Rate,94
+P20250913.0544,Indigo Biotech,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2025-09-13,2025-10-30,2025-10-01,47,5250,0,30,25.1,100,Above Rate,16
+P20251028.0545,Riverside Auto Group,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-10-28,2026-02-15,2026-02-01,110,1610,1500,14,15.5,100,Over Budget,-11
+P20260319.0546,Cedar Point Builders,Level 1,Alan Reeves,Billable Service Request,Complete,No,,2026-03-19,2026-03-24,2026-03-01,5,5290,0,46,40.4,100,Under Value,12
+P20260522.0547,Hawthorne Plastics,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2026-05-22,2026-10-31,2026-10-01,162,9975,0,57,60.8,100,Above Rate,-7
+P20260612.0548,Lighthouse Pediatrics,Level 4,Grace Mendel,Onboarding,Complete,No,,2026-06-12,2026-10-04,2026-10-01,114,9450,1500,54,51.8,100,Above Rate,4
+P20250819.0549,Coastal Ortho Group,Level 4,Diane Foster,Billable Service Request,Complete,No,,2025-08-19,2025-10-13,2025-10-01,55,4200,0,28,18.7,100,Above Rate,33
+P20250716.0550,Lakeshore Furniture,Level 4,Grace Mendel,Fix-Bid,Complete,No,,2025-07-16,2025-10-12,2025-10-01,88,31325,0,179,125.2,100,Above Rate,30
+P20260528.0551,Birchwood Dental Group,Level 4,Grace Mendel,Onboarding,Complete,No,,2026-05-28,2026-09-04,2026-09-01,99,2755,120,29,15.1,100,Above Rate,48
+P20260928.0552,Granite Peak Insurance,Level 3,Diane Foster,Fix-Bid,Complete,No,,2026-09-28,2026-10-18,2026-10-01,20,4900,0,28,32.1,100,Over Budget,-15
+P20250925.0553,Greystone Capital,Level 5,John Atwood,Onboarding,Complete,No,,2025-09-25,2026-02-10,2026-02-01,138,900,800,6,4.1,100,Above Rate,32
+P20260109.0554,Canyon Ridge Schools,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2026-01-09,2026-05-11,2026-05-01,122,2250,0,15,15.2,100,Above Rate,-1
+P20260225.0555,Keystone Property Mgmt,Level 5,Robin Taylor,OffBoarding,Complete,No,,2026-02-25,2026-03-16,2026-03-01,19,0,0,70,71.5,100,Zero Budget,-2
+P20261005.0556,Union Pipe Credit Union,Level 4,Brendan Hale,OffBoarding,Complete,No,,2026-10-05,2026-10-31,2026-10-01,26,0,0,73,85.7,100,Zero Budget,-17
+P20250903.0557,Driftwood Hospitality,Level 3,Robin Taylor,Billable Service Request,Complete,No,,2025-09-03,2025-10-10,2025-10-01,37,2090,0,22,19.3,100,Under Value,12
+P20251111.0558,Orchard Valley Farms,Level 5,Chris Ortega,Onboarding,Complete,No,,2025-11-11,2026-03-20,2026-03-01,129,2625,0,15,15.0,100,Above Rate,0
+P20250619.0559,Lighthouse Pediatrics,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2025-06-19,2025-06-24,2025-06-01,5,2375,0,25,20.7,100,Under Value,17
+P20260909.0560,Eastgate Realty,Level 1,Robin Taylor,Fix-Bid,In Progress,Yes,Green,2026-09-09,,2027-10-01,62,51300,0,342,42.2,16,Above Rate,88
+P20250929.0561,Lighthouse Pediatrics,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-09-29,2025-11-03,2025-11-01,35,10500,0,60,56.2,100,Above Rate,6
+P20260727.0562,Coastal Ortho Group,Level 4,Alan Reeves,Onboarding,Complete,No,,2026-07-27,2026-08-09,2026-08-01,13,5250,0,30,16.7,100,Above Rate,44
+P20260524.0563,Delta Freight Co,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2026-05-24,2026-09-13,2026-09-01,112,2850,0,19,20.3,100,Above Rate,-7
+P20250920.0564,Indigo Biotech,Level 4,Chris Ortega,Fix-Bid,Complete,No,,2025-09-20,2025-11-22,2025-11-01,63,2400,0,16,17.5,100,Under Value,-9
+P20260531.0565,Falcon Crest Dental,Level 4,Grace Mendel,Fix-Bid,Complete,No,,2026-05-31,2026-09-17,2026-09-01,109,5950,0,34,17.4,100,Above Rate,49
+P20260614.0566,Maple Ridge Nonprofit,Level 3,Grace Mendel,Onboarding,Complete,No,,2026-06-14,2026-07-26,2026-07-01,42,700,800,4,3.3,100,Above Rate,18
+P20260709.0567,Coastal Ortho Group,Level 4,Alan Reeves,Onboarding,In Progress,Yes,Yellow,2026-07-09,,2027-01-01,124,4950,0,33,25.9,67,Above Rate,22
+P20260301.0568,Zephyr Aviation,Level 4,Brendan Hale,Fix-Bid,Complete,No,,2026-03-01,2026-05-23,2026-05-01,83,1800,0,12,13.7,100,Over Budget,-14
+P20260919.0569,Driftwood Hospitality,Level 3,Jesse Pruitt,Onboarding,In Progress,Yes,Green,2026-09-19,,2027-05-01,52,2090,1500,22,3.8,21,Above Rate,83
+P20251115.0570,Pinecrest Senior Living,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2025-11-15,2026-02-12,2026-02-01,89,4650,0,31,35.5,100,Over Budget,-15
+P20250701.0571,Hawthorne Plastics,Level 3,Diane Foster,Fix-Bid,Complete,No,,2025-07-01,2025-10-10,2025-10-01,101,5600,0,32,27.9,100,Above Rate,13
+P20260324.0572,Tidewater Pulmonary,Level 4,Chris Ortega,Fix-Bid,Complete,No,,2026-03-24,2026-06-11,2026-06-01,79,6650,0,70,56.4,100,Under Value,19
+P20250716.0573,Tidewater Pulmonary,Level 4,John Atwood,Fix-Bid,Complete,No,,2025-07-16,2025-10-15,2025-10-01,91,29400,0,168,120.4,100,Above Rate,28
+P20251021.0574,Oceanside Packaging,Level 4,Chris Ortega,Billable Service Request,Complete,No,,2025-10-21,2025-11-19,2025-11-01,29,4375,0,25,22.1,100,Above Rate,12
+P20260831.0575,Cedar Point Builders,Level 1,John Atwood,Fix-Bid,Complete,No,,2026-08-31,2026-10-07,2026-10-01,37,8280,0,72,65.2,100,Under Value,9
+P20260305.0576,Pinecrest Senior Living,Level 3,Alan Reeves,Onboarding,Material Ordered,Yes,Red,2026-03-05,,2026-12-01,250,18200,0,104,114.5,91,Over Budget,-10
+P20251026.0577,Delta Freight Co,Level 3,Jesse Pruitt,Billable Service Request,Complete,No,,2025-10-26,2026-01-31,2026-01-01,97,5320,0,56,80.0,100,Over Budget,-43
+P20250824.0578,Ironwood Machining,Level 2,Brendan Hale,Fix-Bid,Complete,No,,2025-08-24,2025-12-15,2025-12-01,113,14490,0,126,95.0,100,Above Rate,25
+P20250714.0579,Foxridge Engineering,Level 1,Alan Reeves,Onboarding,Complete,No,,2025-07-14,2025-10-15,2025-10-01,93,17940,0,156,161.2,100,Under Value,-3
+P20260313.0580,Dunmore Steel,Level 4,John Atwood,Billable Service Request,New,Yes,Red,2026-03-13,,2026-11-01,242,51275,0,293,272.2,96,Above Rate,7
+P20250607.0581,Eastgate Realty,Level 1,Chris Ortega,Onboarding,Complete,No,,2025-06-07,2025-11-15,2025-11-01,161,31850,0,182,157.2,100,Above Rate,14
+P20251105.0582,Oceanside Packaging,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-11-05,2026-02-21,2026-02-01,108,7000,0,40,36.6,100,Above Rate,8
+P20260403.0583,Crescent Legal Partners,Level 1,Brendan Hale,Billable Service Request,Complete,No,,2026-04-03,2026-04-22,2026-04-01,19,21300,0,142,122.2,100,Above Rate,14
+P20261024.0584,Orchard Valley Farms,Level 5,Diane Foster,OffBoarding,In Progress,Yes,Green,2026-10-24,,2026-12-01,17,1500,0,62,14.8,40,Under Value,76
+P20260817.0585,Willowbrook Youth Services,Level 4,Chris Ortega,Fix-Bid,Complete,No,,2026-08-17,2026-10-21,2026-10-01,65,3675,0,21,11.9,100,Above Rate,43
+P20250803.0586,Highland Spirits Co,Level 2,Alan Reeves,Onboarding,Complete,No,,2025-08-03,2026-01-08,2026-01-01,158,2375,0,25,18.0,100,Under Value,28
+P20251013.0587,Keystone Property Mgmt,Level 5,Jesse Pruitt,Fix-Bid,Complete,No,,2025-10-13,2026-02-21,2026-02-01,131,3675,0,21,18.2,100,Above Rate,13
+P20260711.0588,Northstar Engineering,Level 5,John Atwood,Fix-Bid,Complete,No,,2026-07-11,2026-09-30,2026-09-01,81,2800,0,16,17.3,100,Above Rate,-8
+P20250801.0589,Zephyr Aviation,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-08-01,2025-11-06,2025-11-01,97,1750,0,10,7.0,100,Above Rate,30
+P20260930.0590,Hilltop Family Medicine,Level 5,Jesse Pruitt,Fix-Bid,In Progress,Yes,Green,2026-09-30,,2026-12-01,41,1950,0,13,4.6,46,Above Rate,65
+P20250802.0591,Quarry Hill Auto Parts,Level 2,Alan Reeves,OffBoarding,Complete,No,,2025-08-02,2025-08-21,2025-08-01,19,1500,0,182,151.5,100,Under Value,17
+P20250725.0592,Riverside Auto Group,Level 3,Jesse Pruitt,Billable Service Request,Complete,No,,2025-07-25,2025-11-02,2025-11-01,100,11550,0,66,66.4,100,Above Rate,-1
+P20260518.0593,Northstar Engineering,Level 5,Alan Reeves,Onboarding,Complete,No,,2026-05-18,2026-06-30,2026-06-01,43,1750,0,10,8.8,100,Above Rate,12
+P20260228.0594,Juniper Wealth Advisors,Level 4,Diane Foster,Fix-Bid,Complete,No,,2026-02-28,2026-07-19,2026-07-01,141,2850,0,19,17.7,100,Above Rate,7
+P20250605.0595,Harborview Medical,Level 5,Alan Reeves,Onboarding,Complete,No,,2025-06-05,2026-01-09,2026-01-01,218,8550,0,57,48.3,100,Above Rate,15
+P20250920.0596,Prairie Wind Energy,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-09-20,2026-01-02,2026-01-01,104,3420,0,36,41.1,100,Over Budget,-14
+P20251006.0597,Falcon Crest Dental,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-10-06,2025-11-14,2025-11-01,39,2275,0,13,16.8,100,Over Budget,-29
+P20251018.0598,Falcon Crest Dental,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-10-18,2026-02-23,2026-02-01,128,3220,0,28,34.5,100,Over Budget,-23
+P20250630.0599,Rosewood Hotels,Level 2,Diane Foster,Onboarding,Complete,No,,2025-06-30,2025-09-07,2025-09-01,69,350,800,2,2.1,100,Above Rate,-5
+P20251212.0600,Lumen Optics,Level 4,Jesse Pruitt,Onboarding,Complete,No,,2025-12-12,2026-05-24,2026-05-01,163,4025,800,23,23.7,100,Above Rate,-3
+P20251026.0601,Eastgate Realty,Level 1,Brendan Hale,Fix-Bid,Complete,No,,2025-10-26,2026-03-04,2026-03-01,129,1400,0,8,7.5,100,Above Rate,6
+P20261008.0602,Sagebrush Ranch Supply,Level 4,Jesse Pruitt,Billable Service Request,In Progress,Yes,Green,2026-10-08,,2026-12-01,33,1050,0,6,2.1,39,Above Rate,65
+P20260925.0603,Harborview Medical,Level 5,Grace Mendel,Onboarding,Material Ordered,Yes,Green,2026-09-25,,2026-11-01,46,12075,0,69,29.6,84,Above Rate,57
+P20261031.0604,Northfield Produce,Level 1,John Atwood,Billable Service Request,New,Yes,Green,2026-10-31,,2027-01-01,10,10925,0,115,17.2,14,Above Rate,85
+P20260918.0605,Alpine Veterinary,Level 5,Diane Foster,Fix-Bid,In Progress,Yes,Green,2026-09-18,,2027-01-01,53,1805,0,19,8.5,49,Above Rate,55
+P20260329.0606,Redstone Architecture,Level 2,Brendan Hale,Billable Service Request,Complete,No,,2026-03-29,2026-05-30,2026-05-01,62,1925,0,11,14.3,100,Over Budget,-30
+P20251008.0607,Pioneer Trust Bank,Level 3,Robin Taylor,Onboarding,Complete,No,,2025-10-08,2026-04-11,2026-04-01,185,2850,0,19,24.9,100,Over Budget,-31
+P20260202.0608,Lakeshore Furniture,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2026-02-02,2026-02-07,2026-02-01,5,5075,0,29,27.6,100,Above Rate,5
+P20260322.0609,Willowbrook Youth Services,Level 4,Brendan Hale,Fix-Bid,Complete,No,,2026-03-22,2026-07-06,2026-07-01,106,11725,0,67,92.6,100,Over Budget,-38
+P20251221.0610,Copperline Manufacturing,Level 3,Alan Reeves,Onboarding,Complete,No,,2025-12-21,2026-01-15,2026-01-01,25,8550,120,57,57.4,100,Above Rate,-1
+P20261107.0611,Maple Ridge Nonprofit,Level 3,Diane Foster,Billable Service Request,In Progress,Yes,Green,2026-11-07,,2027-01-01,3,6125,0,35,1.2,4,Above Rate,97
+P20260718.0612,Prairie Wind Energy,Level 3,Jesse Pruitt,Onboarding,Complete,No,,2026-07-18,2026-10-13,2026-10-01,87,11725,350,67,35.9,100,Above Rate,46
+P20260705.0613,Northstar Engineering,Level 5,Grace Mendel,Onboarding,Complete,No,,2026-07-05,2026-09-30,2026-09-01,87,345,800,3,2.7,100,Under Value,10
+P20250726.0614,Pinecrest Senior Living,Level 3,Alan Reeves,Onboarding,Complete,No,,2025-07-26,2026-01-08,2026-01-01,166,3335,0,29,24.7,100,Under Value,15
+P20260907.0615,Falcon Crest Dental,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2026-09-07,2026-09-12,2026-09-01,5,7000,0,40,25.0,100,Above Rate,38
+P20251012.0616,Alpine Veterinary,Level 5,John Atwood,Billable Service Request,Complete,No,,2025-10-12,2026-01-05,2026-01-01,85,3850,0,22,24.4,100,Over Budget,-11
+P20251113.0617,Ironwood Machining,Level 2,Brendan Hale,Fix-Bid,Complete,No,,2025-11-13,2026-03-18,2026-03-01,125,35875,0,205,119.9,100,Above Rate,42
+P20251227.0618,Northfield Produce,Level 1,John Atwood,OffBoarding,Complete,No,,2025-12-27,2026-04-13,2026-04-01,107,1500,0,63,62.5,100,Under Value,1
+P20260707.0619,Kestrel Security,Level 1,Diane Foster,Billable Service Request,Complete,No,,2026-07-07,2026-09-04,2026-09-01,59,1425,0,15,13.6,100,Under Value,9
+P20260829.0620,Brightwater Brewing,Level 3,Alan Reeves,Fix-Bid,Complete,No,,2026-08-29,2026-10-08,2026-10-01,40,4900,0,28,30.2,100,Above Rate,-8
+P20260618.0621,Pioneer Trust Bank,Level 3,Robin Taylor,Billable Service Request,Complete,No,,2026-06-18,2026-07-24,2026-07-01,36,5290,0,46,40.3,100,Under Value,12
+P20260711.0622,Xenon Labs,Level 4,Grace Mendel,Onboarding,Complete,No,,2026-07-11,2026-09-27,2026-09-01,78,9625,800,55,42.8,100,Above Rate,22
+P20250923.0623,Lumen Optics,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-09-23,2025-11-14,2025-11-01,52,3675,0,21,23.7,100,Over Budget,-13
+P20251216.0624,Alpine Veterinary,Level 5,John Atwood,Onboarding,Complete,No,,2025-12-16,2026-06-03,2026-06-01,169,4650,0,31,20.7,100,Above Rate,33
+P20260813.0625,Dunmore Steel,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2026-08-13,2026-11-07,2026-11-01,86,950,0,10,5.2,100,Above Rate,48
+P20260912.0626,Union Pipe Credit Union,Level 4,Alan Reeves,Fix-Bid,New,Yes,Green,2026-09-12,,2026-11-01,59,3105,0,27,9.7,83,Above Rate,64
+P20260804.0627,Copperline Manufacturing,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2026-08-04,2026-10-01,2026-10-01,58,1045,0,11,10.1,100,Under Value,8
+P20250624.0628,Hilltop Family Medicine,Level 5,Grace Mendel,Onboarding,Complete,No,,2025-06-24,2025-09-19,2025-09-01,87,7350,350,42,39.6,100,Above Rate,6
+P20260822.0629,Cedar Point Builders,Level 1,Jesse Pruitt,Fix-Bid,Material Ordered,Yes,Green,2026-08-22,,2026-12-01,80,1750,0,10,8.5,75,Above Rate,15
+P20260221.0630,Whitestone Law Group,Level 1,Alan Reeves,Onboarding,Complete,No,,2026-02-21,2026-05-11,2026-05-01,79,1925,800,11,7.9,100,Above Rate,28
+P20261015.0631,Jasper County Utilities,Level 4,Diane Foster,Billable Service Request,Complete,No,,2026-10-15,2026-10-23,2026-10-01,8,570,0,6,7.1,100,Over Budget,-18
+P20250815.0632,Sterling Machine Works,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-08-15,2025-11-29,2025-11-01,106,2185,350,23,17.6,100,Under Value,23
+P20250716.0633,Canyon Ridge Schools,Level 4,Jesse Pruitt,Onboarding,Complete,No,,2025-07-16,2025-09-29,2025-09-01,75,4200,0,24,22.2,100,Above Rate,8
+P20250619.0634,Glenview Partners LLP,Level 3,John Atwood,Fix-Bid,Complete,No,,2025-06-19,2025-10-28,2025-10-01,131,4550,0,26,24.0,100,Above Rate,8
+P20261015.0635,Hilltop Family Medicine,Level 5,Brendan Hale,Fix-Bid,In Progress,Yes,Green,2026-10-15,,2027-05-01,26,2275,0,13,1.5,13,Above Rate,88
+P20250622.0636,Glenview Partners LLP,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2025-06-22,2025-10-28,2025-10-01,128,2300,0,20,14.0,100,Above Rate,30
+P20250928.0637,Edgewater Realty,Level 4,Brendan Hale,OffBoarding,Complete,No,,2025-09-28,2025-12-19,2025-12-01,82,0,0,13,9.3,100,Zero Budget,28
+P20251203.0638,Bayline Logistics,Level 2,Chris Ortega,Billable Service Request,Complete,No,,2025-12-03,2026-01-15,2026-01-01,43,2100,0,12,12.2,100,Above Rate,-2
+P20250927.0639,Orchard Valley Farms,Level 5,Robin Taylor,Billable Service Request,Complete,No,,2025-09-27,2025-10-04,2025-10-01,7,6650,0,38,38.3,100,Above Rate,-1
+P20261107.0640,Silverleaf Landscaping,Level 4,Diane Foster,Billable Service Request,In Progress,Yes,Green,2026-11-07,,2026-11-01,3,5550,0,37,17.0,60,Above Rate,54
+P20260304.0641,Midtown Pharmacy,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2026-03-04,2026-03-09,2026-03-01,5,5425,0,31,28.5,100,Above Rate,8
+P20260227.0642,Tidewater Pulmonary,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2026-02-27,2026-03-04,2026-03-01,5,6210,0,54,40.5,100,Above Rate,25
+P20251003.0643,Timberline Construction,Level 1,John Atwood,Onboarding,Complete,No,,2025-10-03,2026-02-05,2026-02-01,125,7875,1500,45,49.0,100,Above Rate,-9
+P20260915.0644,Eastgate Realty,Level 1,Diane Foster,Billable Service Request,Complete,No,,2026-09-15,2026-11-03,2026-11-01,49,1400,0,8,6.6,100,Above Rate,18
+P20261103.0645,Prairie Wind Energy,Level 3,Robin Taylor,Onboarding,In Progress,Yes,Green,2026-11-03,,2027-01-01,7,3500,0,20,0.1,10,Above Rate,100
+P20260914.0646,Maple Ridge Nonprofit,Level 3,Alan Reeves,Fix-Bid,Complete,No,,2026-09-14,2026-09-19,2026-09-01,5,1950,0,13,15.0,100,Over Budget,-15
+P20251030.0647,Whitestone Law Group,Level 1,Chris Ortega,Onboarding,Complete,No,,2025-10-30,2026-02-03,2026-02-01,96,3910,0,34,32.7,100,Under Value,4
+P20251014.0648,Willowbrook Youth Services,Level 4,John Atwood,Fix-Bid,Complete,No,,2025-10-14,2025-12-18,2025-12-01,65,6475,0,37,46.8,100,Over Budget,-26
+P20261018.0649,Copperline Manufacturing,Level 3,Robin Taylor,Billable Service Request,Complete,No,,2026-10-18,2026-10-23,2026-10-01,5,8550,0,57,35.7,100,Above Rate,37
+P20261020.0650,Amberfield Orthopedics,Level 1,Robin Taylor,OffBoarding,New,Yes,Green,2026-10-20,,2026-12-01,21,0,0,20,4.7,30,Zero Budget,76
+P20251007.0651,Cedar Point Builders,Level 1,John Atwood,Onboarding,Complete,No,,2025-10-07,2026-02-28,2026-02-01,144,3910,350,34,30.7,100,Under Value,10
+P20260120.0652,Hawthorne Plastics,Level 3,Brendan Hale,Onboarding,Complete,No,,2026-01-20,2026-06-07,2026-06-01,138,3335,0,29,29.2,100,Under Value,-1
+P20250923.0653,Delta Freight Co,Level 3,John Atwood,Fix-Bid,Complete,No,,2025-09-23,2026-02-08,2026-02-01,138,17400,0,116,114.1,100,Above Rate,2
+P20251220.0654,Cedar Point Builders,Level 1,Brendan Hale,Billable Service Request,Complete,No,,2025-12-20,2026-01-22,2026-01-01,33,4900,0,28,27.6,100,Above Rate,1
+P20261013.0655,Midtown Pharmacy,Level 4,John Atwood,Onboarding,Complete,No,,2026-10-13,2026-10-18,2026-10-01,5,6475,0,37,28.6,100,Above Rate,23
+P20260627.0656,Hawthorne Plastics,Level 3,Alan Reeves,Fix-Bid,Complete,No,,2026-06-27,2026-10-01,2026-10-01,96,570,0,6,3.5,100,Above Rate,42
+P20251218.0657,Evergreen Ag Services,Level 3,Chris Ortega,Onboarding,Complete,No,,2025-12-18,2026-08-20,2026-08-01,245,1225,800,7,6.6,100,Above Rate,6
+P20260915.0658,Driftwood Hospitality,Level 3,John Atwood,Onboarding,Complete,No,,2026-09-15,2026-10-31,2026-10-01,46,5060,350,44,22.4,100,Above Rate,49
+P20250730.0659,Kingsbridge Credit Union,Level 2,Jesse Pruitt,Onboarding,Complete,No,,2025-07-30,2025-12-11,2025-12-01,134,1840,0,16,18.5,100,Over Budget,-16
+P20251002.0660,Northfield Produce,Level 1,Diane Foster,Onboarding,Complete,No,,2025-10-02,2026-01-29,2026-01-01,119,8050,0,46,61.7,100,Over Budget,-34
+P20251022.0661,Midtown Pharmacy,Level 4,Chris Ortega,Onboarding,Complete,No,,2025-10-22,2026-01-11,2026-01-01,81,3300,0,22,14.6,100,Above Rate,34
+P20251104.0662,Sterling Machine Works,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2025-11-04,2026-04-09,2026-04-01,156,2800,0,16,24.2,100,Over Budget,-51
+P20260411.0663,Whitestone Law Group,Level 1,Grace Mendel,OffBoarding,Complete,No,,2026-04-11,2026-06-27,2026-06-01,77,1500,0,36,28.6,100,Under Value,21
+P20251013.0664,Yellowstone Distributing,Level 1,Robin Taylor,Billable Service Request,Complete,No,,2025-10-13,2025-11-23,2025-11-01,41,20475,0,117,124.1,100,Above Rate,-6
+P20250808.0665,Whitestone Law Group,Level 1,Brendan Hale,Onboarding,Complete,No,,2025-08-08,2025-10-25,2025-10-01,78,14525,120,83,58.8,100,Above Rate,29
+P20260503.0666,Granite Peak Insurance,Level 3,Jesse Pruitt,Billable Service Request,Complete,No,,2026-05-03,2026-05-29,2026-05-01,26,11375,0,65,54.5,100,Above Rate,16
+P20260209.0667,Timberline Construction,Level 1,Robin Taylor,Onboarding,Complete,No,,2026-02-09,2026-03-09,2026-03-01,28,4750,0,50,37.4,100,Under Value,25
+P20260924.0668,Lakeshore Furniture,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2026-09-24,2026-10-07,2026-10-01,13,16450,0,94,30.6,100,Above Rate,67
+P20250828.0669,Amberfield Orthopedics,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2025-08-28,2025-11-23,2025-11-01,87,1800,0,12,12.7,100,Above Rate,-6
+P20260722.0670,Aldergrove Credit Union,Level 3,Diane Foster,Onboarding,Complete,No,,2026-07-22,2026-09-18,2026-09-01,58,33900,0,226,157.7,100,Above Rate,30
+P20251224.0671,Yellowstone Distributing,Level 1,Brendan Hale,Billable Service Request,Complete,No,,2025-12-24,2026-02-10,2026-02-01,48,3150,0,21,17.5,100,Above Rate,17
+P20260410.0672,Crescent Legal Partners,Level 1,Grace Mendel,Billable Service Request,Complete,No,,2026-04-10,2026-04-17,2026-04-01,7,1225,0,7,5.1,100,Above Rate,27
+P20260118.0673,Valley Forge Logistics,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2026-01-18,2026-02-23,2026-02-01,36,7525,0,43,49.5,100,Over Budget,-15
+P20251002.0674,Sagebrush Ranch Supply,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-10-02,2025-12-29,2025-12-01,88,6900,0,60,66.1,100,Over Budget,-10
+P20260703.0675,Granite Peak Insurance,Level 3,Jesse Pruitt,Onboarding,Complete,No,,2026-07-03,2026-09-06,2026-09-01,65,14175,0,81,58.5,100,Above Rate,28
+P20260530.0676,Lumen Optics,Level 4,John Atwood,Billable Service Request,Complete,No,,2026-05-30,2026-06-04,2026-06-01,5,575,0,5,4.4,100,Under Value,12
+P20260212.0677,Amberfield Orthopedics,Level 1,Jesse Pruitt,Fix-Bid,Complete,No,,2026-02-12,2026-05-02,2026-05-01,79,6650,0,38,40.5,100,Above Rate,-7
+P20260515.0678,Lumen Optics,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2026-05-15,2026-07-02,2026-07-01,48,6825,0,39,51.8,100,Over Budget,-33
+P20260319.0679,Riverbend Hospital,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2026-03-19,2026-05-28,2026-05-01,70,2450,0,14,12.0,100,Above Rate,14
+P20260605.0680,Jasper County Utilities,Level 4,Brendan Hale,Onboarding,Complete,No,,2026-06-05,2026-08-03,2026-08-01,59,12425,0,71,75.9,100,Above Rate,-7
+P20250709.0681,Foxridge Engineering,Level 1,Grace Mendel,Fix-Bid,Complete,No,,2025-07-09,2025-12-12,2025-12-01,156,12000,0,80,62.9,100,Above Rate,21
+P20251009.0682,Redstone Architecture,Level 2,Alan Reeves,Fix-Bid,Complete,No,,2025-10-09,2026-03-07,2026-03-01,149,5700,0,60,72.2,100,Over Budget,-20
+P20260919.0683,Willowbrook Youth Services,Level 4,Jesse Pruitt,Onboarding,New,Yes,Green,2026-09-19,,2027-09-01,52,12250,0,70,8.2,14,Above Rate,88
+P20250822.0684,Sterling Machine Works,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2025-08-22,2025-12-30,2025-12-01,130,4900,0,28,26.5,100,Above Rate,5
+P20260206.0685,Pioneer Trust Bank,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2026-02-06,2026-05-14,2026-05-01,97,11550,0,66,35.8,100,Above Rate,46
+P20261017.0686,Maple Ridge Nonprofit,Level 3,John Atwood,Billable Service Request,Complete,No,,2026-10-17,2026-10-22,2026-10-01,5,1380,0,12,10.4,100,Under Value,13
+P20260130.0687,Canyon Ridge Schools,Level 4,Brendan Hale,Fix-Bid,On Hold,Yes,Blue,2026-01-30,,2027-02-01,284,2700,0,18,14.0,77,Above Rate,22
+P20260717.0688,Orchard Valley Farms,Level 5,Grace Mendel,Billable Service Request,Complete,No,,2026-07-17,2026-08-30,2026-08-01,44,2375,0,25,24.5,100,Under Value,2
+P20260113.0689,Sagebrush Ranch Supply,Level 4,Diane Foster,Billable Service Request,Complete,No,,2026-01-13,2026-02-13,2026-02-01,31,16625,0,95,114.5,100,Over Budget,-21
+P20250614.0690,Highland Spirits Co,Level 2,Diane Foster,Fix-Bid,Complete,No,,2025-06-14,2025-08-12,2025-08-01,59,5250,0,30,18.4,100,Above Rate,39
+P20260112.0691,Redstone Architecture,Level 2,Chris Ortega,Billable Service Request,Complete,No,,2026-01-12,2026-01-17,2026-01-01,5,3450,0,23,29.9,100,Over Budget,-30
+P20260405.0692,Hawthorne Plastics,Level 3,Chris Ortega,Onboarding,Complete,No,,2026-04-05,2026-04-18,2026-04-01,13,1235,0,13,16.5,100,Over Budget,-27
+P20261107.0693,Lumen Optics,Level 4,Jesse Pruitt,Onboarding,New,Yes,Green,2026-11-07,,2027-01-01,3,4375,800,25,1.4,5,Above Rate,94
+P20250730.0694,Crescent Legal Partners,Level 1,Diane Foster,Onboarding,Complete,No,,2025-07-30,2026-08-24,2026-08-01,390,1615,0,17,21.9,100,Over Budget,-29
+P20250616.0695,Northstar Engineering,Level 5,Robin Taylor,Fix-Bid,Complete,No,,2025-06-16,2025-09-14,2025-09-01,90,875,0,5,4.9,100,Above Rate,2
+P20261024.0696,Kestrel Security,Level 1,Grace Mendel,Billable Service Request,Material Ordered,Yes,Green,2026-10-24,,2027-01-01,17,2275,0,13,3.2,23,Above Rate,75
+P20260427.0697,Harborview Medical,Level 5,Chris Ortega,Onboarding,Complete,No,,2026-04-27,2026-08-05,2026-08-01,100,7175,800,41,42.4,100,Above Rate,-3
+P20251119.0698,Ironwood Machining,Level 2,Brendan Hale,Onboarding,Complete,No,,2025-11-19,2026-04-12,2026-04-01,144,4465,0,47,56.5,100,Over Budget,-20
+P20251003.0699,Foxridge Engineering,Level 1,Robin Taylor,Fix-Bid,Complete,No,,2025-10-03,2025-11-30,2025-11-01,58,14175,0,81,75.0,100,Above Rate,7
+P20260919.0700,Willowbrook Youth Services,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2026-09-19,2026-10-27,2026-10-01,38,4200,0,24,17.9,100,Above Rate,25
+P20260331.0701,Indigo Biotech,Level 4,Chris Ortega,Onboarding,Complete,No,,2026-03-31,2026-06-18,2026-06-01,79,42525,120,243,175.8,100,Above Rate,28
+P20250704.0702,Evergreen Ag Services,Level 3,Diane Foster,Fix-Bid,Complete,No,,2025-07-04,2025-10-01,2025-10-01,89,4375,0,25,30.2,100,Over Budget,-21
+P20250722.0703,Lumen Optics,Level 4,Grace Mendel,Billable Service Request,Complete,No,,2025-07-22,2025-07-27,2025-07-01,5,4845,0,51,37.7,100,Under Value,26
+P20260725.0704,Kingsbridge Credit Union,Level 2,John Atwood,Billable Service Request,Complete,No,,2026-07-25,2026-09-01,2026-09-01,38,2275,0,13,11.6,100,Above Rate,11
+P20250606.0705,Ivy League Tutoring,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2025-06-06,2025-10-11,2025-10-01,127,22050,0,126,160.3,100,Over Budget,-27
+P20260206.0706,Orchard Valley Farms,Level 5,Robin Taylor,Onboarding,Complete,No,,2026-02-06,2026-05-26,2026-05-01,109,4255,0,37,38.3,100,Under Value,-4
+P20251125.0707,Thornbury Accounting,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2025-11-25,2025-12-17,2025-12-01,22,8050,0,46,48.4,100,Above Rate,-5
+P20260531.0708,Hilltop Family Medicine,Level 5,Diane Foster,Billable Service Request,Complete,No,,2026-05-31,2026-06-05,2026-06-01,5,4550,0,26,17.6,100,Above Rate,32
+P20260111.0709,Bayline Logistics,Level 2,Alan Reeves,Billable Service Request,Complete,No,,2026-01-11,2026-09-20,2026-09-01,252,6125,0,35,35.5,100,Above Rate,-1
+P20250716.0710,Rosewood Hotels,Level 2,Robin Taylor,Onboarding,Complete,No,,2025-07-16,2025-10-14,2025-10-01,90,7350,1500,42,45.0,100,Above Rate,-7
+P20250812.0711,Maple Ridge Nonprofit,Level 3,Alan Reeves,Onboarding,Complete,No,,2025-08-12,2025-12-28,2025-12-01,138,2275,0,13,7.4,100,Above Rate,43
+P20260429.0712,Coastal Ortho Group,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2026-04-29,2026-07-11,2026-07-01,73,3850,0,22,23.1,100,Above Rate,-5
+P20260917.0713,Eastgate Realty,Level 1,Jesse Pruitt,Fix-Bid,New,Yes,Green,2026-09-17,,2026-12-01,54,1400,0,8,4.2,57,Above Rate,48
+P20260828.0714,Aldergrove Credit Union,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2026-08-28,2026-10-18,2026-10-01,51,2090,0,22,14.3,100,Above Rate,35
+P20260523.0715,Harborview Medical,Level 5,Grace Mendel,Fix-Bid,Complete,No,,2026-05-23,2026-08-30,2026-08-01,99,525,0,3,1.9,100,Above Rate,37
+P20260523.0716,Cedar Point Builders,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2026-05-23,2026-09-07,2026-09-01,107,2275,0,13,15.2,100,Over Budget,-17
+P20250901.0717,Kingsbridge Credit Union,Level 2,John Atwood,Fix-Bid,Complete,No,,2025-09-01,2025-11-24,2025-11-01,84,2760,0,24,15.1,100,Above Rate,37
+P20260310.0718,Aldergrove Credit Union,Level 3,John Atwood,Billable Service Request,Complete,No,,2026-03-10,2026-05-23,2026-05-01,74,52325,0,299,348.2,100,Over Budget,-16
+P20260214.0719,Northfield Produce,Level 1,Robin Taylor,Billable Service Request,Complete,No,,2026-02-14,2026-03-16,2026-03-01,30,4025,0,23,27.6,100,Over Budget,-20
+P20260705.0720,Magnolia Title Co,Level 3,Diane Foster,Fix-Bid,Complete,No,,2026-07-05,2026-10-21,2026-10-01,108,1425,0,15,13.7,100,Under Value,9
+P20261022.0721,Glenview Partners LLP,Level 3,Robin Taylor,Fix-Bid,Material Ordered,Yes,Green,2026-10-22,,2026-12-01,19,7000,0,40,12.0,28,Above Rate,70
+P20260224.0722,Willowbrook Youth Services,Level 4,Jesse Pruitt,Onboarding,Complete,No,,2026-02-24,2026-06-05,2026-06-01,101,2070,0,18,17.6,100,Under Value,2
+P20251212.0723,Bayline Logistics,Level 2,John Atwood,Fix-Bid,Complete,No,,2025-12-12,2026-04-04,2026-04-01,113,15225,0,87,73.4,100,Above Rate,16
+P20260903.0724,Timberline Construction,Level 1,Diane Foster,Billable Service Request,In Progress,Yes,Green,2026-09-03,,2027-06-01,68,4750,0,50,7.9,25,Above Rate,84
+P20261007.0725,Elmwood Insurance Group,Level 3,John Atwood,Fix-Bid,Complete,No,,2026-10-07,2026-10-12,2026-10-01,5,9000,0,60,7.7,100,Above Rate,87
+P20261005.0726,Canyon Ridge Schools,Level 4,Brendan Hale,Fix-Bid,Complete,No,,2026-10-05,2026-10-10,2026-10-01,5,3675,0,21,13.8,100,Above Rate,34
+P20250928.0727,Kestrel Security,Level 1,Alan Reeves,OffBoarding,Complete,No,,2025-09-28,2025-12-16,2025-12-01,79,0,0,37,49.5,100,Zero Budget,-34
+P20260401.0728,Juniper Wealth Advisors,Level 4,Brendan Hale,Onboarding,Complete,No,,2026-04-01,2026-05-17,2026-05-01,46,1575,1500,9,9.3,100,Above Rate,-3
+P20260106.0729,Meridian Telehealth,Level 5,Brendan Hale,Fix-Bid,Complete,No,,2026-01-06,2026-04-06,2026-04-01,90,8100,0,54,60.8,100,Over Budget,-13
+P20260420.0730,Magnolia Title Co,Level 3,Alan Reeves,OffBoarding,Complete,No,,2026-04-20,2026-04-28,2026-04-01,8,1500,0,12,9.6,100,Above Rate,20
+P20250828.0731,Sterling Machine Works,Level 3,Jesse Pruitt,Billable Service Request,Complete,No,,2025-08-28,2025-10-22,2025-10-01,55,8740,0,92,85.2,100,Under Value,7
+P20250810.0732,Eastgate Realty,Level 1,Diane Foster,Billable Service Request,Complete,No,,2025-08-10,2025-09-04,2025-09-01,25,1225,0,7,7.2,100,Above Rate,-3
+P20250910.0733,Orchard Valley Farms,Level 5,John Atwood,Billable Service Request,Complete,No,,2025-09-10,2025-09-30,2025-09-01,20,8575,0,49,52.8,100,Above Rate,-8
+P20260703.0734,Jade Garden Restaurants,Level 4,Grace Mendel,Fix-Bid,Complete,No,,2026-07-03,2026-11-03,2026-11-01,123,4200,0,24,27.5,100,Over Budget,-15
+P20260911.0735,Aldergrove Credit Union,Level 3,Grace Mendel,OffBoarding,Complete,No,,2026-09-11,2026-10-09,2026-10-01,28,1500,0,13,10.9,100,Under Value,16
+P20250906.0736,Willowbrook Youth Services,Level 4,Brendan Hale,Onboarding,Complete,No,,2025-09-06,2025-12-22,2025-12-01,107,14550,800,97,87.8,100,Above Rate,9
+P20261106.0737,Falcon Crest Dental,Level 4,Chris Ortega,Fix-Bid,In Progress,Yes,Green,2026-11-06,,2026-11-01,4,8225,0,47,34.2,80,Above Rate,27
+P20261012.0738,Sterling Machine Works,Level 3,Grace Mendel,OffBoarding,New,Yes,Green,2026-10-12,,2026-11-01,29,0,0,7,6.3,78,Zero Budget,10
+P20260108.0739,Fieldstone Foods,Level 3,Jesse Pruitt,Onboarding,Complete,No,,2026-01-08,2026-05-05,2026-05-01,117,4725,350,27,29.9,100,Over Budget,-11
+P20260907.0740,Bayline Logistics,Level 2,John Atwood,OffBoarding,Material Ordered,Yes,Green,2026-09-07,,2027-09-01,64,0,0,108,6.5,17,Zero Budget,94
+P20260307.0741,Fieldstone Foods,Level 3,Grace Mendel,Billable Service Request,Complete,No,,2026-03-07,2026-03-12,2026-03-01,5,4485,0,39,16.3,100,Above Rate,58
+P20261016.0742,Riverside Auto Group,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2026-10-16,2026-11-03,2026-11-01,18,9600,0,64,75.2,100,Over Budget,-18
+P20260830.0743,Fieldstone Foods,Level 3,Brendan Hale,Onboarding,In Progress,Yes,Green,2026-08-30,,2027-02-01,72,7500,0,50,24.7,41,Above Rate,51
+P20261013.0744,Crescent Legal Partners,Level 1,Chris Ortega,Onboarding,Material Ordered,Yes,Green,2026-10-13,,2026-11-01,28,690,1500,6,2.2,90,Above Rate,63
+P20260419.0745,Cedar Point Builders,Level 1,Grace Mendel,Billable Service Request,Complete,No,,2026-04-19,2026-07-17,2026-07-01,89,2850,0,19,11.5,100,Above Rate,39
+P20250813.0746,Silverleaf Landscaping,Level 4,Diane Foster,Billable Service Request,Complete,No,,2025-08-13,2025-08-20,2025-08-01,7,47250,0,315,251.7,100,Above Rate,20
+P20250906.0747,Union Pipe Credit Union,Level 4,Robin Taylor,Onboarding,Complete,No,,2025-09-06,2026-09-11,2026-09-01,370,22310,0,194,163.8,100,Under Value,16
+P20260806.0748,Tidewater Pulmonary,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2026-08-06,2026-10-24,2026-10-01,79,4200,0,28,34.2,100,Over Budget,-22
+P20260520.0749,Birchwood Dental Group,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2026-05-20,2026-07-01,2026-07-01,42,950,0,10,10.1,100,Under Value,-1
+P20250930.0750,Coastal Ortho Group,Level 4,John Atwood,Fix-Bid,Complete,No,,2025-09-30,2025-11-24,2025-11-01,55,875,0,5,5.9,100,Over Budget,-18
+P20250610.0751,Delta Freight Co,Level 3,Alan Reeves,Onboarding,Complete,No,,2025-06-10,2025-09-01,2025-09-01,83,1050,1500,6,6.0,100,Above Rate,0
+P20250628.0752,Rosewood Hotels,Level 2,Robin Taylor,Fix-Bid,Complete,No,,2025-06-28,2025-09-09,2025-09-01,73,1805,0,19,12.3,100,Above Rate,35
+P20260513.0753,Silverleaf Landscaping,Level 4,Jesse Pruitt,Onboarding,Complete,No,,2026-05-13,2026-06-16,2026-06-01,34,4725,0,27,31.3,100,Over Budget,-16
+P20250711.0754,Timberline Construction,Level 1,John Atwood,Fix-Bid,Complete,No,,2025-07-11,2025-11-12,2025-11-01,124,8400,0,56,60.8,100,Under Value,-9
+P20250823.0755,Driftwood Hospitality,Level 3,Alan Reeves,Billable Service Request,Complete,No,,2025-08-23,2025-10-23,2025-10-01,61,14260,0,124,162.6,100,Over Budget,-31
+P20251207.0756,Sterling Machine Works,Level 3,Chris Ortega,Fix-Bid,In Progress,Yes,Red,2025-12-07,,2026-11-01,338,12255,0,129,128.1,98,Under Value,1
+P20260116.0757,Silverleaf Landscaping,Level 4,Grace Mendel,Billable Service Request,Complete,No,,2026-01-16,2026-03-12,2026-03-01,55,1650,0,11,10.1,100,Above Rate,8
+P20260508.0758,Birchwood Dental Group,Level 4,Chris Ortega,Billable Service Request,Complete,No,,2026-05-08,2026-05-13,2026-05-01,5,6650,0,38,27.3,100,Above Rate,28
+P20250712.0759,Rosewood Hotels,Level 2,Brendan Hale,OffBoarding,Complete,No,,2025-07-12,2025-08-02,2025-08-01,21,0,0,17,12.8,100,Zero Budget,25
+P20251218.0760,Jasper County Utilities,Level 4,John Atwood,Fix-Bid,Complete,No,,2025-12-18,2026-03-23,2026-03-01,95,6900,0,46,45.3,100,Above Rate,2
+P20261005.0761,Canyon Ridge Schools,Level 4,Jesse Pruitt,Billable Service Request,Material Ordered,Yes,Green,2026-10-05,,2026-12-01,36,7875,0,45,18.4,63,Above Rate,59
+P20260510.0762,Quarry Hill Auto Parts,Level 2,Robin Taylor,Fix-Bid,Complete,No,,2026-05-10,2026-09-17,2026-09-01,130,1050,0,7,5.0,100,Above Rate,29
+P20260723.0763,Cedar Point Builders,Level 1,Brendan Hale,Billable Service Request,Complete,No,,2026-07-23,2026-07-28,2026-07-01,5,4375,0,25,15.8,100,Above Rate,37
+P20250803.0764,Coastal Ortho Group,Level 4,Diane Foster,Onboarding,Complete,No,,2025-08-03,2025-12-21,2025-12-01,140,1035,0,9,0.3,100,Above Rate,97
+P20250709.0765,Driftwood Hospitality,Level 3,Diane Foster,Onboarding,Complete,No,,2025-07-09,2025-11-04,2025-11-01,118,12600,0,84,72.7,100,Above Rate,13
+P20251024.0766,Redstone Architecture,Level 2,John Atwood,Fix-Bid,Complete,No,,2025-10-24,2026-01-11,2026-01-01,79,4550,0,26,14.2,100,Above Rate,45
+P20250818.0767,Evergreen Ag Services,Level 3,Alan Reeves,Onboarding,Complete,No,,2025-08-18,2025-10-15,2025-10-01,58,3500,0,20,18.9,100,Above Rate,6
+P20260610.0768,Coastal Ortho Group,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2026-06-10,2026-10-05,2026-10-01,117,2755,0,29,37.0,100,Over Budget,-28
+P20251229.0769,Riverbend Hospital,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2025-12-29,2026-04-18,2026-04-01,110,19075,0,109,74.7,100,Above Rate,31
+P20251215.0770,Crescent Legal Partners,Level 1,Diane Foster,OffBoarding,Complete,No,,2025-12-15,2026-01-17,2026-01-01,33,0,0,31,21.3,100,Zero Budget,31
+P20250710.0771,Thornbury Accounting,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2025-07-10,2025-09-23,2025-09-01,75,6825,0,39,43.0,100,Over Budget,-10
+P20250702.0772,Delta Freight Co,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-07-02,2025-12-28,2025-12-01,179,3000,1500,20,18.6,100,Above Rate,7
+P20250927.0773,Jasper County Utilities,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2025-09-27,2025-10-02,2025-10-01,5,1045,0,11,10.3,100,Under Value,6
+P20251023.0774,Falcon Crest Dental,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-10-23,2025-10-28,2025-10-01,5,7800,0,52,26.3,100,Above Rate,49
+P20260113.0775,Kingsbridge Credit Union,Level 2,Alan Reeves,Onboarding,Complete,No,,2026-01-13,2026-07-06,2026-07-01,174,760,120,8,8.9,100,Over Budget,-11
+P20260710.0776,Cedar Point Builders,Level 1,John Atwood,Onboarding,Complete,No,,2026-07-10,2026-10-12,2026-10-01,94,750,0,5,3.9,100,Above Rate,22
+P20260822.0777,Riverside Auto Group,Level 3,Chris Ortega,Onboarding,New,Yes,Green,2026-08-22,,2026-12-01,80,53725,120,307,188.9,78,Above Rate,38
+P20260620.0778,Thornbury Accounting,Level 4,John Atwood,OffBoarding,Complete,No,,2026-06-20,2026-06-25,2026-06-01,5,1500,0,6,1.5,100,Above Rate,75
+P20250804.0779,Hilltop Family Medicine,Level 5,Jesse Pruitt,Onboarding,Complete,No,,2025-08-04,2025-11-06,2025-11-01,94,6650,0,38,44.6,100,Over Budget,-17
+P20251005.0780,Union Pipe Credit Union,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2025-10-05,2026-01-10,2026-01-01,97,4050,0,27,14.9,100,Above Rate,45
+P20250912.0781,Meridian Telehealth,Level 5,Brendan Hale,Fix-Bid,Complete,No,,2025-09-12,2026-01-06,2026-01-01,116,5075,0,29,27.8,100,Above Rate,4
+P20250917.0782,Pioneer Trust Bank,Level 3,John Atwood,Onboarding,Complete,No,,2025-09-17,2026-02-20,2026-02-01,156,1750,800,10,4.9,100,Above Rate,51
+P20260906.0783,Birchwood Dental Group,Level 4,Jesse Pruitt,Onboarding,In Progress,Yes,Green,2026-09-06,,2026-12-01,65,9315,1500,81,42.6,59,Above Rate,47
+P20250912.0784,Keystone Property Mgmt,Level 5,Chris Ortega,Fix-Bid,Complete,No,,2025-09-12,2026-01-05,2026-01-01,115,3900,0,26,32.5,100,Over Budget,-25
+P20261001.0785,Indigo Biotech,Level 4,Brendan Hale,Fix-Bid,Material Ordered,Yes,Green,2026-10-01,,2027-01-01,40,1800,0,12,3.2,40,Above Rate,73
+P20251230.0786,Foxridge Engineering,Level 1,Grace Mendel,Onboarding,Material Ordered,Yes,Red,2025-12-30,,2027-01-01,315,2280,800,24,25.9,83,Under Value,-8
+P20261006.0787,Riverbend Hospital,Level 3,Brendan Hale,Fix-Bid,New,Yes,Green,2026-10-06,,2026-11-01,35,875,0,5,3.5,88,Above Rate,30
+P20260708.0788,Alpine Veterinary,Level 5,Diane Foster,Fix-Bid,Complete,No,,2026-07-08,2026-08-30,2026-08-01,53,5635,0,49,55.9,100,Over Budget,-14
+P20251231.0789,Jade Garden Restaurants,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2025-12-31,2026-04-24,2026-04-01,114,1035,0,9,7.4,100,Under Value,18
+P20260101.0790,Prairie Wind Energy,Level 3,Diane Foster,Fix-Bid,Complete,No,,2026-01-01,2026-02-08,2026-02-01,38,2185,0,19,16.1,100,Under Value,15
+P20260425.0791,Quincy Medical Billing,Level 5,Alan Reeves,Onboarding,Complete,No,,2026-04-25,2026-09-02,2026-09-01,130,1840,800,16,13.9,100,Under Value,13
+P20250716.0792,Thornbury Accounting,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-07-16,2025-10-20,2025-10-01,96,1650,0,11,9.3,100,Above Rate,15
+P20250918.0793,Pinecrest Senior Living,Level 3,John Atwood,Onboarding,Complete,No,,2025-09-18,2025-12-08,2025-12-01,81,6785,0,59,25.8,100,Above Rate,56
+P20250816.0794,Blue Heron Marine,Level 2,Diane Foster,Fix-Bid,Complete,No,,2025-08-16,2025-10-04,2025-10-01,49,700,0,4,3.4,100,Above Rate,15
+P20250813.0795,Xenon Labs,Level 4,Robin Taylor,Onboarding,Complete,No,,2025-08-13,2026-04-25,2026-04-01,255,32550,0,217,204.7,100,Above Rate,6
+P20260927.0796,Summit Broker Network,Level 2,Chris Ortega,Billable Service Request,New,Yes,Green,2026-09-27,,2026-12-01,44,37450,0,214,84.4,66,Above Rate,61
+P20260320.0797,Ironwood Machining,Level 2,Grace Mendel,Onboarding,Complete,No,,2026-03-20,2026-08-18,2026-08-01,151,1400,800,8,6.3,100,Above Rate,21
+P20250715.0798,Jade Garden Restaurants,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-07-15,2025-11-20,2025-11-01,128,16625,0,95,62.5,100,Above Rate,34
+P20260522.0799,Harborview Medical,Level 5,Jesse Pruitt,OffBoarding,Complete,No,,2026-05-22,2026-06-10,2026-06-01,19,1500,0,16,18.5,100,Over Budget,-16
+P20260907.0800,Lumen Optics,Level 4,Brendan Hale,Fix-Bid,In Progress,Yes,Green,2026-09-07,,2026-11-01,64,19800,0,132,88.7,96,Above Rate,33
+P20260227.0801,Whitestone Law Group,Level 1,Chris Ortega,Fix-Bid,Complete,No,,2026-02-27,2026-05-07,2026-05-01,69,21505,0,187,190.9,100,Under Value,-2
+P20261024.0802,Rosewood Hotels,Level 2,Brendan Hale,Billable Service Request,Complete,No,,2026-10-24,2026-11-10,2026-11-01,17,3150,0,18,15.2,100,Above Rate,16
+P20260419.0803,Falcon Crest Dental,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2026-04-19,2026-05-15,2026-05-01,26,1350,0,9,5.9,100,Above Rate,34
+P20260703.0804,Elmwood Insurance Group,Level 3,Robin Taylor,Onboarding,Complete,No,,2026-07-03,2026-10-19,2026-10-01,108,525,350,3,3.0,100,Above Rate,0
+P20260613.0805,Indigo Biotech,Level 4,Diane Foster,Fix-Bid,Complete,No,,2026-06-13,2026-07-28,2026-07-01,45,12075,0,69,51.9,100,Above Rate,25
+P20260828.0806,Valley Forge Logistics,Level 3,Grace Mendel,Onboarding,In Progress,Yes,Green,2026-08-28,,2026-11-01,74,10150,0,58,49.6,97,Above Rate,14
+P20260709.0807,Northfield Produce,Level 1,Jesse Pruitt,OffBoarding,In Progress,Yes,Yellow,2026-07-09,,2027-01-01,124,1500,0,20,5.8,69,Above Rate,71
+P20251016.0808,Indigo Biotech,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-10-16,2025-12-16,2025-12-01,61,1400,0,8,10.4,100,Over Budget,-30
+P20260823.0809,Tidewater Pulmonary,Level 4,Chris Ortega,Onboarding,Complete,No,,2026-08-23,2026-09-15,2026-09-01,23,9450,0,54,65.4,100,Over Budget,-21
+P20251120.0810,Elmwood Insurance Group,Level 3,Diane Foster,Onboarding,Complete,No,,2025-11-20,2026-06-17,2026-06-01,209,2400,800,16,19.1,100,Over Budget,-19
+P20250914.0811,Greystone Capital,Level 5,Brendan Hale,Billable Service Request,Complete,No,,2025-09-14,2025-09-19,2025-09-01,5,1400,0,8,7.4,100,Above Rate,7
+P20250904.0812,Copperline Manufacturing,Level 3,John Atwood,Onboarding,Complete,No,,2025-09-04,2025-11-13,2025-11-01,70,5775,800,33,10.4,100,Above Rate,68
+P20251114.0813,Brightwater Brewing,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-11-14,2026-02-02,2026-02-01,80,2800,0,16,21.8,100,Over Budget,-36
+P20250903.0814,Dunmore Steel,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2025-09-03,2025-10-25,2025-10-01,52,13650,0,78,63.0,100,Above Rate,19
+P20261024.0815,Keystone Property Mgmt,Level 5,Diane Foster,Fix-Bid,Material Ordered,Yes,Green,2026-10-24,,2027-02-01,17,2100,0,12,1.5,15,Above Rate,88
+P20250714.0816,Lighthouse Pediatrics,Level 4,Chris Ortega,Fix-Bid,Complete,No,,2025-07-14,2025-11-27,2025-11-01,136,2275,0,13,12.9,100,Above Rate,1
+P20260829.0817,Coastal Ortho Group,Level 4,Robin Taylor,Billable Service Request,New,Yes,Green,2026-08-29,,2026-12-01,73,1235,0,13,5.4,73,Above Rate,58
+P20250813.0818,Prairie Wind Energy,Level 3,Robin Taylor,Billable Service Request,Complete,No,,2025-08-13,2025-10-02,2025-10-01,50,3325,0,19,23.5,100,Over Budget,-24
+P20260426.0819,Oceanside Packaging,Level 4,John Atwood,Fix-Bid,Complete,No,,2026-04-26,2026-09-04,2026-09-01,131,31050,0,207,193.5,100,Above Rate,7
+P20260302.0820,Fieldstone Foods,Level 3,Jesse Pruitt,Billable Service Request,Complete,No,,2026-03-02,2026-03-07,2026-03-01,5,4800,0,32,29.8,100,Above Rate,7
+P20260630.0821,Lakeshore Furniture,Level 4,Chris Ortega,OffBoarding,Complete,No,,2026-06-30,2026-08-08,2026-08-01,39,0,0,3,4.2,100,Zero Budget,-40
+P20260105.0822,Elmwood Insurance Group,Level 3,Grace Mendel,Onboarding,Complete,No,,2026-01-05,2026-05-08,2026-05-01,123,20125,350,115,132.8,100,Over Budget,-15
+P20260825.0823,Aldergrove Credit Union,Level 3,Robin Taylor,OffBoarding,New,Yes,Green,2026-08-25,,2026-11-01,77,0,0,5,4.0,93,Zero Budget,20
+P20260929.0824,Dunmore Steel,Level 4,Diane Foster,Onboarding,In Progress,Yes,Green,2026-09-29,,2026-11-01,42,4200,1500,24,12.2,70,Above Rate,49
+P20251105.0825,Pioneer Trust Bank,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2025-11-05,2026-03-10,2026-03-01,125,7590,0,66,48.3,100,Above Rate,27
+P20260408.0826,Riverbend Hospital,Level 3,Robin Taylor,Onboarding,Complete,No,,2026-04-08,2026-07-05,2026-07-01,88,11900,0,68,50.1,100,Above Rate,26
+P20261001.0827,Orchard Valley Farms,Level 5,Robin Taylor,Billable Service Request,Complete,No,,2026-10-01,2026-10-06,2026-10-01,5,6300,0,36,18.6,100,Above Rate,48
+P20260423.0828,Elmwood Insurance Group,Level 3,Diane Foster,OffBoarding,Complete,No,,2026-04-23,2026-07-16,2026-07-01,84,0,0,12,9.4,100,Zero Budget,22
+P20250825.0829,Jasper County Utilities,Level 4,Robin Taylor,OffBoarding,Complete,No,,2025-08-25,2025-09-08,2025-09-01,14,1500,0,9,11.5,100,Over Budget,-28
+P20260413.0830,Dunmore Steel,Level 4,John Atwood,Onboarding,Complete,No,,2026-04-13,2026-08-24,2026-08-01,133,8400,0,48,48.4,100,Above Rate,-1
+P20251120.0831,Timberline Construction,Level 1,John Atwood,Fix-Bid,Complete,No,,2025-11-20,2025-12-24,2025-12-01,34,2800,0,16,15.8,100,Above Rate,1
+P20260401.0832,Ivy League Tutoring,Level 3,John Atwood,Fix-Bid,Complete,No,,2026-04-01,2026-07-01,2026-07-01,91,8050,0,70,37.7,100,Above Rate,46
+P20251109.0833,Glenview Partners LLP,Level 3,John Atwood,Fix-Bid,Complete,No,,2025-11-09,2026-02-10,2026-02-01,93,3500,0,20,13.9,100,Above Rate,30
+P20260104.0834,Quincy Medical Billing,Level 5,Grace Mendel,Onboarding,Complete,No,,2026-01-04,2026-04-30,2026-04-01,116,6475,0,37,43.5,100,Over Budget,-18
+P20260926.0835,Summit Broker Network,Level 2,Grace Mendel,Billable Service Request,Complete,No,,2026-09-26,2026-10-01,2026-10-01,5,1425,0,15,8.4,100,Above Rate,44
+P20260303.0836,Ivy League Tutoring,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2026-03-03,2026-05-06,2026-05-01,64,2550,0,17,14.5,100,Above Rate,15
+P20251124.0837,Lumen Optics,Level 4,Jesse Pruitt,Billable Service Request,Complete,No,,2025-11-24,2026-01-24,2026-01-01,61,3515,0,37,41.9,100,Over Budget,-13
+P20251222.0838,Canyon Ridge Schools,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-12-22,2026-04-29,2026-04-01,128,1955,0,17,17.5,100,Under Value,-3
+P20250805.0839,Foxridge Engineering,Level 1,Grace Mendel,Fix-Bid,Complete,No,,2025-08-05,2025-09-24,2025-09-01,50,22925,0,131,94.8,100,Above Rate,28
+P20251123.0840,Timberline Construction,Level 1,Grace Mendel,OffBoarding,Complete,No,,2025-11-23,2025-11-28,2025-11-01,5,1500,0,51,65.1,100,Over Budget,-28
+P20251026.0841,Hilltop Family Medicine,Level 5,John Atwood,Billable Service Request,Complete,No,,2025-10-26,2025-10-31,2025-10-01,5,7800,0,52,30.7,100,Above Rate,41
+P20261003.0842,Granite Peak Insurance,Level 3,Chris Ortega,Fix-Bid,New,Yes,Green,2026-10-03,,2027-07-01,38,6840,0,72,6.1,13,Above Rate,92
+P20250602.0843,Lumen Optics,Level 4,Chris Ortega,Onboarding,Complete,No,,2025-06-02,2025-08-31,2025-08-01,90,1750,1500,10,4.5,100,Above Rate,55
+P20261021.0844,Copperline Manufacturing,Level 3,Grace Mendel,Fix-Bid,Complete,No,,2026-10-21,2026-10-29,2026-10-01,8,6650,0,38,39.2,100,Above Rate,-3
+P20250916.0845,Redstone Architecture,Level 2,Brendan Hale,Fix-Bid,Complete,No,,2025-09-16,2026-01-26,2026-01-01,132,16800,0,112,98.6,100,Above Rate,12
+P20251201.0846,Blue Heron Marine,Level 2,Robin Taylor,Billable Service Request,Complete,No,,2025-12-01,2025-12-06,2025-12-01,5,28750,0,250,296.6,100,Over Budget,-19
+P20260218.0847,Yorktown Health Partners,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2026-02-18,2026-03-27,2026-03-01,37,4900,0,28,34.4,100,Over Budget,-23
+P20260910.0848,Kestrel Security,Level 1,Alan Reeves,Fix-Bid,New,Yes,Green,2026-09-10,,2026-12-01,61,805,0,7,1.9,56,Above Rate,73
+P20250613.0849,Prairie Wind Energy,Level 3,Alan Reeves,Billable Service Request,Complete,No,,2025-06-13,2025-10-27,2025-10-01,136,3040,0,32,42.1,100,Over Budget,-32
+P20251219.0850,Foxridge Engineering,Level 1,Jesse Pruitt,OffBoarding,Complete,No,,2025-12-19,2026-03-06,2026-03-01,77,0,0,28,24.3,100,Zero Budget,13
+P20260409.0851,Ivy League Tutoring,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2026-04-09,2026-09-09,2026-09-01,153,16625,0,95,128.3,100,Over Budget,-35
+P20250710.0852,Oakmont Accounting,Level 5,John Atwood,Fix-Bid,Complete,No,,2025-07-10,2025-09-02,2025-09-01,54,1045,0,11,10.6,100,Under Value,4
+P20250615.0853,Nimbus Cloud Partners,Level 5,Chris Ortega,Billable Service Request,Complete,No,,2025-06-15,2025-07-18,2025-07-01,33,5250,0,30,20.6,100,Above Rate,31
+P20251117.0854,Indigo Biotech,Level 4,Diane Foster,Billable Service Request,Complete,No,,2025-11-17,2025-12-30,2025-12-01,43,5425,0,31,34.9,100,Over Budget,-13
+P20251226.0855,Meridian Telehealth,Level 5,Chris Ortega,Onboarding,In Progress,Yes,Red,2025-12-26,,2027-01-01,319,5510,0,58,42.7,86,Under Value,26
+P20251220.0856,Quincy Medical Billing,Level 5,Alan Reeves,OffBoarding,Complete,No,,2025-12-20,2026-05-14,2026-05-01,145,1500,0,172,150.7,100,Under Value,12
+P20250717.0857,Amberfield Orthopedics,Level 1,Robin Taylor,Onboarding,Complete,No,,2025-07-17,2026-02-17,2026-02-01,215,2185,0,23,26.5,100,Over Budget,-15
+P20251204.0858,Canyon Ridge Schools,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2025-12-04,2026-03-16,2026-03-01,102,450,0,3,3.2,100,Above Rate,-7
+P20260429.0859,Amberfield Orthopedics,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2026-04-29,2026-06-24,2026-06-01,56,19425,0,111,83.9,100,Above Rate,24
+P20251213.0860,Sagebrush Ranch Supply,Level 4,Grace Mendel,Onboarding,Complete,No,,2025-12-13,2026-03-12,2026-03-01,89,3910,0,34,34.8,100,Under Value,-2
+P20260327.0861,Granite Peak Insurance,Level 3,Grace Mendel,Billable Service Request,Complete,No,,2026-03-27,2026-05-24,2026-05-01,58,1610,0,14,15.2,100,Under Value,-9
+P20250725.0862,Amberfield Orthopedics,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2025-07-25,2025-11-01,2025-11-01,99,8400,0,48,22.4,100,Above Rate,53
+P20251024.0863,Union Pipe Credit Union,Level 4,Diane Foster,OffBoarding,Complete,No,,2025-10-24,2026-01-01,2026-01-01,69,0,0,26,12.0,100,Zero Budget,54
+P20251218.0864,Nimbus Cloud Partners,Level 5,John Atwood,Fix-Bid,Complete,No,,2025-12-18,2026-02-24,2026-02-01,68,30625,0,175,195.9,100,Over Budget,-12
+P20250831.0865,Timberline Construction,Level 1,Brendan Hale,Fix-Bid,Complete,No,,2025-08-31,2025-11-19,2025-11-01,80,1575,0,9,8.2,100,Above Rate,9
+P20260121.0866,Valley Forge Logistics,Level 3,Alan Reeves,OffBoarding,Complete,No,,2026-01-21,2026-05-09,2026-05-01,108,0,0,7,7.0,100,Zero Budget,0
+P20260522.0867,Lighthouse Pediatrics,Level 4,Diane Foster,Onboarding,Complete,No,,2026-05-22,2026-08-19,2026-08-01,89,1520,0,16,17.4,100,Under Value,-9
+P20250606.0868,Zephyr Aviation,Level 4,Brendan Hale,OffBoarding,Complete,No,,2025-06-06,2025-07-10,2025-07-01,34,0,0,8,7.0,100,Zero Budget,12
+P20260301.0869,Union Pipe Credit Union,Level 4,Chris Ortega,Onboarding,Complete,No,,2026-03-01,2026-05-07,2026-05-01,67,19760,0,208,224.0,100,Under Value,-8
+P20260629.0870,Riverside Auto Group,Level 3,Brendan Hale,Onboarding,Material Ordered,Yes,Yellow,2026-06-29,,2026-12-01,134,4655,0,49,36.9,85,Under Value,25
+P20260720.0871,Upland Water Authority,Level 2,Alan Reeves,Billable Service Request,Complete,No,,2026-07-20,2026-09-20,2026-09-01,62,7175,0,41,49.0,100,Over Budget,-20
+P20260824.0872,Meridian Telehealth,Level 5,Jesse Pruitt,Fix-Bid,Complete,No,,2026-08-24,2026-08-29,2026-08-01,5,14100,0,94,64.3,100,Above Rate,32
+P20261011.0873,Zephyr Aviation,Level 4,Robin Taylor,Fix-Bid,In Progress,Yes,Green,2026-10-11,,2026-11-01,30,1380,0,12,10.8,94,Under Value,10
+P20260911.0874,Thornbury Accounting,Level 4,Chris Ortega,Billable Service Request,Complete,No,,2026-09-11,2026-10-11,2026-10-01,30,920,0,8,4.6,100,Above Rate,43
+P20251014.0875,Indigo Biotech,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-10-14,2026-03-16,2026-03-01,153,12420,0,108,112.7,100,Under Value,-4
+P20260930.0876,Ironwood Machining,Level 2,Alan Reeves,Fix-Bid,In Progress,Yes,Green,2026-09-30,,2027-01-01,41,2100,0,12,6.0,42,Above Rate,50
+P20261104.0877,Valley Forge Logistics,Level 3,Jesse Pruitt,Billable Service Request,In Progress,Yes,Green,2026-11-04,,2027-02-01,6,3150,0,18,0.5,6,Above Rate,97
+P20250929.0878,Meridian Telehealth,Level 5,Grace Mendel,Fix-Bid,Complete,No,,2025-09-29,2026-01-12,2026-01-01,105,575,0,5,2.4,100,Above Rate,52
+P20260202.0879,Brightwater Brewing,Level 3,John Atwood,Fix-Bid,Complete,No,,2026-02-02,2026-05-24,2026-05-01,111,18725,0,107,129.1,100,Over Budget,-21
+P20261007.0880,Edgewater Realty,Level 4,Jesse Pruitt,Fix-Bid,In Progress,Yes,Green,2026-10-07,,2027-02-01,34,2660,0,28,6.4,29,Above Rate,77
+P20260713.0881,Whitestone Law Group,Level 1,Robin Taylor,Onboarding,Complete,No,,2026-07-13,2026-10-09,2026-10-01,88,32965,0,347,343.0,100,Under Value,1
+P20251012.0882,Highland Spirits Co,Level 2,Jesse Pruitt,Onboarding,Complete,No,,2025-10-12,2026-01-23,2026-01-01,103,1575,0,9,5.8,100,Above Rate,36
+P20250617.0883,Alpine Veterinary,Level 5,John Atwood,Onboarding,Complete,No,,2025-06-17,2025-10-08,2025-10-01,113,13825,1500,79,76.0,100,Above Rate,4
+P20260526.0884,Glenview Partners LLP,Level 3,Diane Foster,Billable Service Request,Complete,No,,2026-05-26,2026-07-16,2026-07-01,51,3750,0,25,15.5,100,Above Rate,38
+P20260129.0885,Brightwater Brewing,Level 3,Chris Ortega,Onboarding,Complete,No,,2026-01-29,2026-06-17,2026-06-01,139,3675,350,21,20.5,100,Above Rate,2
+P20251207.0886,Foxridge Engineering,Level 1,Grace Mendel,Fix-Bid,Complete,No,,2025-12-07,2025-12-20,2025-12-01,13,8225,0,47,49.4,100,Above Rate,-5
+P20250912.0887,Jasper County Utilities,Level 4,John Atwood,Onboarding,Complete,No,,2025-09-12,2026-02-10,2026-02-01,151,4750,120,50,45.9,100,Under Value,8
+P20261006.0888,Crescent Legal Partners,Level 1,Alan Reeves,Billable Service Request,Complete,No,,2026-10-06,2026-10-11,2026-10-01,5,16435,0,173,39.5,100,Above Rate,77
+P20261029.0889,Harborview Medical,Level 5,Grace Mendel,Onboarding,New,Yes,Green,2026-10-29,,2026-12-01,12,7125,120,75,9.5,24,Above Rate,87
+P20260628.0890,Orchard Valley Farms,Level 5,Diane Foster,Billable Service Request,In Progress,Yes,Yellow,2026-06-28,,2027-06-01,135,3675,0,21,6.6,39,Above Rate,69
+P20260403.0891,Aldergrove Credit Union,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2026-04-03,2026-07-18,2026-07-01,106,3105,0,27,24.3,100,Under Value,10
+P20260614.0892,Eastgate Realty,Level 1,Alan Reeves,Onboarding,Complete,No,,2026-06-14,2026-09-22,2026-09-01,100,7015,120,61,83.6,100,Over Budget,-37
+P20260105.0893,Driftwood Hospitality,Level 3,Grace Mendel,Onboarding,Complete,No,,2026-01-05,2026-05-14,2026-05-01,129,4550,120,26,26.0,100,Above Rate,0
+P20250731.0894,Edgewater Realty,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-07-31,2025-12-04,2025-12-01,126,19250,0,110,40.6,100,Above Rate,63
+P20250623.0895,Falcon Crest Dental,Level 4,Diane Foster,Billable Service Request,Complete,No,,2025-06-23,2025-06-28,2025-06-01,5,3325,0,19,18.9,100,Above Rate,1
+P20260429.0896,Rosewood Hotels,Level 2,Brendan Hale,Fix-Bid,Complete,No,,2026-04-29,2026-08-20,2026-08-01,113,1925,0,11,9.9,100,Above Rate,10
+P20260417.0897,Quarry Hill Auto Parts,Level 2,Jesse Pruitt,Fix-Bid,Complete,No,,2026-04-17,2026-06-25,2026-06-01,69,2280,0,24,33.8,100,Over Budget,-41
+P20260824.0898,Amberfield Orthopedics,Level 1,Alan Reeves,Fix-Bid,In Progress,Yes,Green,2026-08-24,,2026-12-01,78,2185,0,23,14.4,74,Above Rate,37
+P20251010.0899,Oceanside Packaging,Level 4,Chris Ortega,Onboarding,Complete,No,,2025-10-10,2026-03-04,2026-03-01,145,2100,1500,14,12.3,100,Above Rate,12
+P20260626.0900,Willowbrook Youth Services,Level 4,Jesse Pruitt,OffBoarding,Complete,No,,2026-06-26,2026-08-15,2026-08-01,50,0,0,170,161.1,100,Zero Budget,5
+P20260810.0901,Edgewater Realty,Level 4,John Atwood,Onboarding,In Progress,Yes,Green,2026-08-10,,2027-02-01,92,20650,120,118,39.7,50,Above Rate,66
+P20260324.0902,Oakmont Accounting,Level 5,Chris Ortega,OffBoarding,Complete,No,,2026-03-24,2026-05-04,2026-05-01,41,0,0,41,40.1,100,Zero Budget,2
+P20260924.0903,Amberfield Orthopedics,Level 1,Jesse Pruitt,Onboarding,Material Ordered,Yes,Green,2026-09-24,,2027-01-01,47,3500,800,20,7.5,39,Above Rate,62
+P20251018.0904,Xenon Labs,Level 4,Brendan Hale,OffBoarding,Complete,No,,2025-10-18,2026-07-26,2026-07-01,281,1500,0,13,12.3,100,Under Value,5
+P20260419.0905,Silverleaf Landscaping,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2026-04-19,2026-06-14,2026-06-01,56,1495,0,13,11.5,100,Under Value,12
+P20251102.0906,Keystone Property Mgmt,Level 5,Brendan Hale,Billable Service Request,Complete,No,,2025-11-02,2026-01-08,2026-01-01,67,11100,0,74,68.5,100,Above Rate,7
+P20251012.0907,Oceanside Packaging,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2025-10-12,2026-03-14,2026-03-01,153,1400,0,8,9.5,100,Over Budget,-19
+P20250917.0908,Silverleaf Landscaping,Level 4,Grace Mendel,Onboarding,Complete,No,,2025-09-17,2026-02-19,2026-02-01,155,18725,350,107,93.2,100,Above Rate,13
+P20250626.0909,Brightwater Brewing,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2025-06-26,2025-09-05,2025-09-01,71,1380,0,12,8.8,100,Above Rate,27
+P20251217.0910,Hawthorne Plastics,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2025-12-17,2026-03-07,2026-03-01,80,10325,0,59,58.2,100,Above Rate,1
+P20260626.0911,Redstone Architecture,Level 2,Jesse Pruitt,Fix-Bid,Complete,No,,2026-06-26,2026-10-04,2026-10-01,100,2275,0,13,14.3,100,Above Rate,-10
+P20260409.0912,Meridian Telehealth,Level 5,Robin Taylor,Billable Service Request,Complete,No,,2026-04-09,2026-06-21,2026-06-01,73,1610,0,14,16.2,100,Over Budget,-16
+P20260102.0913,Indigo Biotech,Level 4,Jesse Pruitt,Onboarding,Complete,No,,2026-01-02,2026-05-11,2026-05-01,129,5075,0,29,38.2,100,Over Budget,-32
+P20260531.0914,Magnolia Title Co,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2026-05-31,2026-10-03,2026-10-01,125,3450,0,23,30.6,100,Over Budget,-33
+P20261110.0915,Falcon Crest Dental,Level 4,John Atwood,Onboarding,New,Yes,Green,2026-11-10,,2026-12-01,0,5980,0,52,0,0,Above Rate,100
+P20260322.0916,Zephyr Aviation,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2026-03-22,2026-06-06,2026-06-01,76,7475,0,65,45.3,100,Above Rate,30
+P20260305.0917,Glenview Partners LLP,Level 3,Alan Reeves,Onboarding,Complete,No,,2026-03-05,2026-04-26,2026-04-01,52,4375,800,25,31.3,100,Over Budget,-25
+P20260428.0918,Falcon Crest Dental,Level 4,Diane Foster,OffBoarding,Complete,No,,2026-04-28,2026-07-08,2026-07-01,71,0,0,20,11.2,100,Zero Budget,44
+P20250909.0919,Harborview Medical,Level 5,Grace Mendel,Billable Service Request,Complete,No,,2025-09-09,2025-11-16,2025-11-01,68,175,0,1,0.6,100,Above Rate,40
+P20250713.0920,Whitestone Law Group,Level 1,Jesse Pruitt,Fix-Bid,Complete,No,,2025-07-13,2025-10-22,2025-10-01,101,3325,0,19,17.2,100,Above Rate,9
+P20260917.0921,Amberfield Orthopedics,Level 1,Brendan Hale,Fix-Bid,Complete,No,,2026-09-17,2026-09-30,2026-09-01,13,7350,0,49,23.9,100,Above Rate,51
+P20260522.0922,Riverbend Hospital,Level 3,John Atwood,Billable Service Request,Complete,No,,2026-05-22,2026-06-05,2026-06-01,14,6600,0,44,46.9,100,Above Rate,-7
+P20260702.0923,Xenon Labs,Level 4,Alan Reeves,Onboarding,Complete,No,,2026-07-02,2026-10-09,2026-10-01,99,4560,0,48,56.8,100,Over Budget,-18
+P20261020.0924,Meridian Telehealth,Level 5,Alan Reeves,Fix-Bid,Material Ordered,Yes,Green,2026-10-20,,2027-03-01,21,4500,0,30,2.7,16,Above Rate,91
+P20261105.0925,Highland Spirits Co,Level 2,Jesse Pruitt,OffBoarding,New,Yes,Green,2026-11-05,,2027-01-01,5,1500,0,30,1.4,7,Above Rate,95
+P20260115.0926,Thornbury Accounting,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2026-01-15,2026-10-24,2026-10-01,282,8400,0,48,40.2,100,Above Rate,16
+P20260723.0927,Fieldstone Foods,Level 3,Diane Foster,Fix-Bid,In Progress,Yes,Green,2026-07-23,,2027-05-01,110,6210,0,54,11.6,38,Above Rate,79
+P20260101.0928,Amberfield Orthopedics,Level 1,Chris Ortega,Onboarding,Complete,No,,2026-01-01,2026-07-14,2026-07-01,194,7200,0,48,50.2,100,Above Rate,-5
+P20251004.0929,Indigo Biotech,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2025-10-04,2026-02-08,2026-02-01,127,665,0,7,6.6,100,Under Value,6
+P20261105.0930,Falcon Crest Dental,Level 4,Jesse Pruitt,Fix-Bid,New,Yes,Green,2026-11-05,,2027-02-01,5,1265,0,11,0.4,5,Above Rate,96
+P20260120.0931,Fieldstone Foods,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2026-01-20,2026-11-06,2026-11-01,290,1500,0,10,7.4,100,Above Rate,26
+P20260122.0932,Kingsbridge Credit Union,Level 2,Brendan Hale,Billable Service Request,Complete,No,,2026-01-22,2026-02-19,2026-02-01,28,10500,0,60,69.0,100,Over Budget,-15
+P20260619.0933,Canyon Ridge Schools,Level 4,Grace Mendel,OffBoarding,Complete,No,,2026-06-19,2026-09-16,2026-09-01,89,1500,0,25,12.0,100,Under Value,52
+P20260116.0934,Glenview Partners LLP,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2026-01-16,2026-03-16,2026-03-01,59,5425,0,31,15.3,100,Above Rate,51
+P20250913.0935,Timberline Construction,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2025-09-13,2026-01-04,2026-01-01,113,3675,0,21,20.8,100,Above Rate,1
+P20251225.0936,Union Pipe Credit Union,Level 4,Brendan Hale,Onboarding,Complete,No,,2025-12-25,2026-10-26,2026-10-01,305,30100,350,172,202.1,100,Over Budget,-18
+P20260622.0937,Elmwood Insurance Group,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2026-06-22,2026-09-03,2026-09-01,73,10500,0,60,40.3,100,Above Rate,33
+P20251004.0938,Westlake Municipal,Level 3,Brendan Hale,Billable Service Request,Complete,No,,2025-10-04,2025-10-09,2025-10-01,5,3135,0,33,25.8,100,Under Value,22
+P20260316.0939,Pinecrest Senior Living,Level 3,Diane Foster,Billable Service Request,Complete,No,,2026-03-16,2026-03-25,2026-03-01,9,2660,0,28,24.2,100,Under Value,14
+P20251029.0940,Prairie Wind Energy,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-10-29,2026-03-05,2026-03-01,127,11700,0,78,65.8,100,Above Rate,16
+P20260824.0941,Eastgate Realty,Level 1,Grace Mendel,Billable Service Request,Complete,No,,2026-08-24,2026-09-26,2026-09-01,33,20250,0,135,155.1,100,Over Budget,-15
+P20251213.0942,Edgewater Realty,Level 4,Robin Taylor,OffBoarding,Complete,No,,2025-12-13,2026-02-05,2026-02-01,54,0,0,38,35.1,100,Zero Budget,8
+P20260225.0943,Brightwater Brewing,Level 3,Brendan Hale,Billable Service Request,Complete,No,,2026-02-25,2026-05-25,2026-05-01,89,11200,0,64,86.5,100,Over Budget,-35
+P20260904.0944,Crescent Legal Partners,Level 1,Brendan Hale,Fix-Bid,In Progress,Yes,Green,2026-09-04,,2026-11-01,67,4200,0,24,19.7,78,Above Rate,18
+P20250717.0945,Redstone Architecture,Level 2,Chris Ortega,Onboarding,Complete,No,,2025-07-17,2025-12-20,2025-12-01,156,27150,0,181,198.6,100,Under Value,-10
+P20260530.0946,Kingsbridge Credit Union,Level 2,Alan Reeves,Billable Service Request,Complete,No,,2026-05-30,2026-06-04,2026-06-01,5,3105,0,27,21.1,100,Above Rate,22
+P20260811.0947,Pioneer Trust Bank,Level 3,Chris Ortega,Onboarding,Complete,No,,2026-08-11,2026-11-07,2026-11-01,88,35550,800,237,203.7,100,Above Rate,14
+P20260626.0948,Tidewater Pulmonary,Level 4,Grace Mendel,Onboarding,In Progress,Yes,Yellow,2026-06-26,,2027-06-01,137,4715,0,41,13.1,40,Above Rate,68
+P20251216.0949,Bayline Logistics,Level 2,Robin Taylor,Billable Service Request,Complete,No,,2025-12-16,2026-03-13,2026-03-01,87,1225,0,7,4.2,100,Above Rate,40
+P20260108.0950,Clearwater Family Clinic,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2026-01-08,2026-04-22,2026-04-01,104,9750,0,65,68.7,100,Above Rate,-6
+P20260523.0951,Redstone Architecture,Level 2,Diane Foster,Onboarding,Complete,No,,2026-05-23,2026-08-16,2026-08-01,85,2990,120,26,25.3,100,Under Value,3
+P20250914.0952,Driftwood Hospitality,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-09-14,2026-03-01,2026-03-01,168,26250,350,150,111.7,100,Above Rate,26
+P20260622.0953,Orchard Valley Farms,Level 5,Chris Ortega,Onboarding,Complete,No,,2026-06-22,2026-09-02,2026-09-01,72,5425,0,31,12.4,100,Above Rate,60
+P20260911.0954,Oakmont Accounting,Level 5,John Atwood,Billable Service Request,Complete,No,,2026-09-11,2026-10-02,2026-10-01,21,8925,0,51,16.9,100,Above Rate,67
+P20250618.0955,Lighthouse Pediatrics,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-06-18,2025-11-06,2025-11-01,141,6300,0,36,40.0,100,Over Budget,-11
+P20251124.0956,Valley Forge Logistics,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-11-24,2026-03-24,2026-03-01,120,3150,1500,18,11.7,100,Above Rate,35
+P20261019.0957,Clearwater Family Clinic,Level 3,Robin Taylor,Billable Service Request,New,Yes,Green,2026-10-19,,2027-11-01,22,2100,0,12,0.6,6,Above Rate,95
+P20260814.0958,Cedar Point Builders,Level 1,Jesse Pruitt,Fix-Bid,Complete,No,,2026-08-14,2026-10-30,2026-10-01,77,1350,0,9,8.2,100,Above Rate,9
+P20260127.0959,Pinecrest Senior Living,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2026-01-27,2026-05-05,2026-05-01,98,3150,0,21,14.9,100,Above Rate,29
+P20260407.0960,Tidewater Pulmonary,Level 4,Chris Ortega,Billable Service Request,Complete,No,,2026-04-07,2026-04-12,2026-04-01,5,36400,0,208,153.6,100,Above Rate,26
+P20251212.0961,Zephyr Aviation,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2025-12-12,2026-02-07,2026-02-01,57,1840,0,16,18.6,100,Over Budget,-16
+P20260430.0962,Westlake Municipal,Level 3,Grace Mendel,Onboarding,Complete,No,,2026-04-30,2026-07-31,2026-07-01,92,7410,0,78,57.4,100,Under Value,26
+P20250707.0963,Kestrel Security,Level 1,Chris Ortega,Fix-Bid,Complete,No,,2025-07-07,2025-10-14,2025-10-01,99,6670,0,58,59.5,100,Under Value,-3
+P20260729.0964,Canyon Ridge Schools,Level 4,Diane Foster,Onboarding,Complete,No,,2026-07-29,2026-09-07,2026-09-01,40,17480,1500,152,55.8,100,Above Rate,63
+P20260303.0965,Valley Forge Logistics,Level 3,Alan Reeves,Onboarding,Complete,No,,2026-03-03,2026-08-12,2026-08-01,162,3515,350,37,29.8,100,Under Value,19
+P20251129.0966,Upland Water Authority,Level 2,Robin Taylor,Fix-Bid,Complete,No,,2025-11-29,2026-03-07,2026-03-01,98,2990,0,26,28.4,100,Under Value,-9
+P20260130.0967,Orchard Valley Farms,Level 5,Brendan Hale,Billable Service Request,Complete,No,,2026-01-30,2026-02-04,2026-02-01,5,12250,0,70,111.3,100,Over Budget,-59
+P20260406.0968,Vista Eye Center,Level 3,John Atwood,Billable Service Request,Complete,No,,2026-04-06,2026-05-16,2026-05-01,40,15900,0,106,76.0,100,Above Rate,28
+P20260608.0969,Whitestone Law Group,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2026-06-08,2026-08-24,2026-08-01,77,1750,0,10,12.5,100,Over Budget,-25
+P20250906.0970,Brightwater Brewing,Level 3,Diane Foster,Billable Service Request,Complete,No,,2025-09-06,2025-09-14,2025-09-01,8,5985,0,63,68.2,100,Under Value,-8
+P20250604.0971,Union Pipe Credit Union,Level 4,Grace Mendel,Billable Service Request,Complete,No,,2025-06-04,2025-07-08,2025-07-01,34,5250,0,30,20.2,100,Above Rate,33
+P20260914.0972,Xenon Labs,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2026-09-14,2026-11-10,2026-11-01,57,2400,0,16,10.2,100,Above Rate,36
+P20260624.0973,Yellowstone Distributing,Level 1,Chris Ortega,Fix-Bid,Complete,No,,2026-06-24,2026-08-23,2026-08-01,60,5075,0,29,27.4,100,Above Rate,6
+P20261103.0974,Clearwater Family Clinic,Level 3,Chris Ortega,Onboarding,New,Yes,Green,2026-11-03,,2027-03-01,7,4550,1500,26,1.1,5,Above Rate,96
+P20260421.0975,Nimbus Cloud Partners,Level 5,Jesse Pruitt,Onboarding,Complete,No,,2026-04-21,2026-09-22,2026-09-01,154,4200,0,24,21.9,100,Above Rate,9
+P20250904.0976,Silverleaf Landscaping,Level 4,Robin Taylor,Fix-Bid,Complete,No,,2025-09-04,2025-12-24,2025-12-01,111,1575,0,9,8.8,100,Above Rate,2
+P20251219.0977,Hilltop Family Medicine,Level 5,Jesse Pruitt,Billable Service Request,Complete,No,,2025-12-19,2026-03-06,2026-03-01,77,7315,0,77,112.4,100,Over Budget,-46
+P20250824.0978,Indigo Biotech,Level 4,Grace Mendel,Fix-Bid,Complete,No,,2025-08-24,2025-11-03,2025-11-01,71,2850,0,30,23.1,100,Under Value,23
+P20260608.0979,Fairhaven School District,Level 1,Robin Taylor,Onboarding,Complete,No,,2026-06-08,2026-10-29,2026-10-01,143,2700,0,18,10.5,100,Above Rate,42
+P20250602.0980,Kestrel Security,Level 1,Brendan Hale,OffBoarding,Complete,No,,2025-06-02,2025-09-22,2025-09-01,112,1500,0,43,45.9,100,Under Value,-7
+P20260313.0981,Orchard Valley Farms,Level 5,Brendan Hale,Onboarding,Complete,No,,2026-03-13,2026-07-20,2026-07-01,129,9150,0,61,48.9,100,Above Rate,20
+P20250706.0982,Kingsbridge Credit Union,Level 2,Jesse Pruitt,Billable Service Request,Complete,No,,2025-07-06,2025-08-25,2025-08-01,50,1750,0,10,13.9,100,Over Budget,-39
+P20260115.0983,Yellowstone Distributing,Level 1,John Atwood,Fix-Bid,Complete,No,,2026-01-15,2026-06-11,2026-06-01,147,285,0,3,0.6,100,Above Rate,80
+P20260831.0984,Midtown Pharmacy,Level 4,Brendan Hale,Onboarding,Complete,No,,2026-08-31,2026-10-25,2026-10-01,55,300,0,2,0.6,100,Above Rate,70
+P20250923.0985,Edgewater Realty,Level 4,Diane Foster,Onboarding,Complete,No,,2025-09-23,2026-02-05,2026-02-01,135,6555,0,57,38.3,100,Above Rate,33
+P20260705.0986,Falcon Crest Dental,Level 4,John Atwood,Onboarding,Complete,No,,2026-07-05,2026-10-30,2026-10-01,117,6650,1500,38,30.4,100,Above Rate,20
+P20260511.0987,Sterling Machine Works,Level 3,Jesse Pruitt,Onboarding,Complete,No,,2026-05-11,2026-06-21,2026-06-01,41,5600,0,32,41.3,100,Over Budget,-29
+P20251203.0988,Magnolia Title Co,Level 3,Diane Foster,Fix-Bid,Complete,No,,2025-12-03,2026-03-30,2026-03-01,117,1225,0,7,5.2,100,Above Rate,26
+P20250715.0989,Blue Heron Marine,Level 2,Grace Mendel,Fix-Bid,Complete,No,,2025-07-15,2025-09-08,2025-09-01,55,1925,0,11,10.6,100,Above Rate,4
+P20251123.0990,Silverleaf Landscaping,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-11-23,2026-01-13,2026-01-01,51,2185,0,19,37.5,100,Over Budget,-97
+P20260331.0991,Bayline Logistics,Level 2,Grace Mendel,OffBoarding,Complete,No,,2026-03-31,2026-07-07,2026-07-01,98,1500,0,14,9.8,100,Above Rate,30
+P20260124.0992,Rosewood Hotels,Level 2,Chris Ortega,Fix-Bid,Complete,No,,2026-01-24,2026-04-06,2026-04-01,72,19775,0,113,139.9,100,Over Budget,-24
+P20251213.0993,Northfield Produce,Level 1,Diane Foster,Billable Service Request,Complete,No,,2025-12-13,2026-01-30,2026-01-01,48,11020,0,116,61.6,100,Above Rate,47
+P20260906.0994,Oakmont Accounting,Level 5,Diane Foster,Onboarding,Complete,No,,2026-09-06,2026-10-23,2026-10-01,47,2450,0,14,17.3,100,Over Budget,-24
+P20250907.0995,Dunmore Steel,Level 4,Diane Foster,Billable Service Request,Complete,No,,2025-09-07,2025-10-15,2025-10-01,38,1265,0,11,9.7,100,Under Value,12
+P20250815.0996,Eastgate Realty,Level 1,Robin Taylor,Fix-Bid,Complete,No,,2025-08-15,2025-10-14,2025-10-01,60,2550,0,17,7.0,100,Above Rate,59
+P20260425.0997,Ironwood Machining,Level 2,Grace Mendel,OffBoarding,New,Yes,Red,2026-04-25,,2027-01-01,199,1500,0,38,27.6,71,Under Value,27
+P20260206.0998,Valley Forge Logistics,Level 3,John Atwood,Onboarding,Complete,No,,2026-02-06,2026-05-09,2026-05-01,92,41230,800,434,321.8,100,Under Value,26
+P20260808.0999,Yorktown Health Partners,Level 4,Brendan Hale,Onboarding,In Progress,Yes,Green,2026-08-08,,2026-11-01,94,10235,0,89,91.8,99,Under Value,-3
+P20250617.1000,Foxridge Engineering,Level 1,Chris Ortega,Billable Service Request,Complete,No,,2025-06-17,2025-06-22,2025-06-01,5,4200,0,24,15.9,100,Above Rate,34
+P20260517.1001,Willowbrook Youth Services,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2026-05-17,2026-07-12,2026-07-01,56,18375,0,105,74.3,100,Above Rate,29
+P20261003.1002,Clearwater Family Clinic,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2026-10-03,2026-10-08,2026-10-01,5,23100,0,132,140.3,100,Above Rate,-6
+P20251005.1003,Riverbend Hospital,Level 3,Diane Foster,Billable Service Request,Complete,No,,2025-10-05,2025-11-26,2025-11-01,52,2975,0,17,19.0,100,Over Budget,-12
+P20260225.1004,Tidewater Pulmonary,Level 4,Diane Foster,Fix-Bid,Complete,No,,2026-02-25,2026-06-03,2026-06-01,98,10500,0,60,38.1,100,Above Rate,36
+P20250815.1005,Canyon Ridge Schools,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-08-15,2025-09-28,2025-09-01,44,12600,0,72,53.7,100,Above Rate,25
+P20260627.1006,Clearwater Family Clinic,Level 3,Robin Taylor,Onboarding,Complete,No,,2026-06-27,2026-09-29,2026-09-01,94,3900,800,26,24.2,100,Above Rate,7
+P20250801.1007,Oakmont Accounting,Level 5,Jesse Pruitt,Fix-Bid,Complete,No,,2025-08-01,2025-10-17,2025-10-01,77,4950,0,33,23.2,100,Above Rate,30
+P20260718.1008,Northfield Produce,Level 1,Chris Ortega,Fix-Bid,In Progress,Yes,Green,2026-07-18,,2026-11-01,115,6325,0,55,56.1,91,Under Value,-2
+P20251029.1009,Nimbus Cloud Partners,Level 5,John Atwood,Billable Service Request,Complete,No,,2025-10-29,2025-11-13,2025-11-01,15,1610,0,14,9.9,100,Above Rate,29
+P20251017.1010,Riverside Auto Group,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2025-10-17,2026-11-06,2026-11-01,385,6475,0,37,12.8,100,Above Rate,65
+P20260529.1011,Blue Heron Marine,Level 2,John Atwood,Onboarding,Complete,No,,2026-05-29,2026-07-22,2026-07-01,54,525,0,3,0.9,100,Above Rate,70
+P20260627.1012,Eastgate Realty,Level 1,Jesse Pruitt,Billable Service Request,Complete,No,,2026-06-27,2026-10-18,2026-10-01,113,6670,0,58,27.5,100,Above Rate,53
+P20260310.1013,Edgewater Realty,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2026-03-10,2026-08-24,2026-08-01,167,5250,0,30,39.2,100,Over Budget,-31
+P20260427.1014,Driftwood Hospitality,Level 3,Brendan Hale,Billable Service Request,Complete,No,,2026-04-27,2026-05-17,2026-05-01,20,8550,0,57,48.9,100,Above Rate,14
+P20260220.1015,Fairhaven School District,Level 1,Robin Taylor,Fix-Bid,Complete,No,,2026-02-20,2026-04-03,2026-04-01,42,7050,0,47,48.2,100,Above Rate,-3
+P20251204.1016,Vista Eye Center,Level 3,Chris Ortega,Onboarding,Complete,No,,2025-12-04,2026-05-16,2026-05-01,163,1050,0,7,6.6,100,Above Rate,6
+P20260710.1017,Zephyr Aviation,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2026-07-10,2026-08-04,2026-08-01,25,9775,0,85,33.5,100,Above Rate,61
+P20251015.1018,Falcon Crest Dental,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-10-15,2025-12-15,2025-12-01,61,10500,0,70,55.2,100,Above Rate,21
+P20251008.1019,Harborview Medical,Level 5,Grace Mendel,Onboarding,Complete,No,,2025-10-08,2026-03-19,2026-03-01,162,855,0,9,10.8,100,Over Budget,-20
+P20260728.1020,Jade Garden Restaurants,Level 4,Robin Taylor,Onboarding,New,Yes,Green,2026-07-28,,2026-12-01,105,570,120,6,5.3,77,Under Value,12
+P20260704.1021,Lakeshore Furniture,Level 4,Jesse Pruitt,Fix-Bid,Material Ordered,Yes,Yellow,2026-07-04,,2026-11-01,129,3420,0,36,45.3,97,Over Budget,-26
+P20260714.1022,Magnolia Title Co,Level 3,Diane Foster,Fix-Bid,In Progress,Yes,Green,2026-07-14,,2027-09-01,119,4725,0,27,6.9,29,Above Rate,74
+P20261108.1023,Oceanside Packaging,Level 4,Jesse Pruitt,Fix-Bid,Material Ordered,Yes,Green,2026-11-08,,2026-11-01,2,15225,0,87,30.3,40,Above Rate,65
+P20260325.1024,Amberfield Orthopedics,Level 1,Jesse Pruitt,Onboarding,Complete,No,,2026-03-25,2026-05-30,2026-05-01,66,3500,350,20,16.9,100,Above Rate,16
+P20250813.1025,Pinecrest Senior Living,Level 3,Robin Taylor,Fix-Bid,Complete,No,,2025-08-13,2026-01-07,2026-01-01,147,5600,0,32,32.5,100,Above Rate,-2
+P20251102.1026,Edgewater Realty,Level 4,Grace Mendel,Billable Service Request,Complete,No,,2025-11-02,2025-11-07,2025-11-01,5,9315,0,81,103.1,100,Over Budget,-27
+P20261107.1027,Driftwood Hospitality,Level 3,Chris Ortega,Fix-Bid,In Progress,Yes,Green,2026-11-07,,2027-01-01,3,7875,0,45,2.2,5,Above Rate,95
+P20260108.1028,Bayline Logistics,Level 2,John Atwood,Onboarding,Complete,No,,2026-01-08,2026-03-21,2026-03-01,72,3150,0,21,27.8,100,Over Budget,-32
+P20250803.1029,Ivy League Tutoring,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2025-08-03,2025-10-12,2025-10-01,70,3325,0,19,22.2,100,Over Budget,-17
+P20250705.1030,Quarry Hill Auto Parts,Level 2,Robin Taylor,Fix-Bid,Complete,No,,2025-07-05,2025-09-26,2025-09-01,83,1050,0,6,7.5,100,Over Budget,-25
+P20251029.1031,Bayline Logistics,Level 2,Jesse Pruitt,Fix-Bid,Complete,No,,2025-10-29,2026-01-13,2026-01-01,76,2450,0,14,9.1,100,Above Rate,35
+P20260105.1032,Keystone Property Mgmt,Level 5,Brendan Hale,Fix-Bid,Complete,No,,2026-01-05,2026-01-10,2026-01-01,5,2100,0,12,8.3,100,Above Rate,31
+P20260618.1033,Whitestone Law Group,Level 1,Robin Taylor,Billable Service Request,Complete,No,,2026-06-18,2026-09-14,2026-09-01,88,21350,0,122,101.5,100,Above Rate,17
+P20250908.1034,Summit Broker Network,Level 2,Brendan Hale,Onboarding,Complete,No,,2025-09-08,2025-12-12,2025-12-01,95,2375,0,25,24.0,100,Under Value,4
+P20251001.1035,Jasper County Utilities,Level 4,John Atwood,Fix-Bid,Complete,No,,2025-10-01,2026-03-22,2026-03-01,172,39675,0,345,232.4,100,Above Rate,33
+P20260225.1036,Valley Forge Logistics,Level 3,Brendan Hale,Onboarding,Complete,No,,2026-02-25,2026-04-06,2026-04-01,40,11210,0,118,40.9,100,Above Rate,65
+P20260406.1037,Pioneer Trust Bank,Level 3,Grace Mendel,Fix-Bid,Material Ordered,Yes,Red,2026-04-06,,2027-05-01,218,1925,0,11,8.3,55,Above Rate,25
+P20260325.1038,Whitestone Law Group,Level 1,Jesse Pruitt,Onboarding,Complete,No,,2026-03-25,2026-08-17,2026-08-01,145,2375,0,25,39.0,100,Over Budget,-56
+P20251105.1039,Oakmont Accounting,Level 5,Jesse Pruitt,Fix-Bid,Complete,No,,2025-11-05,2026-01-23,2026-01-01,79,12600,0,72,62.7,100,Above Rate,13
+P20260628.1040,Driftwood Hospitality,Level 3,Chris Ortega,Onboarding,Complete,No,,2026-06-28,2026-10-27,2026-10-01,121,1235,0,13,8.2,100,Above Rate,37
+P20251103.1041,Zephyr Aviation,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-11-03,2026-03-01,2026-03-01,118,14350,0,82,86.1,100,Above Rate,-5
+P20250707.1042,Quarry Hill Auto Parts,Level 2,Jesse Pruitt,Fix-Bid,Complete,No,,2025-07-07,2025-09-25,2025-09-01,80,3150,0,18,20.6,100,Over Budget,-14
+P20261108.1043,Ivy League Tutoring,Level 3,Diane Foster,Billable Service Request,Material Ordered,Yes,Green,2026-11-08,,2026-11-01,2,1035,0,9,2.3,40,Above Rate,74
+P20260317.1044,Alpine Veterinary,Level 5,Grace Mendel,Fix-Bid,In Progress,Yes,Red,2026-03-17,,2027-02-01,238,6125,0,35,28.1,74,Above Rate,20
+P20250811.1045,Pinecrest Senior Living,Level 3,Chris Ortega,Onboarding,Complete,No,,2025-08-11,2025-10-13,2025-10-01,63,1495,0,13,15.0,100,Over Budget,-15
+P20251119.1046,Redstone Architecture,Level 2,John Atwood,Billable Service Request,Complete,No,,2025-11-19,2025-11-24,2025-11-01,5,11550,0,66,68.7,100,Above Rate,-4
+P20260530.1047,Jade Garden Restaurants,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2026-05-30,2026-06-04,2026-06-01,5,3150,0,18,18.9,100,Above Rate,-5
+P20251123.1048,Crescent Legal Partners,Level 1,Jesse Pruitt,Onboarding,Complete,No,,2025-11-23,2026-05-22,2026-05-01,180,4715,0,41,47.6,100,Over Budget,-16
+P20260124.1049,Delta Freight Co,Level 3,Diane Foster,Billable Service Request,Complete,No,,2026-01-24,2026-04-20,2026-04-01,86,9800,0,56,71.8,100,Over Budget,-28
+P20260917.1050,Hawthorne Plastics,Level 3,Robin Taylor,Billable Service Request,Complete,No,,2026-09-17,2026-09-22,2026-09-01,5,1380,0,12,9.7,100,Above Rate,19
+P20250622.1051,Oakmont Accounting,Level 5,Robin Taylor,Onboarding,Complete,No,,2025-06-22,2025-09-13,2025-09-01,83,11725,0,67,73.7,100,Above Rate,-10
+P20261024.1052,Orchard Valley Farms,Level 5,John Atwood,Onboarding,In Progress,Yes,Green,2026-10-24,,2027-03-01,17,1520,0,16,1.7,11,Above Rate,89
+P20260713.1053,Foxridge Engineering,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2026-07-13,2026-09-09,2026-09-01,58,10500,0,60,54.6,100,Above Rate,9
+P20260316.1054,Clearwater Family Clinic,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2026-03-16,2026-05-16,2026-05-01,61,4370,0,46,48.9,100,Under Value,-6
+P20251211.1055,Northfield Produce,Level 1,Jesse Pruitt,Fix-Bid,Complete,No,,2025-12-11,2026-02-02,2026-02-01,53,2625,0,15,13.9,100,Above Rate,7
+P20260927.1056,Indigo Biotech,Level 4,John Atwood,Fix-Bid,Complete,No,,2026-09-27,2026-10-25,2026-10-01,28,525,0,3,3.7,100,Over Budget,-23
+P20250615.1057,Bayline Logistics,Level 2,Jesse Pruitt,Onboarding,Complete,No,,2025-06-15,2025-09-30,2025-09-01,107,2550,800,17,17.1,100,Above Rate,-1
+P20260921.1058,Lumen Optics,Level 4,Grace Mendel,Billable Service Request,Complete,No,,2026-09-21,2026-10-26,2026-10-01,35,4375,0,25,16.7,100,Above Rate,33
+P20260914.1059,Keystone Property Mgmt,Level 5,Robin Taylor,OffBoarding,New,Yes,Green,2026-09-14,,2026-11-01,57,0,0,16,9.6,78,Zero Budget,40
+P20250616.1060,Rosewood Hotels,Level 2,John Atwood,Fix-Bid,Complete,No,,2025-06-16,2025-08-24,2025-08-01,69,4750,0,50,45.5,100,Under Value,9
+P20250726.1061,Orchard Valley Farms,Level 5,Robin Taylor,Fix-Bid,Complete,No,,2025-07-26,2025-10-23,2025-10-01,89,1955,0,17,15.8,100,Under Value,7
+P20251221.1062,Elmwood Insurance Group,Level 3,John Atwood,Onboarding,Complete,No,,2025-12-21,2026-04-24,2026-04-01,124,14400,350,96,72.1,100,Above Rate,25
+P20261008.1063,Coastal Ortho Group,Level 4,Chris Ortega,Billable Service Request,Complete,No,,2026-10-08,2026-10-31,2026-10-01,23,18025,0,103,65.2,100,Above Rate,37
+P20251013.1064,Orchard Valley Farms,Level 5,Robin Taylor,Fix-Bid,Complete,No,,2025-10-13,2025-12-17,2025-12-01,65,14400,0,96,61.6,100,Above Rate,36
+P20251226.1065,Rosewood Hotels,Level 2,Alan Reeves,Fix-Bid,Complete,No,,2025-12-26,2026-06-04,2026-06-01,160,16800,0,112,91.1,100,Above Rate,19
+P20261105.1066,Falcon Crest Dental,Level 4,Brendan Hale,Onboarding,Material Ordered,Yes,Green,2026-11-05,,2026-12-01,5,2875,0,25,3.8,15,Above Rate,85
+P20251113.1067,Brightwater Brewing,Level 3,Alan Reeves,Billable Service Request,Complete,No,,2025-11-13,2025-11-18,2025-11-01,5,1045,0,11,11.6,100,Under Value,-5
+P20250910.1068,Indigo Biotech,Level 4,Chris Ortega,Onboarding,Complete,No,,2025-09-10,2025-12-10,2025-12-01,91,7950,0,53,55.7,100,Above Rate,-5
+P20260417.1069,Nimbus Cloud Partners,Level 5,Grace Mendel,Onboarding,Complete,No,,2026-04-17,2026-09-04,2026-09-01,140,7360,0,64,74.9,100,Over Budget,-17
+P20260716.1070,Midtown Pharmacy,Level 4,Chris Ortega,Onboarding,Complete,No,,2026-07-16,2026-09-05,2026-09-01,51,5600,0,32,21.5,100,Above Rate,33
+P20260114.1071,Sterling Machine Works,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2026-01-14,2026-04-08,2026-04-01,84,2800,0,16,14.9,100,Above Rate,7
+P20260819.1072,Copperline Manufacturing,Level 3,Grace Mendel,Onboarding,New,Yes,Green,2026-08-19,,2027-06-01,83,1140,0,12,2.7,27,Above Rate,78
+P20260314.1073,Tidewater Pulmonary,Level 4,Jesse Pruitt,Onboarding,Complete,No,,2026-03-14,2026-06-28,2026-06-01,106,3335,800,29,13.9,100,Above Rate,52
+P20251104.1074,Maple Ridge Nonprofit,Level 3,John Atwood,Fix-Bid,Complete,No,,2025-11-04,2026-01-31,2026-01-01,88,4725,0,27,28.0,100,Above Rate,-4
+P20260429.1075,Indigo Biotech,Level 4,Brendan Hale,Billable Service Request,Complete,No,,2026-04-29,2026-05-24,2026-05-01,25,9300,0,62,49.0,100,Above Rate,21
+P20260909.1076,Cedar Point Builders,Level 1,Chris Ortega,Onboarding,Complete,No,,2026-09-09,2026-10-18,2026-10-01,39,6210,0,54,28.7,100,Above Rate,47
+P20251007.1077,Vista Eye Center,Level 3,Robin Taylor,Billable Service Request,Complete,No,,2025-10-07,2026-02-05,2026-02-01,121,13490,0,142,178.2,100,Over Budget,-25
+P20250908.1078,Thornbury Accounting,Level 4,John Atwood,Billable Service Request,Complete,No,,2025-09-08,2025-09-20,2025-09-01,12,9900,0,66,71.2,100,Under Value,-8
+P20260421.1079,Harborview Medical,Level 5,Diane Foster,Billable Service Request,Complete,No,,2026-04-21,2026-06-19,2026-06-01,59,525,0,3,1.5,100,Above Rate,50
+P20260724.1080,Redstone Architecture,Level 2,Brendan Hale,Onboarding,Complete,No,,2026-07-24,2026-10-07,2026-10-01,75,11875,800,125,113.5,100,Under Value,9
+P20260918.1081,Alpine Veterinary,Level 5,Diane Foster,Fix-Bid,New,Yes,Green,2026-09-18,,2027-01-01,53,15750,0,90,28.3,42,Above Rate,69
+P20260808.1082,Prairie Wind Energy,Level 3,Grace Mendel,Billable Service Request,Material Ordered,Yes,Green,2026-08-08,,2027-03-01,94,2375,0,25,5.6,41,Above Rate,78
+P20250929.1083,Canyon Ridge Schools,Level 4,John Atwood,Billable Service Request,Complete,No,,2025-09-29,2025-10-25,2025-10-01,26,4200,0,28,27.3,100,Above Rate,3
+P20250814.1084,Lumen Optics,Level 4,Alan Reeves,Billable Service Request,Complete,No,,2025-08-14,2025-09-08,2025-09-01,25,3895,0,41,58.5,100,Over Budget,-43
+P20250731.1085,Alpine Veterinary,Level 5,Alan Reeves,Onboarding,Complete,No,,2025-07-31,2025-10-14,2025-10-01,75,4725,0,27,26.8,100,Above Rate,1
+P20250813.1086,Oceanside Packaging,Level 4,Chris Ortega,Onboarding,Complete,No,,2025-08-13,2025-12-28,2025-12-01,137,3675,0,21,23.2,100,Over Budget,-10
+P20260326.1087,Westlake Municipal,Level 3,Chris Ortega,Fix-Bid,Material Ordered,Yes,Red,2026-03-26,,2027-02-01,229,1035,0,9,5.6,68,Above Rate,38
+P20260212.1088,Fairhaven School District,Level 1,Grace Mendel,Onboarding,New,Yes,Red,2026-02-12,,2027-03-01,271,19320,120,168,62.7,66,Above Rate,63
+P20260314.1089,Jasper County Utilities,Level 4,Alan Reeves,Onboarding,Complete,No,,2026-03-14,2026-05-11,2026-05-01,58,8925,350,51,33.7,100,Above Rate,34
+P20260728.1090,Riverside Auto Group,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2026-07-28,2026-08-02,2026-08-01,5,9625,0,55,65.0,100,Over Budget,-18
+P20260326.1091,Glenview Partners LLP,Level 3,John Atwood,OffBoarding,Complete,No,,2026-03-26,2026-07-13,2026-07-01,109,0,0,22,26.1,100,Zero Budget,-19
+P20260627.1092,Amberfield Orthopedics,Level 1,Jesse Pruitt,OffBoarding,Complete,No,,2026-06-27,2026-07-29,2026-07-01,32,1500,0,48,38.4,100,Under Value,20
+P20260809.1093,Alpine Veterinary,Level 5,Grace Mendel,Onboarding,Complete,No,,2026-08-09,2026-10-03,2026-10-01,55,2250,800,15,9.8,100,Above Rate,35
+P20260123.1094,Aldergrove Credit Union,Level 3,Robin Taylor,Billable Service Request,Complete,No,,2026-01-23,2026-02-13,2026-02-01,21,6300,0,36,23.6,100,Above Rate,34
+P20260724.1095,Magnolia Title Co,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2026-07-24,2026-10-07,2026-10-01,75,20825,0,119,40.0,100,Above Rate,66
+P20260117.1096,Jasper County Utilities,Level 4,Diane Foster,Billable Service Request,Complete,No,,2026-01-17,2026-02-04,2026-02-01,18,1225,0,7,6.4,100,Above Rate,9
+P20260517.1097,Oceanside Packaging,Level 4,Brendan Hale,Fix-Bid,Complete,No,,2026-05-17,2026-08-31,2026-08-01,106,3325,0,19,20.2,100,Above Rate,-6
+P20260708.1098,Whitestone Law Group,Level 1,Jesse Pruitt,Fix-Bid,Complete,No,,2026-07-08,2026-09-30,2026-09-01,84,5035,0,53,46.6,100,Under Value,12
+P20260512.1099,Willowbrook Youth Services,Level 4,Alan Reeves,Fix-Bid,Complete,No,,2026-05-12,2026-06-12,2026-06-01,31,5425,0,31,10.8,100,Above Rate,65
+P20260417.1100,Oceanside Packaging,Level 4,Robin Taylor,Onboarding,Complete,No,,2026-04-17,2026-08-22,2026-08-01,127,1225,0,7,7.5,100,Above Rate,-7
+P20260921.1101,Keystone Property Mgmt,Level 5,Grace Mendel,Onboarding,Complete,No,,2026-09-21,2026-11-04,2026-11-01,44,3230,800,34,24.7,100,Under Value,27
+P20250731.1102,Willowbrook Youth Services,Level 4,John Atwood,Onboarding,Complete,No,,2025-07-31,2025-12-16,2025-12-01,138,900,0,6,8.5,100,Over Budget,-42
+P20250803.1103,Glenview Partners LLP,Level 3,Chris Ortega,Fix-Bid,Complete,No,,2025-08-03,2026-01-21,2026-01-01,171,7600,0,80,61.8,100,Under Value,23
+P20260914.1104,Canyon Ridge Schools,Level 4,Diane Foster,Fix-Bid,In Progress,Yes,Green,2026-09-14,,2027-04-01,57,1225,0,7,1.4,28,Above Rate,80
+P20250911.1105,Oceanside Packaging,Level 4,Brendan Hale,Onboarding,Complete,No,,2025-09-11,2026-01-06,2026-01-01,117,175,0,1,1.2,100,Over Budget,-20
+P20260228.1106,Cedar Point Builders,Level 1,Diane Foster,Fix-Bid,Complete,No,,2026-02-28,2026-04-21,2026-04-01,52,20475,0,117,104.2,100,Above Rate,11
+P20260204.1107,Oakmont Accounting,Level 5,Robin Taylor,Fix-Bid,Complete,No,,2026-02-04,2026-03-15,2026-03-01,39,1925,0,11,8.7,100,Above Rate,21
+P20250628.1108,Edgewater Realty,Level 4,Diane Foster,Onboarding,Complete,No,,2025-06-28,2025-10-12,2025-10-01,106,8750,0,50,57.3,100,Over Budget,-15
+P20260305.1109,Crescent Legal Partners,Level 1,Grace Mendel,Fix-Bid,Complete,No,,2026-03-05,2026-07-07,2026-07-01,124,4550,0,26,32.3,100,Over Budget,-24
+P20260119.1110,Ironwood Machining,Level 2,Alan Reeves,Fix-Bid,Complete,No,,2026-01-19,2026-07-16,2026-07-01,178,1400,0,8,10.5,100,Over Budget,-31
+P20251224.1111,Zephyr Aviation,Level 4,Alan Reeves,Onboarding,Complete,No,,2025-12-24,2026-04-06,2026-04-01,103,14145,0,123,42.0,100,Above Rate,66
+P20251225.1112,Lumen Optics,Level 4,Jesse Pruitt,Fix-Bid,Complete,No,,2025-12-25,2026-04-10,2026-04-01,106,13350,0,89,109.0,100,Over Budget,-22
+P20251107.1113,Thornbury Accounting,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-11-07,2026-04-08,2026-04-01,152,12995,0,113,119.4,100,Under Value,-6
+P20251227.1114,Kingsbridge Credit Union,Level 2,Alan Reeves,Fix-Bid,New,Yes,Red,2025-12-27,,2027-01-01,318,4800,0,32,24.8,82,Above Rate,22
+P20250803.1115,Maple Ridge Nonprofit,Level 3,Grace Mendel,Onboarding,Complete,No,,2025-08-03,2026-03-29,2026-03-01,238,6125,800,35,32.4,100,Above Rate,7
+P20260331.1116,Orchard Valley Farms,Level 5,Robin Taylor,Billable Service Request,Complete,No,,2026-03-31,2026-05-05,2026-05-01,35,5425,0,31,31.2,100,Above Rate,-1
+P20251004.1117,Falcon Crest Dental,Level 4,Robin Taylor,Onboarding,Complete,No,,2025-10-04,2026-02-05,2026-02-01,124,2450,0,14,12.9,100,Above Rate,8
+P20260401.1118,Redstone Architecture,Level 2,Robin Taylor,Onboarding,Complete,No,,2026-04-01,2026-08-12,2026-08-01,133,1520,1500,16,14.3,100,Under Value,11
+P20260405.1119,Quincy Medical Billing,Level 5,Diane Foster,Onboarding,Complete,No,,2026-04-05,2026-07-13,2026-07-01,99,2530,0,22,17.4,100,Above Rate,21
+P20260527.1120,Riverside Auto Group,Level 3,Chris Ortega,OffBoarding,Complete,No,,2026-05-27,2026-06-01,2026-06-01,5,1500,0,43,34.9,100,Under Value,19
+P20260520.1121,Ironwood Machining,Level 2,John Atwood,Fix-Bid,Complete,No,,2026-05-20,2026-07-29,2026-07-01,70,23625,0,135,145.8,100,Above Rate,-8
+P20250923.1122,Aldergrove Credit Union,Level 3,Chris Ortega,Billable Service Request,Complete,No,,2025-09-23,2025-11-07,2025-11-01,45,1425,0,15,15.8,100,Under Value,-5
+P20260703.1123,Tidewater Pulmonary,Level 4,Robin Taylor,OffBoarding,Complete,No,,2026-07-03,2026-07-08,2026-07-01,5,0,0,28,16.5,100,Zero Budget,41
+P20260925.1124,Redstone Architecture,Level 2,Grace Mendel,Fix-Bid,Complete,No,,2026-09-25,2026-10-28,2026-10-01,33,5060,0,44,20.2,100,Above Rate,54
+P20261006.1125,Canyon Ridge Schools,Level 4,Grace Mendel,Onboarding,Material Ordered,Yes,Green,2026-10-06,,2027-09-01,35,1575,0,9,0.6,10,Above Rate,93
+P20261003.1126,Bayline Logistics,Level 2,Brendan Hale,Fix-Bid,New,Yes,Green,2026-10-03,,2027-02-01,38,3300,0,22,2.8,26,Above Rate,87
+P20260801.1127,Yellowstone Distributing,Level 1,Brendan Hale,Fix-Bid,Complete,No,,2026-08-01,2026-09-28,2026-09-01,58,14175,0,81,65.2,100,Above Rate,20
+P20260805.1128,Ivy League Tutoring,Level 3,Alan Reeves,Fix-Bid,Material Ordered,Yes,Green,2026-08-05,,2026-11-01,97,2375,0,25,21.7,97,Under Value,13
+P20251104.1129,Valley Forge Logistics,Level 3,Jesse Pruitt,Fix-Bid,Complete,No,,2025-11-04,2026-02-15,2026-02-01,103,9625,0,55,25.0,100,Above Rate,55
+P20260312.1130,Hawthorne Plastics,Level 3,Brendan Hale,Fix-Bid,Complete,No,,2026-03-12,2026-04-06,2026-04-01,25,1350,0,9,8.6,100,Above Rate,4
+P20250703.1131,Pinecrest Senior Living,Level 3,Robin Taylor,Billable Service Request,Complete,No,,2025-07-03,2025-08-14,2025-08-01,42,12775,0,73,56.9,100,Above Rate,22
+P20260104.1132,Whitestone Law Group,Level 1,Chris Ortega,Onboarding,Complete,No,,2026-01-04,2026-05-21,2026-05-01,137,2945,0,31,27.0,100,Under Value,13
+P20260902.1133,Harborview Medical,Level 5,Robin Taylor,Billable Service Request,Complete,No,,2026-09-02,2026-09-24,2026-09-01,22,1750,0,10,6.0,100,Above Rate,40
+P20260814.1134,Riverbend Hospital,Level 3,Robin Taylor,OffBoarding,Complete,No,,2026-08-14,2026-08-19,2026-08-01,5,1500,0,228,143.9,100,Under Value,37
+P20251007.1135,Delta Freight Co,Level 3,Brendan Hale,Onboarding,Complete,No,,2025-10-07,2025-12-29,2025-12-01,83,3850,1500,22,20.1,100,Above Rate,9
+P20250808.1136,Whitestone Law Group,Level 1,Chris Ortega,Onboarding,Complete,No,,2025-08-08,2025-11-25,2025-11-01,109,4275,0,45,47.9,100,Under Value,-6
+P20260214.1137,Kestrel Security,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2026-02-14,2026-05-06,2026-05-01,81,4560,0,48,53.4,100,Over Budget,-11
+P20260729.1138,Sagebrush Ranch Supply,Level 4,John Atwood,Fix-Bid,Complete,No,,2026-07-29,2026-09-19,2026-09-01,52,1805,0,19,9.9,100,Above Rate,48
+P20260328.1139,Yellowstone Distributing,Level 1,Jesse Pruitt,Onboarding,Complete,No,,2026-03-28,2026-05-26,2026-05-01,59,30275,350,173,115.7,100,Above Rate,33
+P20260623.1140,Oceanside Packaging,Level 4,Grace Mendel,Onboarding,Complete,No,,2026-06-23,2026-10-21,2026-10-01,120,2625,800,15,3.6,100,Above Rate,76
+P20251019.1141,Thornbury Accounting,Level 4,Chris Ortega,Onboarding,Complete,No,,2025-10-19,2026-01-06,2026-01-01,79,875,800,5,6.0,100,Over Budget,-20
+P20250817.1142,Granite Peak Insurance,Level 3,Brendan Hale,Billable Service Request,Complete,No,,2025-08-17,2025-10-07,2025-10-01,51,3300,0,22,21.2,100,Above Rate,4
+P20250613.1143,Whitestone Law Group,Level 1,Diane Foster,Fix-Bid,Complete,No,,2025-06-13,2025-11-13,2025-11-01,153,7700,0,44,47.3,100,Above Rate,-7
+P20260721.1144,Redstone Architecture,Level 2,Diane Foster,Fix-Bid,In Progress,Yes,Green,2026-07-21,,2026-11-01,112,5550,0,37,23.4,98,Above Rate,37
+P20260212.1145,Edgewater Realty,Level 4,Brendan Hale,Onboarding,Complete,No,,2026-02-12,2026-05-17,2026-05-01,94,2400,0,16,16.1,100,Above Rate,-1
+P20251028.1146,Blue Heron Marine,Level 2,John Atwood,OffBoarding,Complete,No,,2025-10-28,2025-11-19,2025-11-01,22,0,0,300,220.2,100,Zero Budget,27
+P20251127.1147,Union Pipe Credit Union,Level 4,Diane Foster,Fix-Bid,Complete,No,,2025-11-27,2026-01-23,2026-01-01,57,475,0,5,5.4,100,Under Value,-8
+P20251220.1148,Whitestone Law Group,Level 1,Alan Reeves,Fix-Bid,Complete,No,,2025-12-20,2026-04-15,2026-04-01,116,11900,0,68,97.7,100,Over Budget,-44
+P20250715.1149,Lakeshore Furniture,Level 4,Robin Taylor,Billable Service Request,Complete,No,,2025-07-15,2025-08-19,2025-08-01,35,3895,0,41,46.3,100,Over Budget,-13

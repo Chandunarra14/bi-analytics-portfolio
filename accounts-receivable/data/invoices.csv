@@ -1,0 +1,1004 @@
+invoice,customer,csm,classification,type,status,invoice_date,due_date,due_month,amount,paid_amount,open_amount,paid_date,days_to_pay,days_past_due,bucket
+INV-24995,Fieldstone Foods,Drew Patel,Level 3,Invoice,Posted,2024-06-02,2024-07-02,2024-07-01,2780.27,0,2780.27,,,861,366+
+INV-25003,Foxridge Engineering,Drew Patel,Level 1,Invoice,Posted,2024-08-05,2024-09-04,2024-09-01,1177.64,0,1177.64,,,797,366+
+INV-24990,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Posted,2024-08-23,2024-09-22,2024-09-01,3905.32,0,3905.32,,,779,366+
+INV-24994,Fieldstone Foods,Drew Patel,Level 3,Invoice,Posted,2024-11-04,2024-12-04,2024-12-01,1274.26,0,1274.26,,,706,366+
+INV-24992,Ironwood Machining,Casey Ellison,Level 2,Invoice,Posted,2024-11-21,2024-12-21,2024-12-01,3923.28,0,3923.28,,,689,366+
+INV-24997,Greystone Capital,Casey Ellison,Level 5,Invoice,Posted,2025-01-06,2025-02-05,2025-02-01,1385.46,0,1385.46,,,643,366+
+INV-24999,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Posted,2025-01-11,2025-02-10,2025-02-01,2483.92,0,2483.92,,,638,366+
+INV-25000,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Posted,2025-02-04,2025-03-06,2025-03-01,3366.32,0,3366.32,,,614,366+
+INV-25001,Foxridge Engineering,Drew Patel,Level 1,Invoice,Posted,2025-04-22,2025-05-22,2025-05-01,2872.76,0,2872.76,,,537,366+
+INV-25002,Foxridge Engineering,Drew Patel,Level 1,Invoice,Posted,2025-04-22,2025-05-22,2025-05-01,1614.64,0,1614.64,,,537,366+
+INV-24996,Fieldstone Foods,Drew Patel,Level 3,Invoice,Posted,2025-04-29,2025-05-29,2025-05-01,4302.76,0,4302.76,,,530,366+
+INV-24998,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Posted,2025-05-03,2025-06-02,2025-06-01,2403.52,0,2403.52,,,526,366+
+INV-24988,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Posted,2025-05-07,2025-06-06,2025-06-01,889.49,0,889.49,,,522,366+
+INV-24991,Ironwood Machining,Casey Ellison,Level 2,Invoice,Posted,2025-06-04,2025-07-04,2025-07-01,2109.71,0,2109.71,,,494,366+
+INV-24987,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Posted,2025-06-07,2025-07-07,2025-07-01,2960.52,0,2960.52,,,491,366+
+INV-24989,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Posted,2025-07-26,2025-08-25,2025-08-01,582.13,0,582.13,,,442,366+
+INV-24993,Ironwood Machining,Casey Ellison,Level 2,Invoice,Posted,2025-07-26,2025-08-25,2025-08-01,4224.37,0,4224.37,,,442,366+
+INV-24368,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2025-11-01,2025-12-01,2025-12-01,2858.24,2858.24,0.0,2025-12-10,39,0,Paid
+INV-24572,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2025-11-01,2025-12-01,2025-12-01,274.11,274.11,0.0,2025-12-27,56,0,Paid
+INV-24573,Greystone Capital,Casey Ellison,Level 5,Credit Memo,Applied,2025-11-01,2025-12-01,2025-12-01,-39.51,-39.51,0.0,,,0,Paid
+INV-24824,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2025-11-01,2025-12-01,2025-12-01,631.45,631.45,0.0,2025-12-22,51,0,Paid
+INV-24969,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2025-11-01,2025-12-01,2025-12-01,1560.31,1560.31,0.0,2026-01-22,82,0,Paid
+INV-24299,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2025-11-02,2025-12-02,2025-12-01,2958.25,2958.25,0.0,2026-01-06,65,0,Paid
+INV-24330,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Paid,2025-11-02,2025-12-02,2025-12-01,1756.15,1756.15,0.0,2025-12-10,38,0,Paid
+INV-24397,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2025-11-02,2025-12-02,2025-12-01,2091.59,2091.59,0.0,2025-12-12,40,0,Paid
+INV-24538,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2025-11-02,2025-12-02,2025-12-01,3460.5,3460.5,0.0,2026-02-05,95,0,Paid
+INV-24705,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2025-11-02,2025-12-02,2025-12-01,853.33,853.33,0.0,2025-12-06,34,0,Paid
+INV-24743,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2025-11-02,2025-12-02,2025-12-01,2636.98,2636.98,0.0,2025-12-22,50,0,Paid
+INV-24759,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2025-11-02,2025-12-02,2025-12-01,7606.28,7606.28,0.0,2025-11-27,25,0,Paid
+INV-24908,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2025-11-02,2025-12-02,2025-12-01,598.45,598.45,0.0,2026-01-14,73,0,Paid
+INV-24034,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2025-11-03,2025-12-03,2025-12-01,1274.55,1274.55,0.0,2026-09-28,329,0,Paid
+INV-24099,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2025-11-03,2025-12-03,2025-12-01,1282.3,1282.3,0.0,2025-12-30,57,0,Paid
+INV-24213,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2025-11-03,2025-12-03,2025-12-01,1507.58,1507.58,0.0,2025-12-05,32,0,Paid
+INV-24229,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2025-11-03,2025-12-03,2025-12-01,2552.57,2552.57,0.0,2026-03-11,128,0,Paid
+INV-24723,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2025-11-03,2025-12-03,2025-12-01,2487.09,2487.09,0.0,2025-12-22,49,0,Paid
+INV-24085,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2025-11-04,2025-12-04,2025-12-01,2536.39,2536.39,0.0,2026-01-21,78,0,Paid
+INV-24248,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2025-11-04,2025-12-04,2025-12-01,1644.94,1644.94,0.0,2026-01-13,70,0,Paid
+INV-24589,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2025-11-04,2025-12-04,2025-12-01,1936.05,1936.05,0.0,2025-12-31,57,0,Paid
+INV-24620,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2025-11-04,2025-12-04,2025-12-01,839.75,839.75,0.0,2025-12-05,31,0,Paid
+INV-24636,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2025-11-04,2025-12-04,2025-12-01,1307.92,1307.92,0.0,2025-12-22,48,0,Paid
+INV-24954,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2025-11-04,2025-12-04,2025-12-01,828.52,828.52,0.0,2025-12-19,45,0,Paid
+INV-24115,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2025-11-05,2025-12-05,2025-12-01,444.75,444.75,0.0,2025-12-07,32,0,Paid
+INV-24180,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2025-11-05,2025-12-05,2025-12-01,1001.78,1001.78,0.0,2026-01-18,74,0,Paid
+INV-24194,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2025-11-05,2025-12-05,2025-12-01,1944.01,1944.01,0.0,2026-01-02,58,0,Paid
+INV-24282,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2025-11-05,2025-12-05,2025-12-01,2665.23,2665.23,0.0,2025-12-28,53,0,Paid
+INV-24298,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2025-11-05,2025-12-05,2025-12-01,1503.65,1503.65,0.0,2025-12-31,56,0,Paid
+INV-24345,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2025-11-05,2025-12-05,2025-12-01,647.37,647.37,0.0,2026-09-01,300,0,Paid
+INV-24427,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2025-11-05,2025-12-05,2025-12-01,2906.22,2906.22,0.0,2026-01-11,67,0,Paid
+INV-24667,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2025-11-05,2025-12-05,2025-12-01,615.42,615.42,0.0,2026-01-03,59,0,Paid
+INV-24018,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2025-11-06,2025-12-06,2025-12-01,4195.41,4195.41,0.0,2025-12-19,43,0,Paid
+INV-24066,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2025-11-06,2025-12-06,2025-12-01,1306.59,1306.59,0.0,2026-01-06,61,0,Paid
+INV-24442,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2025-11-06,2025-12-06,2025-12-01,1365.97,1365.97,0.0,2025-12-14,38,0,Paid
+INV-24506,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Paid,2025-11-06,2025-12-06,2025-12-01,6742.2,6742.2,0.0,2026-08-07,274,0,Paid
+INV-24524,Dunmore Steel,Morgan Reyes,Level 4,Invoice,Paid,2025-11-06,2025-12-06,2025-12-01,2428.37,2428.37,0.0,2026-01-03,58,0,Paid
+INV-24606,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2025-11-06,2025-12-06,2025-12-01,3899.13,3899.13,0.0,2025-12-07,31,0,Paid
+INV-24970,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2025-11-06,2025-12-06,2025-12-01,1421.08,1421.08,0.0,2026-01-07,62,0,Paid
+INV-24084,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2025-11-07,2025-12-07,2025-12-01,2117.56,2117.56,0.0,2026-01-27,81,0,Paid
+INV-24116,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2025-11-07,2025-12-07,2025-12-01,614.98,614.98,0.0,2026-02-05,90,0,Paid
+INV-24687,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2025-11-07,2025-12-07,2025-12-01,8169.1,8169.1,0.0,2025-12-30,53,0,Paid
+INV-24856,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2025-11-07,2025-12-07,2025-12-01,4733.41,4733.41,0.0,2026-01-11,65,0,Paid
+INV-24924,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2025-11-07,2025-12-07,2025-12-01,1876.15,1876.15,0.0,2025-12-22,45,0,Paid
+INV-24001,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,3214.38,3214.38,0.0,2025-12-25,47,0,Paid
+INV-24049,Canyon Ridge Schools,Taylor Quinn,Level 4,Reversal,Applied,2025-11-08,2025-12-08,2025-12-01,-870.64,-870.64,0.0,,,0,Paid
+INV-24149,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,742.5,742.5,0.0,2026-07-21,255,0,Paid
+INV-24265,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,8276.0,8276.0,0.0,2026-01-06,59,0,Paid
+INV-24367,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,1780.9,1780.9,0.0,2026-01-06,59,0,Paid
+INV-24382,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,1425.92,1425.92,0.0,2026-01-09,62,0,Paid
+INV-24457,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,1404.94,1404.94,0.0,2025-12-28,50,0,Paid
+INV-24491,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,866.99,866.99,0.0,2026-01-01,54,0,Paid
+INV-24523,Dunmore Steel,Morgan Reyes,Level 4,Credit Memo,Applied,2025-11-08,2025-12-08,2025-12-01,-302.4,-302.4,0.0,,,0,Paid
+INV-24555,Coastal Ortho Group,Riley Carter,Level 4,Reversal,Applied,2025-11-08,2025-12-08,2025-12-01,-44.7,-44.7,0.0,,,0,Paid
+INV-24605,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,2005.84,2005.84,0.0,2025-12-30,52,0,Paid
+INV-24621,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,679.73,679.73,0.0,2026-01-02,55,0,Paid
+INV-24651,Timberline Construction,Avery Morgan,Level 1,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,3424.74,3424.74,0.0,2026-01-13,66,0,Paid
+INV-24791,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,903.58,903.58,0.0,2026-02-09,93,0,Paid
+INV-24925,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,2592.31,2592.31,0.0,2026-01-05,58,0,Paid
+INV-24939,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2025-11-08,2025-12-08,2025-12-01,657.27,657.27,0.0,2026-01-21,74,0,Paid
+INV-24067,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,985.78,985.78,0.0,2025-12-29,50,0,Paid
+INV-24133,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,2078.18,2078.18,0.0,2025-12-30,51,0,Paid
+INV-24166,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,411.06,411.06,0.0,2026-08-04,268,0,Paid
+INV-24281,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,2064.59,2064.59,0.0,2025-12-09,30,0,Paid
+INV-24315,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,5577.37,5577.37,0.0,2025-12-29,50,0,Paid
+INV-24331,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,3119.71,3119.71,0.0,2026-01-29,81,0,Paid
+INV-24441,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,678.15,678.15,0.0,2025-12-15,36,0,Paid
+INV-24473,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,4506.02,4506.02,0.0,2025-12-10,31,0,Paid
+INV-24777,Sterling Machine Works,Drew Patel,Level 3,Credit Memo,Applied,2025-11-09,2025-12-09,2025-12-01,-54.5,-54.5,0.0,,,0,Paid
+INV-24838,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,5090.38,5090.38,0.0,2025-12-28,49,0,Paid
+INV-24855,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,4887.61,4887.61,0.0,2025-12-19,40,0,Paid
+INV-24873,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2025-11-09,2025-12-09,2025-12-01,564.09,564.09,0.0,2026-01-19,71,0,Paid
+INV-24002,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2025-11-10,2025-12-10,2025-12-01,3272.32,3272.32,0.0,2025-12-13,33,0,Paid
+INV-24050,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2025-11-10,2025-12-10,2025-12-01,7240.32,7240.32,0.0,2026-10-27,351,0,Paid
+INV-24165,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2025-11-10,2025-12-10,2025-12-01,705.63,705.63,0.0,2025-12-28,48,0,Paid
+INV-24228,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2025-11-10,2025-12-10,2025-12-01,2667.77,2667.77,0.0,2026-01-14,65,0,Paid
+INV-24346,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2025-11-10,2025-12-10,2025-12-01,800.64,800.64,0.0,2025-12-19,39,0,Paid
+INV-24414,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2025-11-10,2025-12-10,2025-12-01,1029.99,1029.99,0.0,2026-01-17,68,0,Paid
+INV-24474,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2025-11-10,2025-12-10,2025-12-01,2798.3,2798.3,0.0,2026-01-02,53,0,Paid
+INV-24722,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2025-11-10,2025-12-10,2025-12-01,2097.94,2097.94,0.0,2026-05-11,182,0,Paid
+INV-24808,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2025-11-10,2025-12-10,2025-12-01,2575.99,2575.99,0.0,2025-12-24,44,0,Paid
+INV-24890,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2025-11-10,2025-12-10,2025-12-01,1201.41,1201.41,0.0,2025-12-31,51,0,Paid
+INV-24051,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2025-12-01,2025-12-31,2025-12-01,7845.38,7845.38,0.0,2026-02-06,67,0,Paid
+INV-24231,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2025-12-01,2025-12-31,2025-12-01,2829.77,2829.77,0.0,2026-01-21,51,0,Paid
+INV-24348,Juniper Wealth Advisors,Taylor Quinn,Level 4,Credit Memo,Applied,2025-12-01,2025-12-31,2025-12-01,-37.87,-37.87,0.0,,,0,Paid
+INV-24557,Coastal Ortho Group,Riley Carter,Level 4,Invoice,Paid,2025-12-01,2025-12-31,2025-12-01,206.41,206.41,0.0,2026-09-01,274,0,Paid
+INV-24724,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2025-12-01,2025-12-31,2025-12-01,1305.54,1305.54,0.0,2026-01-18,48,0,Paid
+INV-24745,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2025-12-01,2025-12-31,2025-12-01,2813.01,2813.01,0.0,2026-08-04,246,0,Paid
+INV-24761,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2025-12-01,2025-12-31,2025-12-01,5847.66,5847.66,0.0,2026-01-28,58,0,Paid
+INV-24134,Lakeshore Furniture,Casey Ellison,Level 4,Credit Memo,Applied,2025-12-02,2026-01-01,2026-01-01,-429.57,-429.57,0.0,,,0,Paid
+INV-24607,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2025-12-02,2026-01-01,2026-01-01,2683.79,2683.79,0.0,2026-02-14,74,0,Paid
+INV-24622,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2025-12-02,2026-01-01,2026-01-01,921.87,921.87,0.0,2026-02-23,83,0,Paid
+INV-24652,Timberline Construction,Avery Morgan,Level 1,Invoice,Paid,2025-12-02,2026-01-01,2026-01-01,1772.23,1772.23,0.0,2026-01-27,56,0,Paid
+INV-24653,Timberline Construction,Avery Morgan,Level 1,Invoice,Paid,2025-12-02,2026-01-01,2026-01-01,2125.99,2125.99,0.0,2026-03-18,106,0,Paid
+INV-24909,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2025-12-02,2026-01-01,2026-01-01,548.83,548.83,0.0,2026-01-08,37,0,Paid
+INV-24035,Sagebrush Ranch Supply,Casey Ellison,Level 4,Credit Memo,Applied,2025-12-03,2026-01-02,2026-01-01,-62.79,-62.79,0.0,,,0,Paid
+INV-24283,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2025-12-03,2026-01-02,2026-01-01,2370.21,2370.21,0.0,2026-02-27,86,0,Paid
+INV-24398,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2025-12-03,2026-01-02,2026-01-01,2487.63,2487.63,0.0,2026-02-08,67,0,Paid
+INV-24475,Quarry Hill Auto Parts,Drew Patel,Level 2,Credit Memo,Applied,2025-12-03,2026-01-02,2026-01-01,-363.52,-363.52,0.0,,,0,Paid
+INV-24668,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2025-12-03,2026-01-02,2026-01-01,488.3,488.3,0.0,2026-02-15,74,0,Paid
+INV-24688,Valley Forge Logistics,Morgan Reyes,Level 3,Credit Memo,Applied,2025-12-03,2026-01-02,2026-01-01,-540.09,-540.09,0.0,,,0,Paid
+INV-24744,Copperline Manufacturing,Taylor Quinn,Level 3,Credit Memo,Applied,2025-12-03,2026-01-02,2026-01-01,-101.36,-101.36,0.0,,,0,Paid
+INV-24825,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2025-12-03,2026-01-02,2026-01-01,762.52,762.52,0.0,2026-01-02,30,0,Paid
+INV-24874,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2025-12-03,2026-01-02,2026-01-01,589.03,589.03,0.0,2026-01-18,46,0,Paid
+INV-24940,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2025-12-03,2026-01-02,2026-01-01,568.16,568.16,0.0,2026-01-06,34,0,Paid
+INV-24003,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2025-12-04,2026-01-03,2026-01-01,2655.72,2655.72,0.0,2026-01-13,40,0,Paid
+INV-24086,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2025-12-04,2026-01-03,2026-01-01,2894.64,2894.64,0.0,2026-02-26,84,0,Paid
+INV-24266,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2025-12-04,2026-01-03,2026-01-01,4561.82,4561.82,0.0,2026-01-23,50,0,Paid
+INV-24476,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2025-12-04,2026-01-03,2026-01-01,2901.81,2901.81,0.0,2025-12-31,27,0,Paid
+INV-24525,Dunmore Steel,Morgan Reyes,Level 4,Invoice,Paid,2025-12-04,2026-01-03,2026-01-01,1888.29,1888.29,0.0,2026-05-18,165,0,Paid
+INV-24556,Coastal Ortho Group,Riley Carter,Level 4,Invoice,Paid,2025-12-04,2026-01-03,2026-01-01,148.99,148.99,0.0,2026-02-16,74,0,Paid
+INV-24590,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2025-12-04,2026-01-03,2026-01-01,1783.6,1783.6,0.0,2026-02-02,60,0,Paid
+INV-24892,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2025-12-04,2026-01-03,2026-01-01,1676.27,1676.27,0.0,2026-01-28,55,0,Paid
+INV-24971,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2025-12-04,2026-01-03,2026-01-01,1107.52,1107.52,0.0,2026-07-01,209,0,Paid
+INV-24300,Xenon Labs,Riley Carter,Level 4,Credit Memo,Applied,2025-12-05,2026-01-04,2026-01-01,-219.01,-219.01,0.0,,,0,Paid
+INV-24383,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2025-12-05,2026-01-04,2026-01-01,1220.5,1220.5,0.0,2026-01-11,37,0,Paid
+INV-24458,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2025-12-05,2026-01-04,2026-01-01,1906.8,1906.8,0.0,2026-01-04,30,0,Paid
+INV-24839,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2025-12-05,2026-01-04,2026-01-01,5503.32,5503.32,0.0,2026-01-20,46,0,Paid
+INV-24875,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2025-12-05,2026-01-04,2026-01-01,718.64,718.64,0.0,2026-02-12,69,0,Paid
+INV-24926,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2025-12-05,2026-01-04,2026-01-01,2819.14,2819.14,0.0,2026-01-25,51,0,Paid
+INV-24195,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2025-12-06,2026-01-05,2026-01-01,1659.12,1659.12,0.0,2026-01-27,52,0,Paid
+INV-24214,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2025-12-06,2026-01-05,2026-01-01,2716.29,2716.29,0.0,2026-01-17,42,0,Paid
+INV-24284,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Posted,2025-12-06,2026-01-05,2026-01-01,2450.69,0,2450.69,,,309,181-365
+INV-24347,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2025-12-06,2026-01-05,2026-01-01,670.23,670.23,0.0,2025-12-31,25,0,Paid
+INV-24428,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2025-12-06,2026-01-05,2026-01-01,4532.3,4532.3,0.0,2026-02-03,59,0,Paid
+INV-24492,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2025-12-06,2026-01-05,2026-01-01,1000.24,1000.24,0.0,2026-01-13,38,0,Paid
+INV-24669,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2025-12-06,2026-01-05,2026-01-01,289.18,289.18,0.0,2026-01-04,29,0,Paid
+INV-24858,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2025-12-06,2026-01-05,2026-01-01,8446.55,8446.55,0.0,2026-02-02,58,0,Paid
+INV-24891,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2025-12-06,2026-01-05,2026-01-01,1948.92,1948.92,0.0,2026-01-28,53,0,Paid
+INV-24955,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2025-12-06,2026-01-05,2026-01-01,1173.9,1173.9,0.0,2026-01-29,54,0,Paid
+INV-24316,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2025-12-07,2026-01-06,2026-01-01,4082.11,4082.11,0.0,2026-02-13,68,0,Paid
+INV-24507,Birchwood Dental Group,Drew Patel,Level 4,Credit Memo,Applied,2025-12-07,2026-01-06,2026-01-01,-1859.38,-1859.38,0.0,,,0,Paid
+INV-24760,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2025-12-07,2026-01-06,2026-01-01,3874.46,3874.46,0.0,2026-02-07,62,0,Paid
+INV-24100,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2025-12-08,2026-01-07,2026-01-01,788.99,788.99,0.0,2026-02-02,56,0,Paid
+INV-24117,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2025-12-08,2026-01-07,2026-01-01,847.47,847.47,0.0,2026-02-01,55,0,Paid
+INV-24230,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2025-12-08,2026-01-07,2026-01-01,1769.69,1769.69,0.0,2026-01-18,41,0,Paid
+INV-24332,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Paid,2025-12-08,2026-01-07,2026-01-01,2882.04,2882.04,0.0,2026-01-14,37,0,Paid
+INV-24637,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2025-12-08,2026-01-07,2026-01-01,1752.26,1752.26,0.0,2026-01-30,53,0,Paid
+INV-24725,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2025-12-08,2026-01-07,2026-01-01,2143.73,2143.73,0.0,2026-02-27,81,0,Paid
+INV-24778,Sterling Machine Works,Drew Patel,Level 3,Reversal,Applied,2025-12-08,2026-01-07,2026-01-01,-59.99,-59.99,0.0,,,0,Paid
+INV-24857,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2025-12-08,2026-01-07,2026-01-01,6921.22,6921.22,0.0,2026-01-02,25,0,Paid
+INV-24068,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2025-12-09,2026-01-08,2026-01-01,1190.83,1190.83,0.0,2026-02-24,77,0,Paid
+INV-24167,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2025-12-09,2026-01-08,2026-01-01,357.1,357.1,0.0,2026-01-26,48,0,Paid
+INV-24181,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2025-12-09,2026-01-08,2026-01-01,809.09,809.09,0.0,2026-02-03,56,0,Paid
+INV-24415,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2025-12-09,2026-01-08,2026-01-01,1666.67,1666.67,0.0,2026-02-03,56,0,Paid
+INV-24539,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2025-12-09,2026-01-08,2026-01-01,4331.43,4331.43,0.0,2026-02-07,60,0,Paid
+INV-24574,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2025-12-09,2026-01-08,2026-01-01,333.91,333.91,0.0,2026-01-17,39,0,Paid
+INV-24809,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2025-12-09,2026-01-08,2026-01-01,1908.56,1908.56,0.0,2026-01-18,40,0,Paid
+INV-24019,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2025-12-10,2026-01-09,2026-01-01,3286.89,3286.89,0.0,2026-02-12,64,0,Paid
+INV-24150,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2025-12-10,2026-01-09,2026-01-01,986.27,986.27,0.0,2026-01-19,40,0,Paid
+INV-24249,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2025-12-10,2026-01-09,2026-01-01,904.61,904.61,0.0,2026-06-10,182,0,Paid
+INV-24369,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2025-12-10,2026-01-09,2026-01-01,2446.17,2446.17,0.0,2026-02-26,78,0,Paid
+INV-24443,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2025-12-10,2026-01-09,2026-01-01,715.79,715.79,0.0,2026-02-01,53,0,Paid
+INV-24493,Westlake Municipal,Casey Ellison,Level 3,Credit Memo,Applied,2025-12-10,2026-01-09,2026-01-01,-331.99,-331.99,0.0,,,0,Paid
+INV-24591,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2025-12-10,2026-01-09,2026-01-01,1810.99,1810.99,0.0,2026-02-16,68,0,Paid
+INV-24706,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2025-12-10,2026-01-09,2026-01-01,960.48,960.48,0.0,2026-03-03,83,0,Paid
+INV-24792,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2025-12-10,2026-01-09,2026-01-01,1100.92,1100.92,0.0,2026-03-03,83,0,Paid
+INV-24370,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2026-01-01,2026-01-31,2026-01-01,2180.87,2180.87,0.0,2026-03-12,70,0,Paid
+INV-24399,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-01-01,2026-01-31,2026-01-01,2498.14,2498.14,0.0,2026-09-18,260,0,Paid
+INV-24459,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2026-01-01,2026-01-31,2026-01-01,2381.43,2381.43,0.0,2026-03-22,80,0,Paid
+INV-24541,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-01-01,2026-01-31,2026-01-01,7183.93,7183.93,0.0,2026-02-26,56,0,Paid
+INV-24707,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-01-01,2026-01-31,2026-01-01,1240.49,1240.49,0.0,2026-02-18,48,0,Paid
+INV-24876,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-01-01,2026-01-31,2026-01-01,461.62,461.62,0.0,2026-03-12,70,0,Paid
+INV-24910,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-01-01,2026-01-31,2026-01-01,820.32,820.32,0.0,2026-07-01,181,0,Paid
+INV-24135,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-01-02,2026-02-01,2026-02-01,1690.66,1690.66,0.0,2026-03-27,84,0,Paid
+INV-24151,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-01-02,2026-02-01,2026-02-01,800.02,800.02,0.0,2026-02-15,44,0,Paid
+INV-24169,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2026-01-02,2026-02-01,2026-02-01,648.41,648.41,0.0,2026-02-07,36,0,Paid
+INV-24196,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-01-02,2026-02-01,2026-02-01,1615.02,1615.02,0.0,2026-02-10,39,0,Paid
+INV-24232,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-01-02,2026-02-01,2026-02-01,2868.14,2868.14,0.0,2026-01-27,25,0,Paid
+INV-24429,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2026-01-02,2026-02-01,2026-02-01,2907.09,2907.09,0.0,2026-02-27,56,0,Paid
+INV-24444,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2026-01-02,2026-02-01,2026-02-01,1468.24,1468.24,0.0,2026-02-06,35,0,Paid
+INV-24671,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-01-02,2026-02-01,2026-02-01,323.6,323.6,0.0,2026-02-17,46,0,Paid
+INV-24779,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-01-02,2026-02-01,2026-02-01,1172.38,1172.38,0.0,2026-02-25,54,0,Paid
+INV-24070,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-01-03,2026-02-02,2026-02-01,1412.03,1412.03,0.0,2026-01-28,25,0,Paid
+INV-24690,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-01-03,2026-02-02,2026-02-01,6156.08,6156.08,0.0,2026-09-27,267,0,Paid
+INV-24020,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2026-01-04,2026-02-03,2026-02-01,3635.23,3635.23,0.0,2026-02-26,53,0,Paid
+INV-24215,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2026-01-04,2026-02-03,2026-02-01,3242.55,3242.55,0.0,2026-02-24,51,0,Paid
+INV-24267,Oakmont Accounting,Jordan Blake,Level 5,Reversal,Applied,2026-01-04,2026-02-03,2026-02-01,-1026.84,-1026.84,0.0,,,0,Paid
+INV-24302,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-01-04,2026-02-03,2026-02-01,2869.49,2869.49,0.0,2026-02-14,41,0,Paid
+INV-24575,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2026-01-04,2026-02-03,2026-02-01,365.27,365.27,0.0,2026-02-05,32,0,Paid
+INV-24654,Timberline Construction,Avery Morgan,Level 1,Invoice,Paid,2026-01-04,2026-02-03,2026-02-01,3890.55,3890.55,0.0,2026-03-17,72,0,Paid
+INV-24762,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-01-04,2026-02-03,2026-02-01,7143.25,7143.25,0.0,2026-03-21,76,0,Paid
+INV-24793,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-01-04,2026-02-03,2026-02-01,1104.97,1104.97,0.0,2026-03-07,62,0,Paid
+INV-24101,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2026-01-05,2026-02-04,2026-02-01,703.81,703.81,0.0,2026-03-05,59,0,Paid
+INV-24118,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-01-05,2026-02-04,2026-02-01,838.71,838.71,0.0,2026-03-07,61,0,Paid
+INV-24182,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2026-01-05,2026-02-04,2026-02-01,587.35,587.35,0.0,2026-03-03,57,0,Paid
+INV-24301,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-01-05,2026-02-04,2026-02-01,1649.52,1649.52,0.0,2026-02-22,48,0,Paid
+INV-24349,Juniper Wealth Advisors,Taylor Quinn,Level 4,Credit Memo,Applied,2026-01-05,2026-02-04,2026-02-01,-199.45,-199.45,0.0,,,0,Paid
+INV-24670,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-01-05,2026-02-04,2026-02-01,300.8,300.8,0.0,2026-02-15,41,0,Paid
+INV-24747,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2026-01-05,2026-02-04,2026-02-01,3475.6,3475.6,0.0,2026-03-12,66,0,Paid
+INV-24811,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-01-05,2026-02-04,2026-02-01,2116.42,2116.42,0.0,2026-02-19,45,0,Paid
+INV-24859,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2026-01-05,2026-02-04,2026-02-01,8182.0,8182.0,0.0,2026-02-20,46,0,Paid
+INV-24268,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-01-06,2026-02-05,2026-02-01,3999.86,3999.86,0.0,2026-08-05,211,0,Paid
+INV-24526,Dunmore Steel,Morgan Reyes,Level 4,Invoice,Paid,2026-01-06,2026-02-05,2026-02-01,1863.25,1863.25,0.0,2026-02-23,48,0,Paid
+INV-24780,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-01-06,2026-02-05,2026-02-01,1077.63,1077.63,0.0,2026-02-25,50,0,Paid
+INV-24810,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-01-06,2026-02-05,2026-02-01,1825.68,1825.68,0.0,2026-02-07,32,0,Paid
+INV-24004,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2026-01-07,2026-02-06,2026-02-01,1910.64,1910.64,0.0,2026-02-01,25,0,Paid
+INV-24036,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-01-07,2026-02-06,2026-02-01,1334.18,1334.18,0.0,2026-03-19,71,0,Paid
+INV-24087,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2026-01-07,2026-02-06,2026-02-01,1672.34,1672.34,0.0,2026-02-01,25,0,Paid
+INV-24197,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-01-07,2026-02-06,2026-02-01,2345.36,2345.36,0.0,2026-02-26,50,0,Paid
+INV-24333,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Paid,2026-01-07,2026-02-06,2026-02-01,1634.9,1634.9,0.0,2026-03-23,75,0,Paid
+INV-24726,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-01-07,2026-02-06,2026-02-01,1634.5,1634.5,0.0,2026-02-06,30,0,Paid
+INV-24794,Union Pipe Credit Union,Riley Carter,Level 4,Credit Memo,Applied,2026-01-07,2026-02-06,2026-02-01,-104.48,-104.48,0.0,,,0,Paid
+INV-24826,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2026-01-07,2026-02-06,2026-02-01,678.14,678.14,0.0,2026-06-03,147,0,Paid
+INV-24052,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-01-08,2026-02-07,2026-02-01,4397.78,4397.78,0.0,2026-04-04,86,0,Paid
+INV-24286,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2026-01-08,2026-02-07,2026-02-01,1755.61,1755.61,0.0,2026-02-28,51,0,Paid
+INV-24317,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2026-01-08,2026-02-07,2026-02-01,5139.61,5139.61,0.0,2026-03-23,74,0,Paid
+INV-24445,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2026-01-08,2026-02-07,2026-02-01,770.03,770.03,0.0,2026-02-15,38,0,Paid
+INV-24494,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2026-01-08,2026-02-07,2026-02-01,1173.53,1173.53,0.0,2026-03-16,67,0,Paid
+INV-24540,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-01-08,2026-02-07,2026-02-01,6094.65,6094.65,0.0,2026-03-08,59,0,Paid
+INV-24623,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2026-01-08,2026-02-07,2026-02-01,626.48,626.48,0.0,2026-03-16,67,0,Paid
+INV-24638,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-01-08,2026-02-07,2026-02-01,993.23,993.23,0.0,2026-09-23,258,0,Paid
+INV-24840,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-01-08,2026-02-07,2026-02-01,5734.53,5734.53,0.0,2026-03-10,61,0,Paid
+INV-24927,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2026-01-08,2026-02-07,2026-02-01,2129.01,2129.01,0.0,2026-02-02,25,0,Paid
+INV-24250,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-01-09,2026-02-08,2026-02-01,1134.7,1134.7,0.0,2026-03-21,71,0,Paid
+INV-24285,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2026-01-09,2026-02-08,2026-02-01,2106.07,2106.07,0.0,2026-03-22,72,0,Paid
+INV-24508,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Paid,2026-01-09,2026-02-08,2026-02-01,9579.14,9579.14,0.0,2026-02-10,32,0,Paid
+INV-24689,Valley Forge Logistics,Morgan Reyes,Level 3,Credit Memo,Applied,2026-01-09,2026-02-08,2026-02-01,-1313.07,-1313.07,0.0,,,0,Paid
+INV-24746,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2026-01-09,2026-02-08,2026-02-01,2569.46,2569.46,0.0,2026-03-15,65,0,Paid
+INV-24893,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-01-09,2026-02-08,2026-02-01,1787.22,1787.22,0.0,2026-03-15,65,0,Paid
+INV-24941,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-01-09,2026-02-08,2026-02-01,382.91,382.91,0.0,2026-02-19,41,0,Paid
+INV-24956,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2026-01-09,2026-02-08,2026-02-01,1573.14,1573.14,0.0,2026-03-16,66,0,Paid
+INV-24069,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,1326.51,1326.51,0.0,2026-02-09,30,0,Paid
+INV-24168,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,527.47,527.47,0.0,2026-03-12,61,0,Paid
+INV-24384,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,850.26,850.26,0.0,2026-03-08,57,0,Paid
+INV-24416,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,1710.98,1710.98,0.0,2026-04-04,84,0,Paid
+INV-24477,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,2009.67,2009.67,0.0,2026-03-02,51,0,Paid
+INV-24558,Coastal Ortho Group,Riley Carter,Level 4,Credit Memo,Applied,2026-01-10,2026-02-09,2026-02-01,-55.92,-55.92,0.0,,,0,Paid
+INV-24592,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,1554.07,1554.07,0.0,2026-03-20,69,0,Paid
+INV-24608,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,3021.86,3021.86,0.0,2026-02-20,41,0,Paid
+INV-24708,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,1532.6,1532.6,0.0,2026-02-09,30,0,Paid
+INV-24727,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,1124.24,1124.24,0.0,2026-02-19,40,0,Paid
+INV-24877,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,598.93,598.93,0.0,2026-03-14,63,0,Paid
+INV-24972,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-01-10,2026-02-09,2026-02-01,920.7,920.7,0.0,2026-03-03,52,0,Paid
+INV-24102,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Posted,2026-02-01,2026-03-03,2026-03-01,899.33,0,899.33,,,252,181-365
+INV-24137,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-02-01,2026-03-03,2026-03-01,1416.65,1416.65,0.0,2026-03-14,41,0,Paid
+INV-24334,Riverbend Hospital,Avery Morgan,Level 3,Credit Memo,Applied,2026-02-01,2026-03-03,2026-03-01,-246.39,-246.39,0.0,,,0,Paid
+INV-24400,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-02-01,2026-03-03,2026-03-01,2036.43,2036.43,0.0,2026-04-02,60,0,Paid
+INV-24812,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-02-01,2026-03-03,2026-03-01,1260.86,1260.86,0.0,2026-03-30,57,0,Paid
+INV-24860,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2026-02-01,2026-03-03,2026-03-01,4880.78,4880.78,0.0,2026-03-13,40,0,Paid
+INV-24542,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-02-02,2026-03-04,2026-03-01,5830.58,5830.58,0.0,2026-03-08,34,0,Paid
+INV-24691,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-02-02,2026-03-04,2026-03-01,9147.83,9147.83,0.0,2026-04-20,77,0,Paid
+INV-24763,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-02-02,2026-03-04,2026-03-01,3630.83,3630.83,0.0,2026-03-24,50,0,Paid
+INV-24795,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-02-02,2026-03-04,2026-03-01,1081.14,1081.14,0.0,2026-03-28,54,0,Paid
+INV-24942,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-02-02,2026-03-04,2026-03-01,324.71,324.71,0.0,2026-03-20,46,0,Paid
+INV-24973,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-02-02,2026-03-04,2026-03-01,1111.59,1111.59,0.0,2026-02-27,25,0,Paid
+INV-24022,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Posted,2026-02-03,2026-03-05,2026-03-01,6884.95,0,6884.95,,,250,181-365
+INV-24037,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-02-03,2026-03-05,2026-03-01,1220.99,1220.99,0.0,2026-03-15,40,0,Paid
+INV-24053,Canyon Ridge Schools,Taylor Quinn,Level 4,Credit Memo,Applied,2026-02-03,2026-03-05,2026-03-01,-2579.23,-2579.23,0.0,,,0,Paid
+INV-24071,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-02-03,2026-03-05,2026-03-01,952.64,952.64,0.0,2026-03-26,51,0,Paid
+INV-24198,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-02-03,2026-03-05,2026-03-01,1838.75,1838.75,0.0,2026-03-08,33,0,Paid
+INV-24199,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-02-03,2026-03-05,2026-03-01,2026.69,2026.69,0.0,2026-03-20,45,0,Paid
+INV-24287,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2026-02-03,2026-03-05,2026-03-01,2340.75,2340.75,0.0,2026-04-01,57,0,Paid
+INV-24417,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2026-02-03,2026-03-05,2026-03-01,1231.57,1231.57,0.0,2026-04-20,76,0,Paid
+INV-24460,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2026-02-03,2026-03-05,2026-03-01,2467.15,2467.15,0.0,2026-04-04,60,0,Paid
+INV-24957,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2026-02-03,2026-03-05,2026-03-01,816.24,816.24,0.0,2026-04-25,81,0,Paid
+INV-24021,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2026-02-04,2026-03-06,2026-03-01,5533.23,5533.23,0.0,2026-03-30,54,0,Paid
+INV-24088,Ironwood Machining,Casey Ellison,Level 2,Credit Memo,Applied,2026-02-04,2026-03-06,2026-03-01,-278.42,-278.42,0.0,,,0,Paid
+INV-24170,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2026-02-04,2026-03-06,2026-03-01,337.65,337.65,0.0,2026-04-03,58,0,Paid
+INV-24233,Indigo Biotech,Casey Ellison,Level 4,Credit Memo,Applied,2026-02-04,2026-03-06,2026-03-01,-416.26,-416.26,0.0,,,0,Paid
+INV-24234,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-02-04,2026-03-06,2026-03-01,1383.22,1383.22,0.0,2026-03-20,44,0,Paid
+INV-24318,Lighthouse Pediatrics,Avery Morgan,Level 4,Credit Memo,Applied,2026-02-04,2026-03-06,2026-03-01,-185.05,-185.05,0.0,,,0,Paid
+INV-24430,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2026-02-04,2026-03-06,2026-03-01,3878.6,3878.6,0.0,2026-04-07,62,0,Paid
+INV-24639,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-02-04,2026-03-06,2026-03-01,1282.45,1282.45,0.0,2026-04-04,59,0,Paid
+INV-24781,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-02-04,2026-03-06,2026-03-01,1136.59,1136.59,0.0,2026-03-16,40,0,Paid
+INV-24894,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-02-04,2026-03-06,2026-03-01,2046.78,2046.78,0.0,2026-03-31,55,0,Paid
+INV-24251,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-02-05,2026-03-07,2026-03-01,1698.24,1698.24,0.0,2026-04-12,66,0,Paid
+INV-24385,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-02-05,2026-03-07,2026-03-01,1112.29,1112.29,0.0,2026-04-02,56,0,Paid
+INV-24543,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-02-05,2026-03-07,2026-03-01,7236.7,7236.7,0.0,2026-03-04,27,0,Paid
+INV-24593,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-02-05,2026-03-07,2026-03-01,1804.35,1804.35,0.0,2026-07-04,149,0,Paid
+INV-24609,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2026-02-05,2026-03-07,2026-03-01,2771.93,2771.93,0.0,2026-03-02,25,0,Paid
+INV-24827,Fieldstone Foods,Drew Patel,Level 3,Credit Memo,Applied,2026-02-05,2026-03-07,2026-03-01,-61.03,-61.03,0.0,,,0,Paid
+INV-24038,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-02-06,2026-03-08,2026-03-01,949.03,949.03,0.0,2026-03-14,36,0,Paid
+INV-24072,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-02-06,2026-03-08,2026-03-01,1607.42,1607.42,0.0,2026-04-05,58,0,Paid
+INV-24153,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-02-06,2026-03-08,2026-03-01,479.11,479.11,0.0,2026-04-07,60,0,Paid
+INV-24269,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-02-06,2026-03-08,2026-03-01,4334.7,4334.7,0.0,2026-05-10,93,0,Paid
+INV-24350,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-02-06,2026-03-08,2026-03-01,599.23,599.23,0.0,2026-04-03,56,0,Paid
+INV-24386,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-02-06,2026-03-08,2026-03-01,1235.59,1235.59,0.0,2026-04-20,73,0,Paid
+INV-24478,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-02-06,2026-03-08,2026-03-01,3638.13,3638.13,0.0,2026-04-20,73,0,Paid
+INV-24495,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2026-02-06,2026-03-08,2026-03-01,1002.22,1002.22,0.0,2026-03-12,34,0,Paid
+INV-24560,Coastal Ortho Group,Riley Carter,Level 4,Credit Memo,Applied,2026-02-06,2026-03-08,2026-03-01,-17.34,-17.34,0.0,,,0,Paid
+INV-24576,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2026-02-06,2026-03-08,2026-03-01,372.84,372.84,0.0,2026-03-10,32,0,Paid
+INV-24672,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-02-06,2026-03-08,2026-03-01,350.07,350.07,0.0,2026-04-01,54,0,Paid
+INV-24559,Coastal Ortho Group,Riley Carter,Level 4,Invoice,Paid,2026-02-07,2026-03-09,2026-03-01,165.94,165.94,0.0,2026-03-14,35,0,Paid
+INV-24728,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-02-07,2026-03-09,2026-03-01,1244.8,1244.8,0.0,2026-03-12,33,0,Paid
+INV-24748,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Partially Paid,2026-02-07,2026-03-09,2026-03-01,2797.29,1895.39,901.9,,,246,181-365
+INV-24911,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-02-07,2026-03-09,2026-03-01,1165.66,1165.66,0.0,2026-03-31,52,0,Paid
+INV-24119,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-02-08,2026-03-10,2026-03-01,913.22,913.22,0.0,2026-04-09,60,0,Paid
+INV-24152,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-02-08,2026-03-10,2026-03-01,514.6,514.6,0.0,2026-04-28,79,0,Paid
+INV-24351,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-02-08,2026-03-10,2026-03-01,965.63,965.63,0.0,2026-05-02,83,0,Paid
+INV-24371,Upland Water Authority,Avery Morgan,Level 2,Credit Memo,Applied,2026-02-08,2026-03-10,2026-03-01,-169.54,-169.54,0.0,,,0,Paid
+INV-24431,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2026-02-08,2026-03-10,2026-03-01,3226.06,3226.06,0.0,2026-03-31,51,0,Paid
+INV-24527,Dunmore Steel,Morgan Reyes,Level 4,Invoice,Paid,2026-02-08,2026-03-10,2026-03-01,2671.64,2671.64,0.0,2026-03-19,39,0,Paid
+INV-24624,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2026-02-08,2026-03-10,2026-03-01,930.21,930.21,0.0,2026-04-04,55,0,Paid
+INV-24729,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-02-08,2026-03-10,2026-03-01,2308.31,2308.31,0.0,2026-04-19,70,0,Paid
+INV-24878,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-02-08,2026-03-10,2026-03-01,957.68,957.68,0.0,2026-04-05,56,0,Paid
+INV-24005,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2026-02-09,2026-03-11,2026-03-01,1977.43,1977.43,0.0,2026-05-02,82,0,Paid
+INV-24136,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-02-09,2026-03-11,2026-03-01,2090.05,2090.05,0.0,2026-03-20,39,0,Paid
+INV-24183,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2026-02-09,2026-03-11,2026-03-01,861.09,861.09,0.0,2026-04-03,53,0,Paid
+INV-24216,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2026-02-09,2026-03-11,2026-03-01,2526.5,2526.5,0.0,2026-04-15,65,0,Paid
+INV-24303,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-02-09,2026-03-11,2026-03-01,2703.63,2703.63,0.0,2026-04-14,64,0,Paid
+INV-24509,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Posted,2026-02-09,2026-03-11,2026-03-01,10103.72,0,10103.72,,,244,181-365
+INV-24655,Timberline Construction,Avery Morgan,Level 1,Invoice,Paid,2026-02-09,2026-03-11,2026-03-01,3654.64,3654.64,0.0,2026-04-17,67,0,Paid
+INV-24692,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-02-09,2026-03-11,2026-03-01,8608.57,8608.57,0.0,2026-04-19,69,0,Paid
+INV-24796,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-02-09,2026-03-11,2026-03-01,1010.12,1010.12,0.0,2026-04-21,71,0,Paid
+INV-24841,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-02-09,2026-03-11,2026-03-01,6390.96,6390.96,0.0,2026-03-16,35,0,Paid
+INV-24372,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2026-02-10,2026-03-12,2026-03-01,1283.88,1283.88,0.0,2026-05-15,94,0,Paid
+INV-24446,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2026-02-10,2026-03-12,2026-03-01,1480.69,1480.69,0.0,2026-04-13,62,0,Paid
+INV-24709,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-02-10,2026-03-12,2026-03-01,1292.95,1292.95,0.0,2026-03-10,28,0,Paid
+INV-24928,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2026-02-10,2026-03-12,2026-03-01,2032.55,2032.55,0.0,2026-04-26,75,0,Paid
+INV-24138,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-03-01,2026-03-31,2026-03-01,2021.54,2021.54,0.0,2026-08-07,159,0,Paid
+INV-24577,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2026-03-01,2026-03-31,2026-03-01,270.53,270.53,0.0,2026-05-01,61,0,Paid
+INV-24764,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-03-01,2026-03-31,2026-03-01,7048.52,7048.52,0.0,2026-05-02,62,0,Paid
+INV-24797,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-03-01,2026-03-31,2026-03-01,716.37,716.37,0.0,2026-04-13,43,0,Paid
+INV-24862,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2026-03-01,2026-03-31,2026-03-01,8439.67,8439.67,0.0,2026-03-31,30,0,Paid
+INV-24373,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2026-03-02,2026-04-01,2026-04-01,2837.78,2837.78,0.0,2026-04-04,33,0,Paid
+INV-24387,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-03-02,2026-04-01,2026-04-01,1107.24,1107.24,0.0,2026-05-13,72,0,Paid
+INV-24496,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2026-03-02,2026-04-01,2026-04-01,1150.1,1150.1,0.0,2026-05-21,80,0,Paid
+INV-24561,Coastal Ortho Group,Riley Carter,Level 4,Invoice,Paid,2026-03-02,2026-04-01,2026-04-01,293.77,293.77,0.0,2026-04-16,45,0,Paid
+INV-24595,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-03-02,2026-04-01,2026-04-01,1054.39,1054.39,0.0,2026-05-14,73,0,Paid
+INV-24154,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-03-03,2026-04-02,2026-04-01,917.97,917.97,0.0,2026-03-28,25,0,Paid
+INV-24432,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2026-03-03,2026-04-02,2026-04-01,3811.72,3811.72,0.0,2026-04-09,37,0,Paid
+INV-24510,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Paid,2026-03-03,2026-04-02,2026-04-01,5413.81,5413.81,0.0,2026-04-02,30,0,Paid
+INV-24843,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-03-03,2026-04-02,2026-04-01,3557.29,3557.29,0.0,2026-04-05,33,0,Paid
+INV-24974,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-03-03,2026-04-02,2026-04-01,1482.24,1482.24,0.0,2026-04-18,46,0,Paid
+INV-24975,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-03-03,2026-04-02,2026-04-01,1605.66,1605.66,0.0,2026-04-24,52,0,Paid
+INV-24006,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2026-03-04,2026-04-03,2026-04-01,2967.56,2967.56,0.0,2026-05-10,67,0,Paid
+INV-24054,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-03-04,2026-04-03,2026-04-01,8196.34,8196.34,0.0,2026-04-24,51,0,Paid
+INV-24120,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-03-04,2026-04-03,2026-04-01,927.68,927.68,0.0,2026-07-27,145,0,Paid
+INV-24184,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2026-03-04,2026-04-03,2026-04-01,602.13,602.13,0.0,2026-05-13,70,0,Paid
+INV-24235,Indigo Biotech,Casey Ellison,Level 4,Credit Memo,Applied,2026-03-04,2026-04-03,2026-04-01,-517.51,-517.51,0.0,,,0,Paid
+INV-24252,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-03-04,2026-04-03,2026-04-01,1096.5,1096.5,0.0,2026-04-08,35,0,Paid
+INV-24479,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-03-04,2026-04-03,2026-04-01,4171.94,4171.94,0.0,2026-04-15,42,0,Paid
+INV-24528,Dunmore Steel,Morgan Reyes,Level 4,Invoice,Paid,2026-03-04,2026-04-03,2026-04-01,3608.79,3608.79,0.0,2026-05-03,60,0,Paid
+INV-24657,Timberline Construction,Avery Morgan,Level 1,Invoice,Paid,2026-03-04,2026-04-03,2026-04-01,2429.03,2429.03,0.0,2026-05-03,60,0,Paid
+INV-24673,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-03-04,2026-04-03,2026-04-01,380.77,380.77,0.0,2026-04-14,41,0,Paid
+INV-24879,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-03-04,2026-04-03,2026-04-01,866.87,866.87,0.0,2026-04-01,28,0,Paid
+INV-24594,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-03-05,2026-04-04,2026-04-01,958.65,958.65,0.0,2026-04-06,32,0,Paid
+INV-24611,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2026-03-05,2026-04-04,2026-04-01,4212.64,4212.64,0.0,2026-04-27,53,0,Paid
+INV-24625,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2026-03-05,2026-04-04,2026-04-01,442.03,442.03,0.0,2026-04-16,42,0,Paid
+INV-24693,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-03-05,2026-04-04,2026-04-01,5807.25,5807.25,0.0,2026-04-18,44,0,Paid
+INV-24200,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-03-06,2026-04-05,2026-04-01,2788.8,2788.8,0.0,2026-04-27,52,0,Paid
+INV-24218,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2026-03-06,2026-04-05,2026-04-01,2108.8,2108.8,0.0,2026-05-16,71,0,Paid
+INV-24694,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-03-06,2026-04-05,2026-04-01,7157.3,7157.3,0.0,2026-03-31,25,0,Paid
+INV-24710,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-03-06,2026-04-05,2026-04-01,769.98,769.98,0.0,2026-04-01,26,0,Paid
+INV-24730,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-03-06,2026-04-05,2026-04-01,2192.78,2192.78,0.0,2026-05-03,58,0,Paid
+INV-24039,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,1620.61,1620.61,0.0,2026-05-10,64,0,Paid
+INV-24171,Bayline Logistics,Drew Patel,Level 2,Invoice,Partially Paid,2026-03-07,2026-04-06,2026-04-01,348.1,172.39,175.71,,,218,181-365
+INV-24335,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,1756.22,1756.22,0.0,2026-04-05,29,0,Paid
+INV-24352,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,504.52,504.52,0.0,2026-04-19,43,0,Paid
+INV-24401,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,2378.25,2378.25,0.0,2026-04-16,40,0,Paid
+INV-24418,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,1054.63,1054.63,0.0,2026-09-28,205,0,Paid
+INV-24447,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,1395.68,1395.68,0.0,2026-05-09,63,0,Paid
+INV-24640,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,1001.3,1001.3,0.0,2026-04-01,25,0,Paid
+INV-24782,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,804.77,804.77,0.0,2026-04-20,44,0,Paid
+INV-24813,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,1531.71,1531.71,0.0,2026-04-22,46,0,Paid
+INV-24828,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,515.73,515.73,0.0,2026-05-15,69,0,Paid
+INV-24895,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,2493.2,2493.2,0.0,2026-04-27,51,0,Paid
+INV-24929,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,3315.88,3315.88,0.0,2026-04-29,53,0,Paid
+INV-24958,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2026-03-07,2026-04-06,2026-04-01,1310.88,1310.88,0.0,2026-06-01,86,0,Paid
+INV-24089,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2026-03-08,2026-04-07,2026-04-01,2590.25,2590.25,0.0,2026-04-03,26,0,Paid
+INV-24103,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2026-03-08,2026-04-07,2026-04-01,896.17,896.17,0.0,2026-04-27,50,0,Paid
+INV-24139,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-03-08,2026-04-07,2026-04-01,1040.51,1040.51,0.0,2026-05-06,59,0,Paid
+INV-24270,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-03-08,2026-04-07,2026-04-01,4568.73,4568.73,0.0,2026-05-07,60,0,Paid
+INV-24304,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-03-08,2026-04-07,2026-04-01,2630.25,2630.25,0.0,2026-05-02,55,0,Paid
+INV-24842,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-03-08,2026-04-07,2026-04-01,5939.76,5939.76,0.0,2026-04-03,26,0,Paid
+INV-24073,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-03-09,2026-04-08,2026-04-01,942.65,942.65,0.0,2026-05-03,55,0,Paid
+INV-24104,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2026-03-09,2026-04-08,2026-04-01,1499.33,1499.33,0.0,2026-04-12,34,0,Paid
+INV-24217,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2026-03-09,2026-04-08,2026-04-01,1455.59,1455.59,0.0,2026-05-04,56,0,Paid
+INV-24288,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2026-03-09,2026-04-08,2026-04-01,3003.89,3003.89,0.0,2026-04-09,31,0,Paid
+INV-24319,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2026-03-09,2026-04-08,2026-04-01,3774.32,3774.32,0.0,2026-04-18,40,0,Paid
+INV-24461,Rosewood Hotels,Avery Morgan,Level 2,Credit Memo,Applied,2026-03-09,2026-04-08,2026-04-01,-123.62,-123.62,0.0,,,0,Paid
+INV-24544,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-03-09,2026-04-08,2026-04-01,3368.54,3368.54,0.0,2026-04-29,51,0,Paid
+INV-24610,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2026-03-09,2026-04-08,2026-04-01,3547.82,3547.82,0.0,2026-04-28,50,0,Paid
+INV-24749,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2026-03-09,2026-04-08,2026-04-01,1916.5,1916.5,0.0,2026-04-15,37,0,Paid
+INV-24829,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2026-03-09,2026-04-08,2026-04-01,686.95,686.95,0.0,2026-05-07,59,0,Paid
+INV-24943,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-03-09,2026-04-08,2026-04-01,433.03,433.03,0.0,2026-04-28,50,0,Paid
+INV-24023,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2026-03-10,2026-04-09,2026-04-01,6282.28,6282.28,0.0,2026-04-14,35,0,Paid
+INV-24253,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-03-10,2026-04-09,2026-04-01,1841.94,1841.94,0.0,2026-04-19,40,0,Paid
+INV-24656,Timberline Construction,Avery Morgan,Level 1,Invoice,Paid,2026-03-10,2026-04-09,2026-04-01,2472.05,2472.05,0.0,2026-05-12,63,0,Paid
+INV-24861,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2026-03-10,2026-04-09,2026-04-01,6428.68,6428.68,0.0,2026-05-04,55,0,Paid
+INV-24896,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-03-10,2026-04-09,2026-04-01,1591.37,1591.37,0.0,2026-05-02,53,0,Paid
+INV-24912,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-03-10,2026-04-09,2026-04-01,877.05,877.05,0.0,2026-05-05,56,0,Paid
+INV-24090,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2026-04-01,2026-05-01,2026-05-01,2103.55,2103.55,0.0,2026-04-26,25,0,Paid
+INV-24201,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-04-01,2026-05-01,2026-05-01,3090.06,3090.06,0.0,2026-05-31,60,0,Paid
+INV-24402,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-04-01,2026-05-01,2026-05-01,2142.6,2142.6,0.0,2026-05-15,44,0,Paid
+INV-24562,Coastal Ortho Group,Riley Carter,Level 4,Credit Memo,Applied,2026-04-01,2026-05-01,2026-05-01,-34.58,-34.58,0.0,,,0,Paid
+INV-24641,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-04-01,2026-05-01,2026-05-01,1593.5,1593.5,0.0,2026-05-21,50,0,Paid
+INV-24675,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-04-01,2026-05-01,2026-05-01,447.7,447.7,0.0,2026-05-08,37,0,Paid
+INV-24732,Ivy League Tutoring,Riley Carter,Level 3,Credit Memo,Applied,2026-04-01,2026-05-01,2026-05-01,-347.73,-347.73,0.0,,,0,Paid
+INV-24897,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-04-01,2026-05-01,2026-05-01,2135.37,2135.37,0.0,2026-06-09,69,0,Paid
+INV-24388,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-04-02,2026-05-02,2026-05-01,1102.93,1102.93,0.0,2026-06-18,77,0,Paid
+INV-24419,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2026-04-02,2026-05-02,2026-05-01,1301.81,1301.81,0.0,2026-08-17,137,0,Paid
+INV-24480,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-04-02,2026-05-02,2026-05-01,2694.96,2694.96,0.0,2026-05-08,36,0,Paid
+INV-24529,Dunmore Steel,Morgan Reyes,Level 4,Credit Memo,Applied,2026-04-02,2026-05-02,2026-05-01,-385.2,-385.2,0.0,,,0,Paid
+INV-24830,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2026-04-02,2026-05-02,2026-05-01,562.26,562.26,0.0,2026-06-01,60,0,Paid
+INV-24881,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-04-02,2026-05-02,2026-05-01,994.49,994.49,0.0,2026-06-14,73,0,Paid
+INV-24007,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2026-04-03,2026-05-03,2026-05-01,1884.57,1884.57,0.0,2026-09-09,159,0,Paid
+INV-24121,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-04-03,2026-05-03,2026-05-01,614.15,614.15,0.0,2026-06-02,60,0,Paid
+INV-24122,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-04-03,2026-05-03,2026-05-01,559.61,559.61,0.0,2026-05-15,42,0,Paid
+INV-24354,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-04-03,2026-05-03,2026-05-01,718.87,718.87,0.0,2026-06-09,67,0,Paid
+INV-24626,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2026-04-03,2026-05-03,2026-05-01,953.91,953.91,0.0,2026-06-17,75,0,Paid
+INV-24844,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-04-03,2026-05-03,2026-05-01,4518.56,4518.56,0.0,2026-06-04,62,0,Paid
+INV-24055,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-04-04,2026-05-04,2026-05-01,5194.54,5194.54,0.0,2026-06-04,61,0,Paid
+INV-24305,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-04-04,2026-05-04,2026-05-01,2424.77,2424.77,0.0,2026-05-12,38,0,Paid
+INV-24374,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2026-04-04,2026-05-04,2026-05-01,1401.0,1401.0,0.0,2026-06-26,83,0,Paid
+INV-24433,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2026-04-04,2026-05-04,2026-05-01,3632.29,3632.29,0.0,2026-05-24,50,0,Paid
+INV-24448,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2026-04-04,2026-05-04,2026-05-01,1263.92,1263.92,0.0,2026-05-16,42,0,Paid
+INV-24578,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2026-04-04,2026-05-04,2026-05-01,239.19,239.19,0.0,2026-05-04,30,0,Paid
+INV-24913,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-04-04,2026-05-04,2026-05-01,567.46,567.46,0.0,2026-05-31,57,0,Paid
+INV-24024,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2026-04-05,2026-05-05,2026-05-01,4290.81,4290.81,0.0,2026-05-18,43,0,Paid
+INV-24105,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2026-04-05,2026-05-05,2026-05-01,1111.21,1111.21,0.0,2026-06-11,67,0,Paid
+INV-24140,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-04-05,2026-05-05,2026-05-01,1690.33,1690.33,0.0,2026-06-21,77,0,Paid
+INV-24219,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2026-04-05,2026-05-05,2026-05-01,2640.09,2640.09,0.0,2026-05-25,50,0,Paid
+INV-24403,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-04-05,2026-05-05,2026-05-01,2900.53,2900.53,0.0,2026-05-22,47,0,Paid
+INV-24462,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2026-04-05,2026-05-05,2026-05-01,1546.66,1546.66,0.0,2026-05-20,45,0,Paid
+INV-24497,Westlake Municipal,Casey Ellison,Level 3,Invoice,Posted,2026-04-05,2026-05-05,2026-05-01,1282.68,0,1282.68,,,189,181-365
+INV-24658,Timberline Construction,Avery Morgan,Level 1,Invoice,Paid,2026-04-05,2026-05-05,2026-05-01,3698.03,3698.03,0.0,2026-05-06,31,0,Paid
+INV-24711,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-04-05,2026-05-05,2026-05-01,1462.95,1462.95,0.0,2026-05-20,45,0,Paid
+INV-24930,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2026-04-05,2026-05-05,2026-05-01,3216.57,3216.57,0.0,2026-05-05,30,0,Paid
+INV-24155,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-04-06,2026-05-06,2026-05-01,812.29,812.29,0.0,2026-06-06,61,0,Paid
+INV-24236,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-04-06,2026-05-06,2026-05-01,2922.07,2922.07,0.0,2026-05-19,43,0,Paid
+INV-24271,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-04-06,2026-05-06,2026-05-01,4475.13,4475.13,0.0,2026-06-26,81,0,Paid
+INV-24336,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Paid,2026-04-06,2026-05-06,2026-05-01,1944.92,1944.92,0.0,2026-05-01,25,0,Paid
+INV-24337,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Paid,2026-04-06,2026-05-06,2026-05-01,1472.44,1472.44,0.0,2026-05-29,53,0,Paid
+INV-24765,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-04-06,2026-05-06,2026-05-01,5764.79,5764.79,0.0,2026-05-16,40,0,Paid
+INV-24783,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-04-06,2026-05-06,2026-05-01,1022.54,1022.54,0.0,2026-05-28,52,0,Paid
+INV-24880,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-04-06,2026-05-06,2026-05-01,704.14,704.14,0.0,2026-05-21,45,0,Paid
+INV-24320,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2026-04-07,2026-05-07,2026-05-01,2568.48,2568.48,0.0,2026-05-17,40,0,Paid
+INV-24545,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-04-07,2026-05-07,2026-05-01,5716.34,5716.34,0.0,2026-06-11,65,0,Paid
+INV-24695,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Posted,2026-04-07,2026-05-07,2026-05-01,7781.6,0,7781.6,,,187,181-365
+INV-24202,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-04-08,2026-05-08,2026-05-01,1437.99,1437.99,0.0,2026-05-14,36,0,Paid
+INV-24237,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-04-08,2026-05-08,2026-05-01,1873.56,1873.56,0.0,2026-06-09,62,0,Paid
+INV-24511,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Paid,2026-04-08,2026-05-08,2026-05-01,6739.39,6739.39,0.0,2026-06-29,82,0,Paid
+INV-24596,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-04-08,2026-05-08,2026-05-01,1220.51,1220.51,0.0,2026-06-06,59,0,Paid
+INV-24674,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-04-08,2026-05-08,2026-05-01,436.08,436.08,0.0,2026-06-29,82,0,Paid
+INV-24731,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-04-08,2026-05-08,2026-05-01,2241.56,2241.56,0.0,2026-05-20,42,0,Paid
+INV-24766,Falcon Crest Dental,Casey Ellison,Level 4,Credit Memo,Applied,2026-04-08,2026-05-08,2026-05-01,-1737.2,-1737.2,0.0,,,0,Paid
+INV-24863,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2026-04-08,2026-05-08,2026-05-01,6054.49,6054.49,0.0,2026-07-03,86,0,Paid
+INV-24977,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-04-08,2026-05-08,2026-05-01,1371.56,1371.56,0.0,2026-05-29,51,0,Paid
+INV-24185,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2026-04-09,2026-05-09,2026-05-01,728.65,728.65,0.0,2026-05-27,48,0,Paid
+INV-24353,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-04-09,2026-05-09,2026-05-01,569.67,569.67,0.0,2026-05-27,48,0,Paid
+INV-24612,Aldergrove Credit Union,Drew Patel,Level 3,Credit Memo,Applied,2026-04-09,2026-05-09,2026-05-01,-330.58,-330.58,0.0,,,0,Paid
+INV-24814,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-04-09,2026-05-09,2026-05-01,2163.23,2163.23,0.0,2026-05-17,38,0,Paid
+INV-24914,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-04-09,2026-05-09,2026-05-01,571.4,571.4,0.0,2026-05-24,45,0,Paid
+INV-24944,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-04-09,2026-05-09,2026-05-01,428.59,428.59,0.0,2026-05-04,25,0,Paid
+INV-24959,Hawthorne Plastics,Riley Carter,Level 3,Credit Memo,Applied,2026-04-09,2026-05-09,2026-05-01,-90.82,-90.82,0.0,,,0,Paid
+INV-24040,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-04-10,2026-05-10,2026-05-01,1395.59,1395.59,0.0,2026-06-01,52,0,Paid
+INV-24074,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-04-10,2026-05-10,2026-05-01,2029.25,2029.25,0.0,2026-06-06,57,0,Paid
+INV-24172,Bayline Logistics,Drew Patel,Level 2,Reversal,Applied,2026-04-10,2026-05-10,2026-05-01,-81.73,-81.73,0.0,,,0,Paid
+INV-24254,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-04-10,2026-05-10,2026-05-01,1233.18,1233.18,0.0,2026-05-25,45,0,Paid
+INV-24289,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2026-04-10,2026-05-10,2026-05-01,1689.87,1689.87,0.0,2026-06-02,53,0,Paid
+INV-24750,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2026-04-10,2026-05-10,2026-05-01,3417.05,3417.05,0.0,2026-05-05,25,0,Paid
+INV-24798,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-04-10,2026-05-10,2026-05-01,982.8,982.8,0.0,2026-05-07,27,0,Paid
+INV-24864,Driftwood Hospitality,Avery Morgan,Level 3,Credit Memo,Applied,2026-04-10,2026-05-10,2026-05-01,-1041.53,-1041.53,0.0,,,0,Paid
+INV-24976,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-04-10,2026-05-10,2026-05-01,1021.11,1021.11,0.0,2026-05-14,34,0,Paid
+INV-24075,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-05-01,2026-05-31,2026-05-01,1199.35,1199.35,0.0,2026-06-13,43,0,Paid
+INV-24076,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-05-01,2026-05-31,2026-05-01,1785.86,1785.86,0.0,2026-06-30,60,0,Paid
+INV-24091,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2026-05-01,2026-05-31,2026-05-01,1269.79,1269.79,0.0,2026-06-17,47,0,Paid
+INV-24092,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2026-05-01,2026-05-31,2026-05-01,2528.36,2528.36,0.0,2026-05-26,25,0,Paid
+INV-24272,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-05-01,2026-05-31,2026-05-01,4339.32,4339.32,0.0,2026-08-05,96,0,Paid
+INV-24799,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-05-01,2026-05-31,2026-05-01,789.02,789.02,0.0,2026-06-18,48,0,Paid
+INV-24865,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2026-05-01,2026-05-31,2026-05-01,6041.91,6041.91,0.0,2026-06-21,51,0,Paid
+INV-24899,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-05-01,2026-05-31,2026-05-01,1837.03,1837.03,0.0,2026-05-26,25,0,Paid
+INV-24931,Whitestone Law Group,Morgan Reyes,Level 1,Credit Memo,Applied,2026-05-01,2026-05-31,2026-05-01,-640.56,-640.56,0.0,,,0,Paid
+INV-24008,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2026-05-02,2026-06-01,2026-06-01,2902.0,2902.0,0.0,2026-06-02,31,0,Paid
+INV-24056,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-05-02,2026-06-01,2026-06-01,5892.89,5892.89,0.0,2026-06-01,30,0,Paid
+INV-24106,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2026-05-02,2026-06-01,2026-06-01,1581.22,1581.22,0.0,2026-06-08,37,0,Paid
+INV-24124,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-05-02,2026-06-01,2026-06-01,594.95,594.95,0.0,2026-06-30,59,0,Paid
+INV-24173,Bayline Logistics,Drew Patel,Level 2,Reversal,Applied,2026-05-02,2026-06-01,2026-06-01,-98.15,-98.15,0.0,,,0,Paid
+INV-24482,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-05-02,2026-06-01,2026-06-01,3641.64,3641.64,0.0,2026-07-24,83,0,Paid
+INV-24498,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2026-05-02,2026-06-01,2026-06-01,990.42,990.42,0.0,2026-06-17,46,0,Paid
+INV-24784,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-05-02,2026-06-01,2026-06-01,516.69,516.69,0.0,2026-06-27,56,0,Paid
+INV-24815,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-05-02,2026-06-01,2026-06-01,1477.45,1477.45,0.0,2026-06-14,43,0,Paid
+INV-24107,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2026-05-03,2026-06-02,2026-06-01,1227.97,1227.97,0.0,2026-06-11,39,0,Paid
+INV-24141,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-05-03,2026-06-02,2026-06-01,1852.53,1852.53,0.0,2026-05-28,25,0,Paid
+INV-24512,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Paid,2026-05-03,2026-06-02,2026-06-01,7048.45,7048.45,0.0,2026-06-28,56,0,Paid
+INV-24530,Dunmore Steel,Morgan Reyes,Level 4,Invoice,Paid,2026-05-03,2026-06-02,2026-06-01,2039.01,2039.01,0.0,2026-06-24,52,0,Paid
+INV-24627,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2026-05-03,2026-06-02,2026-06-01,557.52,557.52,0.0,2026-06-26,54,0,Paid
+INV-24643,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-05-03,2026-06-02,2026-06-01,1177.21,1177.21,0.0,2026-06-20,48,0,Paid
+INV-24733,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-05-03,2026-06-02,2026-06-01,1365.17,1365.17,0.0,2026-06-13,41,0,Paid
+INV-24831,Fieldstone Foods,Drew Patel,Level 3,Invoice,Posted,2026-05-03,2026-06-02,2026-06-01,776.18,0,776.18,,,161,121-180
+INV-24204,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-05-04,2026-06-03,2026-06-01,2988.78,2988.78,0.0,2026-06-15,42,0,Paid
+INV-24238,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-05-04,2026-06-03,2026-06-01,2813.9,2813.9,0.0,2026-06-09,36,0,Paid
+INV-24321,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2026-05-04,2026-06-03,2026-06-01,3786.37,3786.37,0.0,2026-06-21,48,0,Paid
+INV-24434,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2026-05-04,2026-06-03,2026-06-01,3746.87,3746.87,0.0,2026-05-29,25,0,Paid
+INV-24463,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2026-05-04,2026-06-03,2026-06-01,1810.13,1810.13,0.0,2026-05-29,25,0,Paid
+INV-24613,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2026-05-04,2026-06-03,2026-06-01,2707.95,2707.95,0.0,2026-06-16,43,0,Paid
+INV-24659,Timberline Construction,Avery Morgan,Level 1,Reversal,Applied,2026-05-04,2026-06-03,2026-06-01,-336.69,-336.69,0.0,,,0,Paid
+INV-24713,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-05-04,2026-06-03,2026-06-01,1179.53,1179.53,0.0,2026-07-08,65,0,Paid
+INV-24579,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2026-05-05,2026-06-04,2026-06-01,367.19,367.19,0.0,2026-05-30,25,0,Paid
+INV-24978,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-05-05,2026-06-04,2026-06-01,968.55,968.55,0.0,2026-05-30,25,0,Paid
+INV-24157,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-05-06,2026-06-05,2026-06-01,748.13,748.13,0.0,2026-06-09,34,0,Paid
+INV-24306,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-05-06,2026-06-05,2026-06-01,2822.37,2822.37,0.0,2026-05-31,25,0,Paid
+INV-24375,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2026-05-06,2026-06-05,2026-06-01,2883.6,2883.6,0.0,2026-07-15,70,0,Paid
+INV-24642,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-05-06,2026-06-05,2026-06-01,1388.02,1388.02,0.0,2026-07-04,59,0,Paid
+INV-24712,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-05-06,2026-06-05,2026-06-01,1475.24,1475.24,0.0,2026-06-15,40,0,Paid
+INV-24882,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-05-06,2026-06-05,2026-06-01,549.45,549.45,0.0,2026-07-21,76,0,Paid
+INV-24041,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-05-07,2026-06-06,2026-06-01,913.74,913.74,0.0,2026-07-28,82,0,Paid
+INV-24563,Coastal Ortho Group,Riley Carter,Level 4,Invoice,Paid,2026-05-07,2026-06-06,2026-06-01,178.59,178.59,0.0,2026-06-01,25,0,Paid
+INV-24676,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-05-07,2026-06-06,2026-06-01,333.77,333.77,0.0,2026-06-01,25,0,Paid
+INV-24696,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-05-07,2026-06-06,2026-06-01,7651.89,7651.89,0.0,2026-06-01,25,0,Paid
+INV-24898,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-05-07,2026-06-06,2026-06-01,1268.92,1268.92,0.0,2026-06-20,44,0,Paid
+INV-24915,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-05-07,2026-06-06,2026-06-01,728.51,728.51,0.0,2026-07-03,57,0,Paid
+INV-24945,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-05-07,2026-06-06,2026-06-01,392.99,392.99,0.0,2026-07-01,55,0,Paid
+INV-24123,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-05-08,2026-06-07,2026-06-01,489.88,489.88,0.0,2026-07-12,65,0,Paid
+INV-24186,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2026-05-08,2026-06-07,2026-06-01,767.73,767.73,0.0,2026-06-26,49,0,Paid
+INV-24255,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-05-08,2026-06-07,2026-06-01,1743.66,1743.66,0.0,2026-07-03,56,0,Paid
+INV-24290,Amberfield Orthopedics,Riley Carter,Level 1,Credit Memo,Applied,2026-05-08,2026-06-07,2026-06-01,-564.2,-564.2,0.0,,,0,Paid
+INV-24322,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2026-05-08,2026-06-07,2026-06-01,3145.82,3145.82,0.0,2026-07-14,67,0,Paid
+INV-24338,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Paid,2026-05-08,2026-06-07,2026-06-01,1898.06,1898.06,0.0,2026-06-02,25,0,Paid
+INV-24389,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-05-08,2026-06-07,2026-06-01,1405.1,1405.1,0.0,2026-06-08,31,0,Paid
+INV-24752,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2026-05-08,2026-06-07,2026-06-01,3492.28,3492.28,0.0,2026-06-25,48,0,Paid
+INV-24025,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,3620.6,3620.6,0.0,2026-07-11,63,0,Paid
+INV-24203,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,2971.62,2971.62,0.0,2026-07-18,70,0,Paid
+INV-24239,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,2785.53,2785.53,0.0,2026-06-07,29,0,Paid
+INV-24481,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,3570.81,3570.81,0.0,2026-07-11,63,0,Paid
+INV-24546,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,5574.46,5574.46,0.0,2026-06-03,25,0,Paid
+INV-24564,Coastal Ortho Group,Riley Carter,Level 4,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,308.81,308.81,0.0,2026-07-09,61,0,Paid
+INV-24580,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,355.39,355.39,0.0,2026-07-18,70,0,Paid
+INV-24598,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,1066.71,1066.71,0.0,2026-07-01,53,0,Paid
+INV-24751,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,2768.03,2768.03,0.0,2026-06-03,25,0,Paid
+INV-24767,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,6243.25,6243.25,0.0,2026-10-14,158,0,Paid
+INV-24960,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,1389.89,1389.89,0.0,2026-06-08,30,0,Paid
+INV-24961,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2026-05-09,2026-06-08,2026-06-01,1704.87,1704.87,0.0,2026-06-20,42,0,Paid
+INV-24156,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-05-10,2026-06-09,2026-06-01,819.23,819.23,0.0,2026-06-04,25,0,Paid
+INV-24220,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2026-05-10,2026-06-09,2026-06-01,3149.96,3149.96,0.0,2026-07-09,60,0,Paid
+INV-24355,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-05-10,2026-06-09,2026-06-01,610.67,610.67,0.0,2026-06-09,30,0,Paid
+INV-24404,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-05-10,2026-06-09,2026-06-01,3151.34,3151.34,0.0,2026-07-11,62,0,Paid
+INV-24420,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2026-05-10,2026-06-09,2026-06-01,1553.66,1553.66,0.0,2026-06-22,43,0,Paid
+INV-24449,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2026-05-10,2026-06-09,2026-06-01,845.69,845.69,0.0,2026-06-14,35,0,Paid
+INV-24597,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-05-10,2026-06-09,2026-06-01,1498.44,1498.44,0.0,2026-06-25,46,0,Paid
+INV-24677,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-05-10,2026-06-09,2026-06-01,578.54,578.54,0.0,2026-06-07,28,0,Paid
+INV-24845,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-05-10,2026-06-09,2026-06-01,6063.85,6063.85,0.0,2026-06-04,25,0,Paid
+INV-24291,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2026-06-01,2026-07-01,2026-07-01,2890.11,2890.11,0.0,2026-07-09,38,0,Paid
+INV-24307,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-06-01,2026-07-01,2026-07-01,1898.5,1898.5,0.0,2026-07-21,50,0,Paid
+INV-24753,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2026-06-01,2026-07-01,2026-07-01,2496.01,2496.01,0.0,2026-06-30,29,0,Paid
+INV-24800,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-06-01,2026-07-01,2026-07-01,598.34,598.34,0.0,2026-08-27,87,0,Paid
+INV-24932,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2026-06-01,2026-07-01,2026-07-01,3531.04,3531.04,0.0,2026-07-16,45,0,Paid
+INV-24057,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-06-02,2026-07-02,2026-07-01,5318.38,5318.38,0.0,2026-07-01,29,0,Paid
+INV-24435,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2026-06-02,2026-07-02,2026-07-01,3558.13,3558.13,0.0,2026-07-30,58,0,Paid
+INV-24465,Rosewood Hotels,Avery Morgan,Level 2,Credit Memo,Applied,2026-06-02,2026-07-02,2026-07-01,-360.8,-360.8,0.0,,,0,Paid
+INV-24531,Dunmore Steel,Morgan Reyes,Level 4,Credit Memo,Applied,2026-06-02,2026-07-02,2026-07-01,-220.31,-220.31,0.0,,,0,Paid
+INV-24614,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2026-06-02,2026-07-02,2026-07-01,3386.23,3386.23,0.0,2026-07-26,54,0,Paid
+INV-24817,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-06-02,2026-07-02,2026-07-01,2380.63,2380.63,0.0,2026-07-14,42,0,Paid
+INV-24866,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2026-06-02,2026-07-02,2026-07-01,8332.96,8332.96,0.0,2026-07-13,41,0,Paid
+INV-24946,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-06-02,2026-07-02,2026-07-01,352.93,352.93,0.0,2026-07-07,35,0,Paid
+INV-24093,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2026-06-03,2026-07-03,2026-07-01,2183.63,2183.63,0.0,2026-07-19,46,0,Paid
+INV-24339,Riverbend Hospital,Avery Morgan,Level 3,Credit Memo,Applied,2026-06-03,2026-07-03,2026-07-01,-433.17,-433.17,0.0,,,0,Paid
+INV-24376,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2026-06-03,2026-07-03,2026-07-01,1662.65,1662.65,0.0,2026-07-08,35,0,Paid
+INV-24421,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2026-06-03,2026-07-03,2026-07-01,869.03,869.03,0.0,2026-07-10,37,0,Paid
+INV-24547,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-06-03,2026-07-03,2026-07-01,3409.61,3409.61,0.0,2026-07-05,32,0,Paid
+INV-24644,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-06-03,2026-07-03,2026-07-01,1521.21,1521.21,0.0,2026-06-28,25,0,Paid
+INV-24660,Timberline Construction,Avery Morgan,Level 1,Reversal,Applied,2026-06-03,2026-07-03,2026-07-01,-448.2,-448.2,0.0,,,0,Paid
+INV-24010,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2026-06-04,2026-07-04,2026-07-01,2598.56,2598.56,0.0,2026-07-18,44,0,Paid
+INV-24077,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-06-04,2026-07-04,2026-07-01,1435.74,1435.74,0.0,2026-08-11,68,0,Paid
+INV-24221,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2026-06-04,2026-07-04,2026-07-01,1878.89,1878.89,0.0,2026-07-27,53,0,Paid
+INV-24513,Birchwood Dental Group,Drew Patel,Level 4,Credit Memo,Applied,2026-06-04,2026-07-04,2026-07-01,-1779.43,-1779.43,0.0,,,0,Paid
+INV-24697,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-06-04,2026-07-04,2026-07-01,8240.75,8240.75,0.0,2026-08-05,62,0,Paid
+INV-24714,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Posted,2026-06-04,2026-07-04,2026-07-01,1676.43,0,1676.43,,,129,121-180
+INV-24963,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2026-06-04,2026-07-04,2026-07-01,1164.5,1164.5,0.0,2026-08-01,58,0,Paid
+INV-24980,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-06-04,2026-07-04,2026-07-01,726.54,726.54,0.0,2026-07-10,36,0,Paid
+INV-24125,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-06-05,2026-07-05,2026-07-01,454.29,454.29,0.0,2026-06-30,25,0,Paid
+INV-24273,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-06-05,2026-07-05,2026-07-01,6100.31,6100.31,0.0,2026-07-10,35,0,Paid
+INV-24450,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2026-06-05,2026-07-05,2026-07-01,681.64,681.64,0.0,2026-07-29,54,0,Paid
+INV-24645,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-06-05,2026-07-05,2026-07-01,1769.1,1769.1,0.0,2026-07-22,47,0,Paid
+INV-24801,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-06-05,2026-07-05,2026-07-01,1121.98,1121.98,0.0,2026-07-12,37,0,Paid
+INV-24143,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-06-06,2026-07-06,2026-07-01,1780.02,1780.02,0.0,2026-10-17,133,0,Paid
+INV-24174,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2026-06-06,2026-07-06,2026-07-01,470.74,470.74,0.0,2026-08-02,57,0,Paid
+INV-24240,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-06-06,2026-07-06,2026-07-01,2495.16,2495.16,0.0,2026-07-01,25,0,Paid
+INV-24323,Lighthouse Pediatrics,Avery Morgan,Level 4,Reversal,Applied,2026-06-06,2026-07-06,2026-07-01,-273.24,-273.24,0.0,,,0,Paid
+INV-24405,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-06-06,2026-07-06,2026-07-01,2084.95,2084.95,0.0,2026-07-04,28,0,Paid
+INV-24499,Westlake Municipal,Casey Ellison,Level 3,Reversal,Applied,2026-06-06,2026-07-06,2026-07-01,-389.21,-389.21,0.0,,,0,Paid
+INV-24715,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-06-06,2026-07-06,2026-07-01,1292.05,1292.05,0.0,2026-07-06,30,0,Paid
+INV-24769,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-06-06,2026-07-06,2026-07-01,6952.61,6952.61,0.0,2026-07-16,40,0,Paid
+INV-24962,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2026-06-06,2026-07-06,2026-07-01,1426.75,1426.75,0.0,2026-07-01,25,0,Paid
+INV-24142,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-06-07,2026-07-07,2026-07-01,1738.33,1738.33,0.0,2026-07-06,29,0,Paid
+INV-24357,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-06-07,2026-07-07,2026-07-01,990.45,990.45,0.0,2026-07-07,30,0,Paid
+INV-24628,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2026-06-07,2026-07-07,2026-07-01,447.74,447.74,0.0,2026-07-31,54,0,Paid
+INV-24900,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-06-07,2026-07-07,2026-07-01,2577.7,2577.7,0.0,2026-08-24,78,0,Paid
+INV-24917,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-06-07,2026-07-07,2026-07-01,599.37,599.37,0.0,2026-07-29,52,0,Paid
+INV-24026,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2026-06-08,2026-07-08,2026-07-01,6063.57,6063.57,0.0,2026-08-10,63,0,Paid
+INV-24158,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-06-08,2026-07-08,2026-07-01,760.83,760.83,0.0,2026-07-31,53,0,Paid
+INV-24205,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-06-08,2026-07-08,2026-07-01,1737.79,1737.79,0.0,2026-08-19,72,0,Paid
+INV-24483,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-06-08,2026-07-08,2026-07-01,3280.0,3280.0,0.0,2026-08-29,82,0,Paid
+INV-24565,Coastal Ortho Group,Riley Carter,Level 4,Invoice,Paid,2026-06-08,2026-07-08,2026-07-01,179.24,179.24,0.0,2026-07-03,25,0,Paid
+INV-24734,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-06-08,2026-07-08,2026-07-01,1869.31,1869.31,0.0,2026-07-03,25,0,Paid
+INV-24785,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-06-08,2026-07-08,2026-07-01,566.22,566.22,0.0,2026-08-14,67,0,Paid
+INV-24009,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,2270.39,2270.39,0.0,2026-07-05,26,0,Paid
+INV-24042,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,1105.0,1105.0,0.0,2026-08-20,72,0,Paid
+INV-24256,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,1288.39,1288.39,0.0,2026-07-26,47,0,Paid
+INV-24581,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,279.37,279.37,0.0,2026-07-16,37,0,Paid
+INV-24678,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,291.75,291.75,0.0,2026-08-03,55,0,Paid
+INV-24768,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,3604.25,3604.25,0.0,2026-07-22,43,0,Paid
+INV-24816,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,2066.24,2066.24,0.0,2026-07-14,35,0,Paid
+INV-24832,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,619.42,619.42,0.0,2026-09-06,89,0,Paid
+INV-24846,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,6097.63,6097.63,0.0,2026-07-23,44,0,Paid
+INV-24883,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,596.18,596.18,0.0,2026-07-18,39,0,Paid
+INV-24916,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,1259.98,1259.98,0.0,2026-07-15,36,0,Paid
+INV-24979,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-06-09,2026-07-09,2026-07-01,1450.82,1450.82,0.0,2026-07-23,44,0,Paid
+INV-24108,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2026-06-10,2026-07-10,2026-07-01,1253.27,1253.27,0.0,2026-08-08,59,0,Paid
+INV-24187,Magnolia Title Co,Jordan Blake,Level 3,Credit Memo,Applied,2026-06-10,2026-07-10,2026-07-01,-88.09,-88.09,0.0,,,0,Paid
+INV-24356,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-06-10,2026-07-10,2026-07-01,1082.77,1082.77,0.0,2026-08-05,56,0,Paid
+INV-24390,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-06-10,2026-07-10,2026-07-01,1258.44,1258.44,0.0,2026-08-07,58,0,Paid
+INV-24406,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-06-10,2026-07-10,2026-07-01,2485.04,2485.04,0.0,2026-07-13,33,0,Paid
+INV-24464,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2026-06-10,2026-07-10,2026-07-01,1582.39,1582.39,0.0,2026-07-05,25,0,Paid
+INV-24599,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-06-10,2026-07-10,2026-07-01,1218.25,1218.25,0.0,2026-08-10,61,0,Paid
+INV-24308,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-07-01,2026-07-31,2026-07-01,3006.73,3006.73,0.0,2026-07-26,25,0,Paid
+INV-24377,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2026-07-01,2026-07-31,2026-07-01,2355.87,2355.87,0.0,2026-08-31,61,0,Paid
+INV-24391,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-07-01,2026-07-31,2026-07-01,935.64,935.64,0.0,2026-08-05,35,0,Paid
+INV-24436,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2026-07-01,2026-07-31,2026-07-01,4617.45,4617.45,0.0,2026-08-29,59,0,Paid
+INV-24615,Aldergrove Credit Union,Drew Patel,Level 3,Credit Memo,Applied,2026-07-01,2026-07-31,2026-07-01,-373.68,-373.68,0.0,,,0,Paid
+INV-24629,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2026-07-01,2026-07-31,2026-07-01,602.01,602.01,0.0,2026-08-07,37,0,Paid
+INV-24847,Vista Eye Center,Casey Ellison,Level 3,Invoice,Posted,2026-07-01,2026-07-31,2026-07-01,3628.59,0,3628.59,,,102,91-120
+INV-24144,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-07-02,2026-08-01,2026-08-01,2295.44,2295.44,0.0,2026-08-11,40,0,Paid
+INV-24206,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-07-02,2026-08-01,2026-08-01,1944.86,1944.86,0.0,2026-08-17,46,0,Paid
+INV-24207,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Posted,2026-07-02,2026-08-01,2026-08-01,2638.17,0,2638.17,,,101,91-120
+INV-24241,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-07-02,2026-08-01,2026-08-01,1966.75,1966.75,0.0,2026-07-28,26,0,Paid
+INV-24274,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-07-02,2026-08-01,2026-08-01,8253.48,8253.48,0.0,2026-09-27,87,0,Paid
+INV-24324,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2026-07-02,2026-08-01,2026-08-01,5595.54,5595.54,0.0,2026-08-23,52,0,Paid
+INV-24467,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2026-07-02,2026-08-01,2026-08-01,1912.01,1912.01,0.0,2026-07-28,26,0,Paid
+INV-24646,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-07-02,2026-08-01,2026-08-01,1284.3,1284.3,0.0,2026-08-12,41,0,Paid
+INV-24661,Timberline Construction,Avery Morgan,Level 1,Invoice,Paid,2026-07-02,2026-08-01,2026-08-01,2004.0,2004.0,0.0,2026-08-16,45,0,Paid
+INV-24802,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-07-02,2026-08-01,2026-08-01,1001.36,1001.36,0.0,2026-08-01,30,0,Paid
+INV-24818,Maple Ridge Nonprofit,Jordan Blake,Level 3,Credit Memo,Applied,2026-07-02,2026-08-01,2026-08-01,-285.11,-285.11,0.0,,,0,Paid
+INV-24884,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-07-02,2026-08-01,2026-08-01,723.63,723.63,0.0,2026-08-21,50,0,Paid
+INV-24011,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2026-07-03,2026-08-02,2026-08-01,2635.45,2635.45,0.0,2026-08-21,49,0,Paid
+INV-24109,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2026-07-03,2026-08-02,2026-08-01,1318.25,1318.25,0.0,2026-08-17,45,0,Paid
+INV-24222,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2026-07-03,2026-08-02,2026-08-01,2441.94,2441.94,0.0,2026-07-28,25,0,Paid
+INV-24819,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-07-03,2026-08-02,2026-08-01,2064.56,2064.56,0.0,2026-08-18,46,0,Paid
+INV-24947,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-07-03,2026-08-02,2026-08-01,362.76,362.76,0.0,2026-07-28,25,0,Paid
+INV-24159,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-07-04,2026-08-03,2026-08-01,797.91,797.91,0.0,2026-08-22,49,0,Paid
+INV-24258,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-07-04,2026-08-03,2026-08-01,1072.06,1072.06,0.0,2026-08-24,51,0,Paid
+INV-24408,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-07-04,2026-08-03,2026-08-01,2133.75,2133.75,0.0,2026-08-06,33,0,Paid
+INV-24515,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Paid,2026-07-04,2026-08-03,2026-08-01,9981.47,9981.47,0.0,2026-07-29,25,0,Paid
+INV-24679,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-07-04,2026-08-03,2026-08-01,457.77,457.77,0.0,2026-09-21,79,0,Paid
+INV-24716,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-07-04,2026-08-03,2026-08-01,1417.33,1417.33,0.0,2026-07-29,25,0,Paid
+INV-24981,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-07-04,2026-08-03,2026-08-01,1533.6,1533.6,0.0,2026-08-19,46,0,Paid
+INV-24242,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-07-05,2026-08-04,2026-08-01,2554.61,2554.61,0.0,2026-08-13,39,0,Paid
+INV-24451,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2026-07-05,2026-08-04,2026-08-01,861.3,861.3,0.0,2026-08-03,29,0,Paid
+INV-24736,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-07-05,2026-08-04,2026-08-01,1759.55,1759.55,0.0,2026-09-06,63,0,Paid
+INV-24786,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-07-05,2026-08-04,2026-08-01,834.36,834.36,0.0,2026-09-11,68,0,Paid
+INV-24901,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-07-05,2026-08-04,2026-08-01,2456.6,2456.6,0.0,2026-09-07,64,0,Paid
+INV-24058,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,9821.11,9821.11,0.0,2026-08-18,43,0,Paid
+INV-24078,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,1671.7,1671.7,0.0,2026-08-22,47,0,Paid
+INV-24257,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,1796.79,1796.79,0.0,2026-08-05,30,0,Paid
+INV-24292,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,2194.01,2194.01,0.0,2026-08-28,53,0,Paid
+INV-24359,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,733.89,733.89,0.0,2026-09-04,60,0,Paid
+INV-24407,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,1895.75,1895.75,0.0,2026-08-20,45,0,Paid
+INV-24422,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,1165.92,1165.92,0.0,2026-09-11,67,0,Paid
+INV-24600,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,1313.5,1313.5,0.0,2026-08-29,54,0,Paid
+INV-24754,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,2697.14,2697.14,0.0,2026-09-08,64,0,Paid
+INV-24833,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,689.69,689.69,0.0,2026-09-23,79,0,Paid
+INV-24867,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2026-07-06,2026-08-05,2026-08-01,6399.47,6399.47,0.0,2026-08-30,55,0,Paid
+INV-24043,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-07-07,2026-08-06,2026-08-01,1222.81,1222.81,0.0,2026-08-03,27,0,Paid
+INV-24275,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-07-07,2026-08-06,2026-08-01,7173.52,7173.52,0.0,2026-09-10,65,0,Paid
+INV-24358,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Posted,2026-07-07,2026-08-06,2026-08-01,824.03,0,824.03,,,96,91-120
+INV-24466,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2026-07-07,2026-08-06,2026-08-01,1474.38,1474.38,0.0,2026-08-01,25,0,Paid
+INV-24902,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-07-07,2026-08-06,2026-08-01,1260.33,1260.33,0.0,2026-08-01,25,0,Paid
+INV-24027,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2026-07-08,2026-08-07,2026-08-01,6129.37,6129.37,0.0,2026-09-27,81,0,Paid
+INV-24094,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2026-07-08,2026-08-07,2026-08-01,1914.86,1914.86,0.0,2026-09-10,64,0,Paid
+INV-24188,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2026-07-08,2026-08-07,2026-08-01,855.63,855.63,0.0,2026-08-16,39,0,Paid
+INV-24340,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Paid,2026-07-08,2026-08-07,2026-08-01,2381.47,2381.47,0.0,2026-09-02,56,0,Paid
+INV-24548,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-07-08,2026-08-07,2026-08-01,4682.01,4682.01,0.0,2026-08-28,51,0,Paid
+INV-24160,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-07-09,2026-08-08,2026-08-01,871.8,871.8,0.0,2026-08-25,47,0,Paid
+INV-24175,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2026-07-09,2026-08-08,2026-08-01,558.94,558.94,0.0,2026-09-27,80,0,Paid
+INV-24500,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2026-07-09,2026-08-08,2026-08-01,1919.16,1919.16,0.0,2026-08-07,29,0,Paid
+INV-24514,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Paid,2026-07-09,2026-08-08,2026-08-01,10338.13,10338.13,0.0,2026-09-05,58,0,Paid
+INV-24699,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-07-09,2026-08-08,2026-08-01,7653.45,7653.45,0.0,2026-08-13,35,0,Paid
+INV-24848,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-07-09,2026-08-08,2026-08-01,6898.15,6898.15,0.0,2026-09-26,79,0,Paid
+INV-24918,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-07-09,2026-08-08,2026-08-01,605.98,605.98,0.0,2026-08-16,38,0,Paid
+INV-24933,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2026-07-09,2026-08-08,2026-08-01,3087.02,3087.02,0.0,2026-10-29,112,0,Paid
+INV-24044,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-07-10,2026-08-09,2026-08-01,1515.84,1515.84,0.0,2026-08-16,37,0,Paid
+INV-24126,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-07-10,2026-08-09,2026-08-01,743.5,743.5,0.0,2026-08-19,40,0,Paid
+INV-24484,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-07-10,2026-08-09,2026-08-01,4178.31,4178.31,0.0,2026-08-04,25,0,Paid
+INV-24532,Dunmore Steel,Morgan Reyes,Level 4,Invoice,Paid,2026-07-10,2026-08-09,2026-08-01,3966.0,3966.0,0.0,2026-08-13,34,0,Paid
+INV-24566,Coastal Ortho Group,Riley Carter,Level 4,Credit Memo,Applied,2026-07-10,2026-08-09,2026-08-01,-23.34,-23.34,0.0,,,0,Paid
+INV-24582,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2026-07-10,2026-08-09,2026-08-01,266.71,266.71,0.0,2026-08-16,37,0,Paid
+INV-24698,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-07-10,2026-08-09,2026-08-01,5388.89,5388.89,0.0,2026-08-31,52,0,Paid
+INV-24735,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-07-10,2026-08-09,2026-08-01,2420.7,2420.7,0.0,2026-09-28,80,0,Paid
+INV-24770,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-07-10,2026-08-09,2026-08-01,3475.86,3475.86,0.0,2026-08-26,47,0,Paid
+INV-24964,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2026-07-10,2026-08-09,2026-08-01,1607.35,1607.35,0.0,2026-08-20,41,0,Paid
+INV-24045,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-08-01,2026-08-31,2026-08-01,1697.3,1697.3,0.0,2026-09-15,45,0,Paid
+INV-24111,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2026-08-01,2026-08-31,2026-08-01,1220.15,1220.15,0.0,2026-09-03,33,0,Paid
+INV-24208,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-08-01,2026-08-31,2026-08-01,2875.45,2875.45,0.0,2026-09-27,57,0,Paid
+INV-24276,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-08-01,2026-08-31,2026-08-01,6135.45,6135.45,0.0,2026-10-01,61,0,Paid
+INV-24452,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2026-08-01,2026-08-31,2026-08-01,926.52,926.52,0.0,2026-09-18,48,0,Paid
+INV-24501,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2026-08-01,2026-08-31,2026-08-01,1879.08,1879.08,0.0,2026-09-02,32,0,Paid
+INV-24517,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Paid,2026-08-01,2026-08-31,2026-08-01,6188.29,6188.29,0.0,2026-08-26,25,0,Paid
+INV-24549,Cedar Point Builders,Casey Ellison,Level 1,Credit Memo,Applied,2026-08-01,2026-08-31,2026-08-01,-302.41,-302.41,0.0,,,0,Paid
+INV-24834,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2026-08-01,2026-08-31,2026-08-01,424.76,424.76,0.0,2026-10-07,67,0,Paid
+INV-24849,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-08-01,2026-08-31,2026-08-01,6295.93,6295.93,0.0,2026-09-01,31,0,Paid
+INV-24110,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Paid,2026-08-02,2026-09-01,2026-09-01,1223.44,1223.44,0.0,2026-09-03,32,0,Paid
+INV-24341,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Paid,2026-08-02,2026-09-01,2026-09-01,1891.68,1891.68,0.0,2026-10-01,60,0,Paid
+INV-24423,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2026-08-02,2026-09-01,2026-09-01,1388.32,1388.32,0.0,2026-10-09,68,0,Paid
+INV-24533,Dunmore Steel,Morgan Reyes,Level 4,Reversal,Applied,2026-08-02,2026-09-01,2026-09-01,-361.95,-361.95,0.0,,,0,Paid
+INV-24601,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-08-02,2026-09-01,2026-09-01,1472.57,1472.57,0.0,2026-08-27,25,0,Paid
+INV-24680,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-08-02,2026-09-01,2026-09-01,615.23,615.23,0.0,2026-09-01,30,0,Paid
+INV-24803,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-08-02,2026-09-01,2026-09-01,912.24,912.24,0.0,2026-08-27,25,0,Paid
+INV-24903,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-08-02,2026-09-01,2026-09-01,1687.23,1687.23,0.0,2026-10-01,60,0,Paid
+INV-24948,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-08-02,2026-09-01,2026-09-01,383.66,383.66,0.0,2026-09-16,45,0,Paid
+INV-24012,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2026-08-03,2026-09-02,2026-09-01,3279.64,3279.64,0.0,2026-09-10,38,0,Paid
+INV-24013,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Paid,2026-08-03,2026-09-02,2026-09-01,2539.67,2539.67,0.0,2026-08-28,25,0,Paid
+INV-24028,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2026-08-03,2026-09-02,2026-09-01,5698.52,5698.52,0.0,2026-09-19,47,0,Paid
+INV-24516,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Posted,2026-08-03,2026-09-02,2026-09-01,4996.92,0,4996.92,,,69,61-90
+INV-24630,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2026-08-03,2026-09-02,2026-09-01,811.02,811.02,0.0,2026-09-09,37,0,Paid
+INV-24737,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-08-03,2026-09-02,2026-09-01,1203.42,1203.42,0.0,2026-08-28,25,0,Paid
+INV-24360,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-08-04,2026-09-03,2026-09-01,472.73,472.73,0.0,2026-09-18,45,0,Paid
+INV-24468,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2026-08-04,2026-09-03,2026-09-01,2302.41,2302.41,0.0,2026-09-29,56,0,Paid
+INV-24568,Coastal Ortho Group,Riley Carter,Level 4,Invoice,Paid,2026-08-04,2026-09-03,2026-09-01,147.54,147.54,0.0,2026-09-15,42,0,Paid
+INV-24647,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-08-04,2026-09-03,2026-09-01,1843.15,1843.15,0.0,2026-10-16,73,0,Paid
+INV-24662,Timberline Construction,Avery Morgan,Level 1,Invoice,Paid,2026-08-04,2026-09-03,2026-09-01,3168.63,3168.63,0.0,2026-10-15,72,0,Paid
+INV-24772,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-08-04,2026-09-03,2026-09-01,6531.4,6531.4,0.0,2026-09-14,41,0,Paid
+INV-24820,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-08-04,2026-09-03,2026-09-01,2194.84,2194.84,0.0,2026-09-29,56,0,Paid
+INV-24868,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2026-08-04,2026-09-03,2026-09-01,5331.17,5331.17,0.0,2026-08-29,25,0,Paid
+INV-24886,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-08-04,2026-09-03,2026-09-01,620.08,620.08,0.0,2026-10-13,70,0,Paid
+INV-24079,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Paid,2026-08-05,2026-09-04,2026-09-01,1580.5,1580.5,0.0,2026-09-05,31,0,Paid
+INV-24393,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-08-05,2026-09-04,2026-09-01,1023.78,1023.78,0.0,2026-08-30,25,0,Paid
+INV-24550,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-08-05,2026-09-04,2026-09-01,4632.78,4632.78,0.0,2026-09-24,50,0,Paid
+INV-24920,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-08-05,2026-09-04,2026-09-01,712.61,712.61,0.0,2026-10-21,77,0,Paid
+INV-24982,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-08-05,2026-09-04,2026-09-01,1117.48,1117.48,0.0,2026-09-14,40,0,Paid
+INV-24029,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2026-08-06,2026-09-05,2026-09-01,6614.35,6614.35,0.0,2026-10-04,59,0,Paid
+INV-24145,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-08-06,2026-09-05,2026-09-01,1253.77,1253.77,0.0,2026-10-11,66,0,Paid
+INV-24176,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2026-08-06,2026-09-05,2026-09-01,488.46,488.46,0.0,2026-10-05,60,0,Paid
+INV-24189,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2026-08-06,2026-09-05,2026-09-01,792.15,792.15,0.0,2026-09-28,53,0,Paid
+INV-24293,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2026-08-06,2026-09-05,2026-09-01,2311.19,2311.19,0.0,2026-10-28,83,0,Paid
+INV-24409,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-08-06,2026-09-05,2026-09-01,2352.6,2352.6,0.0,2026-09-28,53,0,Paid
+INV-24567,Coastal Ortho Group,Riley Carter,Level 4,Invoice,Paid,2026-08-06,2026-09-05,2026-09-01,300.56,300.56,0.0,2026-09-03,28,0,Paid
+INV-24717,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-08-06,2026-09-05,2026-09-01,1074.17,1074.17,0.0,2026-10-14,69,0,Paid
+INV-24738,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-08-06,2026-09-05,2026-09-01,1120.94,1120.94,0.0,2026-09-13,38,0,Paid
+INV-24309,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-08-07,2026-09-06,2026-09-01,1493.38,1493.38,0.0,2026-09-01,25,0,Paid
+INV-24583,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2026-08-07,2026-09-06,2026-09-01,309.79,309.79,0.0,2026-10-16,70,0,Paid
+INV-24904,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-08-07,2026-09-06,2026-09-01,2524.78,2524.78,0.0,2026-09-27,51,0,Paid
+INV-24919,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-08-07,2026-09-06,2026-09-01,799.9,799.9,0.0,2026-09-01,25,0,Paid
+INV-24935,Whitestone Law Group,Morgan Reyes,Level 1,Credit Memo,Applied,2026-08-07,2026-09-06,2026-09-01,-611.24,-611.24,0.0,,,0,Paid
+INV-24095,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2026-08-08,2026-09-07,2026-09-01,2893.19,2893.19,0.0,2026-09-02,25,0,Paid
+INV-24127,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-08-08,2026-09-07,2026-09-01,809.75,809.75,0.0,2026-09-30,53,0,Paid
+INV-24325,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2026-08-08,2026-09-07,2026-09-01,4370.31,4370.31,0.0,2026-09-07,30,0,Paid
+INV-24392,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-08-08,2026-09-07,2026-09-01,903.25,903.25,0.0,2026-09-29,52,0,Paid
+INV-24485,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-08-08,2026-09-07,2026-09-01,2804.98,2804.98,0.0,2026-10-03,56,0,Paid
+INV-24616,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2026-08-08,2026-09-07,2026-09-01,3736.39,3736.39,0.0,2026-09-22,45,0,Paid
+INV-24755,Copperline Manufacturing,Taylor Quinn,Level 3,Reversal,Applied,2026-08-08,2026-09-07,2026-09-01,-365.38,-365.38,0.0,,,0,Paid
+INV-24934,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2026-08-08,2026-09-07,2026-09-01,2752.03,2752.03,0.0,2026-09-06,29,0,Paid
+INV-24949,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-08-08,2026-09-07,2026-09-01,501.93,501.93,0.0,2026-10-06,59,0,Paid
+INV-24060,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-08-09,2026-09-08,2026-09-01,7653.56,7653.56,0.0,2026-10-12,64,0,Paid
+INV-24161,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-08-09,2026-09-08,2026-09-01,738.19,738.19,0.0,2026-09-30,52,0,Paid
+INV-24190,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2026-08-09,2026-09-08,2026-09-01,866.57,866.57,0.0,2026-09-09,31,0,Paid
+INV-24243,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-08-09,2026-09-08,2026-09-01,2869.66,2869.66,0.0,2026-09-03,25,0,Paid
+INV-24310,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-08-09,2026-09-08,2026-09-01,1616.14,1616.14,0.0,2026-10-02,54,0,Paid
+INV-24361,Juniper Wealth Advisors,Taylor Quinn,Level 4,Credit Memo,Applied,2026-08-09,2026-09-08,2026-09-01,-88.99,-88.99,0.0,,,0,Paid
+INV-24771,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-08-09,2026-09-08,2026-09-01,7182.78,7182.78,0.0,2026-09-21,43,0,Paid
+INV-24787,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-08-09,2026-09-08,2026-09-01,1175.36,1175.36,0.0,2026-09-24,46,0,Paid
+INV-24885,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-08-09,2026-09-08,2026-09-01,951.23,951.23,0.0,2026-09-20,42,0,Paid
+INV-24059,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-08-10,2026-09-09,2026-09-01,5175.2,5175.2,0.0,2026-09-13,34,0,Paid
+INV-24209,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-08-10,2026-09-09,2026-09-01,2037.54,2037.54,0.0,2026-10-02,53,0,Paid
+INV-24223,Willowbrook Youth Services,Drew Patel,Level 4,Credit Memo,Applied,2026-08-10,2026-09-09,2026-09-01,-482.69,-482.69,0.0,,,0,Paid
+INV-24259,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-08-10,2026-09-09,2026-09-01,1714.6,1714.6,0.0,2026-09-24,45,0,Paid
+INV-24378,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2026-08-10,2026-09-09,2026-09-01,2026.36,2026.36,0.0,2026-10-17,68,0,Paid
+INV-24437,Midtown Pharmacy,Morgan Reyes,Level 4,Credit Memo,Applied,2026-08-10,2026-09-09,2026-09-01,-150.82,-150.82,0.0,,,0,Paid
+INV-24486,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-08-10,2026-09-09,2026-09-01,2569.03,2569.03,0.0,2026-10-06,57,0,Paid
+INV-24681,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-08-10,2026-09-09,2026-09-01,500.34,500.34,0.0,2026-09-10,31,0,Paid
+INV-24700,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-08-10,2026-09-09,2026-09-01,5820.24,5820.24,0.0,2026-09-04,25,0,Paid
+INV-24965,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Paid,2026-08-10,2026-09-09,2026-09-01,1577.24,1577.24,0.0,2026-09-27,48,0,Paid
+INV-24030,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Paid,2026-09-01,2026-10-01,2026-10-01,6042.46,6042.46,0.0,2026-10-25,54,0,Paid
+INV-24487,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-09-01,2026-10-01,2026-10-01,1986.44,1986.44,0.0,2026-10-01,30,0,Paid
+INV-24552,Cedar Point Builders,Casey Ellison,Level 1,Credit Memo,Applied,2026-09-01,2026-10-01,2026-10-01,-1299.92,-1299.92,0.0,,,0,Paid
+INV-24602,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Paid,2026-09-01,2026-10-01,2026-10-01,1354.88,1354.88,0.0,2026-10-20,49,0,Paid
+INV-24617,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Paid,2026-09-01,2026-10-01,2026-10-01,3227.79,3227.79,0.0,2026-10-27,56,0,Paid
+INV-24740,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Paid,2026-09-01,2026-10-01,2026-10-01,2051.72,2051.72,0.0,2026-10-20,49,0,Paid
+INV-24905,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-09-01,2026-10-01,2026-10-01,2253.48,2253.48,0.0,2026-11-10,70,0,Paid
+INV-24294,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Paid,2026-09-02,2026-10-02,2026-10-01,2511.86,2511.86,0.0,2026-10-14,42,0,Paid
+INV-24312,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-09-02,2026-10-02,2026-10-01,1659.37,1659.37,0.0,2026-10-04,32,0,Paid
+INV-24453,Edgewater Realty,Drew Patel,Level 4,Invoice,Paid,2026-09-02,2026-10-02,2026-10-01,992.38,992.38,0.0,2026-11-08,67,0,Paid
+INV-24502,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2026-09-02,2026-10-02,2026-10-01,1743.26,1743.26,0.0,2026-10-03,31,0,Paid
+INV-24518,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Paid,2026-09-02,2026-10-02,2026-10-01,5187.97,5187.97,0.0,2026-10-24,52,0,Paid
+INV-24718,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-09-02,2026-10-02,2026-10-01,1482.57,1482.57,0.0,2026-10-17,45,0,Paid
+INV-24773,Falcon Crest Dental,Casey Ellison,Level 4,Credit Memo,Applied,2026-09-02,2026-10-02,2026-10-01,-335.52,-335.52,0.0,,,0,Paid
+INV-24821,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Paid,2026-09-02,2026-10-02,2026-10-01,1660.31,1660.31,0.0,2026-11-03,62,0,Paid
+INV-24921,Redstone Architecture,Jordan Blake,Level 2,Invoice,Paid,2026-09-02,2026-10-02,2026-10-01,1208.43,1208.43,0.0,2026-10-10,38,0,Paid
+INV-24936,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2026-09-02,2026-10-02,2026-10-01,3603.89,3603.89,0.0,2026-10-07,35,0,Paid
+INV-24128,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-09-03,2026-10-03,2026-10-01,445.91,445.91,0.0,2026-10-03,30,0,Paid
+INV-24177,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2026-09-03,2026-10-03,2026-10-01,664.09,664.09,0.0,2026-10-26,53,0,Paid
+INV-24225,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2026-09-03,2026-10-03,2026-10-01,1861.29,1861.29,0.0,2026-10-07,34,0,Paid
+INV-24278,Oakmont Accounting,Jordan Blake,Level 5,Credit Memo,Applied,2026-09-03,2026-10-03,2026-10-01,-1464.77,-1464.77,0.0,,,0,Paid
+INV-24424,Harborview Medical,Avery Morgan,Level 5,Invoice,Paid,2026-09-03,2026-10-03,2026-10-01,1626.11,1626.11,0.0,2026-10-19,46,0,Paid
+INV-24835,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2026-09-03,2026-10-03,2026-10-01,764.17,764.17,0.0,2026-10-11,38,0,Paid
+INV-24850,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-09-03,2026-10-03,2026-10-01,5481.29,5481.29,0.0,2026-11-10,68,0,Paid
+INV-24950,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-09-03,2026-10-03,2026-10-01,324.01,324.01,0.0,2026-10-17,44,0,Paid
+INV-24046,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Paid,2026-09-04,2026-10-04,2026-10-01,1495.05,1495.05,0.0,2026-10-30,56,0,Paid
+INV-24062,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-09-04,2026-10-04,2026-10-01,8750.81,8750.81,0.0,2026-10-30,56,0,Paid
+INV-24112,Silverleaf Landscaping,Riley Carter,Level 4,Credit Memo,Applied,2026-09-04,2026-10-04,2026-10-01,-116.89,-116.89,0.0,,,0,Paid
+INV-24277,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-09-04,2026-10-04,2026-10-01,5390.14,5390.14,0.0,2026-11-06,63,0,Paid
+INV-24394,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-09-04,2026-10-04,2026-10-01,1465.81,1465.81,0.0,2026-10-24,50,0,Paid
+INV-24551,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Paid,2026-09-04,2026-10-04,2026-10-01,4242.11,4242.11,0.0,2026-10-19,45,0,Paid
+INV-24632,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2026-09-04,2026-10-04,2026-10-01,600.56,600.56,0.0,2026-10-25,51,0,Paid
+INV-24701,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-09-04,2026-10-04,2026-10-01,5420.42,5420.42,0.0,2026-10-05,31,0,Paid
+INV-24869,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Paid,2026-09-04,2026-10-04,2026-10-01,5210.14,5210.14,0.0,2026-10-22,48,0,Paid
+INV-24260,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Paid,2026-09-05,2026-10-05,2026-10-01,1634.73,1634.73,0.0,2026-10-27,52,0,Paid
+INV-24311,Xenon Labs,Riley Carter,Level 4,Invoice,Paid,2026-09-05,2026-10-05,2026-10-01,2554.02,2554.02,0.0,2026-10-26,51,0,Paid
+INV-24362,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-09-05,2026-10-05,2026-10-01,638.33,638.33,0.0,2026-10-06,31,0,Paid
+INV-24534,Dunmore Steel,Morgan Reyes,Level 4,Invoice,Paid,2026-09-05,2026-10-05,2026-10-01,2558.2,2558.2,0.0,2026-10-12,37,0,Paid
+INV-24966,Hawthorne Plastics,Riley Carter,Level 3,Credit Memo,Applied,2026-09-05,2026-10-05,2026-10-01,-333.92,-333.92,0.0,,,0,Paid
+INV-24984,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Paid,2026-09-05,2026-10-05,2026-10-01,1100.8,1100.8,0.0,2026-10-28,53,0,Paid
+INV-24061,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,6074.59,6074.59,0.0,2026-10-24,48,0,Paid
+INV-24096,Ironwood Machining,Casey Ellison,Level 2,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,1889.85,1889.85,0.0,2026-10-04,28,0,Paid
+INV-24129,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,573.94,573.94,0.0,2026-11-02,57,0,Paid
+INV-24146,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,2141.42,2141.42,0.0,2026-10-14,38,0,Paid
+INV-24191,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,901.33,901.33,0.0,2026-10-01,25,0,Paid
+INV-24326,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,5612.01,5612.01,0.0,2026-10-13,37,0,Paid
+INV-24410,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,2933.33,2933.33,0.0,2026-10-26,50,0,Paid
+INV-24569,Coastal Ortho Group,Riley Carter,Level 4,Credit Memo,Applied,2026-09-06,2026-10-06,2026-10-01,-85.36,-85.36,0.0,,,0,Paid
+INV-24683,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,525.39,525.39,0.0,2026-10-05,29,0,Paid
+INV-24774,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,6395.7,6395.7,0.0,2026-10-26,50,0,Paid
+INV-24851,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,6805.28,6805.28,0.0,2026-10-23,47,0,Paid
+INV-24887,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-09-06,2026-10-06,2026-10-01,453.09,453.09,0.0,2026-11-04,59,0,Paid
+INV-24014,Pioneer Trust Bank,Jordan Blake,Level 3,Reversal,Applied,2026-09-07,2026-10-07,2026-10-01,-137.61,-137.61,0.0,,,0,Paid
+INV-24080,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Posted,2026-09-07,2026-10-07,2026-10-01,1075.26,0,1075.26,,,34,31-60
+INV-24224,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Paid,2026-09-07,2026-10-07,2026-10-01,2607.12,2607.12,0.0,2026-11-04,58,0,Paid
+INV-24411,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Paid,2026-09-07,2026-10-07,2026-10-01,1895.49,1895.49,0.0,2026-10-19,42,0,Paid
+INV-24584,Greystone Capital,Casey Ellison,Level 5,Invoice,Paid,2026-09-07,2026-10-07,2026-10-01,250.02,250.02,0.0,2026-11-04,58,0,Paid
+INV-24804,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-09-07,2026-10-07,2026-10-01,529.31,529.31,0.0,2026-10-02,25,0,Paid
+INV-24983,Nimbus Cloud Partners,Drew Patel,Level 5,Credit Memo,Applied,2026-09-07,2026-10-07,2026-10-01,-244.96,-244.96,0.0,,,0,Paid
+INV-24244,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-09-08,2026-10-08,2026-10-01,2058.79,2058.79,0.0,2026-10-25,47,0,Paid
+INV-24379,Upland Water Authority,Avery Morgan,Level 2,Invoice,Paid,2026-09-08,2026-10-08,2026-10-01,1628.53,1628.53,0.0,2026-11-08,61,0,Paid
+INV-24438,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2026-09-08,2026-10-08,2026-10-01,2037.21,2037.21,0.0,2026-10-03,25,0,Paid
+INV-24503,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2026-09-08,2026-10-08,2026-10-01,1591.16,1591.16,0.0,2026-10-03,25,0,Paid
+INV-24648,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-09-08,2026-10-08,2026-10-01,1681.91,1681.91,0.0,2026-11-07,60,0,Paid
+INV-24162,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Paid,2026-09-09,2026-10-09,2026-10-01,485.46,485.46,0.0,2026-11-07,59,0,Paid
+INV-24210,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Paid,2026-09-09,2026-10-09,2026-10-01,2057.39,2057.39,0.0,2026-10-14,35,0,Paid
+INV-24363,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Paid,2026-09-09,2026-10-09,2026-10-01,727.7,727.7,0.0,2026-10-04,25,0,Paid
+INV-24469,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Paid,2026-09-09,2026-10-09,2026-10-01,2089.49,2089.49,0.0,2026-10-04,25,0,Paid
+INV-24663,Timberline Construction,Avery Morgan,Level 1,Invoice,Posted,2026-09-09,2026-10-09,2026-10-01,2894.5,0,2894.5,,,32,31-60
+INV-24682,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Posted,2026-09-09,2026-10-09,2026-10-01,595.31,0,595.31,,,32,31-60
+INV-24756,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2026-09-09,2026-10-09,2026-10-01,3574.48,3574.48,0.0,2026-10-24,45,0,Paid
+INV-24342,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Posted,2026-09-10,2026-10-10,2026-10-01,2343.09,0,2343.09,,,31,31-60
+INV-24519,Birchwood Dental Group,Drew Patel,Level 4,Credit Memo,Applied,2026-09-10,2026-10-10,2026-10-01,-1148.65,-1148.65,0.0,,,0,Paid
+INV-24631,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Paid,2026-09-10,2026-10-10,2026-10-01,445.82,445.82,0.0,2026-10-05,25,0,Paid
+INV-24739,Ivy League Tutoring,Riley Carter,Level 3,Reversal,Applied,2026-09-10,2026-10-10,2026-10-01,-238.02,-238.02,0.0,,,0,Paid
+INV-24788,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-09-10,2026-10-10,2026-10-01,1073.88,1073.88,0.0,2026-10-24,44,0,Paid
+INV-24805,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Paid,2026-09-10,2026-10-10,2026-10-01,978.89,978.89,0.0,2026-11-10,61,0,Paid
+INV-24395,Granite Peak Insurance,Jordan Blake,Level 3,Invoice,Paid,2026-10-01,2026-10-31,2026-10-01,1474.87,1474.87,0.0,2026-10-26,25,0,Paid
+INV-24586,Greystone Capital,Casey Ellison,Level 5,Invoice,Posted,2026-10-01,2026-10-31,2026-10-01,375.79,0,375.79,,,10,1-30
+INV-24649,Foxridge Engineering,Drew Patel,Level 1,Invoice,Paid,2026-10-01,2026-10-31,2026-10-01,1758.9,1758.9,0.0,2026-10-26,25,0,Paid
+INV-24806,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Posted,2026-10-01,2026-10-31,2026-10-01,556.4,0,556.4,,,10,1-30
+INV-24822,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Partially Paid,2026-10-01,2026-10-31,2026-10-01,2029.74,1006.29,1023.45,,,10,1-30
+INV-24211,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Posted,2026-10-02,2026-11-01,2026-11-01,1595.07,0,1595.07,,,9,1-30
+INV-24262,Prairie Wind Energy,Avery Morgan,Level 3,Credit Memo,Applied,2026-10-02,2026-11-01,2026-11-01,-231.68,-231.68,0.0,,,0,Paid
+INV-24279,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Paid,2026-10-02,2026-11-01,2026-11-01,7505.2,7505.2,0.0,2026-11-02,31,0,Paid
+INV-24296,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Partially Paid,2026-10-02,2026-11-01,2026-11-01,2336.13,1390.45,945.68,,,9,1-30
+INV-24570,Coastal Ortho Group,Riley Carter,Level 4,Invoice,Paid,2026-10-02,2026-11-01,2026-11-01,197.53,197.53,0.0,2026-10-30,28,0,Paid
+INV-24664,Timberline Construction,Avery Morgan,Level 1,Invoice,Posted,2026-10-02,2026-11-01,2026-11-01,2720.42,0,2720.42,,,9,1-30
+INV-24937,Whitestone Law Group,Morgan Reyes,Level 1,Invoice,Paid,2026-10-02,2026-11-01,2026-11-01,1771.61,1771.61,0.0,2026-11-07,36,0,Paid
+INV-24985,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Partially Paid,2026-10-02,2026-11-01,2026-11-01,1546.89,505.91,1040.98,,,9,1-30
+INV-24245,Indigo Biotech,Casey Ellison,Level 4,Invoice,Paid,2026-10-03,2026-11-02,2026-11-01,2811.68,2811.68,0.0,2026-10-28,25,0,Paid
+INV-24328,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Partially Paid,2026-10-03,2026-11-02,2026-11-01,4530.5,1228.9,3301.6,,,8,1-30
+INV-24488,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Paid,2026-10-03,2026-11-02,2026-11-01,2718.59,2718.59,0.0,2026-11-06,34,0,Paid
+INV-24504,Westlake Municipal,Casey Ellison,Level 3,Invoice,Paid,2026-10-03,2026-11-02,2026-11-01,1312.19,1312.19,0.0,2026-10-28,25,0,Paid
+INV-24553,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Partially Paid,2026-10-03,2026-11-02,2026-11-01,4486.1,2973.22,1512.88,,,8,1-30
+INV-24618,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Posted,2026-10-03,2026-11-02,2026-11-01,2882.89,0,2882.89,,,8,1-30
+INV-24852,Vista Eye Center,Casey Ellison,Level 3,Invoice,Paid,2026-10-03,2026-11-02,2026-11-01,6116.88,6116.88,0.0,2026-10-28,25,0,Paid
+INV-24922,Redstone Architecture,Jordan Blake,Level 2,Invoice,Posted,2026-10-03,2026-11-02,2026-11-01,719.65,0,719.65,,,8,1-30
+INV-24031,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Posted,2026-10-04,2026-11-03,2026-11-01,5078.2,0,5078.2,,,7,1-30
+INV-24081,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Posted,2026-10-04,2026-11-03,2026-11-01,1963.51,0,1963.51,,,7,1-30
+INV-24364,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Posted,2026-10-04,2026-11-03,2026-11-01,724.41,0,724.41,,,7,1-30
+INV-24380,Upland Water Authority,Avery Morgan,Level 2,Invoice,Posted,2026-10-04,2026-11-03,2026-11-01,2493.65,0,2493.65,,,7,1-30
+INV-24520,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Posted,2026-10-04,2026-11-03,2026-11-01,9911.7,0,9911.7,,,7,1-30
+INV-24665,Timberline Construction,Avery Morgan,Level 1,Invoice,Posted,2026-10-04,2026-11-03,2026-11-01,3271.62,0,3271.62,,,7,1-30
+INV-24775,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Paid,2026-10-04,2026-11-03,2026-11-01,7545.47,7545.47,0.0,2026-11-07,34,0,Paid
+INV-24836,Fieldstone Foods,Drew Patel,Level 3,Invoice,Paid,2026-10-04,2026-11-03,2026-11-01,431.85,431.85,0.0,2026-11-03,30,0,Paid
+INV-24113,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Partially Paid,2026-10-05,2026-11-04,2026-11-01,1014.14,568.85,445.29,,,6,1-30
+INV-24226,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Posted,2026-10-05,2026-11-04,2026-11-01,2679.35,0,2679.35,,,6,1-30
+INV-24295,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Posted,2026-10-05,2026-11-04,2026-11-01,2663.3,0,2663.3,,,6,1-30
+INV-24327,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Paid,2026-10-05,2026-11-04,2026-11-01,2590.57,2590.57,0.0,2026-10-30,25,0,Paid
+INV-24365,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Posted,2026-10-05,2026-11-04,2026-11-01,681.91,0,681.91,,,6,1-30
+INV-24951,Meridian Telehealth,Riley Carter,Level 5,Invoice,Paid,2026-10-05,2026-11-04,2026-11-01,379.53,379.53,0.0,2026-10-30,25,0,Paid
+INV-24016,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Partially Paid,2026-10-06,2026-11-05,2026-11-01,1790.23,432.15,1358.08,,,5,1-30
+INV-24047,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Posted,2026-10-06,2026-11-05,2026-11-01,846.91,0,846.91,,,5,1-30
+INV-24147,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Posted,2026-10-06,2026-11-05,2026-11-01,1278.64,0,1278.64,,,5,1-30
+INV-24412,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Posted,2026-10-06,2026-11-05,2026-11-01,3754.35,0,3754.35,,,5,1-30
+INV-24439,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Paid,2026-10-06,2026-11-05,2026-11-01,2212.3,2212.3,0.0,2026-11-03,28,0,Paid
+INV-24470,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Posted,2026-10-06,2026-11-05,2026-11-01,1268.97,0,1268.97,,,5,1-30
+INV-24603,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Posted,2026-10-06,2026-11-05,2026-11-01,1222.61,0,1222.61,,,5,1-30
+INV-24702,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Paid,2026-10-06,2026-11-05,2026-11-01,5691.24,5691.24,0.0,2026-11-07,32,0,Paid
+INV-24741,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Posted,2026-10-06,2026-11-05,2026-11-01,2371.67,0,2371.67,,,5,1-30
+INV-24789,Sterling Machine Works,Drew Patel,Level 3,Invoice,Paid,2026-10-06,2026-11-05,2026-11-01,596.03,596.03,0.0,2026-10-31,25,0,Paid
+INV-24888,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Paid,2026-10-06,2026-11-05,2026-11-01,558.19,558.19,0.0,2026-10-31,25,0,Paid
+INV-24015,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Posted,2026-10-07,2026-11-06,2026-11-01,2520.96,0,2520.96,,,4,1-30
+INV-24097,Ironwood Machining,Casey Ellison,Level 2,Invoice,Posted,2026-10-07,2026-11-06,2026-11-01,1866.42,0,1866.42,,,4,1-30
+INV-24163,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Posted,2026-10-07,2026-11-06,2026-11-01,904.01,0,904.01,,,4,1-30
+INV-24425,Harborview Medical,Avery Morgan,Level 5,Invoice,Posted,2026-10-07,2026-11-06,2026-11-01,1406.32,0,1406.32,,,4,1-30
+INV-24535,Dunmore Steel,Morgan Reyes,Level 4,Credit Memo,Applied,2026-10-07,2026-11-06,2026-11-01,-455.59,-455.59,0.0,,,0,Paid
+INV-24633,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Posted,2026-10-07,2026-11-06,2026-11-01,699.86,0,699.86,,,4,1-30
+INV-24719,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Posted,2026-10-07,2026-11-06,2026-11-01,1061.56,0,1061.56,,,4,1-30
+INV-24178,Bayline Logistics,Drew Patel,Level 2,Invoice,Paid,2026-10-08,2026-11-07,2026-11-01,379.15,379.15,0.0,2026-11-02,25,0,Paid
+INV-24261,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Posted,2026-10-08,2026-11-07,2026-11-01,1440.14,0,1440.14,,,3,1-30
+INV-24585,Greystone Capital,Casey Ellison,Level 5,Invoice,Posted,2026-10-08,2026-11-07,2026-11-01,235.79,0,235.79,,,3,1-30
+INV-24906,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Paid,2026-10-08,2026-11-07,2026-11-01,2080.31,2080.31,0.0,2026-11-02,25,0,Paid
+INV-24063,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Paid,2026-10-09,2026-11-08,2026-11-01,5954.51,5954.51,0.0,2026-11-05,27,0,Paid
+INV-24131,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Posted,2026-10-09,2026-11-08,2026-11-01,808.43,0,808.43,,,2,1-30
+INV-24192,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Paid,2026-10-09,2026-11-08,2026-11-01,685.92,685.92,0.0,2026-11-03,25,0,Paid
+INV-24454,Edgewater Realty,Drew Patel,Level 4,Credit Memo,Applied,2026-10-09,2026-11-08,2026-11-01,-105.42,-105.42,0.0,,,0,Paid
+INV-24720,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Paid,2026-10-09,2026-11-08,2026-11-01,1210.88,1210.88,0.0,2026-11-08,30,0,Paid
+INV-24967,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Partially Paid,2026-10-09,2026-11-08,2026-11-01,1311.57,728.51,583.06,,,2,1-30
+INV-24082,Crescent Legal Partners,Taylor Quinn,Level 1,Credit Memo,Applied,2026-10-10,2026-11-09,2026-11-01,-192.21,-192.21,0.0,,,0,Paid
+INV-24130,Pinecrest Senior Living,Taylor Quinn,Level 3,Invoice,Posted,2026-10-10,2026-11-09,2026-11-01,863.49,0,863.49,,,1,1-30
+INV-24246,Indigo Biotech,Casey Ellison,Level 4,Invoice,Posted,2026-10-10,2026-11-09,2026-11-01,2134.94,0,2134.94,,,1,1-30
+INV-24313,Xenon Labs,Riley Carter,Level 4,Invoice,Posted,2026-10-10,2026-11-09,2026-11-01,1912.28,0,1912.28,,,1,1-30
+INV-24343,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Posted,2026-10-10,2026-11-09,2026-11-01,2816.31,0,2816.31,,,1,1-30
+INV-24684,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Paid,2026-10-10,2026-11-09,2026-11-01,597.28,597.28,0.0,2026-11-06,27,0,Paid
+INV-24757,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Paid,2026-10-10,2026-11-09,2026-11-01,3226.8,3226.8,0.0,2026-11-04,25,0,Paid
+INV-24870,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Partially Paid,2026-10-10,2026-11-09,2026-11-01,7708.8,5091.48,2617.32,,,1,1-30
+INV-24247,Indigo Biotech,Casey Ellison,Level 4,Invoice,Posted,2026-11-01,2026-12-01,2026-12-01,2699.77,0,2699.77,,,0,Current
+INV-24263,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Posted,2026-11-01,2026-12-01,2026-12-01,923.62,0,923.62,,,0,Current
+INV-24280,Oakmont Accounting,Jordan Blake,Level 5,Invoice,Partially Paid,2026-11-01,2026-12-01,2026-12-01,7809.79,2323.61,5486.18,,,0,Current
+INV-24537,Dunmore Steel,Morgan Reyes,Level 4,Credit Memo,Applied,2026-11-01,2026-12-01,2026-12-01,-457.46,-457.46,0.0,,,0,Paid
+INV-24554,Cedar Point Builders,Casey Ellison,Level 1,Invoice,Partially Paid,2026-11-01,2026-12-01,2026-12-01,6747.16,3819.47,2927.69,,,0,Current
+INV-24923,Redstone Architecture,Jordan Blake,Level 2,Invoice,Posted,2026-11-01,2026-12-01,2026-12-01,719.34,0,719.34,,,0,Current
+INV-24968,Hawthorne Plastics,Riley Carter,Level 3,Invoice,Posted,2026-11-01,2026-12-01,2026-12-01,1574.03,0,1574.03,,,0,Current
+INV-24114,Silverleaf Landscaping,Riley Carter,Level 4,Invoice,Posted,2026-11-02,2026-12-02,2026-12-01,847.94,0,847.94,,,0,Current
+INV-24227,Willowbrook Youth Services,Drew Patel,Level 4,Invoice,Posted,2026-11-02,2026-12-02,2026-12-01,3004.56,0,3004.56,,,0,Current
+INV-24396,Granite Peak Insurance,Jordan Blake,Level 3,Credit Memo,Applied,2026-11-02,2026-12-02,2026-12-01,-307.44,-307.44,0.0,,,0,Paid
+INV-24489,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Posted,2026-11-02,2026-12-02,2026-12-01,3184.17,0,3184.17,,,0,Current
+INV-24634,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Posted,2026-11-02,2026-12-02,2026-12-01,562.13,0,562.13,,,0,Current
+INV-24650,Foxridge Engineering,Drew Patel,Level 1,Invoice,Posted,2026-11-02,2026-12-02,2026-12-01,1699.22,0,1699.22,,,0,Current
+INV-24889,Glenview Partners LLP,Morgan Reyes,Level 3,Invoice,Posted,2026-11-02,2026-12-02,2026-12-01,438.05,0,438.05,,,0,Current
+INV-24938,Whitestone Law Group,Morgan Reyes,Level 1,Credit Memo,Applied,2026-11-02,2026-12-02,2026-12-01,-743.67,-743.67,0.0,,,0,Paid
+INV-24952,Meridian Telehealth,Riley Carter,Level 5,Invoice,Posted,2026-11-02,2026-12-02,2026-12-01,554.32,0,554.32,,,0,Current
+INV-24193,Magnolia Title Co,Jordan Blake,Level 3,Invoice,Posted,2026-11-03,2026-12-03,2026-12-01,472.17,0,472.17,,,0,Current
+INV-24455,Edgewater Realty,Drew Patel,Level 4,Invoice,Posted,2026-11-03,2026-12-03,2026-12-01,1456.63,0,1456.63,,,0,Current
+INV-24619,Aldergrove Credit Union,Drew Patel,Level 3,Invoice,Posted,2026-11-03,2026-12-03,2026-12-01,2360.97,0,2360.97,,,0,Current
+INV-24721,Delta Freight Co,Morgan Reyes,Level 3,Invoice,Posted,2026-11-03,2026-12-03,2026-12-01,1453.19,0,1453.19,,,0,Current
+INV-24823,Maple Ridge Nonprofit,Jordan Blake,Level 3,Invoice,Posted,2026-11-03,2026-12-03,2026-12-01,1372.66,0,1372.66,,,0,Current
+INV-24032,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Posted,2026-11-04,2026-12-04,2026-12-01,4400.89,0,4400.89,,,0,Current
+INV-24098,Ironwood Machining,Casey Ellison,Level 2,Credit Memo,Applied,2026-11-04,2026-12-04,2026-12-01,-319.06,-319.06,0.0,,,0,Paid
+INV-24329,Lighthouse Pediatrics,Avery Morgan,Level 4,Invoice,Posted,2026-11-04,2026-12-04,2026-12-01,5666.83,0,5666.83,,,0,Current
+INV-24426,Harborview Medical,Avery Morgan,Level 5,Invoice,Posted,2026-11-04,2026-12-04,2026-12-01,1220.25,0,1220.25,,,0,Current
+INV-24666,Timberline Construction,Avery Morgan,Level 1,Invoice,Posted,2026-11-04,2026-12-04,2026-12-01,3144.56,0,3144.56,,,0,Current
+INV-24986,Nimbus Cloud Partners,Drew Patel,Level 5,Invoice,Partially Paid,2026-11-04,2026-12-04,2026-12-01,1619.8,665.76,954.04,,,0,Current
+INV-24017,Pioneer Trust Bank,Jordan Blake,Level 3,Invoice,Posted,2026-11-05,2026-12-05,2026-12-01,2217.09,0,2217.09,,,0,Current
+INV-24033,Keystone Property Mgmt,Jordan Blake,Level 5,Invoice,Partially Paid,2026-11-05,2026-12-05,2026-12-01,5687.66,2465.98,3221.68,,,0,Current
+INV-24297,Amberfield Orthopedics,Riley Carter,Level 1,Invoice,Partially Paid,2026-11-05,2026-12-05,2026-12-01,2186.95,519.74,1667.21,,,0,Current
+INV-24472,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Partially Paid,2026-11-05,2026-12-05,2026-12-01,2670.69,621.81,2048.88,,,0,Current
+INV-24505,Westlake Municipal,Casey Ellison,Level 3,Invoice,Posted,2026-11-05,2026-12-05,2026-12-01,1177.07,0,1177.07,,,0,Current
+INV-24522,Birchwood Dental Group,Drew Patel,Level 4,Credit Memo,Applied,2026-11-05,2026-12-05,2026-12-01,-1055.08,-1055.08,0.0,,,0,Paid
+INV-24635,Yellowstone Distributing,Drew Patel,Level 1,Invoice,Posted,2026-11-05,2026-12-05,2026-12-01,943.92,0,943.92,,,0,Current
+INV-24758,Copperline Manufacturing,Taylor Quinn,Level 3,Invoice,Posted,2026-11-05,2026-12-05,2026-12-01,1827.9,0,1827.9,,,0,Current
+INV-24837,Fieldstone Foods,Drew Patel,Level 3,Invoice,Partially Paid,2026-11-05,2026-12-05,2026-12-01,596.45,200.32,396.13,,,0,Current
+INV-24853,Vista Eye Center,Casey Ellison,Level 3,Invoice,Posted,2026-11-05,2026-12-05,2026-12-01,4479.62,0,4479.62,,,0,Current
+INV-24854,Vista Eye Center,Casey Ellison,Level 3,Invoice,Posted,2026-11-05,2026-12-05,2026-12-01,6769.35,0,6769.35,,,0,Current
+INV-24871,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Partially Paid,2026-11-05,2026-12-05,2026-12-01,6633.46,1494.09,5139.37,,,0,Current
+INV-24048,Sagebrush Ranch Supply,Casey Ellison,Level 4,Invoice,Posted,2026-11-06,2026-12-06,2026-12-01,1010.77,0,1010.77,,,0,Current
+INV-24413,Clearwater Family Clinic,Morgan Reyes,Level 3,Invoice,Posted,2026-11-06,2026-12-06,2026-12-01,1729.63,0,1729.63,,,0,Current
+INV-24456,Edgewater Realty,Drew Patel,Level 4,Credit Memo,Applied,2026-11-06,2026-12-06,2026-12-01,-340.89,-340.89,0.0,,,0,Paid
+INV-24490,Quarry Hill Auto Parts,Drew Patel,Level 2,Invoice,Posted,2026-11-06,2026-12-06,2026-12-01,2113.19,0,2113.19,,,0,Current
+INV-24536,Dunmore Steel,Morgan Reyes,Level 4,Credit Memo,Applied,2026-11-06,2026-12-06,2026-12-01,-258.38,-258.38,0.0,,,0,Paid
+INV-24604,Orchard Valley Farms,Riley Carter,Level 5,Invoice,Partially Paid,2026-11-06,2026-12-06,2026-12-01,1139.93,693.74,446.19,,,0,Current
+INV-24807,Union Pipe Credit Union,Riley Carter,Level 4,Invoice,Posted,2026-11-06,2026-12-06,2026-12-01,1005.23,0,1005.23,,,0,Current
+INV-24083,Crescent Legal Partners,Taylor Quinn,Level 1,Invoice,Posted,2026-11-07,2026-12-07,2026-12-01,1417.87,0,1417.87,,,0,Current
+INV-24132,Pinecrest Senior Living,Taylor Quinn,Level 3,Credit Memo,Applied,2026-11-07,2026-12-07,2026-12-01,-138.25,-138.25,0.0,,,0,Paid
+INV-24164,Zephyr Aviation,Morgan Reyes,Level 4,Invoice,Posted,2026-11-07,2026-12-07,2026-12-01,729.37,0,729.37,,,0,Current
+INV-24366,Juniper Wealth Advisors,Taylor Quinn,Level 4,Invoice,Posted,2026-11-07,2026-12-07,2026-12-01,781.25,0,781.25,,,0,Current
+INV-24776,Falcon Crest Dental,Casey Ellison,Level 4,Invoice,Posted,2026-11-07,2026-12-07,2026-12-01,5928.85,0,5928.85,,,0,Current
+INV-24790,Sterling Machine Works,Drew Patel,Level 3,Invoice,Posted,2026-11-07,2026-12-07,2026-12-01,937.0,0,937.0,,,0,Current
+INV-24264,Prairie Wind Energy,Avery Morgan,Level 3,Invoice,Posted,2026-11-08,2026-12-08,2026-12-01,1509.52,0,1509.52,,,0,Current
+INV-24314,Xenon Labs,Riley Carter,Level 4,Invoice,Posted,2026-11-08,2026-12-08,2026-12-01,1475.85,0,1475.85,,,0,Current
+INV-24381,Upland Water Authority,Avery Morgan,Level 2,Invoice,Posted,2026-11-08,2026-12-08,2026-12-01,2686.06,0,2686.06,,,0,Current
+INV-24440,Midtown Pharmacy,Morgan Reyes,Level 4,Invoice,Posted,2026-11-08,2026-12-08,2026-12-01,3559.04,0,3559.04,,,0,Current
+INV-24588,Greystone Capital,Casey Ellison,Level 5,Credit Memo,Applied,2026-11-08,2026-12-08,2026-12-01,-14.18,-14.18,0.0,,,0,Paid
+INV-24685,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Posted,2026-11-08,2026-12-08,2026-12-01,347.09,0,347.09,,,0,Current
+INV-24703,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Posted,2026-11-08,2026-12-08,2026-12-01,8926.38,0,8926.38,,,0,Current
+INV-24704,Valley Forge Logistics,Morgan Reyes,Level 3,Invoice,Posted,2026-11-08,2026-12-08,2026-12-01,8752.95,0,8752.95,,,0,Current
+INV-24742,Ivy League Tutoring,Riley Carter,Level 3,Invoice,Posted,2026-11-08,2026-12-08,2026-12-01,1219.31,0,1219.31,,,0,Current
+INV-24953,Meridian Telehealth,Riley Carter,Level 5,Invoice,Partially Paid,2026-11-08,2026-12-08,2026-12-01,437.77,107.33,330.44,,,0,Current
+INV-24064,Canyon Ridge Schools,Taylor Quinn,Level 4,Invoice,Partially Paid,2026-11-09,2026-12-09,2026-12-01,9553.76,1976.5,7577.26,,,0,Current
+INV-24212,Tidewater Pulmonary,Drew Patel,Level 4,Invoice,Posted,2026-11-09,2026-12-09,2026-12-01,1642.76,0,1642.76,,,0,Current
+INV-24344,Riverbend Hospital,Avery Morgan,Level 3,Invoice,Posted,2026-11-09,2026-12-09,2026-12-01,2294.38,0,2294.38,,,0,Current
+INV-24571,Coastal Ortho Group,Riley Carter,Level 4,Credit Memo,Applied,2026-11-09,2026-12-09,2026-12-01,-59.06,-59.06,0.0,,,0,Paid
+INV-24587,Greystone Capital,Casey Ellison,Level 5,Invoice,Partially Paid,2026-11-09,2026-12-09,2026-12-01,219.78,45.76,174.02,,,0,Current
+INV-24872,Driftwood Hospitality,Avery Morgan,Level 3,Invoice,Posted,2026-11-09,2026-12-09,2026-12-01,6050.21,0,6050.21,,,0,Current
+INV-24907,Oceanside Packaging,Morgan Reyes,Level 4,Invoice,Posted,2026-11-09,2026-12-09,2026-12-01,2514.94,0,2514.94,,,0,Current
+INV-24065,Canyon Ridge Schools,Taylor Quinn,Level 4,Credit Memo,Applied,2026-11-10,2026-12-10,2026-12-01,-1233.12,-1233.12,0.0,,,0,Paid
+INV-24148,Lakeshore Furniture,Casey Ellison,Level 4,Invoice,Posted,2026-11-10,2026-12-10,2026-12-01,2068.72,0,2068.72,,,0,Current
+INV-24179,Bayline Logistics,Drew Patel,Level 2,Invoice,Posted,2026-11-10,2026-12-10,2026-12-01,666.23,0,666.23,,,0,Current
+INV-24471,Rosewood Hotels,Avery Morgan,Level 2,Invoice,Posted,2026-11-10,2026-12-10,2026-12-01,2678.28,0,2678.28,,,0,Current
+INV-24521,Birchwood Dental Group,Drew Patel,Level 4,Invoice,Posted,2026-11-10,2026-12-10,2026-12-01,5097.4,0,5097.4,,,0,Current
+INV-24686,Jasper County Utilities,Morgan Reyes,Level 4,Invoice,Posted,2026-11-10,2026-12-10,2026-12-01,411.15,0,411.15,,,0,Current

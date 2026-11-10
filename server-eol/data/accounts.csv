@@ -1,0 +1,73 @@
+account,level,csm,server_2008,server_2012,server_2016,servers,status,psr_number,opportunity,gross_nrr,notes
+Aldergrove Credit Union,Level 3,Avery Morgan,0,0,1,1,Decommissioning,T20260328.2197,None,0,"App sunset, server to be wiped"
+Alpine Veterinary,Level 5,Avery Morgan,0,2,5,7,PSR In Progress,T20261017.7805,Open,105000,"Talking to client Friday, budget in place"
+Amberfield Orthopedics,Level 1,Riley Carter,0,0,1,1,Needs PSR,,None,25000,Waiting on site survey
+Bayline Logistics,Level 2,Taylor Quinn,1,1,2,4,Decommissioning,T20261001.1834,None,0,"App sunset, server to be wiped"
+Birchwood Dental Group,Level 4,Jordan Blake,0,1,1,2,Closed Won,T20260205.3381,Won,18000,"Hardware ordered, migration scheduled"
+Brightwater Brewing,Level 3,Riley Carter,0,1,2,3,Closed Won,T20261019.0919,Won,4500,"Hardware ordered, migration scheduled"
+Canyon Ridge Schools,Level 4,Taylor Quinn,0,0,4,4,PSR In Progress,T20260427.9805,Open,10667,"Two hosts need replacement, one still under support"
+Cedar Point Builders,Level 1,Jordan Blake,1,0,5,6,Decommissioning,T20260422.3964,None,0,"Workloads moved to cloud, server retiring"
+Clearwater Family Clinic,Level 3,Jordan Blake,0,0,0,0,PSR In Progress,T20260228.8358,Open,4500,Scoping Azure vs on-prem options
+Coastal Ortho Group,Level 4,Jordan Blake,0,1,1,2,Not Actionable,,None,0,Vendor-managed appliance
+Copperline Manufacturing,Level 3,Riley Carter,2,1,5,8,PSR In Progress,T20260817.3818,Open,8000,Scoping Azure vs on-prem options
+Crescent Legal Partners,Level 1,Casey Ellison,0,0,2,2,Presented To Client,T20260307.0279,Open,25000,"Proposal sent, decision expected this month"
+Delta Freight Co,Level 3,Drew Patel,0,0,1,1,PSR In Progress,T20260513.5919,Open,45000,"Two hosts need replacement, one still under support"
+Driftwood Hospitality,Level 3,Drew Patel,0,0,0,0,Closed Lost,T20260619.3982,Lost,4500,Budget frozen until next fiscal year
+Dunmore Steel,Level 4,Jordan Blake,0,0,1,1,Not Actionable,,None,0,Client accepts risk in writing
+Eastgate Realty,Level 1,Morgan Reyes,0,2,4,6,Closed Won,T20260916.1393,Won,9000,"Hardware ordered, migration scheduled"
+Edgewater Realty,Level 4,Drew Patel,0,2,5,7,Presented To Client,T20260722.0836,Open,42000,"Proposal sent, decision expected this month"
+Elmwood Insurance Group,Level 3,Morgan Reyes,0,1,2,3,Not Actionable,,None,0,Client accepts risk in writing
+Fairhaven School District,Level 1,Casey Ellison,0,0,5,5,Not Actionable,,None,0,Client accepts risk in writing
+Falcon Crest Dental,Level 4,Morgan Reyes,0,2,4,6,Presented To Client,T20260527.3559,Open,24000,"Proposal sent, decision expected this month"
+Fieldstone Foods,Level 3,Drew Patel,1,0,3,4,Needs PSR,,None,60000,"Inventory confirmed, PSR to be created"
+Foxridge Engineering,Level 1,Riley Carter,0,1,0,1,Presented To Client,T20260508.1918,Open,3000,Client reviewing budget with board
+Glenview Partners LLP,Level 3,Jordan Blake,1,1,1,3,Closed Lost,T20260605.8162,Lost,8000,Client chose in-house refresh
+Granite Peak Insurance,Level 3,Avery Morgan,0,2,3,5,Closed Won,T20260402.6740,Won,41667,"Signed, project kicked off"
+Greystone Capital,Level 5,Avery Morgan,0,2,1,3,PSR In Progress,T20260926.0428,Open,12000,"Talking to client Friday, budget in place"
+Harborview Medical,Level 5,Taylor Quinn,2,1,2,5,PSR In Progress,T20260816.1968,Open,10000,"Talking to client Friday, budget in place"
+Hawthorne Plastics,Level 3,Casey Ellison,0,0,5,5,Presented To Client,T20260622.2923,Open,30000,"Proposal sent, decision expected this month"
+Highland Spirits Co,Level 2,Avery Morgan,0,0,2,2,Closed Lost,T20260413.1445,Lost,3000,Budget frozen until next fiscal year
+Hilltop Family Medicine,Level 5,Avery Morgan,0,1,0,1,PSR In Progress,T20260407.3255,Open,8000,Scoping Azure vs on-prem options
+Indigo Biotech,Level 4,Taylor Quinn,1,1,4,6,PSR In Progress,T20260607.7127,Open,36000,Scoping Azure vs on-prem options
+Ironwood Machining,Level 2,Drew Patel,0,1,1,2,Closed Won,T20260306.4699,Won,12000,"Hardware ordered, migration scheduled"
+Ivy League Tutoring,Level 3,Taylor Quinn,1,2,1,4,PSR In Progress,T20260817.4801,Open,10667,Scoping Azure vs on-prem options
+Jade Garden Restaurants,Level 4,Drew Patel,0,1,2,3,Closed Won,T20260224.4660,Won,45000,"Signed, project kicked off"
+Juniper Wealth Advisors,Level 4,Morgan Reyes,0,0,1,1,Not Actionable,,None,0,Client accepts risk in writing
+Kestrel Security,Level 1,Morgan Reyes,0,1,4,5,Closed Lost,T20260913.7419,Lost,7500,Budget frozen until next fiscal year
+Keystone Property Mgmt,Level 5,Taylor Quinn,0,0,0,0,Closed Won,T20260318.1132,Won,8000,"Signed, project kicked off"
+Lakeshore Furniture,Level 4,Drew Patel,0,1,5,6,Closed Won,T20261013.5039,Won,16000,"Hardware ordered, migration scheduled"
+Lighthouse Pediatrics,Level 4,Taylor Quinn,0,0,3,3,Closed Lost,T20260228.7665,Lost,18000,Budget frozen until next fiscal year
+Lumen Optics,Level 4,Casey Ellison,0,1,2,3,PSR In Progress,T20260818.5705,Open,25000,"Two hosts need replacement, one still under support"
+Magnolia Title Co,Level 3,Morgan Reyes,1,0,3,4,Closed Lost,T20260805.6664,Lost,33333,Client chose in-house refresh
+Maple Ridge Nonprofit,Level 3,Jordan Blake,0,1,1,2,Presented To Client,T20260414.4454,Open,8000,Client reviewing budget with board
+Meridian Telehealth,Level 5,Avery Morgan,0,1,3,4,Closed Won,T20260616.8135,Won,24000,"Signed, project kicked off"
+Midtown Pharmacy,Level 4,Taylor Quinn,1,0,2,3,PSR In Progress,T20260911.2828,Open,45000,"Two hosts need replacement, one still under support"
+Nimbus Cloud Partners,Level 5,Riley Carter,1,0,3,4,Closed Lost,T20260607.4618,Lost,16000,Client chose in-house refresh
+Northfield Produce,Level 1,Avery Morgan,0,1,1,2,Not Actionable,,None,0,Client accepts risk in writing
+Northstar Engineering,Level 5,Taylor Quinn,0,0,4,4,Closed Won,T20260405.3168,Won,6000,"Hardware ordered, migration scheduled"
+Oakmont Accounting,Level 5,Riley Carter,0,2,3,5,PSR In Progress,T20260610.0378,Open,7500,Scoping Azure vs on-prem options
+Oceanside Packaging,Level 4,Casey Ellison,0,2,0,2,Presented To Client,T20260403.1578,Open,4500,"Proposal sent, decision expected this month"
+Orchard Valley Farms,Level 5,Riley Carter,0,0,1,1,Closed Won,T20261017.5835,Won,8000,"Signed, project kicked off"
+Pioneer Trust Bank,Level 3,Morgan Reyes,0,1,1,2,Closed Lost,T20260426.3733,Lost,18000,Budget frozen until next fiscal year
+Quarry Hill Auto Parts,Level 2,Morgan Reyes,1,3,1,5,Closed Won,T20260720.1482,Won,75000,"Signed, project kicked off"
+Quincy Medical Billing,Level 5,Avery Morgan,0,0,1,1,Closed Won,T20260718.0886,Won,18000,"Signed, project kicked off"
+Redstone Architecture,Level 2,Jordan Blake,0,2,3,5,PSR In Progress,T20260328.1133,Open,13333,"Talking to client Friday, budget in place"
+Riverbend Hospital,Level 3,Riley Carter,0,2,1,3,Closed Won,T20260409.7859,Won,12000,"Signed, project kicked off"
+Riverside Auto Group,Level 3,Casey Ellison,0,1,1,2,Decommissioning,T20260713.3342,None,0,"App sunset, server to be wiped"
+Rosewood Hotels,Level 2,Taylor Quinn,0,1,5,6,Decommissioning,T20260325.4433,None,0,"App sunset, server to be wiped"
+Sagebrush Ranch Supply,Level 4,Casey Ellison,1,0,1,2,PSR In Progress,T20260719.6788,Open,4500,"Two hosts need replacement, one still under support"
+Silverleaf Landscaping,Level 4,Drew Patel,1,0,1,2,Presented To Client,T20260205.0835,Open,6000,"Proposal sent, decision expected this month"
+Sterling Machine Works,Level 3,Avery Morgan,0,0,2,2,PSR In Progress,T20260907.7018,Open,6000,"Talking to client Friday, budget in place"
+Summit Broker Network,Level 2,Taylor Quinn,0,0,5,5,PSR In Progress,T20260610.4968,Open,5000,"Talking to client Friday, budget in place"
+Thornbury Accounting,Level 4,Morgan Reyes,1,1,2,4,Closed Won,T20260701.3376,Won,4000,"Signed, project kicked off"
+Tidewater Pulmonary,Level 4,Jordan Blake,0,1,1,2,PSR In Progress,T20260506.2828,Open,4500,"Talking to client Friday, budget in place"
+Timberline Construction,Level 1,Avery Morgan,1,3,1,5,PSR In Progress,T20261023.5198,Open,13333,"Two hosts need replacement, one still under support"
+Union Pipe Credit Union,Level 4,Drew Patel,0,0,2,2,PSR In Progress,T20260109.0743,Open,45000,"Two hosts need replacement, one still under support"
+Valley Forge Logistics,Level 3,Riley Carter,2,0,2,4,Not Actionable,,None,0,Client accepts risk in writing
+Westlake Municipal,Level 3,Casey Ellison,0,2,2,4,Closed Won,T20260307.3688,Won,16000,"Signed, project kicked off"
+Whitestone Law Group,Level 1,Jordan Blake,1,1,3,5,Closed Lost,T20260906.9015,Lost,13333,Budget frozen until next fiscal year
+Willowbrook Youth Services,Level 4,Jordan Blake,0,1,3,4,Closed Won,T20260326.3693,Won,6000,"Hardware ordered, migration scheduled"
+Xenon Labs,Level 4,Riley Carter,1,0,1,2,Needs PSR,,None,4500,Waiting on site survey
+Yellowstone Distributing,Level 1,Morgan Reyes,2,0,2,4,PSR In Progress,T20260922.6238,Open,33333,"Talking to client Friday, budget in place"
+Yorktown Health Partners,Level 4,Drew Patel,0,0,1,1,Closed Won,T20261022.4710,Won,3000,"Hardware ordered, migration scheduled"
+Zephyr Aviation,Level 4,Casey Ellison,0,1,2,3,Closed Lost,T20261017.1536,Lost,4500,Budget frozen until next fiscal year

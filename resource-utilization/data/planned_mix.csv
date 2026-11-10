@@ -1,0 +1,22 @@
+role,category,planned_pct
+Engineer - US,Managed Services,55
+Engineer - US,Revenue Project,10
+Engineer - US,Sustained Engineering,10
+Engineer - US,Internal Projects,5
+Analyst,Managed Services,60
+Analyst,Sustained Engineering,15
+Analyst,Internal Projects,5
+Consultant,Revenue Project,65
+Consultant,Managed Services,10
+Consultant,Internal Projects,5
+Project Manager,Revenue Project,50
+Project Manager,Internal Projects,20
+Project Manager,SG&A,10
+Developer,Sustained Engineering,50
+Developer,Internal Projects,25
+Developer,Revenue Project,5
+Technician,Managed Services,70
+Technician,Revenue Project,10
+Advisor,Managed Services,30
+Advisor,SG&A,30
+Advisor,Revenue Project,20

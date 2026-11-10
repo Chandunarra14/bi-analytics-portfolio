@@ -1,0 +1,16 @@
+kind,label,value,before,after,unit,better,note
+hero,Manual reporting effort saved,2,,,work-weeks every month,,"Project status, backlog and margin packs were built by hand from PSA exports: about 80 hours a month across PMs and finance. Now it's a live review."
+stat,Hours saved per year,912,,,PMs + finance,,
+stat,Backlog visible ahead,3 mo,,,NRR burndown by end month,,
+stat,Margin leaks flagged,2,,,Open over-budget projects,,
+stat,Status meetings,−50%,,,Exceptions only,,
+ba,Projects closed over budget,,25.9,18.8,%,lower,
+ba,Average project duration,,83,80,days,lower,
+ba,Average margin on closed projects,,6.0,15.2,%,higher,
+ba,Open projects in Red,,27.0,11.6,%,lower,
+client,Projects finish about {value} sooner on average,3 days,,,⏱,,
+client,Stalled projects surface at 120 days instead of being found at quarter end: {value} open in Red now,21,,,✓,,
+client,Finance forecasts {value} of NRR backlog by month from project end dates,"$1,319K",,,↑,,
+process,Monthly project review pack,,80,4,hours / month,,"RYG, backlog and margins update daily"
+process,Revenue movement report,,Month end,Live,,,New vs closed NRR and MRR by month
+process,Margin check per project,,Manual,Automatic,,,Contracted vs worked hours and budget status

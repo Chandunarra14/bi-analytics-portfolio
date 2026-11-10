@@ -1,0 +1,16 @@
+kind,label,value,before,after,unit,better,note
+hero,Manual reconciliation effort saved,2,,,work-weeks every month,,Matching Autotask PSR tickets to Salesforce opportunities by hand took about 20 hours a week across sales ops and the SAs. Now it's about 2 hours of exception review.
+stat,Hours saved per year,936,,,Sales ops + solutions architects,,
+stat,Mismatches caught,40,,,AT vs SF records fixed,,
+stat,NRR won since go-live,$5.20M,,,Closed-won PSR opportunities,,
+stat,Weekly pipeline review,30 min,,,Was a half-day meeting,,
+ba,Average days to scope,,54.0,31.6,days,lower,
+ba,Win rate on closed PSRs,,36.4,51.4,%,higher,
+ba,Open PSRs older than 90 days,,41,27,,lower,
+ba,Systems checked for one answer,,2,1,,lower,
+client,Clients get scoped quotes about {value} faster,22 days,,,⏱,,
+client,"Every PSR has one owner and one status across both systems, with {value} records reconciled",100%,,,✓,,
+client,"Leadership sees won, lost and open NRR in one place: {value} won since go-live",$5.20M,,,↑,,
+process,AT vs SF reconciliation,,20,2,hours / week,,Mismatch tables flag records closed in one system but open in the other
+process,Scoping backlog review,,Ad hoc,Daily,,,Aging buckets and top-25 oldest list
+process,CSM win/loss reporting,,Quarterly,Live,,,"Per-owner tickets, wins, losses, MRR and NRR"

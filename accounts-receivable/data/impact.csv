@@ -1,0 +1,16 @@
+kind,label,value,before,after,unit,better,note
+hero,Manual collections reporting saved,1,,,work-week every month,,"The weekly aging report came from accounting exports and a spreadsheet: about 10 hours a week for finance. Now the aging, collections and customer detail are live."
+stat,Hours saved per year,468,,,Finance team,,
+stat,Cash freed up,$143K,,,From faster payment,,
+stat,Open over 90 days,$82K,,,Clear follow-up list by CSM,,
+stat,CSMs in the loop,7,,,See their own clients' balances,,
+ba,Average days to pay,,70.5,46.5,days,lower,
+ba,Invoices paid within 35 days,,13.1,29.8,%,higher,
+ba,Time to build the aging report,,10,1,hrs,lower,
+ba,Accounts with 366+ day balances,,17,9,,lower,
+client,"Clients are paying about {value} faster, as CSMs follow up while invoices are still fresh",24 days,,,⏱,,
+client,"About {value} in cash collected sooner, without changing payment terms",$143K,,,✓,,
+client,"Finance and CSMs work from one list, so clients get {value} reminder instead of duplicates",one,,,↑,,
+process,Weekly aging report,,10,1,hours / week,,Aging buckets and customer detail update daily
+process,Collections performance,,Monthly,Live,,,Collected vs billed by due month
+process,CSM follow-up list,,Emailed spreadsheet,Filtered view,,,CSM and customer slicers

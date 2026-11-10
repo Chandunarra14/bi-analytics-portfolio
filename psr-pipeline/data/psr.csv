@@ -1,0 +1,781 @@
+ticket,account,csm,sa,psr_type,queue,created,scoped,closed,is_scoped,outcome,stage,days_to_scope,cycle_days,age_days,at_nrr,at_mrr,sf_nrr,sf_mrr
+T20251101.3249,Lighthouse Pediatrics,Morgan Reyes,Dana Brooks,PSR - Final,Client Success Manager,2025-11-01,2025-12-01,2026-01-07,Yes,Lost,Closed Lost,30,67,374,6978,1409,8527,1722
+T20251102.6659,Maple Ridge Nonprofit,Riley Carter,Frankie Lowe,PSR - Final,Solutions Architect,2025-11-02,2026-01-13,2026-02-27,Yes,Won,Closed Won,72,117,373,20817,0,25045,0
+T20251102.4150,Ivy League Tutoring,Avery Morgan,Elliot Shaw,PSR - Budgetary,Solutions Architect,2025-11-02,2026-01-12,2026-02-13,Yes,Lost,Closed Lost,71,103,373,15470,2951,13854,2643
+T20251102.3859,Driftwood Hospitality,Casey Ellison,Dana Brooks,PSR - Final,Client Success Manager,2025-11-02,2026-01-12,2026-02-15,Yes,Lost,Closed Lost,71,105,373,12394,0,13140,0
+T20251103.1815,Yorktown Health Partners,Avery Morgan,Harper Vance,PSR - Budgetary,Client Success Manager,2025-11-03,2026-01-09,2026-02-10,Yes,Lost,Closed Lost,67,99,372,66067,0,71673,0
+T20251104.0173,Hawthorne Plastics,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Solutions Architect,2025-11-04,2026-01-02,2026-02-13,Yes,Won,Closed Won,59,101,371,14557,0,17156,0
+T20251105.2384,Jade Garden Restaurants,Jordan Blake,Harper Vance,PSR - Final,Client Success Manager,2025-11-05,2025-12-22,2026-02-03,Yes,Lost,Closed Lost,47,90,370,5868,428,6282,458
+T20251105.1017,Blue Heron Marine,Taylor Quinn,Chris Nolan,PSR - Rescope,Solutions Architect,2025-11-05,2025-12-28,2026-02-10,Yes,Lost,Closed Lost,53,97,370,41059,0,42086,0
+T20251106.1324,Hawthorne Plastics,Drew Patel,Frankie Lowe,PSR - Final,Sales - Account Executives,2025-11-06,2026-01-04,2026-02-14,Yes,Won,Closed Won,59,100,369,4172,840,4765,959
+T20251107.5266,Yorktown Health Partners,Drew Patel,Chris Nolan,PSR - Final,Solutions Architect,2025-11-07,2025-12-25,2026-01-19,Yes,Lost,Closed Lost,48,73,368,9547,0,9133,0
+T20251108.5642,Meridian Telehealth,Casey Ellison,Chris Nolan,PSR - Final,Solutions Architect,2025-11-08,2025-12-18,,Yes,Open,Pricing / Scoping,40,,367,8450,833,7577,747
+T20251108.2492,Quarry Hill Auto Parts,Casey Ellison,Frankie Lowe,PSR - Budgetary,Client Success Manager,2025-11-08,2026-01-24,2026-03-16,Yes,Won,Closed Won,77,128,367,12441,262,13825,291
+T20251109.6729,Sterling Machine Works,Morgan Reyes,Elliot Shaw,PSR - Final,Solutions Architect,2025-11-09,2025-12-31,,Yes,Open,Validated,52,,366,6266,0,6573,0
+T20251109.7765,Zephyr Aviation,Jordan Blake,Frankie Lowe,PSR - Final,Client Success Manager,2025-11-09,2025-12-28,2026-02-13,Yes,Lost,Closed Lost,49,96,366,34530,0,35860,0
+T20251109.1849,Birchwood Dental Group,Taylor Quinn,Chris Nolan,PSR - Budgetary,Solutions Architect,2025-11-09,2025-12-31,2026-02-07,Yes,Lost,Closed Lost,52,90,366,3494,407,3109,362
+T20251110.3102,Whitestone Law Group,Riley Carter,Harper Vance,PSR - Final,Solutions Architect,2025-11-10,2026-01-11,2026-03-01,Yes,Lost,Closed Lost,62,111,365,23297,330,28826,408
+T20251112.4839,Quarry Hill Auto Parts,Avery Morgan,Frankie Lowe,PSR - Budgetary,Solutions Architect,2025-11-12,2025-12-27,2026-01-25,Yes,Lost,Closed Lost,45,74,363,4880,0,5069,0
+T20251112.2514,Xenon Labs,Jordan Blake,Chris Nolan,PSR - Final,Client Success Manager,2025-11-12,2026-01-17,2026-03-15,Yes,Won,Closed Won,66,123,363,20049,0,21761,0
+T20251112.6107,Juniper Wealth Advisors,Riley Carter,Frankie Lowe,PSR - Budgetary,Solutions Architect,2025-11-12,2026-01-12,2026-02-10,Yes,Lost,Closed Lost,61,90,363,6609,0,6060,0
+T20251112.3269,Evergreen Ag Services,Jordan Blake,Elliot Shaw,PSR - Budgetary,Client Success Manager,2025-11-12,2025-12-31,2026-01-10,Yes,Won,Closed Won,49,59,363,66925,1211,59399,1075
+T20251112.7561,Kestrel Security,Drew Patel,Frankie Lowe,PSR - Budgetary,Solutions Architect,2025-11-12,2026-01-04,2026-02-16,Yes,Lost,Closed Lost,53,96,363,10906,935,10548,904
+T20251113.7727,Evergreen Ag Services,Jordan Blake,Chris Nolan,PSR - Final,Client Success Manager,2025-11-13,2025-12-27,2026-02-12,Yes,Won,Closed Won,44,91,362,20994,162,19631,151
+T20251113.9494,Juniper Wealth Advisors,Jordan Blake,Chris Nolan,PSR - Final,Solutions Architect,2025-11-13,2026-01-04,2026-01-12,Yes,Won,Closed Won,52,60,362,4416,0,4447,0
+T20251114.8937,Midtown Pharmacy,Avery Morgan,Chris Nolan,PSR - Budgetary,Client Success Manager,2025-11-14,2025-12-25,,Yes,Open,Pricing / Scoping,41,,361,17406,715,16507,678
+T20251114.7666,Ivy League Tutoring,Casey Ellison,Chris Nolan,PSR - Budgetary,Solutions Architect,2025-11-14,2025-12-27,2026-02-07,Yes,Lost,Closed Lost,43,85,361,3316,0,3221,0
+T20251114.4715,Cedar Point Builders,Riley Carter,Chris Nolan,PSR - Final,Solutions Architect,2025-11-14,2025-12-30,2026-02-27,Yes,Lost,Closed Lost,46,105,361,38843,121,34359,107
+T20251115.8326,Sterling Machine Works,Drew Patel,Frankie Lowe,PSR - Budgetary,Solutions Architect,2025-11-15,2026-01-23,2026-03-09,Yes,Won,Closed Won,69,114,360,40113,436,39531,430
+T20251115.2600,Union Pipe Credit Union,Casey Ellison,Chris Nolan,PSR - Final,Client Success Manager,2025-11-15,2026-01-31,2026-03-05,Yes,Won,Closed Won,77,110,360,2758,2506,2603,2365
+T20251117.3121,Yorktown Health Partners,Riley Carter,Chris Nolan,PSR - Final,Business Continuity,2025-11-17,2026-01-09,2026-03-15,Yes,Lost,Closed Lost,53,118,358,65074,0,68391,0
+T20251117.1810,Foxridge Engineering,Jordan Blake,Frankie Lowe,PSR - Budgetary,Solutions Architect,2025-11-17,2025-12-22,2026-02-21,Yes,Lost,Closed Lost,35,96,358,5674,0,5311,0
+T20251118.1646,Crescent Legal Partners,Drew Patel,Dana Brooks,PSR - Final,Client Success Manager,2025-11-18,2026-01-09,2026-01-26,Yes,Lost,Closed Lost,52,69,357,5533,0,4900,0
+T20251118.0979,Falcon Crest Dental,Casey Ellison,Dana Brooks,PSR - Budgetary,Solutions Architect,2025-11-18,2026-01-20,2026-02-21,Yes,Lost,Closed Lost,63,95,357,3517,0,3089,0
+T20251118.3891,Kestrel Security,Taylor Quinn,Harper Vance,PSR - Budgetary,Solutions Architect,2025-11-18,2026-01-17,2026-03-01,Yes,Lost,Closed Lost,60,103,357,16035,747,17849,832
+T20251119.8009,Northstar Engineering,Riley Carter,Frankie Lowe,PSR - Budgetary,Finance,2025-11-19,2025-12-31,2026-02-06,Yes,Lost,Closed Lost,42,79,356,20388,782,23921,918
+T20251119.0816,Pioneer Trust Bank,Jordan Blake,Elliot Shaw,PSR - Budgetary,Solutions Architect,2025-11-19,2026-01-24,2026-03-05,Yes,Lost,Closed Lost,66,106,356,17779,172,17169,166
+T20251119.0588,Willowbrook Youth Services,Drew Patel,Harper Vance,PSR - Final,Solutions Architect,2025-11-19,2026-01-09,2026-03-07,Yes,Won,Closed Won,51,108,356,17735,2822,20278,3227
+T20251119.6255,Jasper County Utilities,Drew Patel,Harper Vance,PSR - Budgetary,Solutions Architect,2025-11-19,2025-12-18,2026-01-07,Yes,Lost,Closed Lost,29,49,356,5588,0,5301,0
+T20251121.2122,Lumen Optics,Casey Ellison,Chris Nolan,PSR - Budgetary,Solutions Architect,2025-11-21,2026-01-17,2026-02-27,Yes,Lost,Closed Lost,57,98,354,5894,0,5470,0
+T20251121.5127,Brightwater Brewing,Morgan Reyes,Frankie Lowe,PSR - Budgetary,Client Success Manager,2025-11-21,2025-12-16,2026-01-30,Yes,Won,Closed Won,25,70,354,20699,2493,24230,2918
+T20251121.0241,Crescent Legal Partners,Riley Carter,Elliot Shaw,PSR - Budgetary,Client Success Manager,2025-11-21,2026-01-23,2026-03-28,Yes,Won,Closed Won,63,127,354,23029,165,25884,185
+T20251121.6726,Copperline Manufacturing,Taylor Quinn,Harper Vance,PSR - Budgetary,Solutions Architect,2025-11-21,2026-01-29,2026-03-18,Yes,Lost,Closed Lost,69,117,354,8550,493,9929,573
+T20251121.8039,Union Pipe Credit Union,Morgan Reyes,Chris Nolan,PSR - Final,Client Success Manager,2025-11-21,2026-01-07,2026-02-22,Yes,Won,Closed Won,47,93,354,8864,2966,8799,2944
+T20251122.8348,Orchard Valley Farms,Drew Patel,Harper Vance,PSR - Final,Client Success Manager,2025-11-22,2025-12-30,2026-03-06,Yes,Lost,Closed Lost,38,104,353,10561,341,10186,329
+T20251122.1261,Nimbus Cloud Partners,Jordan Blake,Dana Brooks,PSR - Final,Solutions Architect,2025-11-22,2026-01-14,2026-03-02,Yes,Lost,Closed Lost,53,100,353,6149,0,6984,0
+T20251123.9606,Harborview Medical,Morgan Reyes,Chris Nolan,PSR - Budgetary,Solutions Architect,2025-11-23,2026-01-24,2026-03-08,Yes,Lost,Closed Lost,62,105,352,9737,0,9256,0
+T20251125.9847,Keystone Property Mgmt,Riley Carter,Dana Brooks,PSR - Final,Solutions Architect,2025-11-25,2026-02-02,2026-02-17,Yes,Won,Closed Won,69,84,350,21612,2236,19736,2042
+T20251126.3736,Pinecrest Senior Living,Taylor Quinn,Chris Nolan,PSR - Budgetary,Client Success Manager,2025-11-26,2026-01-15,2026-03-04,Yes,Lost,Closed Lost,50,98,349,3908,0,4542,0
+T20251126.9713,Blue Heron Marine,Riley Carter,Frankie Lowe,PSR - Final,Solutions Architect,2025-11-26,2026-02-03,2026-03-10,Yes,Won,Closed Won,69,104,349,18904,585,21910,678
+T20251126.8791,Yellowstone Distributing,Drew Patel,Frankie Lowe,PSR - Budgetary,Client Success Manager,2025-11-26,2026-01-15,2026-02-17,Yes,Lost,Closed Lost,50,83,349,3515,502,4052,579
+T20251127.5421,Summit Broker Network,Morgan Reyes,Elliot Shaw,PSR - Final,Client Success Manager,2025-11-27,2026-01-13,2026-02-17,Yes,Lost,Closed Lost,47,82,348,4263,125,5095,149
+T20251127.7833,Xenon Labs,Casey Ellison,Frankie Lowe,PSR - Final,Client Success Manager,2025-11-27,2026-01-20,2026-02-13,Yes,Won,Closed Won,54,78,348,5618,2280,4963,2014
+T20251128.1708,Hawthorne Plastics,Riley Carter,Chris Nolan,PSR - Budgetary,Client Success Manager,2025-11-28,2026-02-03,2026-03-25,Yes,Lost,Closed Lost,67,117,347,39809,0,41300,0
+T20251129.1175,Orchard Valley Farms,Jordan Blake,Harper Vance,PSR - Budgetary,Solutions Architect,2025-11-29,2026-01-08,2026-02-14,Yes,Lost,Closed Lost,40,77,346,7068,904,7427,950
+T20251129.4397,Pioneer Trust Bank,Drew Patel,Frankie Lowe,PSR - Final,Solutions Architect,2025-11-29,2026-02-05,2026-03-18,Yes,Won,Closed Won,68,109,346,13510,400,12011,356
+T20251130.9275,Kestrel Security,Casey Ellison,Elliot Shaw,PSR - Final,Solutions Architect,2025-11-30,2026-02-17,2026-03-27,Yes,Won,Closed Won,79,117,345,4107,1129,3788,1041
+T20251130.4153,Tidewater Pulmonary,Riley Carter,Elliot Shaw,PSR - Final,Solutions Architect,2025-11-30,2026-01-08,2026-02-19,Yes,Won,Closed Won,39,81,345,4110,0,4151,0
+T20251130.7126,Coastal Ortho Group,Casey Ellison,Chris Nolan,PSR - Budgetary,Client Success Manager,2025-11-30,2026-01-24,2026-02-07,Yes,Won,Closed Won,55,69,345,2931,1060,2539,918
+T20251201.2370,Sagebrush Ranch Supply,Morgan Reyes,Chris Nolan,PSR - Budgetary,Client Success Manager,2025-12-01,2026-01-28,2026-03-10,Yes,Lost,Closed Lost,58,99,344,8051,0,8315,0
+T20251201.8201,Falcon Crest Dental,Avery Morgan,Elliot Shaw,PSR - Budgetary,Client Success Manager,2025-12-01,2025-12-27,2026-02-01,Yes,Lost,Closed Lost,26,62,344,29402,787,30116,806
+T20251202.5098,Upland Water Authority,Avery Morgan,Elliot Shaw,PSR - Budgetary,Solutions Architect,2025-12-02,2026-01-13,,Yes,Open,Proposal Delivered,42,,343,7302,736,7965,803
+T20251203.0637,Silverleaf Landscaping,Jordan Blake,Chris Nolan,PSR - Final,Client Success Manager,2025-12-03,2026-01-28,2026-03-24,Yes,Lost,Closed Lost,56,111,342,4856,0,4170,0
+T20251203.3297,Coastal Ortho Group,Casey Ellison,Chris Nolan,PSR - Budgetary,Solutions Architect,2025-12-03,2026-01-30,2026-02-26,Yes,Won,Closed Won,58,85,342,32848,0,38491,0
+T20251204.3456,Meridian Telehealth,Casey Ellison,Elliot Shaw,PSR - Final,Sales - Account Executives,2025-12-04,2026-01-15,2026-01-22,Yes,Won,Closed Won,42,49,341,49508,0,44268,0
+T20251204.9557,Sagebrush Ranch Supply,Casey Ellison,Frankie Lowe,PSR - Budgetary,Solutions Architect,2025-12-04,2026-01-24,2026-03-10,Yes,Lost,Closed Lost,51,96,341,6407,663,7624,789
+T20251204.6301,Driftwood Hospitality,Drew Patel,Frankie Lowe,PSR - Budgetary,Solutions Architect,2025-12-04,2026-01-28,2026-03-19,Yes,Lost,Closed Lost,55,105,341,18749,247,17867,235
+T20251206.5657,Rosewood Hotels,Avery Morgan,Chris Nolan,PSR - Budgetary,Solutions Architect,2025-12-06,2026-01-25,2026-03-09,Yes,Lost,Closed Lost,50,93,339,60415,731,52650,637
+T20251206.4783,Harborview Medical,Avery Morgan,Dana Brooks,PSR - Final,Sales - Account Executives,2025-12-06,2026-02-25,2026-03-22,Yes,Won,Closed Won,81,106,339,15803,596,19112,721
+T20251207.2514,Magnolia Title Co,Taylor Quinn,Dana Brooks,PSR - Final,Solutions Architect,2025-12-07,2026-01-15,2026-01-30,Yes,Lost,Closed Lost,39,54,338,18946,1251,18920,1249
+T20251207.7101,Blue Heron Marine,Casey Ellison,Elliot Shaw,PSR - Budgetary,Solutions Architect,2025-12-07,2026-01-17,2026-01-29,Yes,Lost,Closed Lost,41,53,338,4610,1373,3933,1171
+T20251208.2025,Kestrel Security,Riley Carter,Chris Nolan,PSR - Final,Solutions Architect,2025-12-08,2026-02-04,2026-02-27,Yes,Won,Closed Won,58,81,337,13844,0,16980,0
+T20251209.2301,Silverleaf Landscaping,Taylor Quinn,Dana Brooks,PSR - Final,Solutions Architect,2025-12-09,2026-01-27,2026-03-08,Yes,Won,Closed Won,49,89,336,15008,462,18548,571
+T20251210.5381,Amberfield Orthopedics,Jordan Blake,Chris Nolan,PSR - Budgetary,Client Success Manager,2025-12-10,2026-02-19,2026-05-06,Yes,Lost,Closed Lost,71,147,335,8779,1414,9989,1609
+T20251211.2912,Vista Eye Center,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Client Success Manager,2025-12-11,2026-01-18,2026-02-19,Yes,Won,Closed Won,38,70,334,3754,277,3453,255
+T20251211.9642,Meridian Telehealth,Taylor Quinn,Chris Nolan,PSR - Budgetary,Solutions Architect,2025-12-11,2026-01-18,2026-03-24,Yes,Lost,Closed Lost,38,103,334,49770,2427,53421,2605
+T20251211.2898,Zephyr Aviation,Taylor Quinn,Dana Brooks,PSR - Final,Client Success Manager,2025-12-11,2026-02-07,2026-03-02,Yes,Won,Closed Won,58,81,334,18680,173,22891,212
+T20251212.1916,Dunmore Steel,Avery Morgan,Harper Vance,PSR - Budgetary,Client Success Manager,2025-12-12,2026-01-03,2026-02-02,Yes,Won,Closed Won,22,52,333,44715,174,49466,192
+T20251212.5562,Summit Broker Network,Taylor Quinn,Elliot Shaw,PSR - Final,Client Success Manager,2025-12-12,2026-02-03,2026-03-07,Yes,Lost,Closed Lost,53,85,333,23823,309,23734,308
+T20251212.9502,Jade Garden Restaurants,Riley Carter,Chris Nolan,PSR - Budgetary,Client Success Manager,2025-12-12,2026-03-03,2026-04-01,Yes,Lost,Closed Lost,81,110,333,3103,467,3674,553
+T20251212.1025,Pioneer Trust Bank,Avery Morgan,Dana Brooks,PSR - Budgetary,Client Success Manager,2025-12-12,2026-01-30,2026-04-10,Yes,Won,Closed Won,49,119,333,9869,1392,8633,1218
+T20251212.2553,Riverbend Hospital,Casey Ellison,Elliot Shaw,PSR - Budgetary,Sales - Account Executives,2025-12-12,2026-02-16,2026-03-22,Yes,Lost,Closed Lost,66,100,333,2426,253,2111,220
+T20251212.6353,Orchard Valley Farms,Casey Ellison,Dana Brooks,PSR - Budgetary,Solutions Architect,2025-12-12,2026-02-06,2026-03-16,Yes,Lost,Closed Lost,56,94,333,10182,507,9617,479
+T20251213.9273,Yellowstone Distributing,Casey Ellison,Dana Brooks,PSR - Budgetary,Client Success Manager,2025-12-13,2026-01-23,2026-03-21,Yes,Won,Closed Won,41,98,332,43410,811,54227,1013
+T20251213.2358,Oakmont Accounting,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2025-12-13,2026-02-06,2026-03-15,Yes,Lost,Closed Lost,55,92,332,27920,870,29238,911
+T20251213.6251,Westlake Municipal,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2025-12-13,2026-02-18,2026-03-27,Yes,Lost,Closed Lost,67,104,332,11198,580,10067,521
+T20251213.8177,Ivy League Tutoring,Drew Patel,Elliot Shaw,PSR - Final,Solutions Architect,2025-12-13,2026-01-24,2026-03-01,Yes,Lost,Closed Lost,42,78,332,3267,0,3533,0
+T20251213.7010,Pioneer Trust Bank,Jordan Blake,Elliot Shaw,PSR - Budgetary,Client Success Manager,2025-12-13,2026-02-12,2026-04-14,Yes,Lost,Closed Lost,61,122,332,4073,0,3483,0
+T20251213.4887,Cedar Point Builders,Morgan Reyes,Harper Vance,PSR - Budgetary,Client Success Manager,2025-12-13,2026-01-23,2026-03-19,Yes,Lost,Closed Lost,41,96,332,13150,0,15465,0
+T20251213.4090,Riverbend Hospital,Taylor Quinn,Chris Nolan,PSR - Budgetary,Sales - Account Executives,2025-12-13,2026-02-07,2026-03-29,Yes,Won,Closed Won,56,106,332,57413,0,66376,0
+T20251213.6444,Jasper County Utilities,Drew Patel,Frankie Lowe,PSR - Budgetary,Solutions Architect,2025-12-13,2026-01-10,2026-02-09,Yes,Lost,Closed Lost,28,58,332,3545,0,4065,0
+T20251214.3653,Quincy Medical Billing,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Solutions Architect,2025-12-14,2026-01-14,2026-02-22,Yes,Lost,Closed Lost,31,70,331,52291,0,58903,0
+T20251214.9162,Driftwood Hospitality,Casey Ellison,Chris Nolan,PSR - Final,Solutions Architect,2025-12-14,2026-02-08,2026-04-19,Yes,Lost,Closed Lost,56,126,331,38337,314,33634,275
+T20251214.5998,Kestrel Security,Riley Carter,Chris Nolan,PSR - Budgetary,Client Success Manager,2025-12-14,2026-02-13,2026-04-03,Yes,Lost,Closed Lost,61,110,331,4672,2985,5276,3371
+T20251214.4806,Delta Freight Co,Casey Ellison,Elliot Shaw,PSR - Final,Client Success Manager,2025-12-14,2026-02-22,2026-04-13,Yes,Won,Closed Won,70,120,331,6485,0,6227,0
+T20251214.5612,Indigo Biotech,Morgan Reyes,Chris Nolan,PSR - Final,Solutions Architect,2025-12-14,2026-02-17,2026-03-22,Yes,Lost,Closed Lost,65,98,331,18743,0,20072,0
+T20251215.5303,Driftwood Hospitality,Jordan Blake,Frankie Lowe,PSR - Rescope,Client Success Manager,2025-12-15,2026-01-25,2026-03-16,Yes,Lost,Closed Lost,41,91,330,53529,254,58574,278
+T20251217.6946,Bayline Logistics,Riley Carter,Elliot Shaw,PSR - Budgetary,Sales - Account Executives,2025-12-17,2026-03-09,2026-04-07,Yes,Lost,Closed Lost,82,111,328,15883,0,14040,0
+T20251217.1778,Oceanside Packaging,Morgan Reyes,Chris Nolan,PSR - Final,Solutions Architect,2025-12-17,2026-03-01,2026-04-13,Yes,Won,Closed Won,74,117,328,9334,1151,8984,1108
+T20251217.6272,Orchard Valley Farms,Jordan Blake,Dana Brooks,PSR - Final,Client Success Manager,2025-12-17,2026-02-21,2026-04-23,Yes,Lost,Closed Lost,66,127,328,14224,0,12741,0
+T20251218.0990,Harborview Medical,Riley Carter,Elliot Shaw,PSR - Budgetary,Client Success Manager,2025-12-18,2026-01-30,2026-02-09,Yes,Won,Closed Won,43,53,327,71800,0,78860,0
+T20251219.9420,Greystone Capital,Casey Ellison,Dana Brooks,PSR - Final,Solutions Architect,2025-12-19,2026-02-13,2026-04-21,Yes,Lost,Closed Lost,56,123,326,43139,1370,40543,1288
+T20251219.2618,Thornbury Accounting,Taylor Quinn,Harper Vance,PSR - Budgetary,Solutions Architect,2025-12-19,2026-02-01,2026-03-14,Yes,Lost,Closed Lost,44,85,326,18628,2038,19658,2151
+T20251220.1785,Timberline Construction,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Solutions Architect,2025-12-20,2026-02-25,2026-04-27,Yes,Lost,Closed Lost,67,128,325,6506,0,5683,0
+T20251220.8189,Fairhaven School District,Casey Ellison,Dana Brooks,PSR - Final,Solutions Architect,2025-12-20,2026-01-30,2026-04-19,Yes,Lost,Closed Lost,41,120,325,15028,341,18065,410
+T20251220.4452,Harborview Medical,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Client Success Manager,2025-12-20,2026-01-28,2026-02-24,Yes,Lost,Closed Lost,39,66,325,49248,0,54483,0
+T20251221.6316,Northfield Produce,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Solutions Architect,2025-12-21,2026-01-22,2026-02-21,Yes,Lost,Closed Lost,32,62,324,2802,0,2408,0
+T20251222.1821,Summit Broker Network,Drew Patel,Frankie Lowe,PSR - Final,Business Continuity,2025-12-22,2026-02-15,2026-03-10,Yes,Won,Closed Won,55,78,323,25514,0,26113,0
+T20251223.9194,Eastgate Realty,Drew Patel,Harper Vance,PSR - Final,Sales - Account Executives,2025-12-23,2026-01-24,2026-02-17,Yes,Won,Closed Won,32,56,322,48514,253,50073,261
+T20251224.0588,Ivy League Tutoring,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Solutions Architect,2025-12-24,2026-02-10,2026-03-12,Yes,Lost,Closed Lost,48,78,321,4166,316,4752,360
+T20251224.5770,Oceanside Packaging,Casey Ellison,Elliot Shaw,PSR - Budgetary,Client Success Manager,2025-12-24,2026-02-27,2026-04-09,Yes,Lost,Closed Lost,65,106,321,37594,0,44280,0
+T20251225.8982,Fieldstone Foods,Casey Ellison,Dana Brooks,PSR - Budgetary,Client Success Manager,2025-12-25,2026-02-23,2026-04-03,Yes,Won,Closed Won,60,99,320,21828,1417,21756,1412
+T20251225.4869,Clearwater Family Clinic,Drew Patel,Elliot Shaw,PSR - Budgetary,Client Success Manager,2025-12-25,2026-02-26,2026-04-15,Yes,Won,Closed Won,63,111,320,14321,2606,13418,2442
+T20251225.2484,Blue Heron Marine,Avery Morgan,Harper Vance,PSR - Final,Finance,2025-12-25,2026-02-05,2026-03-25,Yes,Won,Closed Won,42,90,320,39262,698,41268,734
+T20251226.6879,Birchwood Dental Group,Drew Patel,Dana Brooks,PSR - Budgetary,Solutions Architect,2025-12-26,2026-02-04,2026-03-14,Yes,Lost,Closed Lost,40,78,319,47255,1167,42605,1052
+T20251226.3365,Clearwater Family Clinic,Taylor Quinn,Harper Vance,PSR - Final,Solutions Architect,2025-12-26,2026-02-04,2026-05-06,Yes,Won,Closed Won,40,131,319,20803,1219,20145,1180
+T20251226.0576,Timberline Construction,Drew Patel,Elliot Shaw,PSR - Budgetary,Solutions Architect,2025-12-26,2026-02-11,2026-03-20,Yes,Won,Closed Won,47,84,319,4677,0,5009,0
+T20251226.1022,Coastal Ortho Group,Riley Carter,Chris Nolan,PSR - Budgetary,Solutions Architect,2025-12-26,2026-02-16,2026-03-10,Yes,Lost,Closed Lost,52,74,319,21242,527,21890,543
+T20251228.6472,Coastal Ortho Group,Taylor Quinn,Harper Vance,PSR - Final,Solutions Architect,2025-12-28,2026-02-22,2026-03-05,Yes,Won,Closed Won,56,67,317,52512,512,55732,543
+T20251228.7124,Riverside Auto Group,Drew Patel,Chris Nolan,PSR - Final,Client Success Manager,2025-12-28,2026-02-23,2026-04-26,Yes,Lost,Closed Lost,57,119,317,55448,0,52452,0
+T20251228.4704,Thornbury Accounting,Morgan Reyes,Chris Nolan,PSR - Budgetary,Client Success Manager,2025-12-28,2026-03-05,,Yes,Open,SAA Vetted / Priced,67,,317,20146,139,23912,165
+T20251230.4037,Pinecrest Senior Living,Avery Morgan,Harper Vance,PSR - Rescope,Solutions Architect,2025-12-30,2026-02-13,2026-03-11,Yes,Lost,Closed Lost,45,71,315,3654,149,4276,174
+T20251230.2125,Yorktown Health Partners,Avery Morgan,Harper Vance,PSR - Budgetary,Solutions Architect,2025-12-30,2026-02-18,2026-04-03,Yes,Lost,Closed Lost,50,94,315,3157,141,3326,149
+T20251230.0727,Brightwater Brewing,Morgan Reyes,Frankie Lowe,PSR - Budgetary,Client Success Manager,2025-12-30,2026-03-02,2026-05-05,Yes,Lost,Closed Lost,62,126,315,8206,0,9518,0
+T20251230.7886,Lighthouse Pediatrics,Casey Ellison,Elliot Shaw,PSR - Final,Solutions Architect,2025-12-30,2026-02-18,2026-04-10,Yes,Won,Closed Won,50,101,315,7914,0,7210,0
+T20260101.9608,Kestrel Security,Taylor Quinn,Harper Vance,PSR - Budgetary,Client Success Manager,2026-01-01,2026-02-28,2026-03-31,Yes,Won,Closed Won,58,89,313,12744,2334,14325,2624
+T20260101.1617,Ironwood Machining,Casey Ellison,Frankie Lowe,PSR - Final,Solutions Architect,2026-01-01,2026-02-23,2026-04-13,Yes,Won,Closed Won,53,102,313,33066,241,35830,261
+T20260102.7749,Keystone Property Mgmt,Riley Carter,Frankie Lowe,PSR - Final,Solutions Architect,2026-01-02,2026-03-09,2026-05-17,Yes,Lost,Closed Lost,66,135,312,9024,358,9048,359
+T20260102.5269,Nimbus Cloud Partners,Morgan Reyes,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-01-02,2026-03-23,2026-05-06,Yes,Lost,Closed Lost,80,124,312,40967,2727,35859,2387
+T20260103.2072,Yorktown Health Partners,Jordan Blake,Elliot Shaw,PSR - Final,Solutions Architect,2026-01-03,2026-02-23,2026-04-19,Yes,Won,Closed Won,51,106,311,8972,1226,9205,1258
+T20260103.5504,Meridian Telehealth,Jordan Blake,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-01-03,2026-03-03,2026-04-02,Yes,Lost,Closed Lost,59,89,311,3624,1350,4120,1535
+T20260103.9884,Fairhaven School District,Avery Morgan,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-01-03,2026-02-20,2026-03-29,Yes,Lost,Closed Lost,48,85,311,8396,0,7915,0
+T20260104.9854,Glenview Partners LLP,Morgan Reyes,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-01-04,2026-03-15,2026-05-05,Yes,Lost,Closed Lost,70,121,310,21309,0,25255,0
+T20260104.1398,Jade Garden Restaurants,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2026-01-04,2026-02-25,2026-04-14,Yes,Lost,Closed Lost,52,100,310,18897,0,17646,0
+T20260106.2601,Indigo Biotech,Drew Patel,Harper Vance,PSR - Budgetary,Solutions Architect,2026-01-06,2026-03-08,,Yes,Open,Decision Pending,61,,308,62055,2400,61348,2373
+T20260106.2733,Coastal Ortho Group,Avery Morgan,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-01-06,2026-03-04,2026-05-13,Yes,Won,Closed Won,57,127,308,18660,251,19289,259
+T20260108.4873,Valley Forge Logistics,Avery Morgan,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-01-08,2026-03-27,,Yes,Open,Pricing / Scoping,78,,306,15824,2951,15813,2949
+T20260108.9369,Timberline Construction,Casey Ellison,Harper Vance,PSR - Rescope,Solutions Architect,2026-01-08,2026-02-18,2026-04-16,Yes,Lost,Closed Lost,41,98,306,46591,252,41339,224
+T20260108.0900,Timberline Construction,Casey Ellison,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-01-08,2026-03-16,2026-04-22,Yes,Lost,Closed Lost,67,104,306,3247,0,2937,0
+T20260108.0482,Edgewater Realty,Riley Carter,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-01-08,2026-03-22,,Yes,Open,Validated,73,,306,40231,408,43951,446
+T20260108.1141,Indigo Biotech,Drew Patel,Chris Nolan,PSR - Final,Solutions Architect,2026-01-08,2026-03-14,2026-05-21,Yes,Lost,Closed Lost,65,133,306,20611,142,21558,149
+T20260109.1880,Summit Broker Network,Riley Carter,Harper Vance,PSR - Budgetary,Solutions Architect,2026-01-09,2026-03-08,2026-04-15,Yes,Won,Closed Won,58,96,305,9670,0,10565,0
+T20260111.6129,Greystone Capital,Jordan Blake,Harper Vance,PSR - Final,Solutions Architect,2026-01-11,2026-02-07,2026-03-28,Yes,Lost,Closed Lost,27,76,303,10878,1326,13243,1614
+T20260112.0521,Amberfield Orthopedics,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-01-12,2026-03-08,2026-04-21,Yes,Lost,Closed Lost,55,99,302,3444,1275,3819,1414
+T20260112.1355,Tidewater Pulmonary,Riley Carter,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-01-12,2026-03-25,2026-05-02,Yes,Lost,Closed Lost,72,110,302,25476,962,22243,840
+T20260114.0707,Dunmore Steel,Drew Patel,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-01-14,2026-02-26,2026-04-13,Yes,Lost,Closed Lost,43,89,300,4315,0,4751,0
+T20260114.1605,Timberline Construction,Morgan Reyes,Frankie Lowe,PSR - Final,Solutions Architect,2026-01-14,2026-02-26,2026-04-10,Yes,Lost,Closed Lost,43,86,300,4111,2944,4373,3132
+T20260115.5905,Oakmont Accounting,Morgan Reyes,Harper Vance,PSR - Budgetary,Solutions Architect,2026-01-15,2026-03-28,2026-05-10,Yes,Lost,Closed Lost,72,115,299,6651,290,6783,296
+T20260115.1304,Bayline Logistics,Riley Carter,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-01-15,2026-03-06,2026-04-06,Yes,Won,Closed Won,50,81,299,6268,0,5897,0
+T20260117.9207,Oakmont Accounting,Jordan Blake,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-01-17,2026-03-29,2026-05-10,Yes,Lost,Closed Lost,71,113,297,6278,949,5450,824
+T20260117.5589,Kestrel Security,Jordan Blake,Frankie Lowe,PSR - Final,Client Success Manager,2026-01-17,2026-03-11,2026-04-03,Yes,Lost,Closed Lost,53,76,297,58532,1307,67229,1501
+T20260117.1052,Maple Ridge Nonprofit,Taylor Quinn,Frankie Lowe,PSR - Final,Client Success Manager,2026-01-17,2026-04-04,2026-05-26,Yes,Won,Closed Won,77,129,297,8053,1418,8837,1556
+T20260117.1097,Quarry Hill Auto Parts,Jordan Blake,Harper Vance,PSR - Final,Solutions Architect,2026-01-17,2026-04-02,2026-04-26,Yes,Won,Closed Won,75,99,297,32922,703,40171,858
+T20260118.5436,Greystone Capital,Riley Carter,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-01-18,2026-02-11,2026-03-06,Yes,Lost,Closed Lost,24,47,296,20957,0,18396,0
+T20260119.2716,Midtown Pharmacy,Morgan Reyes,Harper Vance,PSR - Final,Client Success Manager,2026-01-19,2026-03-12,2026-04-13,Yes,Lost,Closed Lost,52,84,295,16081,2936,19018,3472
+T20260119.3899,Orchard Valley Farms,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-01-19,2026-02-26,2026-04-06,Yes,Lost,Closed Lost,38,77,295,5580,175,6045,190
+T20260121.2213,Pioneer Trust Bank,Taylor Quinn,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-01-21,2026-03-06,2026-03-20,Yes,Lost,Closed Lost,44,58,293,58526,2618,71378,3193
+T20260122.9263,Oakmont Accounting,Casey Ellison,Harper Vance,PSR - Budgetary,Sales - Account Executives,2026-01-22,2026-04-15,2026-05-11,Yes,Won,Closed Won,83,109,292,17138,0,15496,0
+T20260122.1494,Fieldstone Foods,Casey Ellison,Frankie Lowe,PSR - Final,Solutions Architect,2026-01-22,2026-03-20,2026-04-23,Yes,Won,Closed Won,57,91,292,3542,168,4056,192
+T20260122.6055,Fieldstone Foods,Drew Patel,Elliot Shaw,PSR - Final,Client Success Manager,2026-01-22,2026-03-16,2026-04-09,Yes,Lost,Closed Lost,53,77,292,7779,1425,7947,1456
+T20260122.3491,Amberfield Orthopedics,Riley Carter,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-01-22,2026-03-19,2026-05-17,Yes,Lost,Closed Lost,56,115,292,3485,314,3291,297
+T20260122.3163,Jasper County Utilities,Drew Patel,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-01-22,2026-02-07,2026-03-20,Yes,Lost,Closed Lost,16,57,292,22192,545,22579,555
+T20260123.5613,Keystone Property Mgmt,Drew Patel,Harper Vance,PSR - Budgetary,Solutions Architect,2026-01-23,2026-04-04,2026-04-25,Yes,Won,Closed Won,71,92,291,11437,1386,12832,1555
+T20260124.8677,Blue Heron Marine,Morgan Reyes,Chris Nolan,PSR - Final,Solutions Architect,2026-01-24,2026-04-09,2026-05-01,Yes,Won,Closed Won,75,97,290,2885,0,3528,0
+T20260124.6089,Dunmore Steel,Casey Ellison,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-01-24,2026-03-17,,Yes,Open,Proposal Delivered,52,,290,19444,444,17564,401
+T20260124.3159,Edgewater Realty,Avery Morgan,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-01-24,2026-04-01,2026-05-11,Yes,Lost,Closed Lost,67,107,290,18020,2586,22407,3216
+T20260124.7024,Pinecrest Senior Living,Casey Ellison,Harper Vance,PSR - Final,Client Success Manager,2026-01-24,2026-04-03,2026-05-19,Yes,Won,Closed Won,69,115,290,19750,0,18712,0
+T20260126.8472,Thornbury Accounting,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-01-26,2026-02-27,2026-03-27,Yes,Lost,Closed Lost,32,60,288,4074,652,4067,651
+T20260126.5866,Elmwood Insurance Group,Jordan Blake,Chris Nolan,PSR - Final,Solutions Architect,2026-01-26,2026-03-08,2026-03-28,Yes,Won,Closed Won,41,61,288,8032,0,7002,0
+T20260128.4305,Evergreen Ag Services,Casey Ellison,Frankie Lowe,PSR - Final,Client Success Manager,2026-01-28,2026-03-16,2026-04-20,Yes,Won,Closed Won,47,82,286,34576,0,37482,0
+T20260128.4518,Indigo Biotech,Jordan Blake,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-01-28,2026-03-20,2026-05-27,Yes,Won,Closed Won,51,119,286,4689,151,4490,145
+T20260129.6089,Clearwater Family Clinic,Avery Morgan,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-01-29,2026-04-07,2026-05-22,Yes,Lost,Closed Lost,68,113,285,37770,1213,38878,1249
+T20260129.1144,Magnolia Title Co,Jordan Blake,Dana Brooks,PSR - Final,Solutions Architect,2026-01-29,2026-03-13,2026-04-21,Yes,Lost,Closed Lost,43,82,285,8485,1433,8807,1487
+T20260131.2358,Quincy Medical Billing,Jordan Blake,Harper Vance,PSR - Final,Solutions Architect,2026-01-31,2026-03-17,2026-04-23,Yes,Lost,Closed Lost,45,82,283,41559,1428,36877,1267
+T20260131.1011,Whitestone Law Group,Drew Patel,Frankie Lowe,PSR - Final,Solutions Architect,2026-01-31,2026-03-17,2026-05-13,Yes,Lost,Closed Lost,45,102,283,11379,172,10394,157
+T20260201.4548,Dunmore Steel,Morgan Reyes,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-02-01,2026-03-05,2026-03-24,Yes,Lost,Closed Lost,32,51,282,6875,340,8401,415
+T20260201.3006,Eastgate Realty,Jordan Blake,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-02-01,2026-03-09,2026-04-29,Yes,Lost,Closed Lost,36,87,282,6828,754,6563,725
+T20260202.0902,Evergreen Ag Services,Jordan Blake,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-02-02,2026-03-22,2026-05-08,Yes,Won,Closed Won,48,95,281,14618,299,18177,372
+T20260202.6247,Yorktown Health Partners,Drew Patel,Harper Vance,PSR - Final,Client Success Manager,2026-02-02,2026-03-24,2026-05-08,Yes,Lost,Closed Lost,50,95,281,37492,812,39749,861
+T20260203.2526,Lumen Optics,Avery Morgan,Elliot Shaw,PSR - Final,Solutions Architect,2026-02-03,2026-03-12,2026-05-10,Yes,Won,Closed Won,37,96,280,36963,0,34906,0
+T20260203.4882,Granite Peak Insurance,Riley Carter,Chris Nolan,PSR - Final,Sales - Account Executives,2026-02-03,2026-03-23,2026-05-12,Yes,Lost,Closed Lost,48,98,280,4639,2179,5371,2523
+T20260203.4970,Willowbrook Youth Services,Drew Patel,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-02-03,2026-05-01,2026-06-05,Yes,Lost,Closed Lost,87,122,280,51963,1198,59671,1376
+T20260203.9957,Greystone Capital,Avery Morgan,Harper Vance,PSR - Budgetary,Sales - Account Executives,2026-02-03,2026-03-26,2026-05-10,Yes,Lost,Closed Lost,51,96,280,8543,314,7651,281
+T20260203.4520,Edgewater Realty,Casey Ellison,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-02-03,2026-03-16,2026-04-19,Yes,Lost,Closed Lost,41,75,280,6812,305,7250,325
+T20260204.8020,Blue Heron Marine,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-02-04,2026-03-08,2026-04-02,Yes,Won,Closed Won,32,57,279,8041,0,8415,0
+T20260204.0843,Magnolia Title Co,Taylor Quinn,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-02-04,2026-04-02,2026-05-03,Yes,Lost,Closed Lost,57,88,279,6550,2793,5637,2404
+T20260204.0205,Clearwater Family Clinic,Morgan Reyes,Dana Brooks,PSR - Final,Solutions Architect,2026-02-04,2026-04-05,2026-05-15,Yes,Won,Closed Won,60,100,279,49850,643,58749,758
+T20260205.8152,Prairie Wind Energy,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-02-05,2026-04-04,2026-05-18,Yes,Lost,Closed Lost,58,102,278,4728,0,4329,0
+T20260206.2437,Evergreen Ag Services,Riley Carter,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-02-06,2026-03-24,2026-05-01,Yes,Won,Closed Won,46,84,277,3664,858,3749,878
+T20260206.5381,Westlake Municipal,Casey Ellison,Harper Vance,PSR - Rescope,Solutions Architect,2026-02-06,2026-04-07,2026-05-10,Yes,Lost,Closed Lost,60,93,277,67418,536,73147,582
+T20260207.4665,Coastal Ortho Group,Avery Morgan,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-02-07,2026-04-07,,Yes,Open,Proposal Delivered,59,,276,29304,2332,28411,2261
+T20260207.3748,Elmwood Insurance Group,Jordan Blake,Elliot Shaw,PSR - Final,Solutions Architect,2026-02-07,2026-03-26,2026-06-12,Yes,Lost,Closed Lost,47,125,276,18462,0,16129,0
+T20260208.5644,Elmwood Insurance Group,Riley Carter,Chris Nolan,PSR - Final,Client Success Manager,2026-02-08,2026-04-12,2026-05-11,Yes,Won,Closed Won,63,92,275,2964,0,3543,0
+T20260208.7717,Yellowstone Distributing,Jordan Blake,Harper Vance,PSR - Final,Sales - Account Executives,2026-02-08,2026-03-27,2026-05-09,Yes,Won,Closed Won,47,90,275,21954,726,24439,808
+T20260208.3144,Lumen Optics,Casey Ellison,Chris Nolan,PSR - Final,Solutions Architect,2026-02-08,2026-04-06,2026-05-08,Yes,Won,Closed Won,57,89,275,20087,2459,20793,2545
+T20260209.7923,Blue Heron Marine,Drew Patel,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-02-09,2026-04-13,2026-05-20,Yes,Lost,Closed Lost,63,100,274,11978,1391,10348,1202
+T20260211.4044,Alpine Veterinary,Morgan Reyes,Dana Brooks,PSR - Final,Client Success Manager,2026-02-11,2026-04-18,2026-05-11,Yes,Lost,Closed Lost,66,89,272,3581,0,3265,0
+T20260212.8007,Blue Heron Marine,Riley Carter,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-02-12,2026-04-18,2026-05-08,Yes,Won,Closed Won,65,85,271,28914,1413,35482,1734
+T20260212.4008,Oakmont Accounting,Drew Patel,Harper Vance,PSR - Final,Solutions Architect,2026-02-12,2026-04-13,2026-05-26,Yes,Lost,Closed Lost,60,103,271,8344,0,8587,0
+T20260212.3164,Midtown Pharmacy,Casey Ellison,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-02-12,2026-04-24,2026-05-23,Yes,Lost,Closed Lost,71,100,271,9533,977,11090,1137
+T20260212.2733,Quarry Hill Auto Parts,Casey Ellison,Chris Nolan,PSR - Budgetary,Finance,2026-02-12,2026-03-30,2026-04-26,Yes,Won,Closed Won,46,73,271,57732,127,71835,158
+T20260212.7882,Quarry Hill Auto Parts,Casey Ellison,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-02-12,2026-03-21,2026-05-16,Yes,Lost,Closed Lost,37,93,271,21945,0,25157,0
+T20260212.9770,Xenon Labs,Morgan Reyes,Frankie Lowe,PSR - Final,Client Success Manager,2026-02-12,2026-04-12,2026-05-25,Yes,Won,Closed Won,59,102,271,4352,0,4945,0
+T20260213.0512,Ironwood Machining,Casey Ellison,Dana Brooks,PSR - Budgetary,Finance,2026-02-13,2026-04-19,2026-06-01,Yes,Lost,Closed Lost,65,108,270,6688,2895,8121,3515
+T20260214.5662,Yorktown Health Partners,Riley Carter,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-02-14,2026-04-21,2026-05-24,Yes,Lost,Closed Lost,66,99,269,39434,0,42313,0
+T20260214.7543,Riverbend Hospital,Avery Morgan,Elliot Shaw,PSR - Final,Sales - Account Executives,2026-02-14,2026-04-05,2026-05-27,Yes,Won,Closed Won,50,102,269,3428,932,4131,1123
+T20260215.5929,Bayline Logistics,Casey Ellison,Chris Nolan,PSR - Final,Sales - Account Executives,2026-02-15,2026-03-29,2026-05-05,Yes,Lost,Closed Lost,42,79,268,11601,157,11801,160
+T20260215.2628,Granite Peak Insurance,Drew Patel,Harper Vance,PSR - Budgetary,Client Success Manager,2026-02-15,2026-03-27,2026-05-14,Yes,Lost,Closed Lost,40,88,268,20743,1278,20177,1243
+T20260215.6725,Delta Freight Co,Riley Carter,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-02-15,2026-04-12,2026-06-02,Yes,Lost,Closed Lost,56,107,268,40094,152,37891,144
+T20260215.4978,Lumen Optics,Morgan Reyes,Chris Nolan,PSR - Final,Solutions Architect,2026-02-15,2026-04-07,2026-04-26,Yes,Lost,Closed Lost,51,70,268,7030,2844,7621,3083
+T20260216.1664,Orchard Valley Farms,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2026-02-16,2026-04-15,2026-06-04,Yes,Lost,Closed Lost,58,108,267,28997,706,31970,778
+T20260216.7219,Tidewater Pulmonary,Drew Patel,Frankie Lowe,PSR - Final,Client Success Manager,2026-02-16,2026-04-09,2026-04-20,Yes,Won,Closed Won,52,63,267,11731,0,11748,0
+T20260216.7695,Meridian Telehealth,Morgan Reyes,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-02-16,2026-03-31,,Yes,Open,Pricing / Scoping,43,,267,6384,703,6584,725
+T20260217.4019,Amberfield Orthopedics,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-02-17,2026-03-28,2026-04-07,Yes,Lost,Closed Lost,39,49,266,9089,533,10175,597
+T20260217.8638,Evergreen Ag Services,Morgan Reyes,Chris Nolan,PSR - Final,Finance,2026-02-17,2026-04-24,2026-06-12,Yes,Won,Closed Won,66,115,266,13412,1392,16512,1714
+T20260219.7409,Highland Spirits Co,Taylor Quinn,Chris Nolan,PSR - Final,Solutions Architect,2026-02-19,2026-03-18,2026-04-17,Yes,Won,Closed Won,27,57,264,20293,0,24497,0
+T20260219.0581,Evergreen Ag Services,Casey Ellison,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-02-19,2026-04-13,2026-04-25,Yes,Won,Closed Won,53,65,264,12330,131,10763,114
+T20260219.7208,Aldergrove Credit Union,Morgan Reyes,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-02-19,2026-04-07,2026-04-28,Yes,Lost,Closed Lost,47,68,264,7271,337,8777,407
+T20260219.6174,Bayline Logistics,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-02-19,2026-04-01,2026-04-10,Yes,Lost,Closed Lost,41,50,264,28738,0,30269,0
+T20260220.2609,Kestrel Security,Taylor Quinn,Elliot Shaw,PSR - Final,Client Success Manager,2026-02-20,2026-04-30,2026-06-05,Yes,Won,Closed Won,69,105,263,5959,278,5940,277
+T20260220.0718,Canyon Ridge Schools,Morgan Reyes,Elliot Shaw,PSR - Final,Solutions Architect,2026-02-20,2026-03-27,2026-04-16,Yes,Lost,Closed Lost,35,55,263,16540,249,16395,247
+T20260221.3697,Pioneer Trust Bank,Taylor Quinn,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-02-21,2026-04-13,2026-06-08,Yes,Won,Closed Won,51,107,262,12013,2168,10704,1932
+T20260221.7058,Union Pipe Credit Union,Casey Ellison,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-02-21,2026-04-08,2026-04-29,Yes,Lost,Closed Lost,46,67,262,14209,0,15966,0
+T20260221.0166,Willowbrook Youth Services,Drew Patel,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-02-21,2026-04-28,2026-05-22,Yes,Lost,Closed Lost,66,90,262,14256,169,13743,163
+T20260222.6673,Delta Freight Co,Jordan Blake,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-02-22,2026-04-12,2026-05-18,Yes,Lost,Closed Lost,49,85,261,11371,662,13898,809
+T20260222.5523,Cedar Point Builders,Riley Carter,Dana Brooks,PSR - Final,Solutions Architect,2026-02-22,2026-04-05,2026-05-13,Yes,Lost,Closed Lost,42,80,261,19649,310,21832,344
+T20260223.6751,Bayline Logistics,Taylor Quinn,Chris Nolan,PSR - Final,Client Success Manager,2026-02-23,2026-04-06,2026-05-13,Yes,Won,Closed Won,42,79,260,23478,949,24059,972
+T20260224.1683,Amberfield Orthopedics,Jordan Blake,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-02-24,2026-04-01,2026-04-22,Yes,Lost,Closed Lost,36,57,259,20359,446,21300,467
+T20260224.6958,Coastal Ortho Group,Avery Morgan,Harper Vance,PSR - Final,Solutions Architect,2026-02-24,2026-04-12,2026-05-30,Yes,Won,Closed Won,47,95,259,6534,1395,6260,1337
+T20260224.0193,Falcon Crest Dental,Drew Patel,Frankie Lowe,PSR - Rescope,Client Success Manager,2026-02-24,2026-04-06,2026-05-04,Yes,Lost,Closed Lost,41,69,259,3502,1410,4291,1728
+T20260224.8223,Midtown Pharmacy,Avery Morgan,Harper Vance,PSR - Final,Solutions Architect,2026-02-24,2026-04-14,2026-05-28,Yes,Won,Closed Won,49,93,259,21976,306,19428,271
+T20260224.7356,Foxridge Engineering,Jordan Blake,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-02-24,2026-05-07,2026-06-07,Yes,Lost,Closed Lost,72,103,259,46507,353,49308,374
+T20260225.8683,Westlake Municipal,Jordan Blake,Chris Nolan,PSR - Rescope,Client Success Manager,2026-02-25,2026-04-07,2026-04-12,Yes,Lost,Closed Lost,41,46,258,15161,463,18349,560
+T20260225.9082,Silverleaf Landscaping,Jordan Blake,Chris Nolan,PSR - Final,Solutions Architect,2026-02-25,2026-05-02,2026-06-30,Yes,Won,Closed Won,66,125,258,14700,776,12579,664
+T20260225.2244,Birchwood Dental Group,Avery Morgan,Chris Nolan,PSR - Final,Client Success Manager,2026-02-25,2026-05-09,2026-06-22,Yes,Lost,Closed Lost,73,117,258,38842,1108,37287,1064
+T20260226.9721,Xenon Labs,Riley Carter,Frankie Lowe,PSR - Final,Solutions Architect,2026-02-26,2026-04-22,2026-05-28,Yes,Won,Closed Won,55,91,257,3165,1361,2732,1175
+T20260226.8881,Riverside Auto Group,Avery Morgan,Harper Vance,PSR - Final,Solutions Architect,2026-02-26,2026-04-14,2026-05-13,Yes,Won,Closed Won,47,76,257,5445,0,4759,0
+T20260227.2380,Clearwater Family Clinic,Casey Ellison,Elliot Shaw,PSR - Final,Client Success Manager,2026-02-27,2026-04-08,2026-05-25,Yes,Won,Closed Won,40,87,256,26420,1363,23383,1206
+T20260227.8760,Elmwood Insurance Group,Morgan Reyes,Dana Brooks,PSR - Final,Solutions Architect,2026-02-27,2026-04-21,2026-05-22,Yes,Lost,Closed Lost,53,84,256,28813,1042,25388,918
+T20260228.9557,Dunmore Steel,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-02-28,2026-04-19,2026-05-16,Yes,Lost,Closed Lost,50,77,255,5590,0,6828,0
+T20260228.1935,Greystone Capital,Drew Patel,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-02-28,2026-04-16,2026-06-16,Yes,Lost,Closed Lost,47,108,255,28806,0,31429,0
+T20260301.0178,Prairie Wind Energy,Morgan Reyes,Frankie Lowe,PSR - Rescope,Client Success Manager,2026-03-01,2026-04-09,2026-04-17,Yes,Won,Closed Won,39,47,254,7986,0,8101,0
+T20260302.1358,Blue Heron Marine,Drew Patel,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-03-02,2026-05-07,2026-06-15,Yes,Won,Closed Won,66,105,253,5902,439,6594,490
+T20260303.7584,Highland Spirits Co,Drew Patel,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-03-03,2026-04-12,2026-05-04,Yes,Won,Closed Won,40,62,252,28147,0,24883,0
+T20260304.4656,Ironwood Machining,Casey Ellison,Harper Vance,PSR - Budgetary,Client Success Manager,2026-03-04,2026-04-29,2026-06-02,Yes,Lost,Closed Lost,56,90,251,15469,0,13530,0
+T20260304.1575,Dunmore Steel,Morgan Reyes,Dana Brooks,PSR - Final,Solutions Architect,2026-03-04,2026-04-24,2026-05-27,Yes,Won,Closed Won,51,84,251,18737,170,21094,191
+T20260304.6229,Northstar Engineering,Riley Carter,Harper Vance,PSR - Rescope,Sales - Account Executives,2026-03-04,2026-04-25,2026-06-25,Yes,Won,Closed Won,52,113,251,20672,0,18695,0
+T20260304.5246,Fieldstone Foods,Drew Patel,Dana Brooks,PSR - Final,Client Success Manager,2026-03-04,2026-03-29,2026-05-07,Yes,Won,Closed Won,25,64,251,4564,667,4345,635
+T20260305.1581,Prairie Wind Energy,Avery Morgan,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-03-05,2026-04-05,2026-05-31,Yes,Won,Closed Won,31,87,250,4486,443,5118,505
+T20260306.0787,Fieldstone Foods,Taylor Quinn,Dana Brooks,PSR - Final,Client Success Manager,2026-03-06,2026-04-22,2026-06-11,Yes,Lost,Closed Lost,47,97,249,17056,1256,14559,1072
+T20260306.5390,Ivy League Tutoring,Taylor Quinn,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-03-06,2026-04-28,2026-05-26,Yes,Lost,Closed Lost,53,81,249,3572,0,4319,0
+T20260308.6533,Valley Forge Logistics,Morgan Reyes,Chris Nolan,PSR - Final,Client Success Manager,2026-03-08,2026-04-22,2026-05-28,Yes,Lost,Closed Lost,45,81,247,17490,0,14957,0
+T20260308.6198,Tidewater Pulmonary,Jordan Blake,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-03-08,2026-05-12,2026-06-06,Yes,Lost,Closed Lost,65,90,247,20622,1413,21975,1506
+T20260308.1553,Summit Broker Network,Avery Morgan,Harper Vance,PSR - Budgetary,Solutions Architect,2026-03-08,2026-03-30,2026-05-03,Yes,Lost,Closed Lost,22,56,247,5858,0,7124,0
+T20260309.3427,Brightwater Brewing,Avery Morgan,Elliot Shaw,PSR - Final,Client Success Manager,2026-03-09,2026-04-15,2026-05-03,Yes,Won,Closed Won,37,55,246,5445,432,5885,467
+T20260309.1064,Riverside Auto Group,Casey Ellison,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-03-09,2026-04-25,2026-06-04,Yes,Lost,Closed Lost,47,87,246,3359,1039,3667,1134
+T20260309.2248,Glenview Partners LLP,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-03-09,2026-04-04,2026-05-14,Yes,Lost,Closed Lost,26,66,246,4613,0,5668,0
+T20260309.4456,Canyon Ridge Schools,Jordan Blake,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-03-09,2026-04-13,2026-04-30,Yes,Won,Closed Won,35,52,246,12809,514,14596,586
+T20260310.6671,Hilltop Family Medicine,Avery Morgan,Dana Brooks,PSR - Final,Solutions Architect,2026-03-10,2026-05-04,2026-06-19,Yes,Won,Closed Won,55,101,245,16487,0,18797,0
+T20260311.9474,Yorktown Health Partners,Jordan Blake,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-03-11,2026-05-08,2026-06-15,Yes,Won,Closed Won,58,96,244,49834,0,49625,0
+T20260311.4410,Orchard Valley Farms,Casey Ellison,Frankie Lowe,PSR - Rescope,Solutions Architect,2026-03-11,2026-05-08,2026-06-19,Yes,Lost,Closed Lost,58,100,244,8691,1202,7767,1074
+T20260312.6704,Amberfield Orthopedics,Riley Carter,Dana Brooks,PSR - Final,Solutions Architect,2026-03-12,2026-04-18,2026-06-09,Yes,Won,Closed Won,37,89,243,4940,0,4774,0
+T20260313.5209,Jade Garden Restaurants,Morgan Reyes,Elliot Shaw,PSR - Final,Solutions Architect,2026-03-13,2026-04-09,2026-05-07,Yes,Lost,Closed Lost,27,55,242,24449,1063,27100,1178
+T20260313.1956,Evergreen Ag Services,Riley Carter,Elliot Shaw,PSR - Final,Solutions Architect,2026-03-13,2026-04-11,2026-05-17,Yes,Won,Closed Won,29,65,242,2775,148,3293,176
+T20260314.1135,Magnolia Title Co,Casey Ellison,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-03-14,2026-03-30,2026-04-07,Yes,Lost,Closed Lost,16,24,241,10860,123,12047,136
+T20260315.9185,Upland Water Authority,Morgan Reyes,Frankie Lowe,PSR - Final,Solutions Architect,2026-03-15,2026-04-24,2026-05-25,Yes,Lost,Closed Lost,40,71,240,17056,0,18291,0
+T20260315.7583,Summit Broker Network,Jordan Blake,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-03-15,2026-05-07,2026-06-15,Yes,Lost,Closed Lost,53,92,240,2818,0,3201,0
+T20260315.6391,Midtown Pharmacy,Taylor Quinn,Dana Brooks,PSR - Rescope,Solutions Architect,2026-03-15,2026-05-10,2026-06-24,Yes,Won,Closed Won,56,101,240,57298,250,70811,309
+T20260316.6784,Whitestone Law Group,Avery Morgan,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-03-16,2026-05-21,2026-07-12,Yes,Lost,Closed Lost,66,118,239,7785,0,9226,0
+T20260316.8232,Crescent Legal Partners,Drew Patel,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-03-16,2026-04-19,2026-05-14,Yes,Lost,Closed Lost,34,59,239,6411,0,5619,0
+T20260316.3088,Elmwood Insurance Group,Jordan Blake,Elliot Shaw,PSR - Final,Client Success Manager,2026-03-16,2026-04-09,2026-06-06,Yes,Lost,Closed Lost,24,82,239,9159,412,11112,500
+T20260317.6236,Falcon Crest Dental,Riley Carter,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-03-17,2026-05-06,2026-06-18,Yes,Lost,Closed Lost,50,93,238,10170,313,11393,351
+T20260319.4711,Hawthorne Plastics,Drew Patel,Chris Nolan,PSR - Final,Client Success Manager,2026-03-19,2026-05-10,2026-06-10,Yes,Won,Closed Won,52,83,236,39886,590,44685,661
+T20260319.2696,Evergreen Ag Services,Casey Ellison,Chris Nolan,PSR - Rescope,Solutions Architect,2026-03-19,2026-05-24,2026-06-26,Yes,Won,Closed Won,66,99,236,5506,141,4747,122
+T20260320.7713,Orchard Valley Farms,Avery Morgan,Chris Nolan,PSR - Final,Solutions Architect,2026-03-20,2026-05-01,2026-05-14,Yes,Won,Closed Won,42,55,235,14777,550,13466,501
+T20260320.9503,Indigo Biotech,Morgan Reyes,Frankie Lowe,PSR - Final,Solutions Architect,2026-03-20,2026-05-07,2026-05-29,Yes,Lost,Closed Lost,48,70,235,12956,2280,13269,2335
+T20260320.9338,Summit Broker Network,Drew Patel,Elliot Shaw,PSR - Final,Sales - Account Executives,2026-03-20,2026-05-15,2026-06-23,Yes,Won,Closed Won,56,95,235,5770,938,7007,1139
+T20260320.3160,Thornbury Accounting,Morgan Reyes,Harper Vance,PSR - Final,Client Success Manager,2026-03-20,2026-04-25,2026-05-29,Yes,Won,Closed Won,36,70,235,37784,1035,43833,1201
+T20260321.4603,Valley Forge Logistics,Riley Carter,Dana Brooks,PSR - Final,Business Continuity,2026-03-21,2026-05-23,2026-06-22,Yes,Won,Closed Won,63,93,234,3226,1184,3439,1262
+T20260322.1190,Lighthouse Pediatrics,Avery Morgan,Dana Brooks,PSR - Final,Solutions Architect,2026-03-22,2026-05-08,2026-06-02,Yes,Won,Closed Won,47,72,233,11151,174,11954,187
+T20260322.3990,Birchwood Dental Group,Morgan Reyes,Elliot Shaw,PSR - Rescope,Solutions Architect,2026-03-22,2026-04-28,2026-06-01,Yes,Lost,Closed Lost,37,71,233,14410,676,16766,787
+T20260322.7001,Lighthouse Pediatrics,Morgan Reyes,Dana Brooks,PSR - Final,Solutions Architect,2026-03-22,2026-05-05,2026-06-16,Yes,Won,Closed Won,44,86,233,8415,1110,8501,1121
+T20260323.5338,Nimbus Cloud Partners,Casey Ellison,Dana Brooks,PSR - Rescope,Sales - Account Executives,2026-03-23,2026-05-18,2026-07-12,Yes,Lost,Closed Lost,56,111,232,39192,0,34098,0
+T20260324.5002,Aldergrove Credit Union,Jordan Blake,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-03-24,2026-04-26,2026-05-15,Yes,Lost,Closed Lost,33,52,231,40921,2336,50636,2891
+T20260324.4207,Thornbury Accounting,Avery Morgan,Frankie Lowe,PSR - Final,Client Success Manager,2026-03-24,2026-05-10,2026-06-15,Yes,Won,Closed Won,47,83,231,10323,743,10985,791
+T20260324.7333,Jade Garden Restaurants,Morgan Reyes,Elliot Shaw,PSR - Final,Solutions Architect,2026-03-24,2026-04-26,2026-06-01,Yes,Won,Closed Won,33,69,231,5180,2265,4499,1967
+T20260325.6868,Yorktown Health Partners,Avery Morgan,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-03-25,2026-06-07,2026-07-30,Yes,Lost,Closed Lost,74,127,230,4599,0,4444,0
+T20260325.3572,Valley Forge Logistics,Morgan Reyes,Frankie Lowe,PSR - Final,Client Success Manager,2026-03-25,2026-05-06,2026-05-11,Yes,Won,Closed Won,42,47,230,39424,502,34630,441
+T20260325.8280,Westlake Municipal,Taylor Quinn,Dana Brooks,PSR - Budgetary,Sales - Account Executives,2026-03-25,2026-05-25,2026-06-18,Yes,Lost,Closed Lost,61,85,230,16084,0,14981,0
+T20260325.0835,Falcon Crest Dental,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-03-25,2026-05-02,2026-05-27,Yes,Won,Closed Won,38,63,230,14856,643,13401,580
+T20260326.7672,Oceanside Packaging,Jordan Blake,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-03-26,2026-04-22,,Yes,Open,Decision Pending,27,,229,8542,0,10382,0
+T20260327.6528,Northstar Engineering,Casey Ellison,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-03-27,2026-04-19,2026-05-23,Yes,Lost,Closed Lost,23,57,228,30891,0,26666,0
+T20260328.6451,Summit Broker Network,Casey Ellison,Frankie Lowe,PSR - Final,Solutions Architect,2026-03-28,2026-04-23,2026-05-16,Yes,Won,Closed Won,26,49,227,21366,0,20249,0
+T20260328.4376,Jade Garden Restaurants,Riley Carter,Harper Vance,PSR - Budgetary,Solutions Architect,2026-03-28,2026-05-03,2026-06-20,Yes,Lost,Closed Lost,36,84,227,8022,2365,9205,2714
+T20260329.3032,Crescent Legal Partners,Jordan Blake,Harper Vance,PSR - Budgetary,Client Success Manager,2026-03-29,2026-05-08,2026-06-03,Yes,Lost,Closed Lost,40,66,226,68913,1064,73285,1132
+T20260329.4881,Northfield Produce,Taylor Quinn,Harper Vance,PSR - Final,Solutions Architect,2026-03-29,2026-05-21,2026-07-03,Yes,Won,Closed Won,53,96,226,52355,0,60238,0
+T20260329.9155,Evergreen Ag Services,Riley Carter,Frankie Lowe,PSR - Budgetary,Sales - Account Executives,2026-03-29,2026-05-10,2026-06-09,Yes,Lost,Closed Lost,42,72,226,3407,2007,3247,1913
+T20260329.3960,Sterling Machine Works,Jordan Blake,Elliot Shaw,PSR - Final,Solutions Architect,2026-03-29,2026-05-02,2026-05-26,Yes,Won,Closed Won,34,58,226,19970,0,19189,0
+T20260329.8829,Eastgate Realty,Jordan Blake,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-03-29,2026-05-20,2026-06-21,Yes,Lost,Closed Lost,52,84,226,20054,2591,22960,2966
+T20260329.2372,Rosewood Hotels,Riley Carter,Dana Brooks,PSR - Rescope,Solutions Architect,2026-03-29,2026-05-21,2026-06-26,Yes,Won,Closed Won,53,89,226,15349,590,16131,620
+T20260331.0763,Delta Freight Co,Casey Ellison,Elliot Shaw,PSR - Rescope,Client Success Manager,2026-03-31,2026-05-23,,Yes,Open,Proposal Delivered,53,,224,16668,127,16269,124
+T20260331.0870,Alpine Veterinary,Taylor Quinn,Harper Vance,PSR - Budgetary,Client Success Manager,2026-03-31,2026-05-15,2026-06-18,Yes,Won,Closed Won,45,79,224,2618,0,2663,0
+T20260401.7168,Quarry Hill Auto Parts,Avery Morgan,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-04-01,2026-05-05,2026-05-13,Yes,Lost,Closed Lost,34,42,223,7971,0,9915,0
+T20260401.9895,Alpine Veterinary,Jordan Blake,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-04-01,2026-05-13,2026-06-03,Yes,Won,Closed Won,42,63,223,10427,0,9810,0
+T20260401.3988,Coastal Ortho Group,Morgan Reyes,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-04-01,2026-05-03,2026-06-11,Yes,Lost,Closed Lost,32,71,223,8101,348,7298,314
+T20260402.8738,Jade Garden Restaurants,Taylor Quinn,Harper Vance,PSR - Budgetary,Solutions Architect,2026-04-02,2026-05-09,2026-06-08,Yes,Lost,Closed Lost,37,67,222,23837,645,26770,724
+T20260402.5941,Prairie Wind Energy,Morgan Reyes,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-04-02,2026-05-23,2026-07-11,Yes,Lost,Closed Lost,51,100,222,60339,455,68026,513
+T20260402.6160,Riverside Auto Group,Casey Ellison,Chris Nolan,PSR - Final,Client Success Manager,2026-04-02,2026-04-30,2026-05-05,Yes,Lost,Closed Lost,28,33,222,16479,0,20483,0
+T20260403.8115,Riverbend Hospital,Riley Carter,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-04-03,2026-06-03,2026-07-01,Yes,Lost,Closed Lost,61,89,221,54536,1419,57573,1498
+T20260403.8989,Indigo Biotech,Drew Patel,Frankie Lowe,PSR - Rescope,Solutions Architect,2026-04-03,2026-05-25,2026-06-25,Yes,Won,Closed Won,52,83,221,53010,571,49189,530
+T20260404.9662,Quarry Hill Auto Parts,Jordan Blake,Elliot Shaw,PSR - Final,Client Success Manager,2026-04-04,2026-05-10,2026-06-05,Yes,Lost,Closed Lost,36,62,220,44045,549,37699,470
+T20260404.3388,Hilltop Family Medicine,Morgan Reyes,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-04-04,2026-05-16,2026-06-23,Yes,Lost,Closed Lost,42,80,220,15121,458,18762,568
+T20260404.4068,Dunmore Steel,Avery Morgan,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-04-04,2026-05-20,2026-06-28,Yes,Lost,Closed Lost,46,85,220,9289,0,8870,0
+T20260404.4012,Lighthouse Pediatrics,Drew Patel,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-04-04,2026-05-14,2026-05-24,Yes,Lost,Closed Lost,40,50,220,9137,0,8732,0
+T20260405.9794,Bayline Logistics,Drew Patel,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-04-05,2026-05-22,2026-07-16,Yes,Lost,Closed Lost,47,102,219,13222,1270,12618,1212
+T20260405.6910,Yorktown Health Partners,Jordan Blake,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-04-05,2026-04-29,2026-05-19,Yes,Lost,Closed Lost,24,44,219,7187,825,8821,1013
+T20260405.1246,Union Pipe Credit Union,Taylor Quinn,Harper Vance,PSR - Final,Client Success Manager,2026-04-05,2026-05-07,2026-06-17,Yes,Won,Closed Won,32,73,219,45751,1041,55689,1267
+T20260406.3885,Clearwater Family Clinic,Jordan Blake,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-04-06,2026-04-26,2026-05-23,Yes,Lost,Closed Lost,20,47,218,22232,1160,20158,1052
+T20260406.0959,Sagebrush Ranch Supply,Avery Morgan,Dana Brooks,PSR - Rescope,Solutions Architect,2026-04-06,2026-05-14,2026-06-02,Yes,Won,Closed Won,38,57,218,9832,0,10732,0
+T20260408.7547,Timberline Construction,Jordan Blake,Frankie Lowe,PSR - Budgetary,Business Continuity,2026-04-08,2026-05-26,,Yes,Open,Decision Pending,48,,216,20387,0,19177,0
+T20260408.7092,Whitestone Law Group,Avery Morgan,Dana Brooks,PSR - Final,Sales - Account Executives,2026-04-08,2026-05-30,2026-07-04,Yes,Won,Closed Won,52,87,216,12989,0,11165,0
+T20260408.4201,Quarry Hill Auto Parts,Morgan Reyes,Elliot Shaw,PSR - Final,Client Success Manager,2026-04-08,2026-06-10,2026-07-03,Yes,Won,Closed Won,63,86,216,15063,590,13246,519
+T20260409.3607,Willowbrook Youth Services,Casey Ellison,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-04-09,2026-05-16,2026-06-25,Yes,Lost,Closed Lost,37,77,215,46353,0,43110,0
+T20260409.2718,Alpine Veterinary,Avery Morgan,Frankie Lowe,PSR - Rescope,Client Success Manager,2026-04-09,2026-05-28,2026-07-28,Yes,Lost,Closed Lost,49,110,215,29542,0,27814,0
+T20260410.1708,Lumen Optics,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-04-10,2026-06-03,2026-06-27,Yes,Lost,Closed Lost,54,78,214,15403,649,16181,682
+T20260411.2465,Oakmont Accounting,Jordan Blake,Elliot Shaw,PSR - Final,Solutions Architect,2026-04-11,2026-05-09,2026-06-15,Yes,Lost,Closed Lost,28,65,213,5530,1112,6867,1381
+T20260411.0688,Timberline Construction,Jordan Blake,Harper Vance,PSR - Final,Client Success Manager,2026-04-11,2026-06-01,,Yes,Open,Pricing / Scoping,51,,213,48850,279,47703,272
+T20260411.0212,Ivy League Tutoring,Taylor Quinn,Chris Nolan,PSR - Final,Client Success Manager,2026-04-11,2026-05-05,2026-07-06,Yes,Won,Closed Won,24,86,213,22393,569,26588,676
+T20260412.5471,Lumen Optics,Riley Carter,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-04-12,2026-05-26,2026-07-03,Yes,Lost,Closed Lost,44,82,212,21192,520,22673,556
+T20260413.9970,Prairie Wind Energy,Taylor Quinn,Dana Brooks,PSR - Final,Solutions Architect,2026-04-13,2026-05-17,2026-06-25,Yes,Lost,Closed Lost,34,73,211,66097,0,79564,0
+T20260413.1544,Magnolia Title Co,Morgan Reyes,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-04-13,2026-05-07,2026-05-29,Yes,Lost,Closed Lost,24,46,211,5264,0,5558,0
+T20260413.9555,Crescent Legal Partners,Morgan Reyes,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-04-13,2026-05-25,2026-06-23,Yes,Won,Closed Won,42,71,211,3438,0,4084,0
+T20260414.5092,Evergreen Ag Services,Riley Carter,Chris Nolan,PSR - Final,Sales - Account Executives,2026-04-14,2026-05-31,2026-07-30,Yes,Lost,Closed Lost,47,107,210,5156,1243,5569,1342
+T20260414.0864,Pinecrest Senior Living,Casey Ellison,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-04-14,2026-05-06,2026-06-21,Yes,Lost,Closed Lost,22,68,210,10264,308,12346,370
+T20260415.4052,Oakmont Accounting,Taylor Quinn,Dana Brooks,PSR - Final,Solutions Architect,2026-04-15,2026-04-29,2026-05-31,Yes,Won,Closed Won,14,46,209,28639,0,24593,0
+T20260415.6646,Eastgate Realty,Drew Patel,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-04-15,2026-07-02,2026-08-16,Yes,Lost,Closed Lost,78,123,209,6389,148,6911,160
+T20260415.2335,Ivy League Tutoring,Drew Patel,Frankie Lowe,PSR - Final,Solutions Architect,2026-04-15,2026-06-29,2026-08-10,Yes,Won,Closed Won,75,117,209,3256,2382,2933,2146
+T20260415.3390,Silverleaf Landscaping,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-04-15,2026-05-28,2026-06-03,Yes,Won,Closed Won,43,49,209,11672,0,11943,0
+T20260416.5267,Thornbury Accounting,Drew Patel,Frankie Lowe,PSR - Final,Client Success Manager,2026-04-16,2026-05-01,2026-05-31,Yes,Lost,Closed Lost,15,45,208,19276,2769,21313,3062
+T20260416.4921,Glenview Partners LLP,Taylor Quinn,Elliot Shaw,PSR - Final,Solutions Architect,2026-04-16,2026-05-14,2026-05-27,Yes,Lost,Closed Lost,28,41,208,64228,130,80176,162
+T20260417.1809,Granite Peak Insurance,Jordan Blake,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-04-17,2026-04-27,2026-05-24,Yes,Lost,Closed Lost,10,37,207,29777,0,30455,0
+T20260417.2471,Quarry Hill Auto Parts,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-04-17,2026-05-14,2026-07-07,Yes,Lost,Closed Lost,27,81,207,4965,0,4801,0
+T20260417.0904,Ironwood Machining,Riley Carter,Chris Nolan,PSR - Rescope,Solutions Architect,2026-04-17,2026-05-24,2026-06-25,Yes,Won,Closed Won,37,69,207,18505,0,21088,0
+T20260417.8734,Indigo Biotech,Jordan Blake,Harper Vance,PSR - Budgetary,Sales - Account Executives,2026-04-17,2026-05-29,2026-06-13,Yes,Lost,Closed Lost,42,57,207,15818,1105,16805,1174
+T20260417.9631,Eastgate Realty,Casey Ellison,Frankie Lowe,PSR - Final,Client Success Manager,2026-04-17,2026-05-22,2026-06-13,Yes,Won,Closed Won,35,57,207,53219,0,58335,0
+T20260418.8155,Magnolia Title Co,Avery Morgan,Elliot Shaw,PSR - Final,Business Continuity,2026-04-18,2026-06-08,2026-07-04,Yes,Lost,Closed Lost,51,77,206,18548,999,22674,1221
+T20260418.2521,Keystone Property Mgmt,Avery Morgan,Frankie Lowe,PSR - Final,Client Success Manager,2026-04-18,2026-05-19,2026-06-22,Yes,Won,Closed Won,31,65,206,2828,0,2651,0
+T20260419.3209,Foxridge Engineering,Drew Patel,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-04-19,2026-05-06,2026-06-10,Yes,Lost,Closed Lost,17,52,205,2442,1371,2207,1239
+T20260419.1141,Northstar Engineering,Taylor Quinn,Harper Vance,PSR - Rescope,Solutions Architect,2026-04-19,2026-05-31,2026-07-10,Yes,Won,Closed Won,42,82,205,38436,0,34211,0
+T20260419.4650,Evergreen Ag Services,Drew Patel,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-04-19,2026-05-29,2026-06-26,Yes,Won,Closed Won,40,68,205,5619,0,5422,0
+T20260421.9921,Harborview Medical,Jordan Blake,Harper Vance,PSR - Final,Solutions Architect,2026-04-21,2026-05-18,2026-06-24,Yes,Lost,Closed Lost,27,64,203,2862,173,2571,155
+T20260421.0458,Kestrel Security,Casey Ellison,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-04-21,2026-05-27,2026-07-07,Yes,Lost,Closed Lost,36,77,203,20321,2140,17717,1866
+T20260421.9584,Riverside Auto Group,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-04-21,2026-05-16,2026-06-04,Yes,Lost,Closed Lost,25,44,203,5315,0,5144,0
+T20260422.2497,Redstone Architecture,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Business Continuity,2026-04-22,2026-06-01,2026-06-29,Yes,Won,Closed Won,40,68,202,37541,2500,37712,2511
+T20260422.7387,Pioneer Trust Bank,Drew Patel,Chris Nolan,PSR - Final,Solutions Architect,2026-04-22,2026-06-03,2026-06-24,Yes,Won,Closed Won,42,63,202,19087,857,17151,770
+T20260422.1678,Alpine Veterinary,Avery Morgan,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-04-22,2026-05-29,2026-06-27,Yes,Won,Closed Won,37,66,202,8738,1189,9334,1270
+T20260423.1097,Birchwood Dental Group,Morgan Reyes,Harper Vance,PSR - Budgetary,Solutions Architect,2026-04-23,2026-06-11,2026-07-25,Yes,Lost,Closed Lost,49,93,201,4722,296,4933,309
+T20260423.1250,Orchard Valley Farms,Jordan Blake,Harper Vance,PSR - Budgetary,Client Success Manager,2026-04-23,2026-05-27,2026-07-05,Yes,Lost,Closed Lost,34,73,201,3208,2560,3378,2696
+T20260424.1335,Timberline Construction,Drew Patel,Chris Nolan,PSR - Final,Solutions Architect,2026-04-24,2026-06-04,2026-07-09,Yes,Won,Closed Won,41,76,200,6836,0,8137,0
+T20260424.1360,Kingsbridge Credit Union,Jordan Blake,Dana Brooks,PSR - Final,Solutions Architect,2026-04-24,2026-05-18,2026-06-05,Yes,Lost,Closed Lost,24,42,200,47468,0,58196,0
+T20260424.0204,Sagebrush Ranch Supply,Casey Ellison,Dana Brooks,PSR - Final,Client Success Manager,2026-04-24,2026-06-09,2026-06-24,Yes,Won,Closed Won,46,61,200,5551,0,6701,0
+T20260424.3066,Elmwood Insurance Group,Jordan Blake,Frankie Lowe,PSR - Final,Solutions Architect,2026-04-24,2026-06-10,2026-08-17,Yes,Won,Closed Won,47,115,200,10235,704,12493,859
+T20260424.2786,Fieldstone Foods,Riley Carter,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-04-24,2026-05-24,2026-07-01,Yes,Lost,Closed Lost,30,68,200,10166,435,11955,512
+T20260424.3871,Valley Forge Logistics,Avery Morgan,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-04-24,2026-06-07,2026-07-23,Yes,Lost,Closed Lost,44,90,200,8272,301,7294,265
+T20260425.2307,Jasper County Utilities,Morgan Reyes,Elliot Shaw,PSR - Final,Business Continuity,2026-04-25,2026-06-17,2026-07-23,Yes,Won,Closed Won,53,89,199,52749,352,55401,370
+T20260426.0926,Driftwood Hospitality,Drew Patel,Elliot Shaw,PSR - Final,Client Success Manager,2026-04-26,2026-06-05,,Yes,Open,Pricing / Scoping,40,,198,20418,0,18308,0
+T20260426.4708,Nimbus Cloud Partners,Avery Morgan,Harper Vance,PSR - Budgetary,Solutions Architect,2026-04-26,2026-06-04,2026-07-13,Yes,Lost,Closed Lost,39,78,198,17650,2573,20090,2929
+T20260426.7831,Brightwater Brewing,Riley Carter,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-04-26,2026-06-16,2026-07-09,Yes,Lost,Closed Lost,51,74,198,6495,130,7757,155
+T20260427.0445,Silverleaf Landscaping,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-04-27,2026-06-05,2026-07-30,Yes,Lost,Closed Lost,39,94,197,47298,562,48628,578
+T20260428.9159,Thornbury Accounting,Casey Ellison,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-04-28,2026-06-22,2026-07-06,Yes,Lost,Closed Lost,55,69,196,5612,173,5643,174
+T20260429.3854,Prairie Wind Energy,Casey Ellison,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-04-29,2026-06-17,2026-06-22,Yes,Won,Closed Won,49,54,195,36117,2245,43874,2727
+T20260429.2000,Prairie Wind Energy,Taylor Quinn,Elliot Shaw,PSR - Final,Client Success Manager,2026-04-29,2026-05-21,2026-07-04,Yes,Won,Closed Won,22,66,195,22614,0,27104,0
+T20260429.0919,Crescent Legal Partners,Riley Carter,Elliot Shaw,PSR - Final,Client Success Manager,2026-04-29,2026-06-07,2026-07-14,Yes,Won,Closed Won,39,76,195,43451,0,48834,0
+T20260429.2657,Northstar Engineering,Casey Ellison,Chris Nolan,PSR - Final,Sales - Account Executives,2026-04-29,2026-06-30,2026-07-16,Yes,Lost,Closed Lost,62,78,195,4340,2535,3871,2261
+T20260430.4451,Union Pipe Credit Union,Morgan Reyes,Harper Vance,PSR - Budgetary,Solutions Architect,2026-04-30,2026-06-23,2026-07-19,Yes,Won,Closed Won,54,80,194,9597,1291,9194,1237
+T20260430.7512,Xenon Labs,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-04-30,2026-06-22,2026-07-07,Yes,Lost,Closed Lost,53,68,194,20228,133,22155,146
+T20260501.1520,Fairhaven School District,Riley Carter,Frankie Lowe,PSR - Final,Solutions Architect,2026-05-01,2026-06-09,2026-06-23,Yes,Lost,Closed Lost,39,53,193,9446,786,10559,879
+T20260502.1495,Hawthorne Plastics,Riley Carter,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-05-02,2026-06-25,2026-07-23,Yes,Lost,Closed Lost,54,82,192,39979,2706,37726,2553
+T20260504.8498,Yorktown Health Partners,Casey Ellison,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-05-04,2026-06-09,2026-07-11,Yes,Won,Closed Won,36,68,190,5797,156,6938,187
+T20260505.5689,Cedar Point Builders,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2026-05-05,2026-06-28,2026-07-27,Yes,Lost,Closed Lost,54,83,189,17743,0,18788,0
+T20260505.2163,Alpine Veterinary,Jordan Blake,Frankie Lowe,PSR - Final,Solutions Architect,2026-05-05,2026-06-08,2026-07-13,Yes,Lost,Closed Lost,34,69,189,11097,174,9556,150
+T20260505.0678,Tidewater Pulmonary,Jordan Blake,Chris Nolan,PSR - Final,Business Continuity,2026-05-05,2026-06-07,2026-08-08,Yes,Lost,Closed Lost,33,95,189,38303,0,37446,0
+T20260505.2009,Nimbus Cloud Partners,Avery Morgan,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-05-05,2026-06-21,,Yes,Open,SQL,47,,189,51412,698,60074,816
+T20260506.3025,Sterling Machine Works,Casey Ellison,Harper Vance,PSR - Rescope,Client Success Manager,2026-05-06,2026-06-11,2026-07-18,Yes,Lost,Closed Lost,36,73,188,21113,157,25061,186
+T20260506.8858,Granite Peak Insurance,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Business Continuity,2026-05-06,2026-06-01,2026-06-12,Yes,Lost,Closed Lost,26,37,188,8057,2419,7367,2212
+T20260506.8301,Evergreen Ag Services,Casey Ellison,Elliot Shaw,PSR - Final,Solutions Architect,2026-05-06,2026-06-02,2026-06-27,Yes,Won,Closed Won,27,52,188,15234,0,17424,0
+T20260507.5587,Rosewood Hotels,Jordan Blake,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-05-07,2026-06-12,2026-08-01,Yes,Lost,Closed Lost,36,86,187,71428,514,80760,581
+T20260507.7569,Northfield Produce,Avery Morgan,Chris Nolan,PSR - Final,Solutions Architect,2026-05-07,2026-05-31,,Yes,Open,Proposal Delivered,24,,187,16110,149,15086,140
+T20260507.3032,Zephyr Aviation,Drew Patel,Chris Nolan,PSR - Budgetary,Finance,2026-05-07,2026-07-04,2026-07-24,Yes,Lost,Closed Lost,58,78,187,3778,2597,3493,2401
+T20260508.9761,Westlake Municipal,Avery Morgan,Harper Vance,PSR - Final,Client Success Manager,2026-05-08,2026-07-09,2026-09-23,Yes,Won,Closed Won,62,138,186,9372,0,10875,0
+T20260510.6329,Silverleaf Landscaping,Avery Morgan,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-05-10,2026-06-10,2026-07-23,Yes,Won,Closed Won,31,74,184,30922,0,38621,0
+T20260510.8592,Driftwood Hospitality,Taylor Quinn,Frankie Lowe,PSR - Final,Client Success Manager,2026-05-10,2026-06-10,2026-07-06,Yes,Lost,Closed Lost,31,57,184,24348,358,27253,401
+T20260510.8201,Nimbus Cloud Partners,Casey Ellison,Dana Brooks,PSR - Final,Solutions Architect,2026-05-10,2026-06-29,2026-07-19,Yes,Lost,Closed Lost,50,70,184,18968,0,18803,0
+T20260511.2865,Thornbury Accounting,Drew Patel,Harper Vance,PSR - Budgetary,Solutions Architect,2026-05-11,2026-06-10,,Yes,Open,SAA Vetted / Priced,30,,183,5718,790,6008,830
+T20260512.4514,Northfield Produce,Avery Morgan,Harper Vance,PSR - Final,Client Success Manager,2026-05-12,2026-06-15,2026-08-04,Yes,Won,Closed Won,34,84,182,4639,931,4057,814
+T20260513.5356,Greystone Capital,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-05-13,2026-05-31,2026-08-09,Yes,Lost,Closed Lost,18,88,181,66282,356,61950,333
+T20260513.9948,Granite Peak Insurance,Riley Carter,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-05-13,2026-06-11,2026-07-28,Yes,Lost,Closed Lost,29,76,181,10204,0,10911,0
+T20260514.6220,Clearwater Family Clinic,Jordan Blake,Harper Vance,PSR - Final,Solutions Architect,2026-05-14,2026-07-02,2026-08-03,Yes,Won,Closed Won,49,81,180,39173,0,34334,0
+T20260514.8992,Midtown Pharmacy,Drew Patel,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-05-14,2026-06-13,2026-07-18,Yes,Lost,Closed Lost,30,65,180,13647,0,12922,0
+T20260514.4003,Ivy League Tutoring,Drew Patel,Dana Brooks,PSR - Budgetary,Sales - Account Executives,2026-05-14,2026-06-09,2026-06-25,Yes,Won,Closed Won,26,42,180,36121,0,37987,0
+T20260515.2638,Clearwater Family Clinic,Morgan Reyes,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-05-15,2026-05-22,2026-06-22,Yes,Won,Closed Won,7,38,179,10549,406,10923,420
+T20260515.2111,Zephyr Aviation,Casey Ellison,Elliot Shaw,PSR - Final,Solutions Architect,2026-05-15,2026-06-19,2026-07-18,Yes,Lost,Closed Lost,35,64,179,4966,162,5504,180
+T20260516.6118,Nimbus Cloud Partners,Taylor Quinn,Frankie Lowe,PSR - Final,Solutions Architect,2026-05-16,2026-06-14,2026-07-19,Yes,Lost,Closed Lost,29,64,178,4177,0,4495,0
+T20260516.8111,Quarry Hill Auto Parts,Riley Carter,Harper Vance,PSR - Budgetary,Solutions Architect,2026-05-16,2026-06-27,2026-08-31,Yes,Lost,Closed Lost,42,107,178,19384,132,16980,116
+T20260516.0922,Glenview Partners LLP,Riley Carter,Harper Vance,PSR - Final,Solutions Architect,2026-05-16,2026-06-20,2026-07-10,Yes,Lost,Closed Lost,35,55,178,17345,0,18826,0
+T20260517.5700,Pioneer Trust Bank,Morgan Reyes,Harper Vance,PSR - Budgetary,Client Success Manager,2026-05-17,2026-06-17,,Yes,Open,Pricing / Scoping,31,,177,16747,0,14575,0
+T20260517.4033,Cedar Point Builders,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-05-17,2026-07-03,2026-07-30,Yes,Lost,Closed Lost,47,74,177,10635,312,9725,285
+T20260518.8709,Westlake Municipal,Drew Patel,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-05-18,2026-07-01,2026-07-09,Yes,Lost,Closed Lost,44,52,176,41983,2439,50592,2939
+T20260518.1313,Eastgate Realty,Casey Ellison,Frankie Lowe,PSR - Budgetary,Sales - Account Executives,2026-05-18,2026-06-27,2026-07-30,Yes,Lost,Closed Lost,40,73,176,5778,311,6053,326
+T20260518.2244,Indigo Biotech,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2026-05-18,2026-05-28,2026-07-06,Yes,Lost,Closed Lost,10,49,176,21130,1171,23233,1288
+T20260519.0453,Pioneer Trust Bank,Casey Ellison,Harper Vance,PSR - Budgetary,Client Success Manager,2026-05-19,2026-07-06,2026-08-01,Yes,Lost,Closed Lost,48,74,175,17235,2124,20275,2499
+T20260519.7958,Vista Eye Center,Casey Ellison,Frankie Lowe,PSR - Final,Sales - Account Executives,2026-05-19,2026-07-17,2026-09-01,Yes,Lost,Closed Lost,59,105,175,16446,2993,15928,2899
+T20260519.4487,Willowbrook Youth Services,Drew Patel,Elliot Shaw,PSR - Final,Solutions Architect,2026-05-19,2026-06-22,2026-07-04,Yes,Won,Closed Won,34,46,175,18958,0,17724,0
+T20260520.1727,Xenon Labs,Jordan Blake,Chris Nolan,PSR - Final,Solutions Architect,2026-05-20,2026-07-10,2026-07-31,Yes,Won,Closed Won,51,72,174,12356,0,11900,0
+T20260520.3439,Ivy League Tutoring,Avery Morgan,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-05-20,2026-07-02,2026-08-09,Yes,Won,Closed Won,43,81,174,17501,305,17495,305
+T20260520.8030,Thornbury Accounting,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-05-20,2026-06-12,2026-07-09,Yes,Lost,Closed Lost,23,50,174,4139,450,4024,437
+T20260521.1053,Meridian Telehealth,Avery Morgan,Dana Brooks,PSR - Final,Solutions Architect,2026-05-21,2026-07-14,2026-07-19,Yes,Won,Closed Won,54,59,173,10649,1208,9706,1101
+T20260521.9727,Indigo Biotech,Avery Morgan,Frankie Lowe,PSR - Rescope,Client Success Manager,2026-05-21,2026-07-05,2026-08-21,Yes,Won,Closed Won,45,92,173,36227,179,44337,219
+T20260521.7999,Midtown Pharmacy,Casey Ellison,Harper Vance,PSR - Final,Solutions Architect,2026-05-21,2026-07-10,2026-08-10,Yes,Won,Closed Won,50,81,173,5937,1288,5554,1205
+T20260521.7289,Riverbend Hospital,Casey Ellison,Elliot Shaw,PSR - Final,Sales - Account Executives,2026-05-21,2026-06-21,2026-08-03,Yes,Won,Closed Won,31,74,173,9582,515,9738,523
+T20260521.7550,Fieldstone Foods,Casey Ellison,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-05-21,2026-07-10,2026-08-14,Yes,Lost,Closed Lost,50,85,173,33166,989,33885,1010
+T20260521.1474,Vista Eye Center,Morgan Reyes,Dana Brooks,PSR - Final,Client Success Manager,2026-05-21,2026-07-07,2026-08-21,Yes,Lost,Closed Lost,47,92,173,13895,139,11839,118
+T20260523.9402,Xenon Labs,Morgan Reyes,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-05-23,2026-07-22,2026-07-27,Yes,Won,Closed Won,60,65,171,18107,500,17168,474
+T20260523.2118,Edgewater Realty,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-05-23,2026-06-05,2026-07-23,Yes,Lost,Closed Lost,13,61,171,63375,2539,70920,2841
+T20260524.0145,Greystone Capital,Avery Morgan,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-05-24,2026-06-12,2026-07-13,Yes,Lost,Closed Lost,19,50,170,16435,640,17790,693
+T20260524.4104,Willowbrook Youth Services,Jordan Blake,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-05-24,2026-07-03,2026-08-01,Yes,Won,Closed Won,40,69,170,50438,148,46063,135
+T20260525.6362,Yorktown Health Partners,Drew Patel,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-05-25,2026-07-03,2026-08-04,Yes,Lost,Closed Lost,39,71,169,36541,250,42530,291
+T20260525.0313,Jade Garden Restaurants,Morgan Reyes,Chris Nolan,PSR - Final,Client Success Manager,2026-05-25,2026-07-03,2026-08-05,Yes,Won,Closed Won,39,72,169,8240,1274,7416,1147
+T20260525.9972,Falcon Crest Dental,Morgan Reyes,Chris Nolan,PSR - Final,Client Success Manager,2026-05-25,2026-06-18,2026-07-20,Yes,Won,Closed Won,24,56,169,13207,340,12822,330
+T20260526.5524,Alpine Veterinary,Riley Carter,Harper Vance,PSR - Final,Solutions Architect,2026-05-26,2026-07-06,2026-08-10,Yes,Won,Closed Won,41,76,168,13005,2010,12108,1871
+T20260526.2824,Dunmore Steel,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2026-05-26,2026-06-17,2026-08-12,Yes,Lost,Closed Lost,22,78,168,16976,2141,18939,2389
+T20260527.5396,Westlake Municipal,Morgan Reyes,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-05-27,2026-07-06,2026-07-27,Yes,Won,Closed Won,40,61,167,63257,0,63011,0
+T20260527.6226,Fairhaven School District,Jordan Blake,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-05-27,2026-06-24,2026-08-03,Yes,Lost,Closed Lost,28,68,167,20798,0,18571,0
+T20260528.0314,Eastgate Realty,Jordan Blake,Elliot Shaw,PSR - Final,Business Continuity,2026-05-28,2026-07-22,2026-08-14,Yes,Won,Closed Won,55,78,166,11320,173,10358,158
+T20260529.6832,Sagebrush Ranch Supply,Drew Patel,Dana Brooks,PSR - Final,Client Success Manager,2026-05-29,2026-07-13,2026-08-30,Yes,Won,Closed Won,45,93,165,9194,0,9574,0
+T20260529.6044,Pinecrest Senior Living,Morgan Reyes,Harper Vance,PSR - Final,Solutions Architect,2026-05-29,2026-06-22,2026-07-16,Yes,Lost,Closed Lost,24,48,165,37362,0,39463,0
+T20260530.7592,Canyon Ridge Schools,Taylor Quinn,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-05-30,2026-07-02,2026-08-11,Yes,Lost,Closed Lost,33,73,164,9571,0,11303,0
+T20260531.0745,Yellowstone Distributing,Morgan Reyes,Dana Brooks,PSR - Final,Client Success Manager,2026-05-31,2026-07-20,2026-09-07,Yes,Won,Closed Won,50,99,163,28087,0,30235,0
+T20260531.0376,Evergreen Ag Services,Avery Morgan,Frankie Lowe,PSR - Final,Solutions Architect,2026-05-31,2026-07-09,2026-08-25,Yes,Won,Closed Won,39,86,163,13068,1101,15484,1305
+T20260531.0316,Elmwood Insurance Group,Taylor Quinn,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-05-31,2026-07-01,2026-07-23,Yes,Lost,Closed Lost,31,53,163,5600,2852,6809,3468
+T20260601.8240,Falcon Crest Dental,Riley Carter,Harper Vance,PSR - Final,Client Success Manager,2026-06-01,2026-07-05,2026-07-30,Yes,Won,Closed Won,34,59,162,22570,1199,20910,1111
+T20260602.0312,Hawthorne Plastics,Riley Carter,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-06-02,2026-07-04,2026-07-24,Yes,Won,Closed Won,32,52,161,52043,2161,62994,2616
+T20260602.1275,Maple Ridge Nonprofit,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2026-06-02,2026-07-20,2026-09-25,Yes,Lost,Closed Lost,48,115,161,11458,0,11582,0
+T20260602.1417,Summit Broker Network,Drew Patel,Harper Vance,PSR - Final,Sales - Account Executives,2026-06-02,2026-06-15,2026-07-30,Yes,Lost,Closed Lost,13,58,161,2410,496,2870,591
+T20260603.9256,Cedar Point Builders,Avery Morgan,Harper Vance,PSR - Final,Solutions Architect,2026-06-03,2026-06-27,2026-07-26,Yes,Won,Closed Won,24,53,160,8737,404,7564,350
+T20260603.6245,Canyon Ridge Schools,Riley Carter,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-06-03,2026-06-20,2026-07-21,Yes,Lost,Closed Lost,17,48,160,13584,0,11964,0
+T20260604.0475,Crescent Legal Partners,Casey Ellison,Chris Nolan,PSR - Rescope,Solutions Architect,2026-06-04,2026-07-01,2026-08-08,Yes,Lost,Closed Lost,27,65,159,40416,289,41964,300
+T20260604.2555,Prairie Wind Energy,Casey Ellison,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-06-04,2026-07-09,2026-07-31,Yes,Won,Closed Won,35,57,159,20835,0,21815,0
+T20260605.4449,Tidewater Pulmonary,Riley Carter,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-06-05,2026-07-31,2026-09-11,Yes,Lost,Closed Lost,56,98,158,9394,0,9887,0
+T20260605.4591,Quarry Hill Auto Parts,Avery Morgan,Harper Vance,PSR - Budgetary,Client Success Manager,2026-06-05,2026-06-29,2026-07-17,Yes,Lost,Closed Lost,24,42,158,6646,0,6803,0
+T20260606.1671,Copperline Manufacturing,Riley Carter,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-06-06,2026-06-27,2026-07-22,Yes,Lost,Closed Lost,21,46,157,5734,299,5320,277
+T20260606.9455,Jasper County Utilities,Taylor Quinn,Harper Vance,PSR - Budgetary,Client Success Manager,2026-06-06,2026-06-29,2026-07-27,Yes,Won,Closed Won,23,51,157,4076,0,4300,0
+T20260607.3159,Oakmont Accounting,Casey Ellison,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-06-07,2026-07-04,2026-08-17,Yes,Lost,Closed Lost,27,71,156,16822,938,16818,938
+T20260607.4046,Edgewater Realty,Riley Carter,Harper Vance,PSR - Budgetary,Client Success Manager,2026-06-07,2026-07-27,2026-09-27,Yes,Won,Closed Won,50,112,156,23603,0,23258,0
+T20260607.3996,Riverside Auto Group,Casey Ellison,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-06-07,2026-08-10,2026-10-04,Yes,Won,Closed Won,64,119,156,13748,345,13832,347
+T20260608.1325,Meridian Telehealth,Avery Morgan,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-06-08,2026-06-28,2026-08-12,Yes,Won,Closed Won,20,65,155,3395,564,3634,604
+T20260608.1935,Delta Freight Co,Avery Morgan,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-06-08,2026-07-22,2026-08-10,Yes,Lost,Closed Lost,44,63,155,9458,0,8883,0
+T20260608.1955,Meridian Telehealth,Riley Carter,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-06-08,2026-08-07,2026-09-05,Yes,Lost,Closed Lost,60,89,155,62882,0,66232,0
+T20260608.6736,Coastal Ortho Group,Riley Carter,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-06-08,2026-07-13,2026-07-25,Yes,Won,Closed Won,35,47,155,24022,0,23113,0
+T20260609.3525,Hilltop Family Medicine,Avery Morgan,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-06-09,2026-07-23,2026-09-03,Yes,Lost,Closed Lost,44,86,154,28204,484,33867,581
+T20260609.6880,Ironwood Machining,Casey Ellison,Chris Nolan,PSR - Rescope,Client Success Manager,2026-06-09,2026-06-30,2026-07-24,Yes,Lost,Closed Lost,21,45,154,11971,2359,12135,2391
+T20260610.1648,Birchwood Dental Group,Taylor Quinn,Dana Brooks,PSR - Final,Client Success Manager,2026-06-10,2026-07-16,2026-08-12,Yes,Won,Closed Won,36,63,153,57315,0,51791,0
+T20260610.9819,Thornbury Accounting,Jordan Blake,Dana Brooks,PSR - Final,Solutions Architect,2026-06-10,2026-07-17,2026-08-12,Yes,Won,Closed Won,37,63,153,9490,469,11063,547
+T20260610.7051,Timberline Construction,Taylor Quinn,Harper Vance,PSR - Budgetary,Client Success Manager,2026-06-10,2026-07-08,2026-08-20,Yes,Won,Closed Won,28,71,153,28671,2576,29644,2663
+T20260610.7720,Foxridge Engineering,Jordan Blake,Harper Vance,PSR - Budgetary,Solutions Architect,2026-06-10,2026-07-24,2026-08-22,Yes,Lost,Closed Lost,44,73,153,5056,0,6203,0
+T20260610.3037,Falcon Crest Dental,Casey Ellison,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-06-10,2026-06-21,2026-07-25,Yes,Lost,Closed Lost,11,45,153,17334,997,16153,929
+T20260610.9472,Northstar Engineering,Casey Ellison,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-06-10,2026-07-19,2026-08-23,Yes,Won,Closed Won,39,74,153,18151,652,18686,671
+T20260611.4005,Zephyr Aviation,Casey Ellison,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-06-11,2026-08-11,2026-09-12,Yes,Won,Closed Won,61,93,152,42718,153,49505,177
+T20260611.6139,Xenon Labs,Drew Patel,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-06-11,2026-06-27,2026-08-08,Yes,Won,Closed Won,16,58,152,8236,1365,9589,1589
+T20260611.5352,Jasper County Utilities,Riley Carter,Elliot Shaw,PSR - Final,Sales - Account Executives,2026-06-11,2026-07-17,2026-08-09,Yes,Won,Closed Won,36,59,152,6338,284,6155,276
+T20260612.7436,Indigo Biotech,Riley Carter,Elliot Shaw,PSR - Final,Solutions Architect,2026-06-12,2026-07-28,2026-08-26,Yes,Lost,Closed Lost,46,75,151,39542,0,49311,0
+T20260612.1725,Keystone Property Mgmt,Morgan Reyes,Dana Brooks,PSR - Final,Client Success Manager,2026-06-12,2026-07-17,2026-07-31,Yes,Won,Closed Won,35,49,151,53973,1104,63278,1294
+T20260613.0137,Fieldstone Foods,Morgan Reyes,Dana Brooks,PSR - Budgetary,Finance,2026-06-13,2026-07-03,2026-08-01,Yes,Won,Closed Won,20,49,150,10579,0,13171,0
+T20260613.5436,Glenview Partners LLP,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2026-06-13,2026-07-16,2026-08-15,Yes,Won,Closed Won,33,63,150,18962,2916,21714,3339
+T20260613.2834,Harborview Medical,Drew Patel,Elliot Shaw,PSR - Final,Client Success Manager,2026-06-13,2026-07-31,2026-08-14,Yes,Won,Closed Won,48,62,150,16479,550,19501,651
+T20260614.7630,Ivy League Tutoring,Casey Ellison,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-06-14,2026-07-16,,Yes,Open,SAA Vetted / Priced,32,,149,41721,0,51861,0
+T20260615.8091,Fairhaven School District,Avery Morgan,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-06-15,2026-07-26,2026-07-31,Yes,Lost,Closed Lost,41,46,148,65282,591,57016,516
+T20260615.1400,Hilltop Family Medicine,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-06-15,2026-07-15,,Yes,Open,Pricing / Scoping,30,,148,7338,0,7044,0
+T20260615.5829,Glenview Partners LLP,Morgan Reyes,Elliot Shaw,PSR - Final,Business Continuity,2026-06-15,2026-08-01,2026-09-04,Yes,Won,Closed Won,47,81,148,37298,0,45348,0
+T20260615.2363,Lighthouse Pediatrics,Riley Carter,Dana Brooks,PSR - Final,Client Success Manager,2026-06-15,2026-07-01,2026-08-10,Yes,Won,Closed Won,16,56,148,14810,159,15197,163
+T20260616.2457,Birchwood Dental Group,Riley Carter,Dana Brooks,PSR - Rescope,Client Success Manager,2026-06-16,2026-07-22,2026-07-27,Yes,Won,Closed Won,36,41,147,37722,1043,45601,1261
+T20260616.8950,Oceanside Packaging,Morgan Reyes,Harper Vance,PSR - Budgetary,Client Success Manager,2026-06-16,2026-07-24,2026-08-25,Yes,Won,Closed Won,38,70,147,4639,1043,5566,1251
+T20260616.7489,Kestrel Security,Taylor Quinn,Chris Nolan,PSR - Final,Client Success Manager,2026-06-16,2026-07-14,2026-08-26,Yes,Lost,Closed Lost,28,71,147,4601,0,3927,0
+T20260618.8509,Brightwater Brewing,Riley Carter,Harper Vance,PSR - Budgetary,Solutions Architect,2026-06-18,2026-06-24,2026-06-29,Yes,Won,Closed Won,6,11,145,3806,141,3659,136
+T20260618.0304,Alpine Veterinary,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-06-18,2026-07-27,2026-08-17,Yes,Lost,Closed Lost,39,60,145,6119,0,6457,0
+T20260619.1919,Tidewater Pulmonary,Drew Patel,Harper Vance,PSR - Final,Client Success Manager,2026-06-19,2026-07-16,2026-07-30,Yes,Won,Closed Won,27,41,144,3334,250,4150,311
+T20260619.6669,Valley Forge Logistics,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-06-19,2026-07-01,2026-08-28,Yes,Won,Closed Won,12,70,144,26699,0,31013,0
+T20260619.9700,Orchard Valley Farms,Riley Carter,Chris Nolan,PSR - Final,Solutions Architect,2026-06-19,2026-07-22,2026-09-09,Yes,Won,Closed Won,33,82,144,3868,129,4782,159
+T20260620.4467,Orchard Valley Farms,Taylor Quinn,Elliot Shaw,PSR - Final,Client Success Manager,2026-06-20,2026-08-02,2026-09-01,Yes,Won,Closed Won,43,73,143,2619,0,3102,0
+T20260620.0711,Hawthorne Plastics,Taylor Quinn,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-06-20,2026-08-08,2026-09-01,Yes,Won,Closed Won,49,73,143,4297,2010,4519,2114
+T20260621.1046,Alpine Veterinary,Riley Carter,Harper Vance,PSR - Final,Client Success Manager,2026-06-21,2026-07-14,2026-08-22,Yes,Lost,Closed Lost,23,62,142,4479,244,4732,258
+T20260622.1137,Zephyr Aviation,Drew Patel,Harper Vance,PSR - Final,Client Success Manager,2026-06-22,2026-08-04,2026-08-27,Yes,Lost,Closed Lost,43,66,141,15197,0,13371,0
+T20260622.7583,Clearwater Family Clinic,Taylor Quinn,Frankie Lowe,PSR - Final,Solutions Architect,2026-06-22,2026-07-29,,Yes,Open,Proposal Delivered,37,,141,34117,137,35350,142
+T20260622.7258,Foxridge Engineering,Avery Morgan,Harper Vance,PSR - Budgetary,Client Success Manager,2026-06-22,2026-07-12,2026-07-28,Yes,Lost,Closed Lost,20,36,141,6404,1100,7326,1258
+T20260623.0253,Aldergrove Credit Union,Morgan Reyes,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-06-23,2026-07-31,2026-08-19,Yes,Won,Closed Won,38,57,140,20011,0,20267,0
+T20260623.7589,Amberfield Orthopedics,Riley Carter,Harper Vance,PSR - Budgetary,Sales - Account Executives,2026-06-23,2026-07-16,2026-10-01,Yes,Won,Closed Won,23,100,140,34017,2376,36170,2526
+T20260624.0869,Sagebrush Ranch Supply,Casey Ellison,Harper Vance,PSR - Budgetary,Client Success Manager,2026-06-24,2026-08-01,2026-08-23,Yes,Won,Closed Won,38,60,139,14121,0,17414,0
+T20260625.5287,Brightwater Brewing,Avery Morgan,Frankie Lowe,PSR - Final,Client Success Manager,2026-06-25,2026-07-23,2026-08-10,Yes,Won,Closed Won,28,46,138,5676,2063,5068,1842
+T20260625.6120,Northstar Engineering,Drew Patel,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-06-25,2026-08-07,2026-09-22,Yes,Won,Closed Won,43,89,138,16820,0,19357,0
+T20260626.9269,Hawthorne Plastics,Casey Ellison,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-06-26,2026-07-13,2026-07-18,Yes,Won,Closed Won,17,22,137,4524,0,5619,0
+T20260626.9008,Indigo Biotech,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-06-26,2026-08-05,2026-08-17,Yes,Lost,Closed Lost,40,52,137,13309,822,14449,892
+T20260627.9409,Birchwood Dental Group,Casey Ellison,Elliot Shaw,PSR - Final,Solutions Architect,2026-06-27,2026-07-31,2026-08-22,Yes,Lost,Closed Lost,34,56,136,4604,139,4430,134
+T20260627.5742,Midtown Pharmacy,Avery Morgan,Frankie Lowe,PSR - Final,Solutions Architect,2026-06-27,2026-07-18,2026-08-01,Yes,Lost,Closed Lost,21,35,136,2678,820,2930,897
+T20260627.1542,Fieldstone Foods,Avery Morgan,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-06-27,2026-08-06,2026-08-29,Yes,Lost,Closed Lost,40,63,136,26846,0,27019,0
+T20260627.0186,Tidewater Pulmonary,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-06-27,2026-08-05,2026-09-03,Yes,Lost,Closed Lost,39,68,136,12200,127,12852,134
+T20260628.7595,Greystone Capital,Jordan Blake,Dana Brooks,PSR - Final,Client Success Manager,2026-06-28,2026-08-03,2026-08-27,Yes,Won,Closed Won,36,60,135,61508,835,56988,774
+T20260628.5467,Glenview Partners LLP,Avery Morgan,Elliot Shaw,PSR - Final,Client Success Manager,2026-06-28,2026-08-12,2026-09-09,Yes,Lost,Closed Lost,45,73,135,8207,0,7783,0
+T20260628.2056,Foxridge Engineering,Casey Ellison,Harper Vance,PSR - Final,Solutions Architect,2026-06-28,2026-07-13,2026-08-07,Yes,Lost,Closed Lost,15,40,135,30999,0,27135,0
+T20260629.2644,Redstone Architecture,Taylor Quinn,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-06-29,2026-07-25,2026-08-23,Yes,Lost,Closed Lost,26,55,134,7024,0,8310,0
+T20260630.1957,Blue Heron Marine,Jordan Blake,Frankie Lowe,PSR - Final,Client Success Manager,2026-06-30,2026-08-11,2026-08-16,Yes,Lost,Closed Lost,42,47,133,13219,241,12519,228
+T20260630.8161,Dunmore Steel,Morgan Reyes,Frankie Lowe,PSR - Final,Solutions Architect,2026-06-30,2026-08-11,2026-09-25,Yes,Won,Closed Won,42,87,133,2722,0,2923,0
+T20260701.4716,Orchard Valley Farms,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-07-01,2026-08-17,2026-09-27,Yes,Lost,Closed Lost,47,88,132,11159,436,12745,498
+T20260701.8968,Xenon Labs,Jordan Blake,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-07-01,2026-08-27,2026-10-06,Yes,Lost,Closed Lost,57,97,132,9831,302,9900,304
+T20260702.8118,Valley Forge Logistics,Avery Morgan,Elliot Shaw,PSR - Final,Client Success Manager,2026-07-02,2026-08-09,2026-09-04,Yes,Lost,Closed Lost,38,64,131,3738,422,4502,508
+T20260702.0778,Lighthouse Pediatrics,Riley Carter,Harper Vance,PSR - Final,Client Success Manager,2026-07-02,2026-08-08,2026-09-26,Yes,Lost,Closed Lost,37,86,131,24855,0,29096,0
+T20260702.6104,Jasper County Utilities,Jordan Blake,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-07-02,2026-09-12,2026-11-02,Yes,Lost,Closed Lost,72,123,131,26827,0,27653,0
+T20260703.7779,Edgewater Realty,Morgan Reyes,Harper Vance,PSR - Final,Client Success Manager,2026-07-03,2026-07-20,2026-08-15,Yes,Lost,Closed Lost,17,43,130,10545,1425,9330,1261
+T20260703.5268,Amberfield Orthopedics,Drew Patel,Elliot Shaw,PSR - Budgetary,Business Continuity,2026-07-03,2026-08-23,2026-09-30,Yes,Won,Closed Won,51,89,130,15372,1268,13397,1105
+T20260703.7817,Willowbrook Youth Services,Jordan Blake,Chris Nolan,PSR - Final,Solutions Architect,2026-07-03,2026-08-22,,Yes,Open,Proposal Delivered,50,,130,5163,994,5207,1002
+T20260703.4568,Upland Water Authority,Riley Carter,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-07-03,2026-08-07,2026-08-12,Yes,Won,Closed Won,35,40,130,4007,428,3748,400
+T20260704.4860,Pioneer Trust Bank,Taylor Quinn,Dana Brooks,PSR - Final,Solutions Architect,2026-07-04,2026-07-07,2026-08-20,Yes,Won,Closed Won,3,47,129,11936,2507,13815,2902
+T20260704.1151,Xenon Labs,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-07-04,2026-08-14,2026-09-11,Yes,Lost,Closed Lost,41,69,129,29767,0,29426,0
+T20260704.8778,Midtown Pharmacy,Avery Morgan,Chris Nolan,PSR - Final,Solutions Architect,2026-07-04,2026-08-08,2026-09-30,Yes,Won,Closed Won,35,88,129,23975,0,21641,0
+T20260704.7222,Sterling Machine Works,Jordan Blake,Harper Vance,PSR - Budgetary,Solutions Architect,2026-07-04,2026-08-05,2026-08-10,Yes,Lost,Closed Lost,32,37,129,2617,855,2303,752
+T20260705.7917,Bayline Logistics,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-07-05,2026-08-01,2026-08-27,Yes,Lost,Closed Lost,27,53,128,14115,0,15384,0
+T20260706.7674,Pinecrest Senior Living,Taylor Quinn,Elliot Shaw,PSR - Final,Solutions Architect,2026-07-06,2026-07-29,2026-08-03,Yes,Lost,Closed Lost,23,28,127,9160,1260,9118,1254
+T20260706.8294,Crescent Legal Partners,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-07-06,2026-08-06,2026-09-23,Yes,Lost,Closed Lost,31,79,127,27610,1224,29267,1297
+T20260706.5861,Hilltop Family Medicine,Drew Patel,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-07-06,2026-08-16,2026-09-04,Yes,Lost,Closed Lost,41,60,127,71542,1128,78703,1241
+T20260707.5864,Driftwood Hospitality,Avery Morgan,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-07-07,2026-08-20,2026-09-20,Yes,Lost,Closed Lost,44,75,126,12245,163,14923,199
+T20260707.1711,Willowbrook Youth Services,Morgan Reyes,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-07-07,2026-08-29,2026-09-12,Yes,Won,Closed Won,53,67,126,44875,701,45634,713
+T20260708.7444,Northfield Produce,Avery Morgan,Frankie Lowe,PSR - Final,Business Continuity,2026-07-08,2026-08-15,2026-09-03,Yes,Lost,Closed Lost,38,57,125,3665,0,4078,0
+T20260709.2470,Eastgate Realty,Jordan Blake,Harper Vance,PSR - Final,Solutions Architect,2026-07-09,2026-07-31,2026-08-21,Yes,Won,Closed Won,22,43,124,17470,0,15091,0
+T20260709.5788,Willowbrook Youth Services,Jordan Blake,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-07-09,2026-07-12,2026-08-05,Yes,Won,Closed Won,3,27,124,19694,836,22674,963
+T20260710.5163,Lighthouse Pediatrics,Casey Ellison,Harper Vance,PSR - Budgetary,Client Success Manager,2026-07-10,2026-08-11,2026-09-21,Yes,Won,Closed Won,32,73,123,21595,2127,24914,2454
+T20260712.7022,Oceanside Packaging,Taylor Quinn,Elliot Shaw,PSR - Final,Solutions Architect,2026-07-12,2026-08-22,2026-09-18,Yes,Lost,Closed Lost,41,68,121,50865,2433,55232,2642
+T20260712.9892,Foxridge Engineering,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-07-12,2026-07-29,2026-08-29,Yes,Lost,Closed Lost,17,48,121,12726,712,15397,861
+T20260713.3956,Granite Peak Insurance,Taylor Quinn,Elliot Shaw,PSR - Final,Client Success Manager,2026-07-13,2026-08-20,2026-09-24,Yes,Won,Closed Won,38,73,120,29245,131,33319,149
+T20260713.3897,Westlake Municipal,Drew Patel,Chris Nolan,PSR - Rescope,Client Success Manager,2026-07-13,2026-08-19,2026-09-17,Yes,Lost,Closed Lost,37,66,120,48053,0,48832,0
+T20260713.0837,Nimbus Cloud Partners,Avery Morgan,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-07-13,2026-08-19,2026-09-30,Yes,Lost,Closed Lost,37,79,120,5187,270,5646,294
+T20260714.8606,Glenview Partners LLP,Morgan Reyes,Elliot Shaw,PSR - Final,Client Success Manager,2026-07-14,2026-08-05,,Yes,Open,Pricing / Scoping,22,,119,31279,469,28897,433
+T20260714.7802,Timberline Construction,Drew Patel,Elliot Shaw,PSR - Final,Solutions Architect,2026-07-14,2026-08-21,2026-10-02,Yes,Won,Closed Won,38,80,119,37701,2431,47070,3035
+T20260714.4649,Upland Water Authority,Taylor Quinn,Harper Vance,PSR - Budgetary,Client Success Manager,2026-07-14,2026-08-19,2026-08-25,Yes,Lost,Closed Lost,36,42,119,35191,0,39766,0
+T20260715.3944,Hilltop Family Medicine,Taylor Quinn,Harper Vance,PSR - Final,Client Success Manager,2026-07-15,2026-07-31,2026-08-21,Yes,Won,Closed Won,16,37,118,3322,1333,3258,1307
+T20260715.8460,Upland Water Authority,Riley Carter,Frankie Lowe,PSR - Final,Client Success Manager,2026-07-15,2026-07-26,2026-08-30,Yes,Won,Closed Won,11,46,118,4065,0,4623,0
+T20260715.9151,Pinecrest Senior Living,Taylor Quinn,Elliot Shaw,PSR - Final,Solutions Architect,2026-07-15,2026-08-22,2026-09-18,Yes,Lost,Closed Lost,38,65,118,14444,169,14060,165
+T20260717.1504,Upland Water Authority,Morgan Reyes,Harper Vance,PSR - Budgetary,Sales - Account Executives,2026-07-17,2026-08-08,2026-08-18,Yes,Won,Closed Won,22,32,116,22650,0,25264,0
+T20260717.0857,Delta Freight Co,Avery Morgan,Dana Brooks,PSR - Final,Client Success Manager,2026-07-17,2026-07-31,2026-08-20,Yes,Lost,Closed Lost,14,34,116,19526,668,22478,769
+T20260718.8701,Highland Spirits Co,Taylor Quinn,Elliot Shaw,PSR - Final,Client Success Manager,2026-07-18,2026-08-27,2026-10-03,Yes,Won,Closed Won,40,77,115,8736,1426,8140,1329
+T20260718.8901,Lumen Optics,Casey Ellison,Harper Vance,PSR - Final,Solutions Architect,2026-07-18,2026-08-31,2026-10-09,Yes,Won,Closed Won,44,83,115,17765,2371,21617,2885
+T20260719.1740,Lighthouse Pediatrics,Drew Patel,Elliot Shaw,PSR - Final,Client Success Manager,2026-07-19,2026-08-18,2026-08-27,Yes,Lost,Closed Lost,30,39,114,5596,0,5068,0
+T20260719.1450,Prairie Wind Energy,Avery Morgan,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-07-19,2026-08-04,2026-09-10,Yes,Won,Closed Won,16,53,114,14166,151,12529,134
+T20260720.3053,Meridian Telehealth,Jordan Blake,Elliot Shaw,PSR - Final,Solutions Architect,2026-07-20,2026-08-27,2026-09-29,Yes,Lost,Closed Lost,38,71,113,23690,2008,26041,2207
+T20260720.4389,Union Pipe Credit Union,Riley Carter,Elliot Shaw,PSR - Rescope,Client Success Manager,2026-07-20,2026-08-15,2026-08-30,Yes,Won,Closed Won,26,41,113,4129,0,4667,0
+T20260721.2275,Elmwood Insurance Group,Avery Morgan,Elliot Shaw,PSR - Final,Solutions Architect,2026-07-21,2026-08-03,2026-08-12,Yes,Won,Closed Won,13,22,112,47779,0,50207,0
+T20260721.3162,Vista Eye Center,Jordan Blake,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-07-21,2026-08-15,2026-09-02,Yes,Won,Closed Won,25,43,112,64222,0,69201,0
+T20260721.2998,Rosewood Hotels,Morgan Reyes,Chris Nolan,PSR - Final,Solutions Architect,2026-07-21,2026-09-06,2026-10-06,Yes,Won,Closed Won,47,77,112,4134,760,4319,794
+T20260721.5635,Jasper County Utilities,Casey Ellison,Chris Nolan,PSR - Final,Solutions Architect,2026-07-21,2026-09-09,2026-09-20,Yes,Lost,Closed Lost,50,61,112,7050,0,8602,0
+T20260721.5224,Prairie Wind Energy,Casey Ellison,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-07-21,2026-08-27,2026-09-19,Yes,Lost,Closed Lost,37,60,112,11706,531,13241,601
+T20260722.6619,Fairhaven School District,Taylor Quinn,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-07-22,2026-09-02,2026-10-07,Yes,Lost,Closed Lost,42,77,111,23122,810,22121,775
+T20260723.8453,Union Pipe Credit Union,Drew Patel,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-07-23,2026-07-27,2026-08-27,Yes,Won,Closed Won,4,35,110,37837,152,34161,137
+T20260723.4943,Birchwood Dental Group,Drew Patel,Frankie Lowe,PSR - Final,Sales - Account Executives,2026-07-23,2026-09-01,2026-10-16,Yes,Won,Closed Won,40,85,110,19966,0,18933,0
+T20260724.1128,Riverside Auto Group,Riley Carter,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-07-24,2026-08-20,2026-09-23,Yes,Lost,Closed Lost,27,61,109,31874,2345,30286,2228
+T20260724.0741,Delta Freight Co,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-07-24,2026-08-16,2026-09-26,Yes,Lost,Closed Lost,23,64,109,5853,0,5038,0
+T20260724.6707,Meridian Telehealth,Riley Carter,Elliot Shaw,PSR - Final,Client Success Manager,2026-07-24,2026-09-02,2026-09-16,Yes,Won,Closed Won,40,54,109,4906,356,5784,420
+T20260725.5146,Hawthorne Plastics,Jordan Blake,Elliot Shaw,PSR - Final,Finance,2026-07-25,2026-08-16,2026-09-06,Yes,Won,Closed Won,22,43,108,15450,1058,17568,1203
+T20260725.3227,Birchwood Dental Group,Drew Patel,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-07-25,2026-08-26,2026-09-15,Yes,Won,Closed Won,32,52,108,16366,725,19630,870
+T20260725.2933,Xenon Labs,Avery Morgan,Frankie Lowe,PSR - Final,Solutions Architect,2026-07-25,2026-09-10,2026-10-03,Yes,Won,Closed Won,47,70,108,15819,0,14611,0
+T20260726.6533,Copperline Manufacturing,Casey Ellison,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-07-26,2026-09-12,2026-10-11,Yes,Lost,Closed Lost,48,77,107,5865,137,6398,149
+T20260726.9522,Riverside Auto Group,Avery Morgan,Frankie Lowe,PSR - Rescope,Solutions Architect,2026-07-26,2026-09-15,2026-10-28,Yes,Lost,Closed Lost,51,94,107,11817,409,11838,410
+T20260726.2871,Zephyr Aviation,Drew Patel,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-07-26,2026-09-05,2026-09-11,Yes,Lost,Closed Lost,41,47,107,16135,1281,15822,1256
+T20260727.3599,Northfield Produce,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-07-27,2026-07-30,2026-09-15,Yes,Won,Closed Won,3,50,106,27230,1411,31856,1651
+T20260727.3779,Lighthouse Pediatrics,Taylor Quinn,Harper Vance,PSR - Rescope,Solutions Architect,2026-07-27,2026-08-22,2026-08-30,Yes,Lost,Closed Lost,26,34,106,45757,140,48511,148
+T20260727.5959,Kestrel Security,Taylor Quinn,Dana Brooks,PSR - Final,Solutions Architect,2026-07-27,2026-09-10,2026-10-21,Yes,Won,Closed Won,45,86,106,5563,440,6628,524
+T20260727.7395,Eastgate Realty,Jordan Blake,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-07-27,2026-08-13,2026-09-14,Yes,Won,Closed Won,17,49,106,31752,0,35301,0
+T20260728.8716,Lighthouse Pediatrics,Jordan Blake,Dana Brooks,PSR - Final,Client Success Manager,2026-07-28,2026-09-04,2026-09-12,Yes,Lost,Closed Lost,38,46,105,15711,171,13377,146
+T20260728.2872,Falcon Crest Dental,Riley Carter,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-07-28,2026-08-13,2026-09-08,Yes,Won,Closed Won,16,42,105,26335,0,25401,0
+T20260728.7270,Falcon Crest Dental,Taylor Quinn,Harper Vance,PSR - Final,Solutions Architect,2026-07-28,2026-08-29,2026-09-12,Yes,Won,Closed Won,32,46,105,10350,2781,9683,2602
+T20260729.2732,Crescent Legal Partners,Drew Patel,Harper Vance,PSR - Final,Client Success Manager,2026-07-29,2026-09-04,2026-09-20,Yes,Won,Closed Won,37,53,104,5397,243,5623,253
+T20260730.0477,Hilltop Family Medicine,Drew Patel,Frankie Lowe,PSR - Final,Client Success Manager,2026-07-30,2026-09-07,2026-09-22,Yes,Lost,Closed Lost,39,54,103,6179,123,7263,145
+T20260730.8476,Zephyr Aviation,Casey Ellison,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-07-30,2026-08-16,2026-09-07,Yes,Lost,Closed Lost,17,39,103,17806,0,16177,0
+T20260730.8592,Kestrel Security,Riley Carter,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-07-30,2026-08-22,2026-09-23,Yes,Lost,Closed Lost,23,55,103,37434,0,40967,0
+T20260730.9150,Amberfield Orthopedics,Avery Morgan,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-07-30,2026-09-17,2026-10-25,Yes,Lost,Closed Lost,49,87,103,4665,0,5359,0
+T20260801.3953,Copperline Manufacturing,Taylor Quinn,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-08-01,2026-09-23,2026-10-18,Yes,Won,Closed Won,53,78,101,3455,2122,3812,2341
+T20260801.2317,Yellowstone Distributing,Jordan Blake,Frankie Lowe,PSR - Final,Solutions Architect,2026-08-01,2026-09-01,2026-10-01,Yes,Won,Closed Won,31,61,101,4433,956,5070,1093
+T20260801.1630,Riverbend Hospital,Morgan Reyes,Harper Vance,PSR - Final,Client Success Manager,2026-08-01,2026-09-29,2026-10-30,Yes,Lost,Closed Lost,59,90,101,20742,2183,18845,1983
+T20260803.1165,Evergreen Ag Services,Riley Carter,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-08-03,2026-09-25,2026-10-26,Yes,Lost,Closed Lost,53,84,99,4360,586,4419,594
+T20260803.3177,Lumen Optics,Drew Patel,Frankie Lowe,PSR - Final,Solutions Architect,2026-08-03,2026-09-26,2026-10-26,Yes,Lost,Closed Lost,54,84,99,5531,0,6769,0
+T20260803.3659,Evergreen Ag Services,Riley Carter,Elliot Shaw,PSR - Final,Solutions Architect,2026-08-03,2026-08-20,2026-09-16,Yes,Won,Closed Won,17,44,99,38615,2719,37826,2663
+T20260804.0621,Fieldstone Foods,Drew Patel,Elliot Shaw,PSR - Final,Client Success Manager,2026-08-04,2026-08-29,2026-10-02,Yes,Won,Closed Won,25,59,98,12351,1061,11509,989
+T20260804.9525,Pioneer Trust Bank,Casey Ellison,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-08-04,2026-09-08,2026-10-04,Yes,Lost,Closed Lost,35,61,98,5558,144,4996,129
+T20260804.1395,Quarry Hill Auto Parts,Avery Morgan,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-08-04,2026-08-30,2026-09-04,Yes,Won,Closed Won,26,31,98,20306,0,17759,0
+T20260805.7423,Lumen Optics,Drew Patel,Harper Vance,PSR - Budgetary,Solutions Architect,2026-08-05,2026-09-16,2026-10-22,Yes,Won,Closed Won,42,78,97,3560,431,4074,493
+T20260805.0179,Bayline Logistics,Jordan Blake,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-08-05,2026-09-27,2026-10-02,Yes,Lost,Closed Lost,53,58,97,7045,0,8064,0
+T20260805.7895,Union Pipe Credit Union,Drew Patel,Harper Vance,PSR - Budgetary,Client Success Manager,2026-08-05,2026-08-24,2026-08-29,Yes,Won,Closed Won,19,24,97,6827,0,6716,0
+T20260806.7972,Yorktown Health Partners,Riley Carter,Elliot Shaw,PSR - Final,Solutions Architect,2026-08-06,2026-09-05,2026-10-30,Yes,Won,Closed Won,30,85,96,11791,0,13756,0
+T20260806.6665,Birchwood Dental Group,Taylor Quinn,Dana Brooks,PSR - Final,Solutions Architect,2026-08-06,2026-09-16,2026-10-19,Yes,Won,Closed Won,41,74,96,19855,0,24056,0
+T20260806.2248,Indigo Biotech,Avery Morgan,Dana Brooks,PSR - Final,Solutions Architect,2026-08-06,2026-09-30,2026-10-23,Yes,Won,Closed Won,55,78,96,11888,0,12910,0
+T20260807.0502,Clearwater Family Clinic,Taylor Quinn,Harper Vance,PSR - Budgetary,Client Success Manager,2026-08-07,2026-09-22,2026-10-15,Yes,Lost,Closed Lost,46,69,95,27282,741,26437,718
+T20260807.8656,Kestrel Security,Riley Carter,Chris Nolan,PSR - Final,Client Success Manager,2026-08-07,2026-09-15,2026-09-20,Yes,Won,Closed Won,39,44,95,8116,426,8695,456
+T20260807.2624,Redstone Architecture,Casey Ellison,Dana Brooks,PSR - Rescope,Solutions Architect,2026-08-07,2026-09-07,2026-09-23,Yes,Won,Closed Won,31,47,95,5388,0,5144,0
+T20260808.9510,Zephyr Aviation,Taylor Quinn,Elliot Shaw,PSR - Final,Client Success Manager,2026-08-08,2026-10-08,,Yes,Open,SAA Vetted / Priced,61,,94,7560,1143,8331,1260
+T20260808.0917,Keystone Property Mgmt,Morgan Reyes,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-08-08,2026-08-24,2026-08-29,Yes,Won,Closed Won,16,21,94,41783,148,42151,149
+T20260810.1629,Upland Water Authority,Taylor Quinn,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-08-10,2026-09-12,2026-10-22,Yes,Won,Closed Won,33,73,92,10363,1397,11951,1611
+T20260811.0868,Aldergrove Credit Union,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-08-11,2026-09-22,,Yes,Open,Validated,42,,91,8196,303,8255,305
+T20260812.4518,Quincy Medical Billing,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-08-12,2026-09-24,2026-10-24,Yes,Lost,Closed Lost,43,73,90,38953,0,46260,0
+T20260813.7755,Orchard Valley Farms,Casey Ellison,Elliot Shaw,PSR - Final,Client Success Manager,2026-08-13,2026-09-11,2026-10-14,Yes,Won,Closed Won,29,62,89,21847,0,22754,0
+T20260813.5931,Kingsbridge Credit Union,Drew Patel,Chris Nolan,PSR - Rescope,Solutions Architect,2026-08-13,2026-09-14,2026-10-03,Yes,Won,Closed Won,32,51,89,20293,2026,24059,2402
+T20260814.8339,Juniper Wealth Advisors,Jordan Blake,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-08-14,2026-08-30,2026-10-15,Yes,Won,Closed Won,16,62,88,39824,0,38711,0
+T20260814.8924,Jasper County Utilities,Avery Morgan,Chris Nolan,PSR - Final,Solutions Architect,2026-08-14,2026-09-21,2026-10-12,Yes,Lost,Closed Lost,38,59,88,18193,912,21775,1092
+T20260814.1154,Orchard Valley Farms,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2026-08-14,2026-08-20,2026-09-08,Yes,Lost,Closed Lost,6,25,88,34633,244,30009,211
+T20260815.5287,Highland Spirits Co,Drew Patel,Frankie Lowe,PSR - Final,Solutions Architect,2026-08-15,2026-09-03,2026-09-19,Yes,Won,Closed Won,19,35,87,13256,0,13257,0
+T20260816.3536,Zephyr Aviation,Riley Carter,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-08-16,2026-09-02,2026-09-15,Yes,Lost,Closed Lost,17,30,86,37356,464,43146,536
+T20260816.2485,Aldergrove Credit Union,Jordan Blake,Harper Vance,PSR - Budgetary,Solutions Architect,2026-08-16,2026-09-19,2026-10-09,Yes,Won,Closed Won,34,54,86,22756,405,26272,468
+T20260817.2912,Crescent Legal Partners,Drew Patel,Elliot Shaw,PSR - Final,Solutions Architect,2026-08-17,2026-09-19,2026-10-14,Yes,Won,Closed Won,33,58,85,3106,0,3400,0
+T20260817.5772,Dunmore Steel,Morgan Reyes,Elliot Shaw,PSR - Final,Solutions Architect,2026-08-17,2026-09-27,2026-11-09,Yes,Won,Closed Won,41,84,85,18208,2495,15595,2137
+T20260818.7642,Canyon Ridge Schools,Riley Carter,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-08-18,2026-10-02,,Yes,Open,Proposal Delivered,45,,84,21871,1375,23632,1486
+T20260819.0481,Magnolia Title Co,Jordan Blake,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-08-19,2026-09-29,2026-10-19,Yes,Lost,Closed Lost,41,61,83,11255,342,13514,411
+T20260819.6972,Pinecrest Senior Living,Jordan Blake,Harper Vance,PSR - Budgetary,Client Success Manager,2026-08-19,2026-09-02,2026-10-21,Yes,Lost,Closed Lost,14,63,83,6795,1339,7874,1552
+T20260820.9064,Prairie Wind Energy,Casey Ellison,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-08-20,2026-09-19,2026-10-31,Yes,Lost,Closed Lost,30,72,82,20259,1428,22261,1569
+T20260820.4931,Northfield Produce,Taylor Quinn,Harper Vance,PSR - Budgetary,Client Success Manager,2026-08-20,2026-08-27,2026-09-19,Yes,Lost,Closed Lost,7,30,82,6926,0,8551,0
+T20260821.9751,Edgewater Realty,Casey Ellison,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-08-21,2026-10-08,2026-10-28,Yes,Lost,Closed Lost,48,68,81,41467,274,37099,245
+T20260821.8893,Willowbrook Youth Services,Drew Patel,Harper Vance,PSR - Budgetary,Solutions Architect,2026-08-21,2026-10-14,,Yes,Open,SAA Vetted / Priced,54,,81,6840,1020,5949,887
+T20260822.5679,Sterling Machine Works,Casey Ellison,Elliot Shaw,PSR - Final,Client Success Manager,2026-08-22,2026-09-27,,Yes,Open,Verbal,36,,80,28398,275,25927,251
+T20260822.6190,Summit Broker Network,Riley Carter,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-08-22,2026-10-08,2026-10-29,Yes,Lost,Closed Lost,47,68,80,5619,0,5880,0
+T20260822.4494,Eastgate Realty,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-08-22,2026-09-26,2026-10-10,Yes,Lost,Closed Lost,35,49,80,11340,0,12022,0
+T20260822.6289,Eastgate Realty,Drew Patel,Frankie Lowe,PSR - Rescope,Solutions Architect,2026-08-22,2026-08-30,2026-09-14,Yes,Won,Closed Won,8,23,80,15713,0,14980,0
+T20260823.5795,Northstar Engineering,Drew Patel,Harper Vance,PSR - Budgetary,Solutions Architect,2026-08-23,2026-08-30,2026-09-04,Yes,Lost,Closed Lost,7,12,79,7079,159,6854,154
+T20260823.9739,Cedar Point Builders,Morgan Reyes,Chris Nolan,PSR - Final,Client Success Manager,2026-08-23,2026-09-26,,Yes,Open,Pricing / Scoping,34,,79,20558,0,18856,0
+T20260824.8164,Willowbrook Youth Services,Morgan Reyes,Dana Brooks,PSR - Final,Client Success Manager,2026-08-24,2026-09-13,2026-10-25,Yes,Won,Closed Won,20,62,78,35071,0,34012,0
+T20260826.1432,Jasper County Utilities,Jordan Blake,Dana Brooks,PSR - Rescope,Solutions Architect,2026-08-26,2026-09-09,2026-10-11,Yes,Won,Closed Won,14,46,76,4603,407,4801,424
+T20260826.8846,Indigo Biotech,Casey Ellison,Harper Vance,PSR - Budgetary,Client Success Manager,2026-08-26,2026-09-15,2026-10-13,Yes,Lost,Closed Lost,20,48,76,2875,340,2811,332
+T20260827.6415,Brightwater Brewing,Casey Ellison,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-08-27,2026-10-12,,Yes,Open,Pricing / Scoping,46,,75,3347,2258,3273,2208
+T20260827.6616,Fairhaven School District,Drew Patel,Frankie Lowe,PSR - Final,Solutions Architect,2026-08-27,2026-09-22,2026-10-08,Yes,Won,Closed Won,26,42,75,30572,1241,34259,1391
+T20260828.0445,Harborview Medical,Morgan Reyes,Dana Brooks,PSR - Final,Solutions Architect,2026-08-28,2026-09-24,2026-11-04,Yes,Won,Closed Won,27,68,74,13043,910,15073,1052
+T20260828.1400,Bayline Logistics,Casey Ellison,Frankie Lowe,PSR - Final,Solutions Architect,2026-08-28,2026-09-12,2026-09-18,Yes,Won,Closed Won,15,21,74,10894,178,12389,202
+T20260828.3739,Silverleaf Landscaping,Drew Patel,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-08-28,2026-09-19,2026-09-27,Yes,Lost,Closed Lost,22,30,74,10623,406,13139,502
+T20260829.9141,Union Pipe Credit Union,Taylor Quinn,Chris Nolan,PSR - Rescope,Client Success Manager,2026-08-29,2026-10-01,,Yes,Open,SAA Vetted / Priced,33,,73,61759,262,53271,226
+T20260830.8108,Driftwood Hospitality,Jordan Blake,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-08-30,2026-10-03,2026-10-12,Yes,Lost,Closed Lost,34,43,72,4494,1090,4516,1095
+T20260830.5011,Nimbus Cloud Partners,Jordan Blake,Elliot Shaw,PSR - Budgetary,Sales - Account Executives,2026-08-30,2026-09-30,2026-11-02,Yes,Lost,Closed Lost,31,64,72,53515,124,65771,152
+T20260830.3915,Crescent Legal Partners,Drew Patel,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-08-30,2026-10-04,2026-10-23,Yes,Won,Closed Won,35,54,72,58643,546,50813,473
+T20260831.9240,Lakeshore Furniture,Avery Morgan,Dana Brooks,PSR - Final,Solutions Architect,2026-08-31,2026-10-03,2026-10-30,Yes,Lost,Closed Lost,33,60,71,4422,0,4237,0
+T20260831.1586,Hilltop Family Medicine,Jordan Blake,Frankie Lowe,PSR - Final,Client Success Manager,2026-08-31,2026-10-13,2026-10-18,Yes,Won,Closed Won,43,48,71,10229,535,9474,495
+T20260901.3650,Harborview Medical,Casey Ellison,Harper Vance,PSR - Final,Solutions Architect,2026-09-01,2026-10-29,,Yes,Open,Proposal Delivered,58,,70,13231,778,12317,724
+T20260901.3076,Hawthorne Plastics,Taylor Quinn,Harper Vance,PSR - Budgetary,Solutions Architect,2026-09-01,2026-10-03,,Yes,Open,Validated,32,,70,17802,0,18776,0
+T20260902.6336,Meridian Telehealth,Avery Morgan,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-09-02,2026-10-01,2026-10-28,Yes,Won,Closed Won,29,56,69,27379,165,31529,190
+T20260902.6386,Hawthorne Plastics,Avery Morgan,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-09-02,2026-10-05,2026-11-06,Yes,Won,Closed Won,33,65,69,6482,2406,6573,2440
+T20260902.8685,Blue Heron Marine,Jordan Blake,Elliot Shaw,PSR - Final,Solutions Architect,2026-09-02,2026-09-28,2026-10-15,Yes,Lost,Closed Lost,26,43,69,40301,0,43271,0
+T20260903.1481,Eastgate Realty,Casey Ellison,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-09-03,2026-10-18,2026-11-03,Yes,Won,Closed Won,45,61,68,38776,2216,38926,2225
+T20260903.7144,Elmwood Insurance Group,Drew Patel,Elliot Shaw,PSR - Final,Client Success Manager,2026-09-03,2026-10-02,2026-10-27,Yes,Won,Closed Won,29,54,68,41945,344,49813,409
+T20260903.6966,Redstone Architecture,Casey Ellison,Harper Vance,PSR - Budgetary,Solutions Architect,2026-09-03,2026-09-24,2026-10-06,Yes,Won,Closed Won,21,33,68,64813,0,69190,0
+T20260903.6809,Northfield Produce,Drew Patel,Harper Vance,PSR - Final,Solutions Architect,2026-09-03,2026-11-05,,Yes,Open,Validated,63,,68,13843,2701,12303,2400
+T20260904.1259,Pinecrest Senior Living,Taylor Quinn,Chris Nolan,PSR - Rescope,Solutions Architect,2026-09-04,2026-11-10,,Yes,Open,Pricing / Scoping,67,,67,4140,687,4756,789
+T20260904.9484,Northfield Produce,Drew Patel,Harper Vance,PSR - Final,Client Success Manager,2026-09-04,2026-09-12,2026-10-04,Yes,Won,Closed Won,8,30,67,4783,0,4227,0
+T20260904.3527,Clearwater Family Clinic,Avery Morgan,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-09-04,2026-09-28,2026-10-20,Yes,Lost,Closed Lost,24,46,67,22881,418,23108,422
+T20260905.8481,Pinecrest Senior Living,Jordan Blake,Dana Brooks,PSR - Final,Solutions Architect,2026-09-05,2026-10-05,2026-11-08,Yes,Won,Closed Won,30,64,66,49778,2515,43542,2200
+T20260905.6050,Ironwood Machining,Taylor Quinn,Elliot Shaw,PSR - Rescope,Client Success Manager,2026-09-05,2026-10-12,2026-10-25,Yes,Lost,Closed Lost,37,50,66,11515,0,11782,0
+T20260905.4575,Greystone Capital,Avery Morgan,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-09-05,2026-10-14,,Yes,Open,Proposal Delivered,39,,66,8040,0,9044,0
+T20260906.1022,Clearwater Family Clinic,Riley Carter,Harper Vance,PSR - Final,Solutions Architect,2026-09-06,2026-10-23,2026-11-08,Yes,Won,Closed Won,47,63,65,15454,1288,15161,1264
+T20260906.0188,Summit Broker Network,Drew Patel,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-09-06,2026-10-08,2026-10-20,Yes,Lost,Closed Lost,32,44,65,2607,460,3014,532
+T20260906.1311,Blue Heron Marine,Riley Carter,Elliot Shaw,PSR - Final,Solutions Architect,2026-09-06,2026-10-13,,Yes,Open,Verbal,37,,65,38960,0,39477,0
+T20260906.9106,Northfield Produce,Morgan Reyes,Chris Nolan,PSR - Budgetary,Business Continuity,2026-09-06,2026-10-22,,Yes,Open,Decision Pending,46,,65,11835,559,10607,501
+T20260908.5851,Granite Peak Insurance,Avery Morgan,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-09-08,2026-09-21,2026-10-15,Yes,Won,Closed Won,13,37,63,9428,134,10724,152
+T20260908.2721,Nimbus Cloud Partners,Riley Carter,Chris Nolan,PSR - Final,Client Success Manager,2026-09-08,2026-10-08,,Yes,Open,Decision Pending,30,,63,19199,2824,21324,3137
+T20260908.0811,Aldergrove Credit Union,Drew Patel,Elliot Shaw,PSR - Budgetary,Business Continuity,2026-09-08,2026-10-21,,Yes,Open,Pricing / Scoping,43,,63,2824,278,2571,253
+T20260908.0773,Midtown Pharmacy,Avery Morgan,Chris Nolan,PSR - Final,Solutions Architect,2026-09-08,2026-10-19,,Yes,Open,Validated,41,,63,21079,133,19804,125
+T20260909.9100,Upland Water Authority,Jordan Blake,Frankie Lowe,PSR - Rescope,Solutions Architect,2026-09-09,2026-11-02,,Yes,Open,Proposal Delivered,54,,62,64173,0,64259,0
+T20260910.8835,Sterling Machine Works,Casey Ellison,Chris Nolan,PSR - Rescope,Solutions Architect,2026-09-10,2026-10-28,,Yes,Open,Validated,48,,61,10806,0,11962,0
+T20260910.9268,Oakmont Accounting,Casey Ellison,Harper Vance,PSR - Budgetary,Client Success Manager,2026-09-10,2026-10-22,,Yes,Open,Decision Pending,42,,61,9006,0,10637,0
+T20260910.0923,Magnolia Title Co,Jordan Blake,Chris Nolan,PSR - Rescope,Client Success Manager,2026-09-10,2026-10-06,2026-10-11,Yes,Lost,Closed Lost,26,31,61,16490,0,17727,0
+T20260910.2071,Foxridge Engineering,Taylor Quinn,Harper Vance,PSR - Budgetary,Client Success Manager,2026-09-10,,,No,Open,Proposal Delivered,,,61,71566,324,71343,323
+T20260911.4030,Hilltop Family Medicine,Avery Morgan,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-09-11,2026-09-27,2026-10-15,Yes,Lost,Closed Lost,16,34,60,22749,0,26930,0
+T20260911.4967,Jade Garden Restaurants,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-09-11,2026-10-08,,Yes,Open,SQL,27,,60,10840,471,10323,449
+T20260911.1980,Sterling Machine Works,Casey Ellison,Harper Vance,PSR - Budgetary,Client Success Manager,2026-09-11,2026-10-18,2026-10-31,Yes,Lost,Closed Lost,37,50,60,4394,245,3950,220
+T20260912.9856,Valley Forge Logistics,Riley Carter,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-09-12,2026-10-09,2026-10-22,Yes,Lost,Closed Lost,27,40,59,4399,0,4145,0
+T20260912.5933,Orchard Valley Farms,Avery Morgan,Harper Vance,PSR - Budgetary,Client Success Manager,2026-09-12,2026-10-31,,Yes,Open,SAA Vetted / Priced,49,,59,18077,0,16564,0
+T20260912.7752,Northstar Engineering,Casey Ellison,Frankie Lowe,PSR - Rescope,Client Success Manager,2026-09-12,2026-11-03,,Yes,Open,Validated,52,,59,2406,0,2406,0
+T20260914.7132,Juniper Wealth Advisors,Riley Carter,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-09-14,2026-10-15,,Yes,Open,Proposal Delivered,31,,57,26368,138,29109,152
+T20260915.8859,Vista Eye Center,Jordan Blake,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-09-15,2026-10-12,2026-10-27,Yes,Lost,Closed Lost,27,42,56,8436,925,10083,1106
+T20260916.1740,Kestrel Security,Morgan Reyes,Harper Vance,PSR - Budgetary,Solutions Architect,2026-09-16,2026-09-30,,Yes,Open,Decision Pending,14,,55,5104,127,4473,111
+T20260916.5634,Ironwood Machining,Jordan Blake,Chris Nolan,PSR - Final,Client Success Manager,2026-09-16,2026-10-16,2026-11-01,Yes,Won,Closed Won,30,46,55,12550,0,13407,0
+T20260916.0180,Glenview Partners LLP,Avery Morgan,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-09-16,2026-10-20,,Yes,Open,Validated,34,,55,9048,988,8996,982
+T20260917.1141,Upland Water Authority,Drew Patel,Elliot Shaw,PSR - Final,Solutions Architect,2026-09-17,2026-10-03,2026-11-09,Yes,Won,Closed Won,16,53,54,8291,1433,8280,1431
+T20260917.8549,Magnolia Title Co,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-09-17,2026-10-03,2026-10-14,Yes,Lost,Closed Lost,16,27,54,52331,2316,50159,2220
+T20260917.1324,Aldergrove Credit Union,Riley Carter,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-09-17,2026-10-14,2026-11-04,Yes,Lost,Closed Lost,27,48,54,13779,473,14122,485
+T20260917.2958,Willowbrook Youth Services,Riley Carter,Harper Vance,PSR - Budgetary,Solutions Architect,2026-09-17,2026-11-02,,Yes,Open,Proposal Delivered,46,,54,27600,165,27754,166
+T20260917.2333,Clearwater Family Clinic,Casey Ellison,Harper Vance,PSR - Budgetary,Client Success Manager,2026-09-17,2026-10-23,2026-10-31,Yes,Won,Closed Won,36,44,54,21127,1135,24516,1317
+T20260918.8292,Keystone Property Mgmt,Taylor Quinn,Harper Vance,PSR - Final,Solutions Architect,2026-09-18,2026-10-26,2026-11-06,Yes,Won,Closed Won,38,49,53,54046,509,55025,518
+T20260918.9904,Keystone Property Mgmt,Riley Carter,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-09-18,2026-10-12,,Yes,Open,Decision Pending,24,,53,41919,127,49419,150
+T20260918.0411,Magnolia Title Co,Taylor Quinn,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-09-18,2026-10-11,,Yes,Open,SAA Vetted / Priced,23,,53,59539,127,59986,128
+T20260919.5872,Maple Ridge Nonprofit,Drew Patel,Harper Vance,PSR - Final,Client Success Manager,2026-09-19,2026-10-21,2026-11-03,Yes,Won,Closed Won,32,45,52,5314,0,5132,0
+T20260919.4231,Cedar Point Builders,Drew Patel,Frankie Lowe,PSR - Final,Client Success Manager,2026-09-19,2026-10-11,,Yes,Open,SQL,22,,52,21366,0,25246,0
+T20260919.0200,Sagebrush Ranch Supply,Jordan Blake,Chris Nolan,PSR - Final,Client Success Manager,2026-09-19,2026-11-01,,Yes,Open,Decision Pending,43,,52,3089,141,3135,143
+T20260919.0848,Evergreen Ag Services,Avery Morgan,Frankie Lowe,PSR - Final,Solutions Architect,2026-09-19,,,No,Open,Proposal Delivered,,,52,5250,0,4924,0
+T20260920.1181,Rosewood Hotels,Jordan Blake,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-09-20,2026-10-20,,Yes,Open,SAA Vetted / Priced,30,,51,11620,0,13499,0
+T20260921.2937,Pinecrest Senior Living,Avery Morgan,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-09-21,,,No,Open,Validated,,,50,4341,0,3902,0
+T20260921.6911,Yorktown Health Partners,Drew Patel,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-09-21,2026-10-16,2026-11-02,Yes,Lost,Closed Lost,25,42,50,37522,728,32453,630
+T20260922.5416,Valley Forge Logistics,Taylor Quinn,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-09-22,2026-11-01,,Yes,Open,SQL,40,,49,51269,436,58663,499
+T20260922.2607,Evergreen Ag Services,Avery Morgan,Harper Vance,PSR - Budgetary,Solutions Architect,2026-09-22,2026-10-06,2026-11-03,Yes,Lost,Closed Lost,14,42,49,14195,314,13640,302
+T20260922.0239,Westlake Municipal,Drew Patel,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-09-22,2026-10-21,2026-10-26,Yes,Won,Closed Won,29,34,49,24400,0,26483,0
+T20260923.2049,Harborview Medical,Morgan Reyes,Elliot Shaw,PSR - Rescope,Solutions Architect,2026-09-23,2026-10-27,,Yes,Open,Validated,34,,48,3239,0,3597,0
+T20260924.2196,Jasper County Utilities,Jordan Blake,Dana Brooks,PSR - Final,Solutions Architect,2026-09-24,2026-10-27,,Yes,Open,Verbal,33,,47,12726,0,13527,0
+T20260924.6180,Tidewater Pulmonary,Taylor Quinn,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-09-24,2026-10-25,,Yes,Open,Validated,31,,47,10337,0,10055,0
+T20260924.6603,Highland Spirits Co,Morgan Reyes,Dana Brooks,PSR - Rescope,Solutions Architect,2026-09-24,2026-10-10,2026-11-02,Yes,Lost,Closed Lost,16,39,47,64540,0,69372,0
+T20260926.0736,Pioneer Trust Bank,Taylor Quinn,Harper Vance,PSR - Budgetary,Solutions Architect,2026-09-26,,,No,Open,SQL,,,45,5036,934,5282,980
+T20260926.8963,Birchwood Dental Group,Taylor Quinn,Frankie Lowe,PSR - Final,Solutions Architect,2026-09-26,,,No,Open,SAA Vetted / Priced,,,45,23380,154,21596,142
+T20260926.0799,Evergreen Ag Services,Jordan Blake,Elliot Shaw,PSR - Final,Solutions Architect,2026-09-26,2026-11-03,,Yes,Open,SQL,38,,45,68302,520,58106,442
+T20260926.2216,Rosewood Hotels,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-09-26,,,No,Open,Validated,,,45,8248,309,9137,342
+T20260926.0198,Summit Broker Network,Drew Patel,Elliot Shaw,PSR - Final,Solutions Architect,2026-09-26,2026-11-01,,Yes,Open,Pricing / Scoping,36,,45,36499,0,36400,0
+T20260927.7681,Alpine Veterinary,Jordan Blake,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-09-27,2026-10-28,2026-11-02,Yes,Lost,Closed Lost,31,36,44,2955,0,3467,0
+T20260928.4189,Coastal Ortho Group,Jordan Blake,Dana Brooks,PSR - Rescope,Solutions Architect,2026-09-28,2026-11-05,,Yes,Open,SQL,38,,43,65597,1175,59964,1074
+T20260928.1283,Valley Forge Logistics,Casey Ellison,Frankie Lowe,PSR - Final,Client Success Manager,2026-09-28,2026-10-18,2026-11-10,Yes,Won,Closed Won,20,43,43,9087,2090,9859,2268
+T20260928.2617,Delta Freight Co,Riley Carter,Harper Vance,PSR - Final,Client Success Manager,2026-09-28,2026-11-02,,Yes,Open,Validated,35,,43,3315,0,3504,0
+T20260929.7311,Crescent Legal Partners,Drew Patel,Elliot Shaw,PSR - Final,Sales - Account Executives,2026-09-29,2026-11-06,,Yes,Open,Pricing / Scoping,38,,42,19118,490,17920,459
+T20260929.9410,Highland Spirits Co,Casey Ellison,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-09-29,,,No,Open,SAA Vetted / Priced,,,42,6118,2943,7422,3570
+T20260929.1505,Orchard Valley Farms,Drew Patel,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-09-29,2026-10-18,,Yes,Open,Decision Pending,19,,42,5052,0,4867,0
+T20260930.5741,Aldergrove Credit Union,Casey Ellison,Harper Vance,PSR - Final,Solutions Architect,2026-09-30,2026-10-30,,Yes,Open,Verbal,30,,41,14778,877,15636,928
+T20260930.2749,Falcon Crest Dental,Taylor Quinn,Elliot Shaw,PSR - Final,Solutions Architect,2026-09-30,,,No,Open,Pricing / Scoping,,,41,41967,0,44509,0
+T20260930.7488,Pioneer Trust Bank,Drew Patel,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-09-30,,,No,Open,Pricing / Scoping,,,41,9039,0,8463,0
+T20261002.1154,Thornbury Accounting,Morgan Reyes,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-10-02,2026-10-16,2026-10-31,Yes,Lost,Closed Lost,14,29,39,22669,0,24460,0
+T20261002.8408,Canyon Ridge Schools,Jordan Blake,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-10-02,2026-10-13,,Yes,Open,Validated,11,,39,11038,2183,11449,2264
+T20261002.9466,Elmwood Insurance Group,Drew Patel,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-10-02,2026-11-04,,Yes,Open,Validated,33,,39,32001,1440,31940,1437
+T20261002.5458,Northstar Engineering,Morgan Reyes,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-10-02,2026-11-10,,Yes,Open,Pricing / Scoping,39,,39,4373,2107,4454,2146
+T20261003.1741,Aldergrove Credit Union,Riley Carter,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-10-03,2026-11-06,,Yes,Open,Validated,34,,38,5485,2064,6434,2421
+T20261003.2122,Valley Forge Logistics,Drew Patel,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-10-03,2026-10-20,,Yes,Open,Pricing / Scoping,17,,38,14304,831,16907,982
+T20261003.6530,Whitestone Law Group,Jordan Blake,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-10-03,2026-10-08,2026-10-19,Yes,Won,Closed Won,5,16,38,20005,0,22986,0
+T20261005.6223,Hawthorne Plastics,Morgan Reyes,Harper Vance,PSR - Budgetary,Client Success Manager,2026-10-05,2026-11-09,,Yes,Open,Proposal Delivered,35,,36,16033,561,15925,557
+T20261005.7181,Northstar Engineering,Drew Patel,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-10-05,2026-10-31,,Yes,Open,Validated,26,,36,14817,712,13211,635
+T20261006.2554,Oceanside Packaging,Avery Morgan,Harper Vance,PSR - Final,Client Success Manager,2026-10-06,,,No,Open,Validated,,,35,23153,0,22703,0
+T20261006.4531,Aldergrove Credit Union,Riley Carter,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-10-06,2026-11-10,,Yes,Open,Proposal Delivered,35,,35,20797,509,18656,457
+T20261007.4360,Quarry Hill Auto Parts,Riley Carter,Frankie Lowe,PSR - Final,Solutions Architect,2026-10-07,,,No,Open,SQL,,,34,5119,0,5060,0
+T20261007.7293,Sagebrush Ranch Supply,Riley Carter,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-10-07,,,No,Open,SAA Vetted / Priced,,,34,5029,0,4718,0
+T20261007.0598,Amberfield Orthopedics,Drew Patel,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-10-07,,,No,Open,Validated,,,34,53741,0,49703,0
+T20261008.7815,Oakmont Accounting,Avery Morgan,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-10-08,2026-11-03,,Yes,Open,Decision Pending,26,,33,18842,794,18189,766
+T20261008.4945,Brightwater Brewing,Casey Ellison,Harper Vance,PSR - Budgetary,Sales - Account Executives,2026-10-08,2026-10-24,,Yes,Open,SQL,16,,33,5135,788,4408,676
+T20261008.1349,Summit Broker Network,Avery Morgan,Harper Vance,PSR - Budgetary,Solutions Architect,2026-10-08,2026-10-30,,Yes,Open,Pricing / Scoping,22,,33,67765,290,58854,252
+T20261009.0418,Tidewater Pulmonary,Taylor Quinn,Frankie Lowe,PSR - Budgetary,Client Success Manager,2026-10-09,2026-11-09,,Yes,Open,SQL,31,,32,3188,0,3409,0
+T20261011.5018,Harborview Medical,Jordan Blake,Frankie Lowe,PSR - Budgetary,Sales - Account Executives,2026-10-11,,,No,Open,Verbal,,,30,4680,0,5098,0
+T20261013.2544,Evergreen Ag Services,Avery Morgan,Harper Vance,PSR - Budgetary,Client Success Manager,2026-10-13,,,No,Open,Proposal Delivered,,,28,5208,1202,4733,1092
+T20261013.4173,Lumen Optics,Jordan Blake,Harper Vance,PSR - Budgetary,Client Success Manager,2026-10-13,2026-11-07,,Yes,Open,Verbal,25,,28,17258,549,18265,581
+T20261014.1532,Highland Spirits Co,Jordan Blake,Frankie Lowe,PSR - Final,Client Success Manager,2026-10-14,,,No,Open,Decision Pending,,,27,20695,0,20582,0
+T20261015.2207,Meridian Telehealth,Morgan Reyes,Elliot Shaw,PSR - Final,Solutions Architect,2026-10-15,2026-10-26,,Yes,Open,Decision Pending,11,,26,66372,0,68432,0
+T20261015.4345,Prairie Wind Energy,Avery Morgan,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-10-15,,,No,Open,Verbal,,,26,5189,0,6354,0
+T20261016.7148,Yellowstone Distributing,Casey Ellison,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-10-16,,,No,Open,SQL,,,25,3472,592,3950,674
+T20261016.7960,Sterling Machine Works,Jordan Blake,Frankie Lowe,PSR - Budgetary,Solutions Architect,2026-10-16,2026-11-06,,Yes,Open,Validated,21,,25,4341,0,3810,0
+T20261016.1428,Harborview Medical,Casey Ellison,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-10-16,,,No,Open,Pricing / Scoping,,,25,6441,1400,5603,1218
+T20261019.9362,Granite Peak Insurance,Drew Patel,Dana Brooks,PSR - Final,Solutions Architect,2026-10-19,,,No,Open,Verbal,,,22,11027,2012,9510,1735
+T20261019.7333,Clearwater Family Clinic,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-10-19,,,No,Open,Validated,,,22,33432,0,35289,0
+T20261019.9780,Oakmont Accounting,Jordan Blake,Frankie Lowe,PSR - Final,Client Success Manager,2026-10-19,,,No,Open,Decision Pending,,,22,13974,292,13662,285
+T20261020.7311,Willowbrook Youth Services,Drew Patel,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-10-20,,,No,Open,Verbal,,,21,5896,441,6123,458
+T20261020.6251,Driftwood Hospitality,Drew Patel,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-10-20,,,No,Open,Pricing / Scoping,,,21,68543,0,81966,0
+T20261021.7696,Zephyr Aviation,Taylor Quinn,Dana Brooks,PSR - Rescope,Solutions Architect,2026-10-21,,,No,Open,Proposal Delivered,,,20,23646,145,27109,166
+T20261022.7711,Sagebrush Ranch Supply,Casey Ellison,Dana Brooks,PSR - Final,Solutions Architect,2026-10-22,,,No,Open,Proposal Delivered,,,19,11486,1039,10676,966
+T20261022.1143,Lakeshore Furniture,Avery Morgan,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-10-22,,,No,Open,Pricing / Scoping,,,19,6465,560,7078,613
+T20261025.9157,Evergreen Ag Services,Drew Patel,Harper Vance,PSR - Budgetary,Solutions Architect,2026-10-25,,,No,Open,Pricing / Scoping,,,16,4385,0,4357,0
+T20261025.9781,Maple Ridge Nonprofit,Taylor Quinn,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-10-25,,,No,Open,Proposal Delivered,,,16,10996,0,11418,0
+T20261025.4165,Coastal Ortho Group,Avery Morgan,Dana Brooks,PSR - Final,Client Success Manager,2026-10-25,,,No,Open,Validated,,,16,5283,1279,6317,1529
+T20261025.1274,Driftwood Hospitality,Morgan Reyes,Elliot Shaw,PSR - Final,Solutions Architect,2026-10-25,,,No,Open,Pricing / Scoping,,,16,5633,0,6230,0
+T20261026.7855,Canyon Ridge Schools,Riley Carter,Chris Nolan,PSR - Final,Solutions Architect,2026-10-26,,,No,Open,Proposal Delivered,,,15,14138,537,16462,625
+T20261026.4635,Amberfield Orthopedics,Morgan Reyes,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-10-26,,,No,Open,Proposal Delivered,,,15,11095,0,9565,0
+T20261026.5948,Oakmont Accounting,Riley Carter,Chris Nolan,PSR - Budgetary,Client Success Manager,2026-10-26,,,No,Open,Proposal Delivered,,,15,3382,0,4142,0
+T20261026.3337,Ivy League Tutoring,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Solutions Architect,2026-10-26,,,No,Open,Pricing / Scoping,,,15,6620,0,8265,0
+T20261027.2086,Coastal Ortho Group,Taylor Quinn,Elliot Shaw,PSR - Final,Client Success Manager,2026-10-27,,,No,Open,Decision Pending,,,14,36570,1113,42470,1293
+T20261028.8873,Indigo Biotech,Casey Ellison,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-10-28,,,No,Open,SQL,,,13,13490,500,16626,616
+T20261029.1271,Riverbend Hospital,Taylor Quinn,Elliot Shaw,PSR - Budgetary,Client Success Manager,2026-10-29,,,No,Open,Verbal,,,12,20255,1178,25310,1472
+T20261030.1358,Ivy League Tutoring,Drew Patel,Dana Brooks,PSR - Budgetary,Client Success Manager,2026-10-30,,,No,Open,SQL,,,11,8158,765,7061,662
+T20261031.5511,Lumen Optics,Casey Ellison,Harper Vance,PSR - Final,Solutions Architect,2026-10-31,,,No,Open,SQL,,,10,66749,0,66084,0
+T20261031.3775,Greystone Capital,Drew Patel,Chris Nolan,PSR - Final,Client Success Manager,2026-10-31,2026-11-03,,Yes,Open,Verbal,3,,10,16704,0,14775,0
+T20261031.1124,Bayline Logistics,Avery Morgan,Chris Nolan,PSR - Budgetary,Solutions Architect,2026-10-31,,,No,Open,Decision Pending,,,10,14099,719,15445,788
+T20261102.4173,Willowbrook Youth Services,Drew Patel,Harper Vance,PSR - Final,Client Success Manager,2026-11-02,,,No,Open,Validated,,,8,21553,2150,20870,2082
+T20261102.6033,Hilltop Family Medicine,Avery Morgan,Frankie Lowe,PSR - Final,Solutions Architect,2026-11-02,,,No,Open,Proposal Delivered,,,8,3230,661,3607,738
+T20261104.6395,Indigo Biotech,Morgan Reyes,Elliot Shaw,PSR - Final,Solutions Architect,2026-11-04,,,No,Open,Decision Pending,,,6,34316,0,30342,0
+T20261104.6225,Pioneer Trust Bank,Morgan Reyes,Frankie Lowe,PSR - Final,Client Success Manager,2026-11-04,,,No,Open,SQL,,,6,5148,0,4448,0
+T20261104.3430,Thornbury Accounting,Taylor Quinn,Chris Nolan,PSR - Final,Solutions Architect,2026-11-04,,,No,Open,Validated,,,6,29764,150,27690,140
+T20261104.1829,Ivy League Tutoring,Casey Ellison,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-11-04,,,No,Open,SAA Vetted / Priced,,,6,3551,0,4266,0
+T20261105.0194,Amberfield Orthopedics,Morgan Reyes,Chris Nolan,PSR - Final,Solutions Architect,2026-11-05,,,No,Open,Validated,,,5,20436,155,18381,139
+T20261106.5636,Upland Water Authority,Morgan Reyes,Dana Brooks,PSR - Final,Client Success Manager,2026-11-06,,,No,Open,SQL,,,4,7207,148,8513,175
+T20261106.2101,Whitestone Law Group,Avery Morgan,Dana Brooks,PSR - Final,Solutions Architect,2026-11-06,,,No,Open,Decision Pending,,,4,17600,175,17065,170
+T20261106.6254,Fieldstone Foods,Morgan Reyes,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-11-06,,,No,Open,Validated,,,4,6770,1199,6407,1135
+T20261106.2077,Jasper County Utilities,Jordan Blake,Elliot Shaw,PSR - Rescope,Client Success Manager,2026-11-06,,,No,Open,Verbal,,,4,3556,767,3694,797
+T20261107.1501,Brightwater Brewing,Jordan Blake,Elliot Shaw,PSR - Final,Solutions Architect,2026-11-07,,,No,Open,Proposal Delivered,,,3,38898,777,41906,837
+T20261108.8041,Birchwood Dental Group,Taylor Quinn,Dana Brooks,PSR - Budgetary,Solutions Architect,2026-11-08,,,No,Open,SQL,,,2,5881,158,6033,162
+T20261109.6436,Birchwood Dental Group,Riley Carter,Elliot Shaw,PSR - Final,Client Success Manager,2026-11-09,,,No,Open,SAA Vetted / Priced,,,1,21121,162,25830,198

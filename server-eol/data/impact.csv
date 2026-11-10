@@ -1,0 +1,16 @@
+kind,label,value,before,after,unit,better,note
+hero,Manual tracking effort saved,1,,,work-week every month,,EOL tracking meant matching RMM exports to CRM opportunities in a spreadsheet: about 10 hours a week. Now it's about 30 minutes.
+stat,Hours saved per year,494,,,Account managers and engineers,,
+stat,EOL servers retired,116,,,Since the campaign started,,
+stat,Won NRR from the campaign,$339K,,,Closed-won refresh projects,,
+stat,Systems joined,2 → 1,,,RMM + CRM in one view,,
+ba,EOL servers retired per month,,2.7,15.3,,higher,
+ba,Refresh PSRs created per month,,3,10.3,,higher,
+ba,Won NRR per month,,11677,39242,$,higher,
+ba,Days to list affected clients,,5,0.1,days,lower,
+client,"{value} clients moved off unsupported Windows Server versions, closing security and compliance gaps",55,,,🛡,,
+client,"Every client with an EOL server now has an owner, a PSR and a next step, with {value} left in Needs PSR",3,,,✓,,
+client,Refresh projects booked ahead of the Server 2016 deadline: {value} in NRR,$339K,,,↑,,
+process,EOL status report,,10,0.5,hours / week,,RMM inventory and CRM pipeline joined automatically
+process,Finding affected clients,,5 days,Instant,,,Server OS footprint by client from RMM
+process,Pipeline visibility,,Monthly,Daily,,,"Campaign status, PSR and NRR per account"
