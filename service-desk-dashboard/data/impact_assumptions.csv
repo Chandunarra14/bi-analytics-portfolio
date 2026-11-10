@@ -1,0 +1,8 @@
+id,area,metric,before,after,unit,note
+report_hours,Time,Manual reporting effort per month,80,4,hours,"~2 weeks of one analyst pulling PSA exports into Excel each month, vs a quick review of the live dashboard"
+report_lag,Time,Time to get the monthly numbers,10,0,business days,Leadership waited for month-end packs; now the data refreshes daily
+sources,Time,Separate spreadsheets / exports stitched together,7,1,reports,"Tickets, CSAT, FCR, MTTR, open backlog, forecast and account health in one place"
+refresh,Time,Data refreshes per month,1,30,refreshes,Monthly manual pull vs daily scheduled refresh
+qbr_hours,Clients,Prep time per client business review,3,0.5,hours,"Account-level ticket, CSAT and MTTR numbers come straight from the account filter"
+qbr_count,Clients,Client reviews run per year,120,120,reviews,About 30 managed clients reviewed quarterly
+rate,Value,Blended internal cost per hour,55,55,USD,Assumption used to put a dollar value on hours saved

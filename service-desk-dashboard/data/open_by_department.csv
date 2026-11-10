@@ -1,0 +1,19 @@
+department,classification,open_tickets
+Service Desk,Alerts,24
+Service Desk,Incidents,512
+Service Desk,Service Requests,94
+Platform Engineering,Alerts,128
+Platform Engineering,Incidents,4
+Platform Engineering,Service Requests,6
+Security Ops,Alerts,71
+Security Ops,Incidents,35
+Security Ops,Service Requests,25
+Tier 3 Engineering,Alerts,28
+Tier 3 Engineering,Incidents,66
+Tier 3 Engineering,Service Requests,31
+Business Continuity,Alerts,15
+Business Continuity,Incidents,5
+Business Continuity,Service Requests,3
+Field Support,Alerts,0
+Field Support,Incidents,3
+Field Support,Service Requests,2

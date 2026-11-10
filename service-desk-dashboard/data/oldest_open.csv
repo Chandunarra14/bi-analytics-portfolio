@@ -1,0 +1,31 @@
+ticket,classification,created_on,age_days,department
+T20250524.0281,Alerts,2025-05-24,535,Tier 3 Engineering
+T20250601.0106,Alerts,2025-06-01,527,Platform Engineering
+T20250618.1591,Alerts,2025-06-18,510,Tier 3 Engineering
+T20250707.0386,Alerts,2025-07-07,491,Security Ops
+T20250720.2652,Alerts,2025-07-20,478,Security Ops
+T20250730.2817,Alerts,2025-07-30,468,Service Desk
+T20250807.1330,Alerts,2025-08-07,460,Security Ops
+T20250822.2831,Alerts,2025-08-22,445,Tier 3 Engineering
+T20250908.1436,Alerts,2025-09-08,428,Tier 3 Engineering
+T20250927.2955,Alerts,2025-09-27,409,Security Ops
+T20250707.2431,Incidents,2025-07-07,491,Security Ops
+T20250725.1763,Incidents,2025-07-25,473,Service Desk
+T20250728.1344,Incidents,2025-07-28,470,Security Ops
+T20250810.0960,Incidents,2025-08-10,457,Tier 3 Engineering
+T20250826.2475,Incidents,2025-08-26,441,Security Ops
+T20250929.2004,Incidents,2025-09-29,407,Tier 3 Engineering
+T20251009.1911,Incidents,2025-10-09,397,Platform Engineering
+T20251126.2193,Incidents,2025-11-26,349,Tier 3 Engineering
+T20251201.0795,Incidents,2025-12-01,344,Service Desk
+T20251213.1262,Incidents,2025-12-13,332,Security Ops
+T20260102.2046,Service Requests,2026-01-02,312,Service Desk
+T20260405.1965,Service Requests,2026-04-05,219,Tier 3 Engineering
+T20260422.2679,Service Requests,2026-04-22,202,Platform Engineering
+T20260424.2952,Service Requests,2026-04-24,200,Tier 3 Engineering
+T20260427.2124,Service Requests,2026-04-27,197,Tier 3 Engineering
+T20260504.1099,Service Requests,2026-05-04,190,Platform Engineering
+T20260517.2787,Service Requests,2026-05-17,177,Service Desk
+T20260531.0536,Service Requests,2026-05-31,163,Tier 3 Engineering
+T20260612.0996,Service Requests,2026-06-12,151,Platform Engineering
+T20260617.2950,Service Requests,2026-06-17,146,Tier 3 Engineering

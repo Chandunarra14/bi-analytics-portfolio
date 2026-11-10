@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Service Desk Performance &amp; Impact (Prototype)</title>
+<style>
+:root {
+  --color-fg: #18202b; --color-fg-muted: #5b6573; --color-bg: #f6f7f9; --color-panel: #ffffff; --color-border-line: #e3e6eb;
+  --color-ok: #138a5b; --color-warn: #c98a12; --color-bad: #d14343;
+  --font-anthropic-sans: Inter, 'Segoe UI', system-ui, -apple-system, sans-serif; --font-anthropic-serif: Georgia, 'Times New Roman', serif;
+  --cds-font-size-caption: 12px; --cds-font-size-body: 14px; --cds-font-size-heading: 18px; --cds-font-size-title: 30px; --cds-font-weight-medium: 600;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 16px; --cds-gap-lg: 24px; --cds-gap-xl: 32px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 18px; --cds-pad-xl: 28px; --cds-radius: 12px;
+  --cds-chart-grid: #eceff3; --cds-chart-axis: #b8bfc9; --cds-chart-reference: #9aa3ae; --cds-chart-muted: #c9ced6; --cds-chart-status-critical: #d14343;
+  --cds-text-secondary: #5b6573; --cds-surface-popover: #ffffff; --cds-border: #e3e6eb; --cds-shadow-popover: 0 8px 24px rgba(16,24,40,.12);
+  --cds-dur-slow: 400ms; --cds-ease-out: cubic-bezier(.2,.8,.2,1);
+}
+@media (prefers-color-scheme: dark) {
+  :root { --color-fg: #e8ebf0; --color-fg-muted: #9aa3ae; --color-bg: #0f1318; --color-panel: #171c23; --color-border-line: #2a313b;
+    --cds-chart-grid: #232a33; --cds-chart-axis: #3a4350; --cds-text-secondary: #9aa3ae; --cds-surface-popover: #1d232b; --cds-border: #2a313b; }
+}
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-anthropic-sans); }
+#dash-root { max-width: 1320px; margin: 0 auto; padding: 28px 24px 48px; }
+</style>
+<style>
+#dash-root { --sd-gap: var(--cds-gap-md); }
+.sd { font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+.sd-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: var(--cds-gap-md); margin-bottom: var(--cds-gap-md); }
+.sd-eyebrow { font-size: var(--cds-font-size-caption); letter-spacing: .08em; text-transform: uppercase; color: var(--color-fg-muted); margin: 0 0 4px; }
+.sd-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; line-height: 1.15; }
+.sd-sub { color: var(--color-fg-muted); margin: 6px 0 0; max-width: 70ch; }
+.sd-badge { display: inline-flex; align-items: center; gap: 6px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); border: 1px solid var(--color-border-line); border-radius: 999px; padding: 4px 10px; background: var(--color-panel); }
+.sd-badge i { width: 7px; height: 7px; border-radius: 50%; background: var(--color-warn); display: inline-block; }
+.sd-tabs { display: flex; gap: 4px; overflow-x: auto; border-bottom: 1px solid var(--color-border-line); margin-bottom: var(--cds-gap-lg); scrollbar-width: thin; }
+.sd-tab { appearance: none; border: 0; background: none; color: var(--color-fg-muted); font: inherit; font-size: var(--cds-font-size-body); padding: 10px 14px; cursor: pointer; white-space: nowrap; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.sd-tab:hover { color: var(--color-fg); }
+.sd-tab.is-on { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.sd-tab.sd-tab-impact { color: var(--color-ok); }
+.sd-tab.sd-tab-impact.is-on { border-bottom-color: var(--color-ok); }
+.sd-takeaway { font-size: var(--cds-font-size-heading); line-height: 1.45; margin: 0 0 var(--cds-gap-lg); max-width: 80ch; }
+.sd-takeaway b { font-weight: var(--cds-font-weight-medium); }
+.sd-grid { display: grid; gap: var(--sd-gap); grid-template-columns: repeat(12, minmax(0, 1fr)); margin-bottom: var(--sd-gap); }
+.sd-c12 { grid-column: span 12; } .sd-c8 { grid-column: span 8; } .sd-c7 { grid-column: span 7; } .sd-c6 { grid-column: span 6; } .sd-c5 { grid-column: span 5; } .sd-c4 { grid-column: span 4; } .sd-c3 { grid-column: span 3; }
+@media (max-width: 900px) { .sd-c8, .sd-c7, .sd-c6, .sd-c5, .sd-c4 { grid-column: span 12; } .sd-c3 { grid-column: span 6; } }
+@media (max-width: 520px) { .sd-c3 { grid-column: span 12; } }
+.sd-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; position: relative; }
+.sd-card h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: 0 0 2px; }
+.sd-card .sd-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0 0 var(--cds-gap-sm); }
+.sd-chart { position: relative; min-height: 240px; }
+.sd-chart.sd-short { min-height: 180px; }
+.sd-kpi { display: flex; flex-direction: column; gap: 4px; }
+.sd-kpi-l { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); text-transform: uppercase; letter-spacing: .05em; }
+.sd-kpi-v { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: 2.1rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.sd-kpi-v small { font-size: .5em; color: var(--color-fg-muted); margin-left: 2px; }
+.sd-kpi-d { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+.sd-up { color: var(--color-ok); } .sd-down { color: var(--color-bad); }
+.sd-chip { display: inline-block; padding: 1px 7px; border-radius: 999px; font-weight: var(--cds-font-weight-medium); }
+.sd-chip.sd-up { background: color-mix(in srgb, var(--color-ok) 14%, transparent); }
+.sd-chip.sd-down { background: color-mix(in srgb, var(--color-bad) 14%, transparent); }
+.sd-axis text, .sd-axis-t { fill: var(--cds-text-secondary); font-size: var(--cds-font-size-caption); font-family: var(--font-anthropic-sans); }
+.sd-grid line { stroke: var(--cds-chart-grid); } .sd-grid .domain { display: none; }
+.sd-val, .sd-pt { fill: var(--color-fg); font-size: 11px; font-variant-numeric: tabular-nums; font-family: var(--font-anthropic-sans); }
+.sd-anno { fill: var(--cds-text-secondary); font-size: 11px; font-family: var(--font-anthropic-sans); }
+.sd-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-bottom: 6px; }
+.sd-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.sd-tip { position: absolute; z-index: 5; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); box-shadow: var(--cds-shadow-popover); border-radius: 8px; padding: 8px 10px; font-size: var(--cds-font-size-caption); color: var(--cds-text-secondary); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.sd-tip-h { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); margin-bottom: 3px; }
+.sd-sw { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 6px; }
+.sd-fail { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: var(--cds-pad-lg) 0; }
+.sd-donut { display: flex; flex-wrap: wrap; align-items: center; gap: var(--cds-gap-lg); justify-content: center; }
+.sd-donut-v { font-family: var(--font-anthropic-serif); font-size: 28px; fill: var(--color-fg); }
+.sd-donut-l { font-size: 11px; fill: var(--cds-text-secondary); font-family: var(--font-anthropic-sans); }
+.sd-dlegend { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: var(--cds-font-size-caption); min-width: 160px; }
+.sd-dlegend li { display: grid; grid-template-columns: 12px 1fr auto; gap: 8px; align-items: center; }
+.sd-dlegend i { width: 10px; height: 10px; border-radius: 3px; }
+.sd-dlegend b { font-weight: var(--cds-font-weight-medium); font-variant-numeric: tabular-nums; }
+.sd-tw { overflow-x: auto; }
+.sd-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.sd-table th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: 8px 10px; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; position: sticky; top: 0; background: var(--color-panel); }
+.sd-table td { padding: 7px 10px; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.sd-table tr:last-child td { border-bottom: 0; }
+.sd-table tbody tr:hover td { background: color-mix(in srgb, var(--color-fg) 4%, transparent); }
+.sd-table .r { text-align: right; }
+.sd-scroll { max-height: 420px; overflow: auto; }
+.sd-inbar { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.sd-inbar span { display: inline-block; height: 6px; border-radius: 3px; min-width: 2px; }
+.sd-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: 0; }
+.sd-pill { display: inline-block; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--color-border-line); font-size: 11px; color: var(--color-fg-muted); }
+.sd-seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: 999px; padding: 2px; gap: 2px; margin-bottom: var(--cds-gap-sm); flex-wrap: wrap; }
+.sd-seg button { appearance: none; border: 0; background: none; font: inherit; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); padding: 4px 12px; border-radius: 999px; cursor: pointer; }
+.sd-seg button.is-on { background: var(--color-fg); color: var(--color-bg); }
+.sd-search { font: inherit; font-size: var(--cds-font-size-caption); padding: 6px 10px; border: 1px solid var(--color-border-line); border-radius: 8px; background: var(--color-bg); color: var(--color-fg); min-width: 200px; }
+.sd-toolbar { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; justify-content: space-between; margin-bottom: var(--cds-gap-sm); }
+.sd-rings { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--sd-gap); }
+.sd-ringcard { display: flex; align-items: center; gap: 12px; }
+.sd-ringtxt .sd-kpi-v { font-size: 1.7rem; }
+.sd-heat { display: grid; gap: 3px; font-size: 11px; font-variant-numeric: tabular-nums; }
+.sd-heat .h { color: var(--color-fg-muted); text-align: center; }
+.sd-heat .rl { color: var(--color-fg-muted); white-space: nowrap; padding-right: 6px; align-self: center; }
+.sd-heat .c { border-radius: 4px; text-align: center; padding: 6px 0; min-width: 26px; }
+/* impact */
+.sd-hero { display: grid; gap: var(--sd-gap); grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); margin-bottom: var(--sd-gap); }
+@media (max-width: 900px) { .sd-hero { grid-template-columns: 1fr; } }
+.sd-hero-main { background: linear-gradient(135deg, color-mix(in srgb, var(--color-ok) 16%, var(--color-panel)), var(--color-panel)); }
+.sd-hero-big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: clamp(2.8rem, 6vw, 4.4rem); line-height: 1; margin: 8px 0; font-variant-numeric: tabular-nums; }
+.sd-hero-big small { font-size: .35em; color: var(--color-fg-muted); margin-left: 6px; }
+.sd-hero-sub { color: var(--color-fg-muted); margin: 0; max-width: 52ch; }
+.sd-hero-side { display: grid; gap: var(--sd-gap); grid-template-columns: 1fr 1fr; }
+.sd-stat .sd-kpi-v { font-size: 1.9rem; }
+.sd-section-h { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-heading); margin: var(--cds-gap-lg) 0 var(--cds-gap-sm); }
+.sd-ba { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--sd-gap); margin-bottom: var(--sd-gap); }
+.sd-ba-row { display: flex; align-items: baseline; gap: 10px; margin: 6px 0 10px; font-variant-numeric: tabular-nums; }
+.sd-ba-before { color: var(--color-fg-muted); text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--color-fg-muted) 60%, transparent); }
+.sd-ba-arrow { color: var(--color-fg-muted); }
+.sd-ba-after { font-family: var(--font-anthropic-serif); font-size: 1.9rem; }
+.sd-ba-track { height: 6px; border-radius: 3px; background: var(--cds-chart-grid); position: relative; overflow: hidden; }
+.sd-ba-track span { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 3px; }
+.sd-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.sd-list li { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start; }
+.sd-list .ico { width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center; background: color-mix(in srgb, var(--color-ok) 14%, transparent); color: var(--color-ok); font-weight: 600; font-size: 13px; }
+.sd-list p { margin: 0; }
+.sd-list .m { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.sd details { margin-top: var(--cds-gap-lg); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.sd summary { cursor: pointer; color: var(--color-fg); }
+[data-dash-source-state=refreshing] { opacity: .5; }
+@media (prefers-reduced-motion: no-preference) { .sd-sec { animation: sdIn var(--cds-dur-slow) var(--cds-ease-out); } }
+@keyframes sdIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+</style>
+</head>
+<body>
+<div id="dash-root">
+
+<div class='sd' id='sd'>
+  <header class='sd-head' id='sd-header'>
+    <div>
+      <p class='sd-eyebrow'>Managed services · Service desk</p>
+      <h1 class='sd-title'>Service Desk Performance &amp; Impact</h1>
+      <p class='sd-sub'>Ticket volume, resolution, CSAT, first contact resolution and MTTR across every channel and client, plus the business impact of moving from manual reporting to this dashboard.</p>
+    </div>
+    <span class='sd-badge'><i></i>Prototype · sample data</span>
+  </header>
+
+  <nav class='sd-tabs' id='sd-tabs' role='tablist' aria-label='Dashboard pages'>
+    <button class='sd-tab is-on' role='tab' aria-selected='true' data-tab='overview'>Overview</button>
+    <button class='sd-tab' role='tab' aria-selected='false' data-tab='forecast'>Trends &amp; forecast</button>
+    <button class='sd-tab' role='tab' aria-selected='false' data-tab='open'>Open tickets</button>
+    <button class='sd-tab' role='tab' aria-selected='false' data-tab='csat'>CSAT</button>
+    <button class='sd-tab' role='tab' aria-selected='false' data-tab='fcr'>First contact resolution</button>
+    <button class='sd-tab' role='tab' aria-selected='false' data-tab='mttr'>MTTR</button>
+    <button class='sd-tab' role='tab' aria-selected='false' data-tab='accounts'>Account health</button>
+    <button class='sd-tab sd-tab-impact' role='tab' aria-selected='false' data-tab='impact'>★ Impact</button>
+  </nav>
+
+  <!-- OVERVIEW -->
+  <section class='sd-sec' id='overview' data-page>
+    <p class='sd-takeaway' id='ov-takeaway'>In <b data-draw='ov-month' data-source='overview_kpis' data-field='latest_month' data-row='0'>—</b>, the desk resolved <b data-draw='ov-res' data-source='overview_kpis' data-field='resolution_pct' data-row='0'>—</b> of tickets, and first contact resolution reached <b data-draw='ov-fcr' data-source='overview_kpis' data-field='fcr_pct' data-row='0'>—</b><span data-draw='ov-fcr-dir'></span>. Incident MTTR is <b data-draw='ov-mttr' data-source='overview_kpis' data-field='mttr_hrs' data-row='0'>—</b> hours.</p>
+    <div class='sd-grid'>
+      <div class='sd-card sd-kpi sd-c3' id='kpi-tickets'><span class='sd-kpi-l'>Tickets created · 12 mo</span><span class='sd-kpi-v' data-draw='k-tickets' data-source='overview_kpis' data-field='tickets_12m' data-row='0'>—</span><span class='sd-kpi-d'><span data-draw='k-completed' data-source='overview_kpis' data-field='completed_12m' data-row='0'>—</span> completed</span></div>
+      <div class='sd-card sd-kpi sd-c3' id='kpi-res'><span class='sd-kpi-l'>Resolution rate · latest month</span><span class='sd-kpi-v' data-draw='k-res' data-source='overview_kpis' data-field='resolution_pct' data-row='0'>—</span><span class='sd-kpi-d'><span class='sd-chip' data-draw='k-res-d' data-source='overview_kpis' data-field='resolution_change' data-row='0'>—</span> pts vs prior month</span></div>
+      <div class='sd-card sd-kpi sd-c3' id='kpi-fcr'><span class='sd-kpi-l'>First contact resolution · latest</span><span class='sd-kpi-v' data-draw='k-fcr' data-source='overview_kpis' data-field='fcr_pct' data-row='0'>—</span><span class='sd-kpi-d'><span class='sd-chip' data-draw='k-fcr-d' data-source='overview_kpis' data-field='fcr_change' data-row='0'>—</span> pts vs prior month</span></div>
+      <div class='sd-card sd-kpi sd-c3' id='kpi-csat'><span class='sd-kpi-l'>CSAT score · latest</span><span class='sd-kpi-v' data-draw='k-csat' data-source='overview_kpis' data-field='csat_score' data-row='0'>—</span><span class='sd-kpi-d'><span class='sd-chip' data-draw='k-csat-d' data-source='overview_kpis' data-field='csat_change' data-row='0'>—</span> pts vs prior month</span></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c7' id='ov-trend'><h3>Created vs completed</h3><p class='sd-note'>Monthly tickets, all classifications. The March spike is a monitoring alert storm.</p><div class='sd-chart' data-draw='ov-trend' data-source='monthly_summary'></div></div>
+      <div class='sd-card sd-c5' id='ov-resrate'><h3>Resolution rate by month</h3><p class='sd-note'>Completed ÷ created. Dashed line marks go-live (Feb 2026).</p><div class='sd-chart' data-draw='ov-resrate' data-source='monthly_summary'></div></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c7' id='ov-class'><h3>Tickets by classification</h3><p class='sd-note'>Alerts, incidents and service requests per month.</p><div class='sd-chart' data-draw='ov-class' data-source='monthly_summary'></div></div>
+      <div class='sd-card sd-c5' id='ov-chmix'><h3>Inbound channel mix</h3><p class='sd-note'>Share of human-raised tickets. Chat keeps growing while phone shrinks.</p><div class='sd-chart' data-draw='ov-chmix' data-source='channel_share'></div></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c12' id='ov-daily'><h3>New tickets this month, by day and channel</h3><p class='sd-note'>Darker = more tickets. Weekends drop off; Nov 5 was another alert spike.</p><div class='sd-tw'><div data-draw='ov-daily' data-source='daily_current_month'></div></div></div>
+    </div>
+  </section>
+
+  <!-- FORECAST -->
+  <section class='sd-sec' id='forecast' data-page hidden>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c4' id='fc-sev'><h3>By severity</h3><p class='sd-note'>Month to date vs full-month forecast.</p><div class='sd-chart' data-draw='fc-sev' data-source='forecast'></div></div>
+      <div class='sd-card sd-c4' id='fc-chan'><h3>By channel</h3><p class='sd-note'>Month to date vs full-month forecast.</p><div class='sd-chart' data-draw='fc-chan' data-source='forecast'></div></div>
+      <div class='sd-card sd-c4' id='fc-class'><h3>By classification</h3><p class='sd-note'>Month to date vs full-month forecast.</p><div class='sd-chart' data-draw='fc-class' data-source='forecast'></div></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c4' id='fc-weekday'><h3>Average tickets by weekday</h3><p class='sd-note'>Past 90 days. Use it for shift planning.</p><div class='sd-chart' data-draw='fc-weekday' data-source='weekday_avg'></div></div>
+      <div class='sd-card sd-c8' id='fc-15'><h3>Last 15 days</h3><p class='sd-note'>Daily alerts, incidents and service requests.</p><div class='sd-chart' data-draw='fc-15' data-source='last_15_days'></div></div>
+    </div>
+  </section>
+
+  <!-- OPEN -->
+  <section class='sd-sec' id='open' data-page hidden>
+    <div class='sd-grid'>
+      <div class='sd-card sd-kpi sd-c3' id='op-all'><span class='sd-kpi-l'>Open tickets</span><span class='sd-kpi-v' data-draw='op-all' data-source='open_totals' data-field='open_tickets' data-where='classification=All'>—</span></div>
+      <div class='sd-card sd-kpi sd-c3' id='op-inc'><span class='sd-kpi-l'>Open incidents</span><span class='sd-kpi-v' data-draw='op-inc' data-source='open_totals' data-field='open_tickets' data-where='classification=Incidents'>—</span></div>
+      <div class='sd-card sd-kpi sd-c3' id='op-alert'><span class='sd-kpi-l'>Open alerts</span><span class='sd-kpi-v' data-draw='op-alert' data-source='open_totals' data-field='open_tickets' data-where='classification=Alerts'>—</span></div>
+      <div class='sd-card sd-kpi sd-c3' id='op-sr'><span class='sd-kpi-l'>Open service requests</span><span class='sd-kpi-v' data-draw='op-sr' data-source='open_totals' data-field='open_tickets' data-where='classification=Service Requests'>—</span></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c5' id='op-dept'><h3>Open by department</h3><p class='sd-note'>Stacked by classification.</p><div class='sd-chart' data-draw='op-dept' data-source='open_by_department'></div></div>
+      <div class='sd-card sd-c4' id='op-pri'><h3>Open by priority</h3><p class='sd-note'>P1 is most urgent.</p><div class='sd-chart' data-draw='op-pri' data-source='open_by_priority'></div></div>
+      <div class='sd-card sd-c3' id='op-mix'><h3>Open mix</h3><p class='sd-note'>By classification.</p><div class='sd-chart' data-draw='op-mix' data-source='open_totals'></div></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c12' id='op-oldest'><h3>Oldest open tickets</h3><p class='sd-note'>Top 10 by age for each classification. Anything over a year is flagged.</p>
+        <div class='sd-seg' id='op-seg' role='group' aria-label='Classification'><button class='is-on' data-cls='Incidents'>Incidents</button><button data-cls='Alerts'>Alerts</button><button data-cls='Service Requests'>Service requests</button></div>
+        <div class='sd-tw'><table class='sd-table' data-source='oldest_open' data-row-key='ticket'><thead><tr><th data-field='ticket'>Ticket</th><th data-field='department'>Department</th><th data-field='created_on'>Created</th><th class='r' data-field='age_days'>Age (days)</th></tr></thead><tbody data-draw='op-oldest'></tbody></table></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CSAT -->
+  <section class='sd-sec' id='csat' data-page hidden>
+    <div class='sd-card' id='cs-rings' style='margin-bottom: var(--sd-gap)'><h3>CSAT score by channel</h3><p class='sd-note'>Last 12 months. Tick marks the 95 target; green = at or above target.</p><div class='sd-rings' data-draw='cs-rings' data-source='channel_summary'></div></div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c7' id='cs-trend'><h3>CSAT trend by channel</h3><p class='sd-note'>Monthly score out of 100.</p><div class='sd-chart' data-draw='cs-trend' data-source='channel_wide'></div></div>
+      <div class='sd-card sd-c5' id='cs-resp'><h3>Survey response rate</h3><p class='sd-note'>Share of tickets that got a CSAT response. Chat clients answer most.</p><div class='sd-chart sd-short' data-draw='cs-resp' data-source='channel_summary'></div></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c12' id='cs-acct'><h3>CSAT by client</h3><p class='sd-note'>Average rating out of 5 and how many tickets got a survey back.</p>
+        <div class='sd-tw sd-scroll'><table class='sd-table' data-source='accounts' data-row-key='account'><thead><tr><th data-field='account'>Client</th><th data-field='service_level'>Level</th><th class='r' data-field='tickets'>Tickets</th><th class='r' data-field='csat_responses'>Surveys</th><th class='r' data-field='avg_rating'>Avg rating</th></tr></thead><tbody data-draw='cs-acct'></tbody></table></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FCR -->
+  <section class='sd-sec' id='fcr' data-page hidden>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c5' id='fc-chanbar'><h3>FCR by channel</h3><p class='sd-note'>Last 12 months. Chat and phone fix the most on first touch.</p><div class='sd-chart sd-short' data-draw='fcr-chan' data-source='channel_summary'></div></div>
+      <div class='sd-card sd-c7' id='fcr-trend'><h3>Overall FCR trend</h3><p class='sd-note'>Monthly first contact resolution. Dashed line marks go-live.</p><div class='sd-chart' data-draw='fcr-trend' data-source='monthly_summary'></div></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c12' id='fcr-chtrend'><h3>FCR by channel over time</h3><p class='sd-note'>Monthly.</p><div class='sd-chart' data-draw='fcr-chtrend' data-source='channel_wide'></div></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c12' id='fcr-issue'><h3>Issue types: FCR and hours worked</h3><p class='sd-note'>Low-FCR, high-hour issues are where automation or runbooks pay off most.</p>
+        <div class='sd-tw'><table class='sd-table' data-source='issue_types' data-row-key='issue'><thead><tr><th data-field='issue'>Issue</th><th class='r' data-field='tickets'>Tickets</th><th class='r' data-field='avg_hrs'>Avg hrs</th><th class='r' data-field='worked_hrs'>Hours worked</th><th class='r' data-field='fcr_tickets'>FCR tickets</th><th class='r' data-field='fcr_pct'>FCR %</th></tr></thead><tbody data-draw='fcr-issue'></tbody></table></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MTTR -->
+  <section class='sd-sec' id='mttr' data-page hidden>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c6' id='mt-sev'><h3>MTTR by severity</h3><p class='sd-note'>Mean time to resolve, hours.</p><div class='sd-chart sd-short' data-draw='mt-sev' data-source='severity_mttr'></div></div>
+      <div class='sd-card sd-c6' id='mt-chan'><h3>Average resolution hours by channel</h3><p class='sd-note'>Last 12 months.</p><div class='sd-chart sd-short' data-draw='mt-chan' data-source='channel_summary'></div></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c7' id='mt-trend'><h3>MTTR trend</h3><p class='sd-note'>Monthly hours. Both incident and request MTTR dropped after go-live.</p><div class='sd-chart' data-draw='mt-trend' data-source='monthly_summary'></div></div>
+      <div class='sd-card sd-c5' id='mt-top'><h3>Clients with the highest MTTR</h3><p class='sd-note'>Top 10, hours. Red = over 100 hours.</p><div data-draw='mt-top' data-source='accounts'></div></div>
+    </div>
+  </section>
+
+  <!-- ACCOUNTS -->
+  <section class='sd-sec' id='accounts' data-page hidden>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c6' id='ac-alerts'><h3>Top 10 clients by alerts</h3><p class='sd-note'>Last 12 months.</p><div data-draw='ac-alerts' data-source='accounts'></div></div>
+      <div class='sd-card sd-c6' id='ac-ratio'><h3>Top 10 clients by ticket load vs MRR</h3><p class='sd-note'>Tickets per $ of quarterly MRR. Above 1.0 (red) means the client may be under-priced for the support they use.</p><div data-draw='ac-ratio' data-source='accounts'></div></div>
+    </div>
+    <div class='sd-grid'>
+      <div class='sd-card sd-c12' id='ac-table'><h3>All clients</h3>
+        <div class='sd-toolbar'><p class='sd-note' style='margin:0'>Click a column to sort. Ratio status: green under 0.5, amber 0.5 to 1.0, red over 1.0.</p><input class='sd-search' id='ac-search' type='search' placeholder='Search clients…' aria-label='Search clients'></div>
+        <div class='sd-tw sd-scroll'><table class='sd-table' id='ac-tbl' data-source='accounts' data-row-key='account'><thead><tr><th data-field='account' data-sort='account'>Client ↕</th><th data-field='service_level' data-sort='service_level'>Level ↕</th><th class='r' data-field='mrr' data-sort='mrr'>MRR ↕</th><th class='r' data-field='alerts' data-sort='alerts'>Alerts ↕</th><th class='r' data-field='incidents' data-sort='incidents'>Incidents ↕</th><th class='r' data-field='service_requests' data-sort='service_requests'>Requests ↕</th><th class='r' data-field='mttr_hrs' data-sort='mttr_hrs'>MTTR hrs ↕</th><th class='r' data-field='tickets_per_mrr_ratio' data-sort='tickets_per_mrr_ratio'>Ratio ↕</th></tr></thead><tbody data-draw='ac-table'></tbody></table></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section class='sd-sec' id='impact' data-page hidden>
+    <div class='sd-hero'>
+      <div class='sd-card sd-hero-main' id='im-hero'>
+        <span class='sd-kpi-l'>Manual reporting effort saved</span>
+        <div class='sd-hero-big'><span data-draw='im-weeks' data-source='impact_time' data-field='report_weeks_saved_month' data-row='0'>—</span><small>work-weeks every month</small></div>
+        <p class='sd-hero-sub'>Building these numbers by hand took about <b data-draw='im-before-hrs' data-source='impact_assumptions' data-field='before' data-where='id=report_hours'>—</b> hours a month. Now it takes about <b data-draw='im-after-hrs' data-source='impact_assumptions' data-field='after' data-where='id=report_hours'>—</b>, a <b data-draw='im-cut' data-source='impact_time' data-field='report_effort_cut_pct' data-row='0'>—</b> cut in reporting effort.</p>
+      </div>
+      <div class='sd-hero-side'>
+        <div class='sd-card sd-kpi sd-stat' id='im-hrs-yr'><span class='sd-kpi-l'>Hours saved per year</span><span class='sd-kpi-v' data-draw='im-hrs-yr' data-source='impact_time' data-field='total_hours_saved_year' data-row='0'>—</span><span class='sd-kpi-d'>Reporting + client review prep</span></div>
+        <div class='sd-card sd-kpi sd-stat' id='im-value'><span class='sd-kpi-l'>Cost of time saved / yr</span><span class='sd-kpi-v' data-draw='im-value' data-source='impact_time' data-field='value_saved_year' data-row='0'>—</span><span class='sd-kpi-d'>At <span data-draw='im-rate' data-source='impact_assumptions' data-field='before' data-where='id=rate'>—</span>/hr blended cost</span></div>
+        <div class='sd-card sd-kpi sd-stat' id='im-fte'><span class='sd-kpi-l'>Capacity freed up</span><span class='sd-kpi-v' data-draw='im-fte' data-source='impact_time' data-field='fte_equivalent' data-row='0'>—</span><span class='sd-kpi-d'>of a full-time analyst</span></div>
+        <div class='sd-card sd-kpi sd-stat' id='im-reports'><span class='sd-kpi-l'>Reports replaced</span><span class='sd-kpi-v' data-draw='im-reports' data-source='impact_assumptions' data-field='before' data-where='id=sources'>—</span><span class='sd-kpi-d'>manual exports → 1 live dashboard</span></div>
+      </div>
+    </div>
+
+    <h2 class='sd-section-h' id='im-prod-h'>Productivity: service desk KPIs before vs after go-live</h2>
+    <p class='sd-note'>Average of the 3 months before go-live (Nov 2025 to Jan 2026) vs the latest 3 months.</p>
+    <div class='sd-ba' data-draw='im-ba' data-source='impact_compare'></div>
+
+    <div class='sd-grid'>
+      <div class='sd-card sd-c7' id='im-trend'><h3>The turn after go-live</h3><p class='sd-note'>FCR % (up is good) and incident MTTR hours (down is good), monthly.</p><div class='sd-chart' data-draw='im-trend' data-source='monthly_summary'></div></div>
+      <div class='sd-card sd-c5' id='im-clients'><h3>What it meant for clients</h3><p class='sd-note'>Per month, at current volume.</p>
+        <ul class='sd-list'>
+          <li><span class='ico'>⏱</span><p><b data-draw='im-downtime' data-source='impact_ops' data-field='downtime_hours_avoided_month' data-row='0'>—</b> fewer incident wait hours each month, summed across all client tickets <span class='m'>(<span data-draw='im-downtime-yr' data-source='impact_ops' data-field='downtime_hours_avoided_year' data-row='0'>—</span> a year)</span></p></li>
+          <li><span class='ico'>✓</span><p><b data-draw='im-fcrx' data-source='impact_ops' data-field='extra_fcr_tickets_month' data-row='0'>—</b> more tickets fixed on the first contact each month</p></li>
+          <li><span class='ico'>↑</span><p><b data-draw='im-resx' data-source='impact_ops' data-field='extra_resolved_month' data-row='0'>—</b> more tickets closed each month at the higher resolution rate</p></li>
+          <li><span class='ico'>⌛</span><p><b data-draw='im-aged' data-source='impact_ops' data-field='aged_backlog_cleared' data-row='0'>—</b> fewer tickets sitting open past 90 days</p></li>
+          <li><span class='ico'>☆</span><p>Client reviews now take <b data-draw='im-qbr-after' data-source='impact_assumptions' data-field='after' data-where='id=qbr_hours'>—</b> hours to prep instead of <b data-draw='im-qbr-before' data-source='impact_assumptions' data-field='before' data-where='id=qbr_hours'>—</b>, saving <b data-draw='im-qbr-yr' data-source='impact_time' data-field='qbr_hours_saved_year' data-row='0'>—</b> hours a year</p></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class='sd-grid'>
+      <div class='sd-card sd-c12' id='im-assume'><h3>How work changed</h3><p class='sd-note'>Before vs after for each part of the reporting process. These are effort estimates, not system data.</p>
+        <div class='sd-tw'><table class='sd-table' data-source='impact_assumptions' data-row-key='id'><thead><tr><th data-field='area'>Area</th><th data-field='metric'>What</th><th class='r' data-field='before'>Before</th><th class='r' data-field='after'>After</th><th data-field='unit'>Unit</th><th data-field='note'>Why</th></tr></thead><tbody data-draw='im-assume'></tbody></table></div>
+      </div>
+    </div>
+
+    <details id='im-method'><summary>How these numbers are worked out</summary>
+      <p>Before = average of Nov 2025 to Jan 2026, the three months before the dashboard went live in Feb 2026. After = average of the latest three months. Hours saved per year = (reporting hours before − after) × 12, plus (review prep hours before − after) × reviews per year. Cost = hours × blended hourly cost. Client wait time avoided = incidents per month × drop in incident MTTR. Extra first contact fixes = human-raised tickets per month × rise in FCR rate. Every figure on this page is sample data built for this prototype.</p>
+    </details>
+  </section>
+</div>
+
+</div>
+<script src="js/vendor/d3.min.js"></script>
+<script src="js/shim.js"></script>
+<script src="js/lib.js"></script>
+<script src="js/calcs.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/pages.js"></script>
+<script src="js/impact.js"></script>
+</body>
+</html>

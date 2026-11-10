@@ -1,0 +1,17 @@
+issue,tickets,avg_hrs,worked_hrs,fcr_tickets,fcr_pct
+Client Request,6410,41,262810,1282,20.0
+User Issue,5520,32,176640,2042,37.0
+User Request,3210,20,64200,1605,50.0
+Security,2840,43,122120,1107,39.0
+Network,2650,41,108650,609,23.0
+Microsoft 365,2310,40,92400,785,34.0
+Application,1420,38,53960,596,42.0
+Printer / Scanner,1190,36,42840,345,29.0
+Computer / Tablet,1060,39,41340,371,35.0
+Email,1010,40,40400,222,22.0
+Server,970,45,43650,300,31.0
+Password Reset,880,12,10560,651,74.0
+ERP Access,640,9,5760,537,84.0
+Spam Filter,590,49,28910,159,27.0
+Infrastructure,330,29,9570,161,49.0
+Accessories,210,72,15120,50,24.0

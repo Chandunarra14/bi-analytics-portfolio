@@ -1,0 +1,15 @@
+dimension,category,actual_mtd,forecast_month
+Severity,SEV 1 - Critical,3,5
+Severity,SEV 2 - High,118,520
+Severity,SEV 3 - Medium,1290,2650
+Severity,SEV 4 - Low,470,1590
+Severity,SEV 5 - Planning,42,95
+Severity,Maintenance,9,12
+Channel,Monitoring Alert,820,1010
+Channel,Email,305,1080
+Channel,Chat,262,700
+Channel,Phone,231,720
+Channel,Client Portal,78,330
+Classification,Alerts,1180,2290
+Classification,Incidents,640,2080
+Classification,Service Requests,215,760

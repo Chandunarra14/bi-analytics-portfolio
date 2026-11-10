@@ -1,0 +1,5 @@
+channel,tickets,csat_responses,avg_rating,csat_score,fcr_pct,avg_resolution_hrs
+Email,13352,921,4.74,96.1,29.5,37.6
+Chat,9791,1057,4.86,98.0,46.8,21.3
+Phone,7907,371,4.66,95.2,41.9,38.8
+Client Portal,3465,159,4.76,97.4,15.2,41.7

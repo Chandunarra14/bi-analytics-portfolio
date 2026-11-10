@@ -1,0 +1,16 @@
+priority,classification,open_tickets
+P1,Alerts,58
+P1,Incidents,172
+P1,Service Requests,61
+P2,Alerts,84
+P2,Incidents,311
+P2,Service Requests,38
+P3,Alerts,97
+P3,Incidents,112
+P3,Service Requests,48
+P4,Alerts,21
+P4,Incidents,22
+P4,Service Requests,8
+P5,Alerts,6
+P5,Incidents,8
+P5,Service Requests,6
