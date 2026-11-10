@@ -341,10 +341,9 @@
   const negDraw = (key, label, color) => (el) => {
     const d = rows(el, 'accounts'); if (!d) return;
     const all = d.map((x) => ({ ...x, ratio: Math.round((n(x[key]) / (n(x.mrr) / 4)) * 100) / 100 }));
-    const q75 = d3.quantile(all.map((x) => x.ratio).sort(d3.ascending), 0.75);
     const r = all.filter(F.levelOk).sort((p, q) => q.ratio - p.ratio).slice(0, 10);
     if (!r.length) return empty(el);
-    S.hbars(el, { data: r, labelKey: 'account', value: 'ratio', fmt: (v) => d3.format('.2f')(v), color, highlight: (x) => x.ratio >= q75, muteOthers: true,
+    S.hbars(el, { data: r, labelKey: 'account', value: 'ratio', fmt: (v) => d3.format('.2f')(v), color, highlight: (x) => x.ratio > 2,
       valueLabel: 'Ratio: ',
       label: `Clients with the highest ${label} to MRR ratio`, onPick: pickAcct });
   };
