@@ -23,9 +23,13 @@ GT = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title} · User guide</title>
+<link rel="stylesheet" href="../shared/sd.css?v={v}">
 <link rel="stylesheet" href="../shared/guide.css?v={v}">
 </head>
 <body>
+<script src="../shared/d3.min.js"></script>
+<script src="../shared/lib.js?v={v}"></script>
+<script src="../shared/guide-charts.js?v={v}"></script>
 <script src="js/guide.js?v={v}"></script>
 <script src="../shared/guide.js?v={v}"></script>
 </body>

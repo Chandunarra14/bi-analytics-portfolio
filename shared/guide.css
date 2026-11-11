@@ -73,3 +73,16 @@ table.g-t { width: 100%; border-collapse: collapse; font-size: 14px; margin: 6px
 .g-chapter-tag { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--g-muted); margin: 0 0 4px; }
 @media print { .g-top, .g-nav, .g-pager { display: none; } .g-wrap { display: block; } }
 .g-mock .g-samp { font-size: 10.5px; color: #98a2ae; margin-top: 10px; border-top: 1px dashed var(--g-line); padding-top: 6px; }
+.g-chart { border: 1px solid var(--g-line); border-radius: 10px; padding: 14px 16px 8px; margin: 10px 0 14px; background: #fbfcfd; position: relative; }
+.g-chart-in { position: relative; }
+.g-chart-cap { font-size: 10.5px; color: #98a2ae; text-align: right; margin-top: 4px; }
+.g-chart .sd-table { font-size: 12.5px; }
+.g-heat { display: grid; gap: 3px; font-size: 11px; }
+.g-heat div { border-radius: 3px; text-align: center; padding: 5px 0; }
+.g-heat .rl { text-align: right; padding-right: 6px; color: var(--g-muted); }
+.g-heat .hd { color: var(--g-muted); }
+.g-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
+.g-cards > div { border: 1px solid var(--g-line); border-radius: 8px; padding: 8px 10px; background: #fff; }
+.g-cards .l { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--g-muted); }
+.g-cards .v { font-family: var(--g-serif); font-size: 22px; }
+.g-cards .s { font-size: 11px; color: var(--g-muted); }

@@ -1,6 +1,9 @@
 // Renders a dashboard user guide from window.GUIDE: sidebar of chapters, one chapter at a time, prev/next.
 (function () {
   const G = window.GUIDE;
+  window.dash = window.dash || { colors: ['#2f6fed', '#18a999', '#f2a541', '#8b5cf6', '#e5484d', '#64748b', '#0ea5e9', '#a3a948'] };
+  window.SD_NOANIM = true;
+  const pending = [];
   const h = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
   document.title = G.title + ' · User guide';
 
@@ -57,7 +60,10 @@
       const d = h('div', 'g-box g-visual');
       d.append(h('h3', '', b.name + (b.kind ? `<span class="g-tag">${b.kind}</span>` : '')));
       if (b.sub) d.append(h('p', 'g-sub', b.sub));
-      if (b.legend) d.append(legend(b.legend));
+      if (b.chart) {
+        const c = h('div', 'g-chart'); const box = h('div', 'g-chart-in'); box.style.minHeight = (b.h || 200) + 'px';
+        c.append(box, h('div', 'g-chart-cap', 'Sample data')); d.append(c); pending.push(() => b.chart(box));
+      } else if (b.legend) d.append(legend(b.legend));
       if (b.bar) d.append(bar(b.bar));
       d.append(rows([['What it shows', b.what], ['How to read it', b.read], ['Look out for', b.watch], ['How it is calculated', b.how], ['Click', b.click], ['Example', b.ex]]));
       return d;
@@ -72,7 +78,9 @@
     if (c.group) main.append(h('p', 'g-chapter-tag', c.group));
     main.append(h('h1', '', c.title));
     if (c.lede) main.append(h('p', 'g-lede', c.lede));
+    pending.length = 0;
     c.blocks.forEach((b) => main.append(block(b)));
+    pending.forEach((f) => { try { f(); } catch (e) { console.error(e); } });
     const pg = h('div', 'g-pager');
     const prev = h('button', '', '← ' + (chapters[i - 1] || {}).title); prev.hidden = i === 0; prev.onclick = () => { location.hash = chapters[i - 1].id; };
     const next = h('button', '', (chapters[i + 1] || {}).title + ' →'); next.hidden = i === chapters.length - 1; next.onclick = () => { location.hash = chapters[i + 1].id; };
