@@ -37,7 +37,7 @@ GT = """<!DOCTYPE html>
 </html>
 """
 DASH = {"resource-utilization": "Resource Utilization", "server-eol": "Server End-of-Life Pipeline", "psr-pipeline": "PSR Pipeline",
-        "projects-portfolio": "Projects Portfolio", "contracts-renewals": "Contracts & Renewals", "accounts-receivable": "Accounts Receivable", "retention-risk": "Retention Risk"}
+        "projects-portfolio": "Projects Portfolio", "contracts-renewals": "Contracts & Renewals", "accounts-receivable": "Accounts Receivable", "retention-risk": "Retention Risk", "intelligence-buckets": "Intelligence Buckets"}
 import os
 v = time.strftime("%Y%m%d%H%M%S")
 for folder, title in DASH.items():

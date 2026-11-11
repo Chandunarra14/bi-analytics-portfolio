@@ -33,7 +33,7 @@
     wrap.append(two);
     // results
     const res = h('div', 'st-res');
-    res.append(h('h3', 'st-h3', 'What changed after go-live'));
+    res.append(h('h3', 'st-h3', s.resultsTitle || 'What changed after go-live'));
     const strip = h('div', 'st-strip');
     if (R.hero) strip.append(h('div', 'st-big', `<div class="v">${R.hero.value}</div><div class="u">${R.hero.unit || ''}</div><div class="l">${R.hero.label}</div>`));
     R.stats.forEach((r) => strip.append(h('div', 'st-stat', `<div class="v">${r.value}</div><div class="l">${r.label}</div><div class="n">${r.unit || ''}</div>`)));
@@ -48,7 +48,7 @@
       });
       res.append(g);
     }
-    res.append(h('p', 'st-foot', 'Before = the months before the February 2026 go-live, after = the latest months. Full detail is on the ★ Impact page. All figures are sample data built for this prototype.'));
+    res.append(h('p', 'st-foot', s.foot || 'Before = the months before the February 2026 go-live, after = the latest months. Full detail is on the ★ Impact page. All figures are sample data built for this prototype.'));
     wrap.append(res);
     // where to look
     if (s.pages && s.pages.length) {
