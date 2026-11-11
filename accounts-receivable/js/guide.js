@@ -54,6 +54,13 @@
         ] },
       { group: 'Customer aging', id: 'customers', title: 'Customer aging',
         blocks: [
+          { t: 'visual', name: 'Send payment reminders', kind: 'Action panel', h: 110,
+            chart: (el) => GX.table(el, ['', 'Customer', 'Send to', 'Items', 'Oldest', 'Past due', 'Last reminder'], [['☑', 'Fieldstone Foods', 'ap@fieldstonefoods.example.com', '4', '861 days', '$9,133', '—'], ['☐', 'Ironwood Machining', 'ap@ironwoodmachining.example.com', '3', '689 days', '$10,257', 'Sent Nov 10']], { red: [[0, 4], [1, 4]] }),
+            what: 'A three-step panel for emailing payment reminders: pick how long past due, check which customers get one, then send.',
+            read: 'Click the duration buttons (or a quick pick like Over 90) to choose who is included. The list shows each customer\'s past-due amount in those durations. Untick anyone you want to leave out. The message preview fills in each customer\'s own amounts.',
+            watch: 'The Last reminder column, so the same customer isn\'t reminded twice in a few days.',
+            how: 'Past due = open invoice amounts with at least 1 day past due, in the selected aging buckets, per customer. The CSM and Classification slicers narrow the list.',
+            click: 'Send asks you to confirm, then stamps Last reminder. In this prototype no emails actually go out.' },
           { t: 'visual', name: 'Customer aging detail', h: 110, chart: (el) => GX.table(el, ['Customer', 'CSM', 'Current', '1-30', '91-120', '366+', 'Total'], [['Fieldstone Foods', 'Drew Patel', '$4,200', '$1,100', '$0', '$2,780', '<b>$8,080</b>'], ['Foxridge Engineering', 'Drew Patel', '$2,000', '$0', '$1,500', '$1,178', '<b>$4,678</b>']], { red: [[0, 5], [1, 4], [1, 5]] }), watch: "Customers with red amounts and no recent payments.", how: "Open amount per customer split by aging bucket, largest total first.", kind: 'Table', what: 'Each customer\'s open balance split across all eight buckets, with a total. Largest balance first.', read: 'Red amounts are over 90 days. The bottom row has totals for each bucket.', click: 'Click a row to open the overview filtered to that customer.', ex: 'Fieldstone Foods shows $2,780.27 in the 366+ column.' },
         ] },
       { group: 'Impact', id: 'impact', title: 'The Impact page', lede: 'What changed after the dashboard went live in February 2026. The slicers do not apply here.',

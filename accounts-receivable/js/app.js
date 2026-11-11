@@ -11,6 +11,79 @@
   const months = Array.from({ length: 12 }, (_, i) => d3.utcFormat('%Y-%m-%d')(d3.utcMonth.offset(new Date(Date.UTC(2026, 10, 1)), i - 11)));
   const recentPay = (rs) => { const v = rs.filter((r) => r.days_to_pay !== '' && r.invoice_date >= '2026-07-01').map((r) => n(r.days_to_pay)); return v.length ? d3.mean(v) : 0; };
 
+  // ---------- payment reminders (prototype: nothing is actually emailed) ----------
+  const REM = { buckets: new Set(['91-120', '121-180', '181-365', '366+']), skip: new Set(), sent: new Map(), preview: false };
+  const slug = (c) => c.toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const stamp = () => d3.timeFormat('%b %d, %I:%M %p')(new Date());
+  function reminders(el, D, F) {
+    el.replaceChildren();
+    const mk = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+    const past = openRows(base(D, F, 'bucket')).filter((r) => r.type === 'Invoice' && n(r.days_past_due) > 0 && REM.buckets.has(r.bucket));
+    const list = Array.from(d3.group(past, (r) => r.customer), ([customer, xs]) => ({ customer, csm: xs[0].csm, amt: sum(xs, 'open_amount'), items: xs.length, oldest: d3.max(xs, (r) => n(r.days_past_due)), email: `ap@${slug(customer)}.example.com` }))
+      .sort((a, b) => b.amt - a.amt);
+    const chosen = list.filter((r) => !REM.skip.has(r.customer));
+    // 1. duration
+    const step1 = mk('div', 'ar-rem-step'); step1.append(mk('div', 'ar-rem-h', '1. Who to remind, by how long past due'));
+    const chips = mk('div', 'ar-rem-chips');
+    BK.slice(1).forEach((b) => { const c = mk('button', 'ar-chip' + (REM.buckets.has(b) ? ' is-on' : ''), b + ' days'); c.type = 'button';
+      c.onclick = () => { REM.buckets.has(b) ? REM.buckets.delete(b) : REM.buckets.add(b); reminders(el, D, F); }; chips.append(c); });
+    const quick = mk('div', 'ar-rem-quick'); quick.append(mk('span', 'sd-note', 'Quick pick:'));
+    [['All past due', 1], ['Over 30', 2], ['Over 60', 3], ['Over 90', 4], ['Over 180', 6]].forEach(([l, i]) => { const q = mk('button', 'ar-link', l); q.type = 'button';
+      q.onclick = () => { REM.buckets = new Set(BK.slice(i)); reminders(el, D, F); }; quick.append(q); });
+    step1.append(chips, quick);
+    // 2. customers
+    const step2 = mk('div', 'ar-rem-step');
+    const h2 = mk('div', 'ar-rem-h', `2. Customers (${chosen.length} of ${list.length} selected · ${usd(d3.sum(chosen, (r) => r.amt))} past due)`);
+    step2.append(h2);
+    if (!list.length) step2.append(mk('p', 'sd-note', 'No past-due balances in the selected durations.'));
+    else {
+      const wrap = mk('div', 'sd-tw ar-rem-list'); const t = mk('table', 'sd-table');
+      const all = mk('input'); all.type = 'checkbox'; all.checked = chosen.length === list.length; all.title = 'Select all';
+      all.onchange = () => { if (all.checked) REM.skip.clear(); else list.forEach((r) => REM.skip.add(r.customer)); reminders(el, D, F); };
+      const thr = mk('tr'); const th0 = mk('th'); th0.append(all); thr.append(th0);
+      ['Customer', 'CSM', 'Send to', 'Items', 'Oldest', 'Past due', 'Last reminder'].forEach((x, i) => thr.append(mk('th', i >= 3 && i <= 5 ? 'r' : '', x)));
+      const th = mk('thead'); th.append(thr); t.append(th);
+      const tb = mk('tbody');
+      list.forEach((r) => { const tr = mk('tr'); const td = mk('td'); const cb = mk('input'); cb.type = 'checkbox'; cb.checked = !REM.skip.has(r.customer);
+        cb.onchange = () => { cb.checked ? REM.skip.delete(r.customer) : REM.skip.add(r.customer); reminders(el, D, F); }; td.append(cb); tr.append(td);
+        tr.append(mk('td', '', r.customer), mk('td', '', r.csm), mk('td', 'ar-mail', r.email), mk('td', 'r', r.items));
+        const od = mk('td', 'r', r.oldest + ' days'); if (r.oldest > 90) od.style.color = 'var(--color-bad)'; tr.append(od);
+        tr.append(mk('td', 'r', usd(r.amt)));
+        const ls = mk('td', '', REM.sent.get(r.customer) || '—'); if (REM.sent.has(r.customer)) ls.style.color = 'var(--color-ok)'; tr.append(ls);
+        tb.append(tr); });
+      t.append(tb); wrap.append(t); step2.append(wrap);
+    }
+    // 3. message + send
+    const step3 = mk('div', 'ar-rem-step'); step3.append(mk('div', 'ar-rem-h', '3. Message'));
+    const ex = chosen[0] || { customer: '[Customer]', amt: 0, items: 0, oldest: 0 };
+    const msg = mk('div', 'ar-rem-msg');
+    msg.innerHTML = `<div class="sd-note">Subject: Payment reminder: ${usd(ex.amt)} past due</div><p>Hi ${ex.customer} team,</p><p>This is a friendly reminder that <b>${ex.items}</b> invoice${ex.items === 1 ? '' : 's'} totaling <b>${usd(ex.amt)}</b> ${ex.items === 1 ? 'is' : 'are'} past due, the oldest by <b>${ex.oldest} days</b>. A statement is attached.</p><p>If you've already sent payment, thank you and please ignore this note. Otherwise, reply here or call us to set up payment.</p><p>Thanks,<br>Accounts Receivable</p>`;
+    step3.append(mk('div', 'sd-note', 'Each customer gets their own amounts. Preview for the first customer selected:'), msg);
+    const bar = mk('div', 'ar-rem-bar');
+    const send = mk('button', 'ar-send', `Send ${chosen.length} reminder${chosen.length === 1 ? '' : 's'}`); send.type = 'button'; send.disabled = !chosen.length;
+    const status = mk('span', 'sd-note');
+    send.onclick = () => {
+      if (!window.confirm(`Send payment reminders to ${chosen.length} customer${chosen.length === 1 ? '' : 's'} (${usd(d3.sum(chosen, (r) => r.amt))} past due)?`)) return;
+      const t = stamp(); chosen.forEach((r) => REM.sent.set(r.customer, 'Sent ' + t));
+      reminders(el, D, F);
+      const ok = el.querySelector('.ar-rem-bar .sd-note'); ok.textContent = `✓ ${chosen.length} reminder${chosen.length === 1 ? '' : 's'} sent. Prototype only: no emails actually go out.`; ok.style.color = 'var(--color-ok)';
+    };
+    bar.append(send, status); step3.append(bar);
+    el.append(step1, step2, step3);
+  }
+  if (!document.getElementById('ar-rem-css')) { const st = document.createElement('style'); st.id = 'ar-rem-css'; st.textContent = `
+    .ar-rem-step { margin-bottom: 16px; } .ar-rem-h { font-weight: 600; font-size: 13px; margin-bottom: 8px; }
+    .ar-rem-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .ar-chip { font: inherit; font-size: 12px; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg-muted); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+    .ar-chip.is-on { background: #1e3a8a; border-color: #1e3a8a; color: #fff; }
+    .ar-rem-quick { display: flex; gap: 10px; align-items: center; margin-top: 8px; } .ar-rem-quick .sd-note { margin: 0; }
+    .ar-link { font: inherit; font-size: 12px; background: none; border: 0; color: #2f6fed; cursor: pointer; padding: 0; text-decoration: underline; }
+    .ar-rem-list { max-height: 300px; overflow: auto; border: 1px solid var(--color-border-line); border-radius: 8px; } .ar-mail { color: var(--color-fg-muted); }
+    .ar-rem-msg { border: 1px solid var(--color-border-line); border-radius: 8px; padding: 12px 16px; background: var(--color-bg); font-size: 13px; max-width: 760px; } .ar-rem-msg p { margin: 8px 0; }
+    .ar-rem-bar { display: flex; gap: 14px; align-items: center; margin-top: 12px; } .ar-rem-bar .sd-note { margin: 0; }
+    .ar-send { font: inherit; font-weight: 600; font-size: 14px; background: #1e3a8a; color: #fff; border: 0; border-radius: 8px; padding: 10px 18px; cursor: pointer; }
+    .ar-send:hover { background: #172e6e; } .ar-send:disabled { background: #a7b0bd; cursor: not-allowed; }`; document.head.append(st); }
+
   App({
     title: 'Accounts Receivable',
     eyebrow: 'Managed services · Finance',
@@ -93,6 +166,9 @@
         ] },
       ] },
       { id: 'customers', label: 'Customer aging', slicers: ['csm', 'cls'], blocks: [
+        { type: 'row', blocks: [
+          { type: 'card', span: 12, title: 'Send payment reminders', note: 'Pick how long past due, check who should get one, then send. Follows the CSM and Classification slicers.', h: 120, draw: (el, D, F) => reminders(el, D, F) },
+        ] },
         { type: 'row', blocks: [
           { type: 'table', span: 12, title: 'Customer aging detail', note: 'Open balance per customer by bucket, largest first. Click a row to filter the overview to that customer.', maxH: 560,
             onRow: (r, F) => { F.state.cust = r.customer; F.go('overview'); },
