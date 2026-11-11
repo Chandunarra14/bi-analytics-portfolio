@@ -64,6 +64,7 @@
     const note = el('p', 'sd-slicer-note', 'The Impact page compares fixed before and after windows, so filters don\'t apply here.');
     const body = el('div');
     root.append(head, nav, bar, note, body);
+    if (cfg.pages.length === 1) nav.style.display = 'none';
 
     function sync() { Object.values(selects).forEach(({ sel, s }) => {
       if (s.seg) sel.querySelectorAll('button').forEach((b) => b.classList.toggle('is-on', b.dataset.v === F.state[s.key]));

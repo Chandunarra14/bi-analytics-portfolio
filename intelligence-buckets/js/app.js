@@ -32,8 +32,6 @@
       measures: ['Open AR', 'Past due', 'Days to pay', 'Collected %', 'Revenue', 'Gross margin %'],
       qs: ['Who owes us more than $10K past 90 days?', 'What was collected % for October?', 'How did days to pay change since last quarter?'] },
   ];
-  const SEGS = ['Account Management', 'Contacts', 'Client Success Team', 'Ticketing & Support', 'Projects', 'Financial', 'Sales & Pipeline', 'Staffing', 'Sales Leads', 'Sales Campaigns',
-    'Device & Asset Mgmt', 'Backup & Recovery', 'Cloud Subscriptions', 'Security & Vulnerability', 'Customer Satisfaction'];
   const SYSTEMS = ['RMM', 'PSA & ticketing', 'Network monitoring', 'IT documentation', 'Backup', 'Microsoft 365', 'MDR', 'Endpoint security', 'Email security', 'Client portal',
     'SaaS management', 'Accounting', 'CRM', 'Contract e-sign', 'Firewall', 'Automation', 'Cloud marketplace', 'CSAT surveys'];
 
@@ -102,20 +100,25 @@
     el.innerHTML = '<ol class="ib-steps">' + steps.map(([t, x], i) => `<li><span class="ib-sn">${i + 1}</span><div><b>${t}</b><p>${x}</p></div></li>`).join('') + '</ol>';
   }
 
-  function bucketCards(el, F) {
-    el.replaceChildren();
-    const g = document.createElement('div'); g.className = 'ib-bgrid';
-    BUCKETS.forEach((b) => {
-      const c = document.createElement('div'); c.className = 'ib-bcard' + (F.state.bucket && F.state.bucket !== b.id ? ' is-dim' : '') + (F.state.bucket === b.id ? ' is-on' : '');
-      c.style.setProperty('--c', b.color);
-      c.innerHTML = `<div class="ib-bh"><b>${b.name}</b><code>${b.ep}</code></div><div class="ib-bo">Owner: ${b.owner}</div>
-        <div class="ib-eye">Approved measures</div><div class="ib-chips">${b.measures.map((m) => `<span>${m}</span>`).join('')}</div>
-        <div class="ib-eye">Tables in the model</div><p>${b.tables.join(', ')}</p>
-        <div class="ib-eye">Ask it</div><ul>${b.qs.map((q) => `<li>“${q}”</li>`).join('')}</ul>`;
-      c.onclick = () => F.toggle('bucket', b.id);
-      g.append(c);
-    });
-    el.append(g);
+  function impactView(el) {
+    el.innerHTML = `
+      <div class="st-strip ib-strip">
+        <div class="st-big"><div class="v">~1,000 → ~40</div><div class="u">tables in scope per question</div><div class="l">The agent searches one bucket, not the whole lake</div></div>
+        <div class="st-stat"><div class="v">1</div><div class="l">Definition per metric</div><div class="n">Same DAX measures as the dashboards</div></div>
+        <div class="st-stat"><div class="v">1 check</div><div class="l">Access per bucket</div><div class="n">Instead of one per table touched</div></div>
+        <div class="st-stat"><div class="v">2</div><div class="l">AI clients, same answers</div><div class="n">Claude and Copilot Studio</div></div>
+        <div class="st-stat"><div class="v">Seconds</div><div class="l">To an answer in Teams</div><div class="n">No dashboard to open or export</div></div>
+      </div>
+      <div class="ib-imp">
+        ${[['Trusted answers', 'An answer from Claude or Copilot matches the dashboard to the dollar, because both use the same measures. No more "which number is right?" meetings.'],
+          ['Safer by design', 'Each person can only reach the buckets their Microsoft 365 groups allow, and row-level security still applies inside each one.'],
+          ['Faster, cheaper questions', 'Searching about 40 tables instead of about 1,000 means quicker answers and fewer wasted model calls.'],
+          ['Easy to grow', 'A new team or source becomes a new bucket, or extends an existing one, without retesting everything else.'],
+          ['Less ad-hoc reporting', 'Common questions get answered in Teams, so analysts spend less time pulling one-off numbers.'],
+          ['Ready for what\'s next', 'The same endpoints can serve The Hub portal later, or any other MCP-compatible tool.']]
+          .map(([t, x]) => `<div><b>${t}</b><p>${x}</p></div>`).join('')}
+      </div>
+      <p class="sd-note">These are the expected outcomes of the design, not measured results.</p>`;
   }
 
   if (!document.getElementById('ib-css')) { const st = document.createElement('style'); st.id = 'ib-css'; st.textContent = `
@@ -147,15 +150,17 @@
     .ib-bcard p { font-size: 13px; margin: 0; line-height: 1.45; } .ib-bcard ul { margin: 0; padding-left: 16px; font-size: 13px; line-height: 1.5; color: var(--color-fg-muted); }
     .ib-chips { display: flex; flex-wrap: wrap; gap: 5px; } .ib-chips span { font-size: 11.5px; background: var(--color-bg); border-radius: 999px; padding: 2px 9px; }
     .sd-table th.c { text-align: center; }
+    .ib-strip { margin-bottom: 16px; } .ib-strip .st-big .v { font-size: 28px; }
+    .ib-imp { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; } @media (max-width: 900px) { .ib-imp { grid-template-columns: 1fr; } }
+    .ib-imp div { background: var(--color-bg); border-radius: 10px; padding: 12px 14px; border-left: 3px solid #22a06b; } .ib-imp b { font-size: 14px; } .ib-imp p { margin: 4px 0 0; font-size: 13px; color: var(--color-fg-muted); line-height: 1.45; }
     .ib-cell { display: inline-block; width: 14px; height: 14px; border-radius: 4px; vertical-align: middle; }
   `; document.head.append(st); }
 
-  const yes = (b, seg) => b.segs.includes(seg);
   App({
     title: 'Intelligence Buckets',
     eyebrow: 'AI platform · Architecture',
     sub: 'Splitting company data into domain buckets, each with its own Power BI semantic model, data agent and MCP endpoint, so Claude and Copilot answer from governed numbers instead of searching the whole data lake.',
-    badge: 'Architecture prototype',
+    badge: 'Architecture concept',
     guide: false,
     files: {},
     story: {
@@ -170,20 +175,19 @@
         ['One MCP endpoint per bucket', 'Claude and Copilot Studio connect only to the buckets a person is allowed to use.'],
         ['Same numbers as the dashboards', 'Agents ask for the same DAX measures that power the reports, so every answer matches what people already trust.'],
         ['Security set once per bucket', 'Workspace roles and row-level security on each model, driven by Microsoft 365 groups, with no table-by-table checks.']],
-      resultsTitle: 'Design goals',
-      results: { hero: { value: '5', unit: 'domain buckets', label: 'Each with a semantic model, data agent and MCP endpoint' },
-        stats: [{ value: '~1,000 → ~40', label: 'Tables in scope per question', unit: 'One bucket instead of the whole lake' }, { value: '1', label: 'Definition per metric', unit: 'Shared with the dashboards' },
-          { value: '2', label: 'AI clients, same answers', unit: 'Claude and Copilot Studio' }, { value: '18', label: 'Source systems', unit: 'Through one API layer' }], ba: [] },
-      foot: 'These are design goals for the architecture, not measured results. System names are generic.',
-      pages: [['architecture', 'Architecture', 'The layers from source systems to Teams, and how a question flows.'], ['buckets', 'Buckets', 'What each bucket holds, its measures, and example questions.'], ['segments', 'Data segments', 'Which of the 15 data segments feed each bucket.']],
+      results: false,
+      eyebrow: 'Why this project exists',
+      builtTitle: 'The solution: Intelligence Buckets',
     },
-    slicers: [{ key: 'bucket', label: 'Bucket', all: 'All buckets', options: () => BUCKETS.map((b) => ({ value: b.id, label: b.name })) }],
     pages: [
-      { id: 'context', label: 'Context', slicers: [], blocks: [{ type: 'story' }] },
-      { id: 'architecture', label: 'Architecture', slicers: [], blocks: [
+      { id: 'overview', label: 'Overview', slicers: [], blocks: [
+        { type: 'story' },
+        { type: 'heading', text: 'How the architecture works' },
         { type: 'row', blocks: [{ type: 'card', span: 12, title: 'System integration', note: 'Data flows up from the source systems; questions flow down from Teams. Click a box to see what it does and what it connects to.', h: 520, draw: (el) => diagram(el) }] },
         { type: 'row', blocks: [{ type: 'card', span: 12, title: 'How a question flows', note: 'One question, end to end.', h: 120, draw: (el) => flowSteps(el) }] },
-        { type: 'row', blocks: [{ type: 'table', span: 12, title: 'Before and after', note: 'One agent over the whole lake vs one agent per bucket.',
+        { type: 'heading', text: 'Impact' },
+        { type: 'row', blocks: [{ type: 'card', span: 12, title: 'What changes', note: 'Expected outcomes of moving from one agent over the lake to one agent per bucket.', h: 200, draw: (el) => impactView(el) }] },
+        { type: 'row', blocks: [{ type: 'table', span: 12, title: 'Before and after',
           cols: [{ label: '', key: 'a' }, { label: 'Before: one agent over the lake', key: 'b' }, { label: 'After: Intelligence Buckets', key: 'c' }],
           rows: () => [
             { a: 'What the agent can see', b: 'About 1,000 tables', c: 'One domain model, roughly 5 to 60 tables' },
@@ -192,27 +196,6 @@
             { a: 'Adding a team or source', b: 'Retest the whole agent', c: 'Add or extend one bucket' },
             { a: 'AI clients', b: 'One custom agent', c: 'Any MCP client: Claude, Copilot Studio, and The Hub later' },
           ] }] },
-      ] },
-      { id: 'buckets', label: 'Buckets', slicers: ['bucket'], blocks: [
-        { type: 'row', blocks: [{ type: 'card', span: 12, title: 'The five buckets', note: 'Each bucket is a Power BI semantic model with a data agent and its own MCP endpoint. Click a bucket to focus on it.', h: 300, draw: (el, D, F) => bucketCards(el, F) }] },
-        { type: 'row', blocks: [{ type: 'table', span: 12, title: 'Bucket details', note: 'Who owns each bucket, where the data comes from and what it serves.',
-          cols: [{ label: 'Bucket', key: 'name', render: (td, r) => { td.innerHTML = `<span class="sd-dot" style="background:${r.color}"></span><b>${r.name}</b>`; } }, { label: 'MCP endpoint', key: 'ep' }, { label: 'Owner', key: 'owner' },
-            { label: 'Source data', key: 'src', render: (td, r) => { td.textContent = r.src.join(', '); } }, { label: 'Tables', key: 'nt', cls: 'r', render: (td, r) => { td.textContent = r.tables.length; } },
-            { label: 'Measures', key: 'nm', cls: 'r', render: (td, r) => { td.textContent = r.measures.length; } }, { label: 'Data segments', key: 'ns', cls: 'r', render: (td, r) => { td.textContent = r.segs.length; } }],
-          rows: (D, F) => BUCKETS.filter((b) => !F.state.bucket || F.state.bucket === b.id), onRow: (r, F) => F.toggle('bucket', r.id) }] },
-      ] },
-      { id: 'segments', label: 'Data segments', slicers: ['bucket'], blocks: [
-        { type: 'kpis', items: [
-          { label: 'Data segments', value: () => String(SEGS.length), sub: () => 'Ways the lake is split by type' },
-          { label: 'Buckets', value: () => String(BUCKETS.length), sub: () => 'Projects, Contracts, Sales, Marketing, Finance' },
-          { label: 'Source systems', value: () => String(SYSTEMS.length), sub: () => 'Through one API layer' },
-          { label: 'Segments in this bucket', value: (D, F) => String(F.state.bucket ? BUCKETS.find((b) => b.id === F.state.bucket).segs.length : SEGS.length), sub: (D, F) => (F.state.bucket ? BUCKETS.find((b) => b.id === F.state.bucket).name : 'All buckets') },
-        ] },
-        { type: 'row', blocks: [{ type: 'table', span: 12, title: 'Data segmentation by bucket', note: 'Which segments of the lake each bucket can read. A segment can feed more than one bucket. Use the Bucket slicer to focus on one.',
-          cols: [{ label: 'Data segment', key: 'label' }].concat(BUCKETS.map((b) => ({ label: b.name, key: b.id, cls: 'c', render: (td, r) => { if (yes(b, r.seg)) td.innerHTML = `<span class="ib-cell" style="background:${b.color}"></span>`; td.style.textAlign = 'center'; } })))
-            .concat([{ label: 'Buckets', key: 'n', cls: 'r' }]),
-          rows: (D, F) => SEGS.map((seg, i) => ({ label: `${i + 1}. ${seg}`, seg, n: BUCKETS.filter((b) => yes(b, seg)).length }))
-            .filter((r) => !F.state.bucket || yes(BUCKETS.find((b) => b.id === F.state.bucket), r.seg)) }] },
       ] },
     ],
   });

@@ -22,16 +22,17 @@
     const wrap = h('div', 'st');
     // hero
     const hero = h('div', 'st-hero');
-    hero.append(h('div', 'st-eyebrow', 'Why this dashboard exists'), h('h2', 'st-head', s.headline), h('p', 'st-sub', s.sub));
+    hero.append(h('div', 'st-eyebrow', s.eyebrow || 'Why this dashboard exists'), h('h2', 'st-head', s.headline), h('p', 'st-sub', s.sub));
     if (s.who) hero.append(h('div', 'st-who', '<b>Built for</b> ' + s.who));
     wrap.append(hero);
     // problem vs built
     const two = h('div', 'st-two');
     const col = (cls, title, icon, items) => { const c = h('div', 'st-col ' + cls); c.append(h('h3', '', `<span class="st-ic">${icon}</span>${title}`));
       const ul = h('ul'); items.forEach(([t, x]) => ul.append(h('li', '', `<b>${t}</b><span>${x}</span>`))); c.append(ul); return c; };
-    two.append(col('st-prob', 'The problem', '!', s.problem), col('st-built', 'What the dashboard does', '✓', s.built));
+    two.append(col('st-prob', 'The problem', '!', s.problem), col('st-built', s.builtTitle || 'What the dashboard does', '✓', s.built));
     wrap.append(two);
     // results
+    if (s.results !== false) {
     const res = h('div', 'st-res');
     res.append(h('h3', 'st-h3', s.resultsTitle || 'What changed after go-live'));
     const strip = h('div', 'st-strip');
@@ -50,6 +51,7 @@
     }
     res.append(h('p', 'st-foot', s.foot || 'Before = the months before the February 2026 go-live, after = the latest months. Full detail is on the ★ Impact page. All figures are sample data built for this prototype.'));
     wrap.append(res);
+    }
     // where to look
     if (s.pages && s.pages.length) {
       const nav = h('div', 'st-nav'); nav.append(h('h3', 'st-h3', 'Where to look'));
