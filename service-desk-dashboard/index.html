@@ -162,7 +162,8 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
   </header>
 
   <nav class='sd-tabs' id='sd-tabs' role='tablist' aria-label='Dashboard pages'>
-    <button class='sd-tab is-on' role='tab' aria-selected='true' data-tab='overview'>Overview</button>
+    <button class='sd-tab is-on' role='tab' aria-selected='true' data-tab='context'>Context</button>
+    <button class='sd-tab' role='tab' aria-selected='false' data-tab='overview'>Overview</button>
     <button class='sd-tab' role='tab' aria-selected='false' data-tab='forecast'>Trends &amp; forecast</button>
     <button class='sd-tab' role='tab' aria-selected='false' data-tab='open'>Open tickets</button>
     <button class='sd-tab' role='tab' aria-selected='false' data-tab='csat'>CSAT</button>
@@ -185,7 +186,9 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
   <p class='sd-slicer-note' id='sd-slicer-note' hidden>The Impact page compares fixed before and after windows, so filters don't apply here.</p>
 
   <!-- OVERVIEW -->
-  <section class='sd-sec' id='overview' data-page>
+  <section class='sd-sec' id='context' data-page><div id='story-root'></div></section>
+
+  <section class='sd-sec' id='overview' data-page hidden>
     <p class='sd-takeaway' id='ov-takeaway'>In <b data-draw='ov-month' data-source='overview_kpis' data-field='latest_month' data-row='0'>—</b>, the desk resolved <b data-draw='ov-res' data-source='overview_kpis' data-field='resolution_pct' data-row='0'>—</b> of tickets, and first contact resolution reached <b data-draw='ov-fcr' data-source='overview_kpis' data-field='fcr_pct' data-row='0'>—</b><span data-draw='ov-fcr-dir'></span>. Incident MTTR is <b data-draw='ov-mttr' data-source='overview_kpis' data-field='mttr_hrs' data-row='0'>—</b> hours.</p>
     <div class='sd-grid'>
       <div class='sd-card sd-kpi sd-c3' id='kpi-tickets'><span class='sd-kpi-l' data-draw='k-tickets-l'>Tickets created</span><span class='sd-kpi-v' data-draw='k-tickets' data-source='overview_kpis' data-field='tickets_12m' data-row='0'>—</span><span class='sd-kpi-d'><span data-draw='k-completed' data-source='overview_kpis' data-field='completed_12m' data-row='0'>—</span> completed</span></div>
@@ -350,10 +353,12 @@ html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); fon
 <script src="js/vendor/d3.min.js"></script>
 <script src="js/shim.js?v=20261110132918"></script>
 <script src="js/lib.js?v=20261110132918"></script>
-<script src="js/filters.js?v=20261110132918"></script>
+<script src="js/filters.js?v=20261111151301"></script>
 <script src="js/calcs.js?v=20261110132918"></script>
 <script src="js/nav.js?v=20261110132918"></script>
 <script src="js/pages.js?v=20261110132918"></script>
+<script src="../shared/story.js?v=20261111151301"></script>
+<script>SDStory(document.getElementById('story-root'), {"headline": "The service desk ran on month-end spreadsheets, so problems with tickets, response times and client satisfaction were found weeks after they happened.", "sub": "Ticket, survey and client data sat in the PSA and seven separate exports. An analyst spent about two weeks a month stitching them into a report, and leadership waited around 10 business days for the numbers.", "who": "Service desk managers, team leads, CSMs and operations leadership", "problem": [["Two weeks of manual reporting", "About 80 hours a month went into pulling PSA exports into Excel and building the monthly pack."], ["Numbers arrived too late", "Leadership waited about 10 business days after month end, so issues were weeks old before anyone acted."], ["Clients waiting too long", "Incidents took 42 hours on average to resolve, and only 31% of tickets were fixed on first contact."], ["No view of costly clients", "Nobody could see which clients raised the most tickets for what they paid, or which tickets had been open for months."]], "built": [["Every service desk KPI in one place", "Volume, resolution, CSAT, FCR and MTTR by channel, client and month, refreshed daily."], ["Forecast and open backlog", "Month-to-date vs forecast, and open tickets by department, priority and age."], ["Account health", "Tickets per dollar of MRR for every client, plus a watch list of the clients that cost the most to support."], ["Client review ready", "Filter to one client level and the numbers for a business review are already there."]], "pages": [["overview", "Overview", "Tickets created vs completed, resolution rate and channel mix."], ["forecast", "Trends & forecast", "This month so far vs forecast, and busy weekdays."], ["open", "Open tickets", "What is still open, where, and the oldest tickets."], ["csat", "CSAT", "Customer satisfaction by channel and client."], ["fcr", "First contact resolution", "Tickets fixed first time, by channel and issue."], ["mttr", "MTTR", "How long fixes take, by severity, channel and client."], ["accounts", "Account health", "Clients that raise the most tickets for what they pay."], ["impact", "★ Impact", "What changed after go-live."]], "results": {"hero": {"value": "1.9", "unit": "work-weeks every month", "label": "Manual reporting effort saved"}, "stats": [{"value": "1,212", "label": "Hours saved per year", "unit": "Reporting + client review prep"}, {"value": "$66,660", "label": "Cost of time saved / yr", "unit": "At $55/hr blended cost"}, {"value": "58%", "label": "Capacity freed up", "unit": "of a full-time analyst"}, {"value": "7 → 1", "label": "Reports replaced", "unit": "Manual exports → 1 live dashboard"}], "ba": [{"label": "First contact resolution", "before": 31.1, "after": 41.1, "unit": "%", "better": "higher"}, {"label": "Incident MTTR", "before": "42.0", "after": "28.8", "unit": "hrs", "better": "lower"}, {"label": "CSAT score", "before": "92.2", "after": "97.0", "unit": "", "better": "higher"}, {"label": "Tickets open 90+ days", "before": 409, "after": 160, "unit": "", "better": "lower"}]}}, null, (id) => { const t = document.querySelector('.sd-tab[data-tab="' + id + '"]'); if (t) { t.click(); window.scrollTo(0, 0); } });</script>
 <script src="js/impact.js?v=20261110132918"></script>
 </body>
 </html>

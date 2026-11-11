@@ -27,7 +27,7 @@
       const bar = $('sd-slicers');
       if (bar) bar.hidden = !any;
       const note = $('sd-slicer-note');
-      if (note) note.hidden = any;
+      if (note) note.hidden = any || page !== 'impact';
     },
   };
   window.SDF = SDF;

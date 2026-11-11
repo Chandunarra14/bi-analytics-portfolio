@@ -32,6 +32,7 @@
   }
 
   App({
+    story: {"headline": "Clients were leaving, and the warning signs were buried in CSM notes that nobody could add up.", "sub": "Account risk lived in free-text notes and a shared spreadsheet that took about 15 hours a week to update. By the time a risk got attention it was often too late: only about 20% of flagged accounts were saved.", "who": "CSMs, account owners and leadership", "problem": [["Risk hidden in notes", "Each CSM described risk their own way, so it couldn't be counted, ranked or compared."], ["Slow to act", "It took about 25 days from a risk being noticed to anyone acting on it."], ["Revenue walking out", "About $22.6K of MRR and 6 accounts were lost every month."], ["No view of why", "Reasons like price, budget cuts or service issues were never tracked in one place."]], "built": [["A churn probability for every contract", "Set by the CSM with a reason, weighted by MRR for any group."], ["Revenue at risk", "At-risk and high-risk MRR, expected loss and risk by CSM and reason."], ["What's ending soon", "Contracts and MRR expiring in the next months by group."], ["Account-level detail", "Every active contract with risk, reason, owner and end date."]], "pages": [["overview", "Churn risk overview", "The churn gauge and MRR by account group."], ["retention", "Revenue retention", "At-risk MRR by CSM, risk level and reason."], ["expiry", "Expiry trends", "What expires in the coming months."], ["portfolio", "Client portfolio", "Every active contract with its risk."], ["impact", "★ Impact", "More flagged accounts saved and less MRR lost since go-live."]]},
     title: 'Retention Risk',
     eyebrow: 'Managed services · Client success',
     sub: 'Churn risk across every active contract: how likely each client is to leave, why, how much MRR is at stake and what expires next.',
@@ -47,6 +48,7 @@
       { key: 'aging', label: 'End date period', all: 'All', options: AGING },
     ],
     pages: [
+      { id: 'context', label: 'Context', slicers: [], blocks: [{ type: 'story' }] },
       { id: 'overview', label: 'Churn risk overview', slicers: ['owner', 'csm', 'cls', 'acct', 'type', 'reason'], blocks: [
         { type: 'text', html: (D, F) => { const r = base(D, F); const ar = atRisk(r).filter((x) => n(x.risk_prob) > 50);
           return `MRR-weighted churn probability is <b>${pct(churnP(r))}</b> across <b>${f0(r.length)}</b> active contracts. <b>${usdK(sum(ar, 'mrr'))}</b> of MRR sits on contracts above 50% risk, at <b>${new Set(ar.map((x) => x.account)).size}</b> accounts.`; } },

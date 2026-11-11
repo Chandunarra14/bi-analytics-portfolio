@@ -13,6 +13,7 @@
   const link = (td, r) => { const s = document.createElement('span'); s.className = 'sd-pill'; s.textContent = r.ticket; td.append(s); };
 
   App({
+    story: {"headline": "Client project requests were getting lost between the ticketing system and the CRM, and no one knew how long clients were waiting for a price.", "sub": "A professional services request (PSR) starts as a ticket in Autotask and becomes an opportunity in Salesforce. The two rarely agreed, scoping had no visible queue, and pipeline reviews took half a day.", "who": "Sales operations, solutions architects, CSMs and sales leadership", "problem": [["Manual reconciliation", "Matching Autotask PSR tickets to Salesforce opportunities by hand took about 20 hours a week."], ["A hidden scoping queue", "Requests waited an average of 54 days to be scoped, and nobody could see which ones were oldest."], ["Two versions of the numbers", "Won, lost and open NRR were different in each system, so every review started with an argument about the data."], ["Low win rate", "Only about 36% of closed PSRs were won, and there was no view of why or where."]], "built": [["Autotask and Salesforce side by side", "The same PSRs valued in both systems, so mismatches show up straight away."], ["A scoping queue with ages", "Unscoped requests by age, queue and solutions architect, oldest first."], ["Funnel over time", "Requests created, scoped and won each month and week."], ["Win and loss by type and CSM", "Budgetary vs final win rates and a CSM scorecard."]], "pages": [["executive", "Executive overview", "Open pipeline, scoping backlog and the AT vs SF check."], ["funnel", "Funnel trend", "Created, scoped and won over time."], ["winloss", "Win / loss", "Win rates by type and by CSM."], ["scoping", "Scoping", "Who has the open requests and which ones are oldest."], ["impact", "★ Impact", "Faster scoping and a higher win rate since go-live."]]},
     title: 'PSR Pipeline',
     eyebrow: 'Managed services · Autotask + Salesforce',
     sub: 'Professional services requests from first ask to scoping to won or lost, with Autotask and Salesforce side by side so mismatches show up straight away.',
@@ -24,6 +25,7 @@
       { key: 'stage', label: 'Stage', all: 'All stages', options: (D) => SDu.uniq(D.psr, 'stage') },
     ],
     pages: [
+      { id: 'context', label: 'Context', slicers: [], blocks: [{ type: 'story' }] },
       { id: 'executive', label: 'Executive overview', slicers: ['type', 'csm', 'sa', 'stage'], blocks: [
         { type: 'text', html: (D, F) => { const o = open(base(D, F)); return `<b>${f0(o.length)}</b> PSRs are open, worth <b>${usdK(sum(o, 'at_nrr'))}</b> in NRR. <b>${f0(o.filter((r) => r.is_scoped === 'No').length)}</b> still need scoping, and the oldest of those has waited <b>${f0(d3.max(o.filter((r) => r.is_scoped === 'No'), (r) => n(r.age_days)) || 0)}</b> days.`; } },
         { type: 'kpis', items: [

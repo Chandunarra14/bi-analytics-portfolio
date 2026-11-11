@@ -211,6 +211,7 @@
       if (b.type === 'row') return row(b);
       if (b.type === 'impact') return impact();
       if (b.type === 'heading') return heading(b);
+      if (b.type === 'story') { const d = el('div'); window.SDStory(d, cfg.story, D.impact, F.go); return d; }
       return el('div');
     }
     function render() {

@@ -11,6 +11,7 @@
   const sum = (rs, k) => d3.sum(rs, (r) => n(r[k]));
 
   App({
+    story: {"headline": "Hundreds of client servers were running Windows versions that no longer get security updates, and nobody had one list of who was affected.", "sub": "The RMM knew which servers were old. The CRM knew which clients had a refresh deal. Matching the two was a weekly spreadsheet job, so the refresh campaign moved slowly and revenue was left on the table.", "who": "Client success managers, account managers and service delivery leadership", "problem": [["Two systems, no join", "Server OS data lived in the RMM and refresh opportunities in the CRM. Engineers matched them by hand: about 10 hours a week."], ["Security risk with no owner", "Clients on Server 2008 and 2012 had no clear CSM, PSR or next step, so the riskiest servers sat untouched."], ["A deadline coming", "Server 2016 reaches end of life in January 2027, adding hundreds more servers to the problem."], ["Slow to answer simple questions", "Listing every affected client took about 5 days of pulling and cleaning exports."]], "built": [["Every affected client in one table", "Servers by OS version, CSM, PSR ticket, campaign status, notes and NRR, most urgent first."], ["Campaign tracking", "Each client moves through Needs PSR, In progress, Presented and Closed, so stalled clients stand out."], ["Pipeline value", "Open, won and lost NRR from the refresh campaign, by status and by CSM."], ["Month-by-month progress", "EOL servers remaining and won NRR over time, with the go-live date marked."]], "pages": [["overview", "Overview", "How many servers are at risk, where the campaign stands and the NRR in play."], ["accounts", "Account pipeline", "Every affected client with servers, owner, status and notes."], ["progress", "Campaign trend", "Servers retired and NRR won month by month."], ["impact", "★ Impact", "Faster retirements, more PSRs and more NRR since go-live."]]},
     title: 'Server End-of-Life Pipeline',
     eyebrow: 'Managed services · RMM + CRM',
     sub: 'Every client server running an end-of-life Windows Server version, matched to the refresh campaign status and sales pipeline for that account.',
@@ -22,6 +23,7 @@
       { key: 'level', label: 'Account level', all: 'All levels', options: (D) => SDu.uniq(D.accounts, 'level') },
     ],
     pages: [
+      { id: 'context', label: 'Context', slicers: [], blocks: [{ type: 'story' }] },
       { id: 'overview', label: 'Overview', slicers: ['os', 'status', 'csm', 'level'], blocks: [
         { type: 'text', html: (D, F) => { const r = rows(D, F); const crit = sum(r, 'server_2008') + sum(r, 'server_2012');
           return `<b>${f0(crit)}</b> servers across <b>${r.filter((x) => n(x.server_2008) + n(x.server_2012) > 0).length}</b> clients are already past end of life, and <b>${f0(sum(r, 'server_2016'))}</b> more hit EOL in January. <b>${usdK(sum(r.filter((x) => x.opportunity === 'Open'), 'gross_nrr'))}</b> of refresh NRR is in the open pipeline.`; } },

@@ -12,6 +12,7 @@ T = """<!DOCTYPE html>
 <div id="dash-root"><div id="app"></div></div>
 <script src="../shared/d3.min.js"></script>
 <script src="../shared/lib.js?v={v}"></script>
+<script src="../shared/story.js?v={v}"></script>
 <script src="../shared/sd.js?v={v}"></script>
 <script src="js/app.js?v={v}"></script>
 </body>

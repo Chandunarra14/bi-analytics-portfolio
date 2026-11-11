@@ -23,6 +23,7 @@
   }).sort((a, b) => b.mrr - a.mrr);
 
   App({
+    story: {"headline": "Client contracts were quietly expiring, and the company found out when the revenue stopped.", "sub": "Renewal dates sat in the PSA. Each CSM kept their own spreadsheet, so contracts slipped through, renewal talks started about 30 days before expiry, and almost half of the recurring contracts that ended didn't renew.", "who": "Client success managers, account managers, finance and leadership", "problem": [["Spreadsheets per CSM", "Renewal lists were pulled from the PSA and tracked by hand, about 15 hours a week combined."], ["Too little notice", "Renewal conversations started about 30 days before expiry: too late to fix anything."], ["High churn", "About 46% of ending recurring contracts churned, losing about $5.4K of MRR every month."], ["Missed renewals", "About 12 contracts a quarter simply auto-expired because nobody noticed."]], "built": [["Every contract and its end date", "Active contracts by type, days until expiry and expected outcome."], ["Churn vs renewal", "Counts and MRR at risk by month, for recurring and one-time contracts."], ["New vs closing", "Contracts coming in against contracts ending, with net MRR movement."], ["Top accounts and concentration", "Which clients hold the most revenue and how much depends on a few of them."]], "pages": [["home", "Home", "What is active and what is ending in the next 12 months."], ["recurring", "Recurring", "Monthly service contracts: churn rate and MRR at risk."], ["onetime", "One-time", "Fixed price, block hours and T&M contracts."], ["trend", "New & closing", "What came in this year and what is left to close."], ["top", "Top accounts", "Biggest clients and revenue concentration."], ["impact", "★ Impact", "Lower churn and earlier renewals since go-live."]]},
     title: 'Contracts & Renewals',
     eyebrow: 'Managed services · Contract lifecycle',
     sub: 'Every active contract by type, what expires when, and whether it renews or churns, with the recurring revenue at stake.',
@@ -35,6 +36,7 @@
       { key: 'acct', label: 'Account', all: 'All accounts', options: (D) => SDu.uniq(D.contracts, 'account') },
     ],
     pages: [
+      { id: 'context', label: 'Context', slicers: [], blocks: [{ type: 'story' }] },
       { id: 'home', label: 'Home', slicers: ['type', 'csm', 'mgr', 'closure'], blocks: [
         { type: 'text', html: (D, F) => { const a = act(base(D, F)); const soon = a.filter((r) => days(r) >= 0 && days(r) <= 90);
           return `<b>${f0(a.length)}</b> contracts are active. <b>${f0(soon.length)}</b> expire in the next 90 days, carrying <b>${usdK(sum(soon, 'mrr'))}</b> of MRR, and <b>${f0(soon.filter((r) => r.closure_type === 'Churn').length)}</b> of those are flagged to churn.`; } },

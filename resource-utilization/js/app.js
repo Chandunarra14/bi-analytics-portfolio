@@ -172,6 +172,7 @@
     sub: (D, F) => (k === 'avail' ? 'avg per person' : `avg per person · ${pct(T(F).pa(tv(T(F), k)))} of available`) })) };
 
   App({
+    story: {"headline": "Nobody could see where 111 people's working hours actually went, or whether that time matched what each role was hired to do.", "sub": "Time was logged in the PSA, but turning it into a utilization view meant every team lead building their own spreadsheet each week. By the time anyone saw a problem, the quarter was over.", "who": "Team leads, department heads and operations leadership", "problem": [["Hours spent on reporting, not managing", "Team leads spent about 14 hours a week between them exporting time entries and building utilization sheets by hand."], ["No shared definition of 'utilized'", "Each team counted billable, admin and bench time differently, so numbers from two teams could never be compared."], ["Problems found a quarter late", "Under-target engineers and growing bench time were only spotted in quarterly reviews, about 30 days after the fact at best."], ["No link to role plans", "Nobody could tell if a Technician was doing Technician work, or just staying busy on things outside their plan."]], "built": [["One live view for every person and team", "Individual and Team views with week, month, quarter and year-to-date, refreshed from PSA time data."], ["A single set of rules", "40-hour weeks minus PTO, an 80% target-share floor, a 20% admin allowance and a planned work mix for every role."], ["Coaching lists built in", "People are sorted lowest target work first, with bench and off-plan time shown in color, so leads know who to talk to this week."], ["Mix alignment", "Shows whether target work went to the right work areas, not just whether people were busy."]], "pages": [["individual", "Individual view", "One person or the average person: where the hours went and how close they are to target."], ["team", "Team view", "A department as a group: target share, bench, the roster and who needs help."], ["impact", "★ Impact", "Before vs after go-live: recovered target hours, less bench and less admin."]]},
     title: 'Resource Utilization',
     eyebrow: 'Managed services · Time accounting',
     sub: 'Where every available hour goes, for each person and team, against an 80% target-share floor. Switch between week, month, quarter and year to date.',
@@ -183,6 +184,7 @@
       { key: 'resource', label: 'Resource', all: 'All resources', options: (D) => SDu.uniq(D.resources, 'resource') },
     ],
     pages: [
+      { id: 'context', label: 'Context', slicers: [], blocks: [{ type: 'story' }] },
       { id: 'individual', label: 'Individual view', slicers: ['period', 'dept', 'resource'], blocks: [
         { type: 'text', html: (D, F) => { const s = cur(F); return `For the <b>${period(F).curLabel}</b>, <b>${pct(s.share)}</b> of available hours went to target work against an 80% floor. Bench took <b>${pct(s.pa(s.cat.Bench))}</b> and admin <b>${pct(s.pa(s.cat.Admin))}</b>, and mix alignment is <b>${pct(s.mix)}</b>.`; } },
         { type: 'heading', text: 'Where every available hour went', when: isYTD },

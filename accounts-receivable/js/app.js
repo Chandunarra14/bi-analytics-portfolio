@@ -85,6 +85,7 @@
     .ar-send:hover { background: #172e6e; } .ar-send:disabled { background: #a7b0bd; cursor: not-allowed; }`; document.head.append(st); }
 
   App({
+    story: {"headline": "Clients were paying late, and finance couldn't see who owed what until the weekly spreadsheet was built.", "sub": "The aging report came from accounting exports and took about 10 hours a week. CSMs never saw their own clients' balances, and customers took an average of 70 days to pay.", "who": "Finance, collections, CSMs and leadership", "problem": [["A slow weekly report", "Building the aging report from accounting exports took about 10 hours each week."], ["Slow payment", "Customers took about 70 days on average to pay, tying up cash."], ["CSMs out of the loop", "The people with the client relationship didn't know which of their clients were behind."], ["Old debt piling up", "17 accounts had balances more than a year old, with no clear follow-up list."]], "built": [["Live aging", "What is owed by bucket, from current to over a year late."], ["Collections by month", "How much of each month's billing has been collected."], ["Customer-level detail", "Every customer's balance by bucket, with the CSM on it."], ["Reminders in one click", "Pick how long past due, choose customers and send payment reminders from the Customer aging page."]], "pages": [["overview", "Past due overview", "Total open, past due and over 90 days, and who owes it."], ["aging", "Aging analysis", "How the open balance splits by age."], ["collections", "Collections", "Billed vs collected for each month."], ["customers", "Customer aging", "Each customer's balance, plus send payment reminders."], ["impact", "★ Impact", "Faster payment and cash freed up since go-live."]]},
     title: 'Accounts Receivable',
     eyebrow: 'Managed services · Finance',
     sub: 'What clients owe, how old it is, and how well each month\'s billing is being collected, down to the customer and CSM.',
@@ -96,6 +97,7 @@
       { key: 'cust', label: 'Customer', all: 'All customers', options: (D) => SDu.uniq(D.invoices, 'customer') },
     ],
     pages: [
+      { id: 'context', label: 'Context', slicers: [], blocks: [{ type: 'story' }] },
       { id: 'overview', label: 'Past due overview', slicers: ['bucket', 'csm', 'cls', 'cust'], blocks: [
         { type: 'text', html: (D, F) => { const o = openRows(base(D, F)); return `Clients owe <b>${usdK(sum(o, 'open_amount'))}</b> across <b>${f0(o.length)}</b> open items. <b>${usdK(sum(over(o, 90), 'open_amount'))}</b> of that is more than 90 days past due, spread over <b>${new Set(over(o, 90).map((r) => r.customer)).size}</b> customers.`; } },
         { type: 'kpis', items: [

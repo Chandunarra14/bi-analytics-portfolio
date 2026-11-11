@@ -15,6 +15,7 @@
   const dot = (td, color, txt) => { const d = document.createElement('span'); d.className = 'sd-dot'; d.style.background = color; td.append(d, document.createTextNode(txt)); };
 
   App({
+    story: {"headline": "Projects were running long and over budget, and leadership only found out when the monthly report was built by hand.", "sub": "Project status, backlog and margin lived in PSA exports. PMs and finance spent about 80 hours a month building status packs, and projects that were burning hours past what was sold weren't caught until they closed.", "who": "Project managers, project leads, finance and operations leadership", "problem": [["Monthly packs built by hand", "PMs and finance spent about 80 hours a month turning PSA exports into status, backlog and margin reports."], ["Stuck projects stayed stuck", "About 27% of open projects were more than 180 days old, with no early warning."], ["Margin leaks found too late", "About 26% of projects closed over budget, and average margin on closed projects was only 6%."], ["Backlog was a guess", "Nobody could say how much sold revenue would be delivered next month or next quarter."]], "built": [["Project health at a glance", "Red, Yellow, Green and Blue status by age, type and lead."], ["Revenue movement", "New vs closed projects, NRR and MRR each month, plus revenue booked ahead."], ["Backlog burndown", "Undelivered NRR by the month it should land."], ["Budget and margin", "Contracted vs worked hours on every project, with over-budget work flagged early."]], "pages": [["active", "Active projects", "Health of every open project by status, type and lead."], ["revenue", "Revenue movement", "Projects and revenue in vs delivered."], ["backlog", "NRR backlog", "Revenue sold but not yet delivered, and when it lands."], ["budget", "Budget & margin", "Which projects are using more hours than were sold."], ["impact", "★ Impact", "Fewer over-budget projects and better margins since go-live."]]},
     title: 'Projects Portfolio',
     eyebrow: 'Managed services · Project delivery',
     sub: 'Active project health, revenue movement, NRR backlog and margins in one place: what is on track, what is stuck, and what it means for revenue.',
@@ -27,6 +28,7 @@
       { key: 'budget', label: 'Budget status', all: 'All', options: BUD },
     ],
     pages: [
+      { id: 'context', label: 'Context', slicers: [], blocks: [{ type: 'story' }] },
       { id: 'active', label: 'Active projects', slicers: ['lead', 'imp', 'cls', 'ryg'], blocks: [
         { type: 'text', html: (D, F) => { const a = active(base(D, F)); return `<b>${f0(a.length)}</b> projects are active, carrying <b>${usdK(sum(a, 'nrr'))}</b> in NRR. <b>${a.filter((r) => r.ryg === 'Red').length}</b> are Red (in progress over 180 days) and <b>${a.filter((r) => r.ryg === 'Yellow').length}</b> are Yellow.`; } },
         { type: 'kpis', items: [
