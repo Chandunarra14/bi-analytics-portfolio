@@ -10,7 +10,7 @@
         lede: 'The dashboard shows how likely each client is to leave, why, how much monthly revenue is at stake, and which contracts end next.',
         blocks: [
           { t: 'quick', items: [
-            { h: 'Every contract has a risk %', p: 'The CSM sets a churn probability from 0 to 100 for each active contract, with a reason.' },
+            { h: 'Every contract has a risk %', p: 'An ML model built in Microsoft Fabric scores a churn probability from 0 to 100 for each active contract. The CSM adds the reason.' },
             { h: 'Bigger contracts count more', p: 'Churn probability for a group is weighted by MRR, so a $5K contract at 60% matters more than a $200 one.' },
             { h: 'At risk means above zero', p: 'Any contract with a risk above 0% counts as at risk. Above 50% is high risk.' },
           ] },
@@ -71,8 +71,8 @@
         ] },
     ],
     glossary: [
-      ['Churn probability', 'How likely the contract is to end without renewing, 0 to 100%.'], ['MRR-weighted', 'Bigger contracts count more in the average.'],
-      ['At-risk MRR', 'MRR on contracts with risk above 0%.'], ['Expected MRR loss', 'MRR × risk %, added up.'], ['Risk reason', 'Why the CSM thinks the client may leave.'],
+      ['Churn probability', 'How likely the contract is to end without renewing, 0 to 100%, scored by the Fabric ML model.'], ['MRR-weighted', 'Bigger contracts count more in the average.'],
+      ['At-risk MRR', 'MRR on contracts with risk above 0%.'], ['Expected MRR loss', 'MRR × risk %, added up.'], ['Risk reason', 'Why the CSM thinks the client may leave, added alongside the model score.'],
       ['Aging / end date period', 'How many days until the contract ends.'], ['Classification', 'Account group, including at-risk and departing groups.'],
     ],
   };
