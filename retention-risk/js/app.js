@@ -53,7 +53,7 @@
         { type: 'text', html: (D, F) => { const r = base(D, F); const ar = atRisk(r).filter((x) => n(x.risk_prob) > 50);
           return `MRR-weighted churn probability is <b>${pct(churnP(r))}</b> across <b>${f0(r.length)}</b> active contracts. <b>${usdK(sum(ar, 'mrr'))}</b> of MRR sits on contracts above 50% risk, at <b>${new Set(ar.map((x) => x.account)).size}</b> accounts.`; } },
         { type: 'row', blocks: [
-          { type: 'card', span: 3, title: 'Churn probability', note: 'Scored by the Fabric ML model, MRR-weighted across selected contracts.', h: 380, draw: (el, D, F) => {
+          { type: 'card', span: 3, title: 'Churn probability · ML model (Microsoft Fabric)', note: 'Each contract is scored by an ML model built in Microsoft Fabric, then MRR-weighted across selected contracts.', h: 380, draw: (el, D, F) => {
             const r = base(D, F); const box = document.createElement('div'); el.replaceChildren(box); gauge(box, churnP(r));
             const sel = one(r);
             [[usdK(sum(r, 'mrr')), 'Active MRR'], [f0(r.length), 'Active contracts'], [sel ? sel.csm : 'No account selected', 'CSM'], [sel ? sel.owner : 'No account selected', 'Owner']].forEach(([v, l]) => {
